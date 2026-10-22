@@ -49,6 +49,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Equinox.png!00_vXyvjpXSy-+Uv2SFhlBFVA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/EquinoxAvatarBright.png!00_gG+y+ZtiTRIv507ggobKRQ",
     "nameZh": "Equinox",
     "descriptionZh": "Equinox 从白昼与黑夜的边缘崛起。她的白昼形态提供攻击支援，她的黑夜形态提供防御支援。她在白昼与黑夜之间来回游走。",
     "passiveDescriptionZh": "|PERCENT|% 的生命球会转化为能量，同时 |PERCENT|% 的能量球会转化为生命。"
@@ -103,6 +104,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/EquinoxPrime.png!00_ibpP6HkUe3U7E2S-ho50wQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/EquinoxPrimeAvatarBright.png!00_S+MPjm7hEzPg+LZ2PLToDQ",
     "nameZh": "Equinox Prime",
     "descriptionZh": "昼夜的最终平衡形态；行走于界线上的优美之型。",
     "passiveDescriptionZh": "|PERCENT|% 的生命球会转化为能量，同时 |PERCENT|% 的能量球会转化为生命。"
@@ -157,6 +159,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/YareliPrime.png!00_1VO6bAbX4Msr0IOPN+kjRQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/YareliPrimeAvatarBright.png!00_uGlllAa0uED6lS1KyTIBMw",
     "nameZh": "Yareli Prime",
     "descriptionZh": "驭浪者从海浪中重生。她以奥罗金时代的风采，体现出青春不朽的活力。",
     "passiveDescriptionZh": "当 Yareli 移动超过 |TIME| 秒时，她的次要武器获得 +|CHANCE|% 的暴击几率。"
@@ -211,6 +214,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Yareli.png!00_o6-JmG+yzO2kNVvbfqaK-Q",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/YareliAvatarBright.png!00_+kM5tHAcBdAWoEpu2rPtcg",
     "nameZh": "Yareli",
     "descriptionZh": "驭浪者可以在战场上释放出毁灭的洪流。Yareli 的水系攻击可对敌人造成高额伤害。驭浪而上，敌军溺亡。",
     "passiveDescriptionZh": "当 Yareli 移动超过 |TIME| 秒时，她的次要武器获得 +|CHANCE|% 的暴击几率。"
@@ -325,6 +329,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/SevagothPrime.png!00_5f98ZXLZiHd3RDPEngdvsw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/SevagothPrimeAvatarBright.png!00_1eTfDAibeubVaTgemGJ-QQ",
     "nameZh": "Sevagoth Prime",
     "descriptionZh": "镀金舵手从暴风雨中现身，他的身影吸引着注定悲怆的灵魂。",
     "passiveDescriptionZh": "Sevagoth 死亡时，会化身成 Sevagoth 的幽影；通过收集重建他的墓碑所需的灵魂来使他复活。"
@@ -379,6 +384,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/WispPrime.png!00_PGmk8eC6lpyjh0Ds9SWbFw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/WispPrimeAvatarBright.png!00_tsePH8cAzEMsNPVX6PH87g",
     "nameZh": "Wisp Prime",
     "descriptionZh": "Wisp Prime 的镀金光彩萦绕在战场上。盟友也十分期待她的多维美貌。",
     "passiveDescriptionZh": "在维度之间流动，Wisp 在空中时对敌人来说是隐形的。 "
@@ -433,6 +439,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Wisp.png!00_SAJh+LA4ecYoKGZ1Jw8nVQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/WispAvatarBright.png!00_Us+6LUCZ4HfIolbuvkx2aA",
     "nameZh": "Wisp",
     "descriptionZh": "Wisp 游走于物质和虚无之间。她可以进入多个维度，为友军提供支援。她的面容神秘莫测，让人捉摸不透。",
     "passiveDescriptionZh": "在维度之间流动，Wisp 在空中时对敌人来说是隐形的。 "
@@ -487,6 +494,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Voruna.png!00_D2I-EQ4Za6HwugMUtb4tww",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/VorunaAvatarBright.png!00_Ygwa3wd9efMw24cokSbjqA",
     "nameZh": "Voruna",
     "descriptionZh": "四头野兽，同心一颗。Voruna 的忠诚狼群是力量与隐秘的致命结合。当心那伴随着可怕嚎叫的复仇獠牙。",
     "passiveDescriptionZh": "Voruna 从不孤军奋战。在任务中，长按技能可以召唤每匹狼独一无二的被动能力。"
@@ -541,6 +549,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/VorunaPrime.png!00_WsGxyDMqPIsvRVrZ935fHA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/VorunaPrimeAvatarBright.png!00_xjIX14ft8GNvfiwZU3GMRw",
     "nameZh": "Voruna Prime",
     "descriptionZh": "辉煌与凶猛在 Voruna Prime 身上达到了顶峰。虽然她被奥罗金黄金所装饰，却比以往任何时候都更具野性。",
     "passiveDescriptionZh": "Voruna 从不孤军奋战。在任务中，长按技能可以召唤每匹狼独一无二的被动能力。"
@@ -595,6 +604,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/VoltPrime.png!00_U0V4Brwd9imOOD++a885hA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/VoltPrimeAvatarBright.png!00_V5euaIOqXtRY22+h1fzO3Q",
     "nameZh": "Volt Prime",
     "descriptionZh": "一位来自过去的荣耀战士，Volt Prime 拥有与 Volt 一样的技能，但自带独特的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "在地面上移动时可以积蓄电能，每移动一米可积攒 |DAMAGE| 电击伤害，积攒的伤害会在下一次攻击时释放。"
@@ -649,6 +659,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Volt.png!00_NFbM6393XHXjHpCIDm0Qyw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/VoltAvatarBright.png!00_ayQFN0V4ep7DrLsweFRYQw",
     "nameZh": "Volt",
     "descriptionZh": "电流在 Volt 身上涌动。他的攻击可造成高额伤害，并震慑敌人。",
     "passiveDescriptionZh": "在地面上移动时可以积蓄电能，每移动一米可积攒 |DAMAGE| 电击伤害，积攒的伤害会在下一次攻击时释放。"
@@ -703,6 +714,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/TrinityPrime.png!00_7FMwlwgkrzP+2Rteni7EZQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TrinityPrimeAvatarBright.png!00_HtyYr-65SfctQkGtQ+3s1g",
     "nameZh": "Trinity Prime",
     "descriptionZh": "Trinity Prime 操控强大的治愈能力，成为捍卫友军的壁垒。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "在 <AFFINITY_SHARE>经验共享范围内的队友将获得等同于 Trinity 最大能量值的 |BUFF|% 的生命值加成。"
@@ -757,6 +769,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Trinity.png!00_c2te8APgKgtbKTgZdiFiOg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TrinityAvatarBright.png!00_xV33prcIgp7nzafXF1+6YQ",
     "nameZh": "Trinity",
     "descriptionZh": "Trinity 体现了救赎与治愈。她非凡的治疗技能可为队友提供强力支持。被他人破坏之处，她可治愈。",
     "passiveDescriptionZh": "在 <AFFINITY_SHARE>经验共享范围内的队友将获得等同于 Trinity 最大能量值的 |BUFF|% 的生命值加成。"
@@ -811,6 +824,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/VaubanPrime.png!00_vLH9K4tlkiwRzFFSx2fLog",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/VaubanPrimeAvatarBright.png!00_dX31sUX8F661ON9H41mdyA",
     "nameZh": "Vauban Prime",
     "descriptionZh": "使用这位镀金的战术大师来将战场转变成你的武器吧！该战甲拥有​​着特化过的 MOD 极性槽来提供更佳的自定可能性。",
     "passiveDescriptionZh": "对失去行动能力的敌人造成 x|DAMAGE| 伤害。"
@@ -919,6 +933,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/ZephyrPrime.png!00_lSqYM+0qZFLFnot7V-yUaQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ZephyrPrimeAvatarBright.png!00_Oy7-qiptuFRjvqgzbuf1EA",
     "nameZh": "Zephyr Prime",
     "descriptionZh": "用这只富有破坏力的金色小鸟飞向天空。",
     "passiveDescriptionZh": "在空中时，Zephyr 移动更快且下落更慢，同时武器也会获得 |CRIT|% 的暴击几率。"
@@ -973,6 +988,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Zephyr.png!00_rjNAK4-rth0kgak8s6Pbig",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ZephyrAvatarBright.png!00_DeIwT6nvbuvgtg4EXtpvvg",
     "nameZh": "Zephyr",
     "descriptionZh": "掌控风之力量。Zephyr 的旋风技能可以保护她、造成高伤害并提供群体控制。她从上方俯冲而下，留下一条毁灭之路。",
     "passiveDescriptionZh": "在空中时，Zephyr 移动更快且下落更慢，同时武器也会获得 |CRIT|% 的暴击几率。"
@@ -1030,6 +1046,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Temple.png!00_u7OaI4+y2l2MSzLqaORcpg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TempleAvatarBright.png!00_Zb6ASOc4rdzIZi-LRs0DLA",
     "nameZh": "Temple",
     "descriptionZh": "魅力四射的 Temple，手持他的感染吉他：丽兹，用强力的和弦点燃了革命的火焰。",
     "passiveDescriptionZh": "与反拍节拍器同步施放技能，以增强技能效果的同时提升 |COST|% 的技能效率。"
@@ -1138,6 +1155,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Caliban.png!00_ijJ0vkmagmyRpo+fEiE6Mg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/CalibanAvatarBright.png!00_Pm8ter524CnNNYRxC42QOw",
     "nameZh": "Caliban",
     "descriptionZh": "双生王国的继承人登场。生物与 Sentient 形态在 Caliban 身上交汇。作为一名老练的君主，他可以对敌人实施群体控制并拥有极强的生存能力。他的创造者心中有不止一个世界。",
     "passiveDescriptionZh": "经验分享范围内的队友受到伤害后获得最高 |PCT|% 对该种伤害类型的抗性。"
@@ -1192,6 +1210,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/CalibanPrime.png!00_TLmauWvaMvGscreD-wcjOw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/CalibanPrimeAvatarBright.png!00_6Y6DKvs3Sg3qDOlfwAOfqw",
     "nameZh": "Caliban Prime",
     "descriptionZh": "Caliban Prime 是为了庆祝奥罗金与 Sentient 之间短暂的和平而打造的，堪称真正的合璧杰作。双生王国的继承者，身披皇家之金崛起。",
     "passiveDescriptionZh": "经验分享范围内的队友受到伤害后获得最高 |PCT|% 对该种伤害类型的抗性。"
@@ -1246,6 +1265,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/SarynPrime.png!00_QXnqa3gQvabT2MtGumQ3Sg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/SarynPrimeAvatarBright.png!00_ifFY9rmSBNKY7ebz04Ls3Q",
     "nameZh": "Saryn Prime",
     "descriptionZh": "一朵隐藏着致命花蜜的金花。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "对敌人施加的异常状态持续时间延长 |DURATION|%。"
@@ -1300,6 +1320,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Saryn.png!00_aTUW4RQGey5JEhUVrvRRQQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/SarynAvatarBright.png!00_6qFT8HK5rsPNSMIwkX6LNA",
     "nameZh": "Saryn",
     "descriptionZh": "剧毒是 Saryn 的强项。她蛇一般的能力会造成巨大伤害。对 Saryn 来说，毒液是一种美德。",
     "passiveDescriptionZh": "对敌人施加的异常状态持续时间延长 |DURATION|%。"
@@ -1408,6 +1429,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/InarosPrime.png!00_BObI1BDmzs3J+ckmqPj7ew",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/InarosPrimeAvatarBright.png!00_vgAz0vknXso2ee+aWHTQFg",
     "nameZh": "Inaros Prime",
     "descriptionZh": "唤醒这永恒的存在，以此来把 Inaros 带来的恐惧施加到他们身上。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "当 Inaros 受到致命伤害时，他会将自己封入石棺中，并化身为沙土攻击敌人，吸取他们的生命力来复活自己。"
@@ -1462,6 +1484,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Gauss.png!00_-c2p4CkQ1H4i7RMiGBxX5w",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GaussAvatarBright.png!00_KTgCf1ZHaPKooS+X7EMM5w",
     "nameZh": "Gauss",
     "descriptionZh": "与阿尔特拉的圣者一同主宰战场。Gauss 速度快，伤害高，生存能力强。移动可以为他的强大电池充电，因此绝不停下脚步。",
     "passiveDescriptionZh": "移动时会产生一股电流来填充 Gauss 的电池。根据电池的电量，护盾恢复速度最多可提升 |SPEED|%，同时恢复延迟最多可降低 |DELAY|%。"
@@ -1516,6 +1539,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/GaussPrime.png!00_51PbkIanEAhtGLBUd9HlSw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GaussPrimeAvatarBright.png!00_Jzv9+hkgce-Lp3503tlxfQ",
     "nameZh": "Gauss Prime",
     "descriptionZh": "以水银打造的外型。Gauss Prime 不容失败。",
     "passiveDescriptionZh": "移动时会产生一股电流来填充 Gauss 的电池。根据电池的电量，护盾恢复速度最多可提升 |SPEED|%，同时恢复延迟最多可降低 |DELAY|%。"
@@ -1571,6 +1595,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/RhinoPrime.png!00_uex4imjfULgsR3CD-pl6LQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/RhinoPrimeAvatarBright.png!00_8RjGvZB+vL5h4K++ea77Ug",
     "nameZh": "Rhino Prime",
     "descriptionZh": "通过将极性插槽改为更适合自定的配置，使 RHINO 地面震动能力发挥到更高水平。",
     "passiveDescriptionZh": "从高处落地时会产生一道能造成 |DAMAGE| 伤害的冲击波。"
@@ -1625,6 +1650,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Rhino.png!00_fUgJNigwzECHlEI-h9bWLg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/RhinoAvatarBright.png!00_4cz2Y4ONJLpHKLk4f4lMwA",
     "nameZh": "Rhino",
     "descriptionZh": "Rhino 重拳以待。他拥有很高的生存能力和群体控制技能。当他冲锋时，明智的人都会选择不要站在他的对面。",
     "passiveDescriptionZh": "从高处落地时会产生一道能造成 |DAMAGE| 伤害的冲击波。"
@@ -1679,6 +1705,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/RevenantPrime.png!00_EDrJYy3O-Al9mX388Eq9ig",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/RevenantPrimeAvatarBright.png!00_aFqFzXI+PsTKC4MKpmtD0Q",
     "nameZh": "Revenant Prime",
     "descriptionZh": "迷失者之崛起。使用 Revenant Prime 的力量，来具象化夜灵之力。",
     "passiveDescriptionZh": "每当护盾被耗尽时，释放一道能造成 |DAMAGE| 伤害并将周围 |RADIUS| 米内的敌人击倒的冲击波。"
@@ -1733,6 +1760,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Revenant.png!00_z1m8G4HXZsdUhDm2Gn-aYQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/RevenantAvatarBright.png!00_diho2AytT8WxvMPUOkFcLg",
     "nameZh": "Revenant",
     "descriptionZh": "恐怖的恶灵之力已经涌现。融合了夜灵本质的 Revenant，拥有强大的生存能力和高额伤害。敌人皆成为他的奴仆。",
     "passiveDescriptionZh": "每当护盾被耗尽时，释放一道能造成 |DAMAGE| 伤害并将周围 |RADIUS| 米内的敌人击倒的冲击波。"
@@ -1847,6 +1875,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/IvaraPrime.png!00_iDinbsvRWFimGbFNhg3GCg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/IvaraPrimeAvatarBright.png!00_5wFy7kl9gprwAIrGytunMQ",
     "nameZh": "Ivara Prime",
     "descriptionZh": "像夜间的树林一样庄严与致命，这就是狩猎女王的终极形态。",
     "passiveDescriptionZh": "侦测周围 |RADIUS| 米内的敌人。"
@@ -1955,6 +1984,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/HarrowPrime.png!00_19GMPb2+AmxxsVGXDZNGwQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/HarrowPrimeAvatarBright.png!00_sDPPWNEMrdZYseg-m7W9Pw",
     "nameZh": "Harrow Prime",
     "descriptionZh": "永恒的审判官已经崛起，受虚空洗礼，吟诵铁与火的福音。",
     "passiveDescriptionZh": "拥有双倍过载护盾容量。\r\n任务开始时获得最大能量。"
@@ -2063,6 +2093,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/HydroidPrime.png!00_59kcd3V+fZEkKy149ACGyw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/HydroidPrimeAvatarBright.png!00_UXhPCBJENbXJPFQebrbOYw",
     "nameZh": "Hydroid Prime",
     "descriptionZh": "以这金银之王号令大海的怒涛。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "被 Hydroid 伤害的敌人更容易受到 <DT_CORROSIVE_COLOR>腐蚀异常状态的影响，首次触发降低护甲 |PCT|%。"
@@ -2171,6 +2202,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/OberonPrime.png!00_jDXdkRGX-jD3e45SnnLK2g",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/OberonPrimeAvatarBright.png!00_rNCx1wivsppVDDJQcatQVQ",
     "nameZh": "Oberon Prime",
     "descriptionZh": "以这帝王般庄严的森林庇护者维系平衡。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "当 Oberon 拾取 <HEALTH>生命球时，他与 <AFFINITY_SHARE>经验共享范围的友军获得正义否决，使玩家抵挡下一次受到的伤害。最多可叠加 |STACKS| 层。"
@@ -2225,6 +2257,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Oberon.png!00_JjbFtOx3xeQYOLzcIiRzTA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/PaladinAvatarBright.png!00_Uo0Myvm1wF2HK5ciw+6bDQ",
     "nameZh": "Oberon",
     "descriptionZh": "愈合和苦痛皆为 Oberon 所驱使。他对自然界的驾驭能够支援友军。朋友之福，敌人之祸。",
     "passiveDescriptionZh": "当 Oberon 拾取 <HEALTH>生命球时，他与 <AFFINITY_SHARE>经验共享范围的友军获得正义否决，使玩家抵挡下一次受到的伤害。最多可叠加 |STACKS| 层。"
@@ -2396,6 +2429,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/BaruukPrime.png!00_5RAw8otcVx3b+nrPYAhCag",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/BaruukPrimeAvatarBright.png!00_wfNIlDiiaLFSXxHpN+YEEA",
     "nameZh": "Baruuk Prime",
     "descriptionZh": "那些破坏和平，以及耗尽这位不愿出手的战士克制力的愚蠢之人注定会灭亡。",
     "passiveDescriptionZh": "每当巧躲子弹，以及每当敌人被镇静或被离手戏法缴械时，Baruuk 的克制力就会逐渐被侵蚀，同时他内心的风暴也会愈演愈烈。随着克制力的下降，Baruuk 会逐渐提升对伤害的抵抗力，且至多能抵抗 |PERCENT|% 的伤害。"
@@ -2450,6 +2484,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Oraxia.png!00_PzJf4P5fC+-qQBN--wG1oQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/OraxiaAvatarBright.png!00_iQtWiKE+wz5EJCRhw7NwdA",
     "nameZh": "Oraxia",
     "descriptionZh": "阴险优雅与致命多面性交织，进化为完美掠食者。恐惧之名，Oraxia。",
     "passiveDescriptionZh": "壁面攀附可获得「捕食者的潜伏」效果，使 Oraxia 在 |DURATION| 秒内隐身。 "
@@ -2504,6 +2539,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/ProteaPrime.png!00_FCch3cJXj5HVenUx3WkpaA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ProteaPrimeAvatarBright.png!00_WHZ61SR5sBu+GjSoxGtLNA",
     "nameZh": "Protea Prime",
     "descriptionZh": "看这位双父之女。Protea Prime 曾实现帕尔沃斯·格拉努关于操纵时间守护者的愿景。现在，她秉承 Tenno 的理念，保护手无寸铁之人。",
     "passiveDescriptionZh": "每第 |CASTS| 次施放技能可获得 +|STRENGTH|% 的技能强度。"
@@ -2558,6 +2594,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Odalisk.png!00_+yG0BMQX81K5tkQ66lHabg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ProteaAvatarBright.png!00_WUHidavYrQyPamql5K996A",
     "nameZh": "Protea",
     "descriptionZh": "Protea 对保护了如指掌。她庞大的武器库可以造成伤害并为友军提供支援。她甚至可以操纵时间本身。",
     "passiveDescriptionZh": "每第 |CASTS| 次施放技能可获得 +|STRENGTH|% 的技能强度。"
@@ -2612,6 +2649,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nokko.png!00_c01urp2Lr2AfbFsAezY7hQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NokkoAvatarBright.png!00_+3P6wJYuE96z8Ca5B6dGEg",
     "nameZh": "Nokko",
     "descriptionZh": "和 Nokko 一起行动起来！这位年轻的守护者拥有强大的根系和各种古灵精怪的真菌，很快就会扎根在你的心里",
     "passiveDescriptionZh": "当 Nokko 受到致命伤害后会恢复为菌宝形态，其激活的蘑菇会发光，触碰后可使 Nokko 复活。生成的光球会有加速效果，但不会提供治疗效果。如果未能及时到达发光蘑菇，Nokko 将自动复活。"
@@ -2669,6 +2707,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Ash.png!00_cSA7QDlPciC88gEa2uhekQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/AshAvatarBright.png!00_mpYTV2x4Di2fciOd0KZLQw",
     "nameZh": "Ash",
     "descriptionZh": "看那奥罗金政治刺杀学派的先师圣人。 Ash 擅长潜行。还没见其刀光，就已命归黄泉。",
     "passiveDescriptionZh": "敌人受到的 <DT_SLASH_COLOR>切割异常状态会让伤害增加 |DAMAGE|% 且持续时间延长 |DURATION|%。"
@@ -2726,6 +2765,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/AshPrime.png!00_jy1ev7ijK8d8nQ3WuE7NYQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/AshPrimeAvatarBright.png!00_kPYCsdfpgvihvY+s4e+baw",
     "nameZh": "Ash Prime",
     "descriptionZh": "以狂乱与诡计成为致命武器的 Ash Prime。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "敌人受到的 <DT_SLASH>切割异常状态会让伤害增加 |DAMAGE|% 且持续时间延长 |DURATION|%。"
@@ -2780,6 +2820,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/NezhaPrime.png!00_sykL6v1w9ZOYG+xrm1HzhQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NezhaPrimeAvatarBright.png!00_q11T0C1kGjvBbkQMfbGXmA",
     "nameZh": "Nezha Prime",
     "descriptionZh": "看呐：灼烧之风的后嗣，现在身披最典雅的战袍，出现在你面前。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "滑行速度加快 |SPEED|% 且距离增加 |RANGE|%。"
@@ -2834,6 +2875,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nezha.png!00_7TVcGOlnC8itqIAsAXwG+Q",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NezhaAvatarBright.png!00_+zIQ4IFxTWGztZl+g2PCyA",
     "nameZh": "Nezha",
     "descriptionZh": "机敏善变的驭火行家保护无辜者。 Nezha 多面化的战术使他在伤害和提供群体控制时具有很高的生存能力。他的火焰是希望的号角。",
     "passiveDescriptionZh": "滑行速度加快 |SPEED|% 且距离增加 |RANGE|%。"
@@ -2888,6 +2930,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/NekrosPrime.png!00_aanXnqkwY-Ii+wbNemAIbw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NekrosPrimeHelmetBright.png!00_USqspD1D3ON3+p-oklLafg",
     "nameZh": "Nekros Prime",
     "descriptionZh": "死亡的新主人。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "每当周围 |RADIUS| 米范围内有敌人死亡时，恢复 |HEALTH| 生命。"
@@ -2942,6 +2985,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nekros.png!00_U73NVhyEiKegTN2zwbxwHw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NekrosAvatarBright.png!00_p2wXeP9ZzgSB8IbrUkhUkQ",
     "nameZh": "Nekros",
     "descriptionZh": "有一个收割者，他的名字叫 Nekros。他提供致命的群体控制。当 Nekros 从死者中召唤新兵时，昔日的敌人就会变成盟友。",
     "passiveDescriptionZh": "每当周围 |RADIUS| 米范围内有敌人死亡时，恢复 |HEALTH| 生命。"
@@ -2999,6 +3043,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/WukongPrime.png!00_gxkXZnvTVarRxSMW0KpDNA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/WukongPrimeAvatarBright.png!00_rSiIyKs3N62sDjVegQoEPA",
     "nameZh": "Wukong Prime",
     "descriptionZh": "恶作剧战士提升到了他的最终形态。",
     "passiveDescriptionZh": "在承受致命伤害后，Wukong 会自动使用他所掌握的其中一种保命神技。每次任务中，这些神技只能发动三次。"
@@ -3110,6 +3155,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Limbo.png!00_ldjRG0Ztj8YNe79v5OU-0A",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LimboAvatarBright.png!00_ILDz3YeSiEEmz8KHvKFa1w",
     "nameZh": "Limbo",
     "descriptionZh": "他掌握着影子与物质之间的裂隙。 Limbo 通过扰乱时空来进行群体控制。这是他的主场，其余人都将沉沦于虚实之间。",
     "passiveDescriptionZh": "闪避动作可以进入或退出裂隙位面。进入位面时会留下一个持续 |DURATION| 秒的小型裂隙传送门。身处裂隙位面之中时，能量会缓慢恢复，并且每一个在裂隙位面被杀死的敌人都会产生 |ENERGY| 点能量恢复。"
@@ -3164,6 +3210,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/LimboPrime.png!00_JR2y-n5XGF8IOwCi8J+oqw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LimboPrimeAvatarBright.png!00_ZDGdsOB09LNNAkU+5MrkJg",
     "nameZh": "Limbo Prime",
     "descriptionZh": "用这金色的裂隙行者起舞于不同的领域。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "闪避动作可以进入或退出裂隙位面。进入位面时会留下一个持续 |DURATION| 秒的小型裂隙传送门。身处裂隙位面之中时，能量会缓慢恢复，并且每一个在裂隙位面被杀死的敌人都会产生 |ENERGY| 点能量恢复。"
@@ -3219,6 +3266,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/MagPrime.png!00_3WY6M6ThqvAZbVzpwWDc8g",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/MagPrimeAvatarBright.png!00_plWF2sSNKQRrhEkq95F3sw",
     "nameZh": "Mag Prime",
     "descriptionZh": "精巧的 Mag Prime 拥有与 Mag 一样的技能，但自带独特的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "Mag 会吸引附近的物品，以便捡取。"
@@ -3273,6 +3321,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Mag.png!00_FHYuEBaKGBmvlcXoL3q0Rg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/MagAvatarBright.png!00_hD+jqKQNKm5mXxBjjkIbhw",
     "nameZh": "Mag",
     "descriptionZh": "运用磁力击倒你的敌人。Mag 通过改变磁场来提供群体控制，同时削减敌人的防御力。几乎无人能抵挡她的吸引力或排斥力。",
     "passiveDescriptionZh": "Mag 会吸引附近的物品，以便捡取。"
@@ -3327,6 +3376,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/LokiPrime.png!00_3exIjh7cUn2+p0fFdRpCGw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LokiPrimeAvatarBright.png!00_6fCT3b0qBwxueIM1wjodHQ",
     "nameZh": "Loki Prime",
     "descriptionZh": "混淆、误导与破坏是 Loki Prime 的代名词。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "壁面攀附时间提升 |MULT| 倍。"
@@ -3381,6 +3431,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Loki.png!00_mBp7Nt-4YHYyiXJWXUg1yQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LokiAvatarBright.png!00_j78fqgn5K7M7vPPvP+WnSg",
     "nameZh": "Loki",
     "descriptionZh": "Loki 精通欺骗的艺术。恶作剧者利用隐身来袭击敌人。制造混乱吧。",
     "passiveDescriptionZh": "壁面攀附时间提升 |MULT| 倍。"
@@ -3435,6 +3486,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Koumei.png!00_-NDjFdEA7ztzYkdGe0ws8A",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/KoumeiAvatarBright.png!00_duf75QLGC7tT9B5UPNJj5A",
     "nameZh": "Koumei",
     "descriptionZh": "让掷骰巫女试试你的运气。命运编织者 Koumei 攻守兼备。对有德之人，她将带来启示；对奸邪之人，她是一场危险的博弈。",
     "passiveDescriptionZh": "每隔 |DURATION| 秒，Koumei 的一件武器将会造成随机异常状态，持续 |DURATION| 秒。"
@@ -3493,6 +3545,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/KhoraPrime.png!00_T4r3aedAVDEbgx8Zjz1YKg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/KhoraPrimeAvatarBright.png!00_jiuCDqw-8VCvOVmcJpIizA",
     "nameZh": "Khora Prime",
     "descriptionZh": "女能手和怪物的默契配合。镀金女猎手与她忠诚的库娃——薇娜丽，以她们的意志统治着战场。",
     "passiveDescriptionZh": "薇娜丽，这只凶猛的库娃，与 Khora 并肩战斗，并为她提供 |SPEED|% 的速度加成。如果被击杀，薇娜丽会在 |RESPAWN| 秒后复活。"
@@ -3551,6 +3604,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Khora.png!00_+mABK7VMNIbOt6Q9+Sg5Xw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/KhoraAvatarBright.png!00_iYllAZWWr81uvbJI-qGCIQ",
     "nameZh": "Khora",
     "descriptionZh": "Khora 有着血染的鞭子和爪子。她与她的库娃同伴薇娜丽，合力造成高伤害并提供群体控制。双身同心。",
     "passiveDescriptionZh": "薇娜丽，这只凶猛的库娃，与 Khora 并肩战斗，并为她提供 |SPEED|% 的速度加成。如果被击杀，薇娜丽会在 |RESPAWN| 秒后复活。"
@@ -3605,6 +3659,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/NyxPrime.png!00_HmvuTzWknFEcocDjMNVZfQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NyxPrimeAvatarBright.png!00_WHrd5xen1XreErPt3oqS5g",
     "nameZh": "Nyx Prime",
     "descriptionZh": "通过 Nyx Prime 来渗透进敌人的精神中。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "Nyx 的 <AFFINITY_SHARE>经验共享范围内每有一个困惑的敌人，就会为她的主要武器和次要武器增加 |CRITICAL|% 暴击几率。最高增加 |MAX|% 暴击几率。"
@@ -3659,6 +3714,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nyx.png!00_SUoMwFYrxmCuZ8BBe2ml4Q",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NyxAvatarBright.png!00_Oy4Al3Ck30zojPbh9iBSsg",
     "nameZh": "Nyx",
     "descriptionZh": "Nyx 的精神攻击使她成为一个危险的对手。她通过触及敌人的意识来进行群体控制，并将他们的攻击转向他们自己。这种操纵可以扭转战局。",
     "passiveDescriptionZh": "Nyx 的 <AFFINITY_SHARE>经验共享范围内每有一个困惑的敌人，就会为她的主要武器和次要武器增加 |CRITICAL|% 暴击几率。最高增加 |MAX|% 暴击几率。"
@@ -3716,6 +3772,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/HildrynPrime.png!00_zdCjV+lwcvI-mTdjGML8iQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/HildrynPrimeAvatarBright.png!00_fR+HYWlimIPhRQwVThxz+w",
     "nameZh": "Hildryn Prime",
     "descriptionZh": "Hildryn Prime 证明了权力是纪律的回报。",
     "passiveDescriptionZh": "Hildryn 的满护盾保险时间很长。在她的护盾耗尽后，她在 3.5 秒内免疫伤害。"
@@ -3827,6 +3884,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Inkblot.png!00_0Psior+TV9gETyP5V6eBoQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/FollieAvatarBright.png!00_0jS2fGsoB2BKSbYeOg7juw",
     "nameZh": "Follie",
     "descriptionZh": "欢愉而可怕的绘影者 Follie 赋予墨水生命。她能通过千变万化的素描与戏法来支援小队，并控制敌群。",
     "passiveDescriptionZh": "墨蚀：Follie 的技能使敌人身上沾满墨水，使其移动速度减缓 |SLOW|%，持续 |DURATION| 秒。受墨蚀效果影响的敌人有 |CHANCE|% 的几率掉落生命球和能量球。"
@@ -3881,6 +3939,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/NidusPrime.png!00_qrdYuWnNPPlmVPx7Fcq23A",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NidusPrimeAvatarBright.png!00_y9EFPDQaP2VxuB5my0KlXg",
     "nameZh": "Nidus Prime",
     "descriptionZh": "永无止境的突变。贪婪的瘟疫之源以远古之形带着原始感染菌株咆哮而来。",
     "passiveDescriptionZh": "如果 Nidus 在被击杀时拥有至少 |STACKS| 层突变适性，那么这 |STACKS| 层突变适性会被消耗掉；同时 Nidus 会获得 |DURATION| 秒无敌时间并恢复 |HEAL|% 的生命。"
@@ -3935,6 +3994,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nidus.png!00_b-8eMNT9a+s0o7cgFVsDyg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NidusAvatarBright.png!00_n+GNXTSTOuGt3y2DIXOFZA",
     "nameZh": "Nidus",
     "descriptionZh": "Nidus 从感染者中获得力量，以此造成高伤害和提供群体控制，增强了其生存能力。给你的敌人带来瘟疫吧。",
     "passiveDescriptionZh": "如果 Nidus 在被击杀时拥有至少 |STACKS| 层突变适性，那么这 |STACKS| 层突变适性会被消耗掉；同时 Nidus 会获得 |DURATION| 秒无敌时间并恢复 |HEAL|% 的生命。"
@@ -3989,6 +4049,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/StyanaxPrime.png!00_xw2TjMcyryG--Rv8ngZecQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/StyanaxPrimeAvatarBright.png!00_tDki6POvB961oJa5i7gTLA",
     "nameZh": "Styanax Prime",
     "descriptionZh": "无罪之盾，正义之矛。Styanax Prime 坚守阵线，对抗暴政。",
     "passiveDescriptionZh": "Styanax 的暴击几率随着他的护盾量而提升，标枪武器可获得双倍增益。"
@@ -4043,6 +4104,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Styanax.png!00_5uud8jd1-B8kPxm7AD8dTw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/StyanaxAvatarBright.png!00_0lR3ERRuxg-p8zSfHAl1mg",
     "nameZh": "Styanax",
     "descriptionZh": "Styanax 从不去想他要面对多少敌人，他只在乎能在何处找到他们。重装步兵可造成高额伤害。在他的长矛和盾牌的威力下，敌人闻风丧胆。",
     "passiveDescriptionZh": "Styanax 的暴击几率随着他的护盾量而提升，标枪武器可获得双倍增益。"
@@ -4097,6 +4159,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/MiragePrime.png!00_jiF1rpNa9bkKqt0wnKlutA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/MiragePrimeAvatarBright.png!00_wJdB1tepBs78dVqxmGepMw",
     "nameZh": "Mirage Prime",
     "descriptionZh": "用这位精通幻术和破坏的金色大师来扰乱对手吧。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "滑行持续时间延长 |DURATION|% 且机动动作的速度加快 |SPEED|%。"
@@ -4151,6 +4214,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Mirage.png!00_Q++JHeT3JpPq1xrO97yTzw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/MirageAvatarBright.png!00_DEcOcksz603f91VyJfQErA",
     "nameZh": "Mirage",
     "descriptionZh": "Mirage 的戏法与她的实力相得益彰。被她搞得晕头转向的敌人会受到严重伤害。分身、激光和陷阱是她舞台艺术的要素。",
     "passiveDescriptionZh": "滑行持续时间延长 |DURATION|% 且机动动作的速度加快 |SPEED|%。"
@@ -4205,6 +4269,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/GyrePrime.png!00_YogrDT2DOxec2Vjr0J+suA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GyrePrimeAvatarBright.png!00_ZXjoTJKR8LTgZgpm0VT9eA",
     "nameZh": "Gyre Prime",
     "descriptionZh": "镀金电路闪烁着能量，驱动着穿越时空的狂乱舞步。与 Gyre Prime 一起舞向永恒。",
     "passiveDescriptionZh": "每个对敌人产生影响的电击异常状态使 Gyre 的技能有 10% 几率对该敌人造成暴击伤害。"
@@ -4259,6 +4324,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Gyre.png!00_qX6OoqF+qkbI9n8Tu0ZWfw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GyreAvatarBright.png!00_70rCv1xOa0x-lvTJ2aQTBA",
     "nameZh": "Gyre",
     "descriptionZh": "通过带电线圈与发射器的传导性来消灭敌人，Gyre 的电击可对敌人施加群体控制。她是优雅理论的化身。",
     "passiveDescriptionZh": "每个对敌人产生影响的电击异常状态使 Gyre 的技能有 10% 几率对该敌人造成暴击伤害。"
@@ -4373,6 +4439,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/GaraPrime.png!00_3kwI3ev1INLL2WPkVYEhPA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GaraPrimeAvatarBright.png!00_jaCnOXy7cwxHBYvHnZVnYw",
     "nameZh": "Gara Prime",
     "descriptionZh": "身披玻璃铠甲，继承传奇战士 Gara 的遗志。用水晶的纯净力量统治战场。",
     "passiveDescriptionZh": "当 Gara 施放技能时，有几率使周围的敌人陷入目盲状态 |DURATION| 秒。"
@@ -4427,6 +4494,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Citrine.png!00_xzmBPA-+F8fG5ocAKQzb8w",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/CitrineAvatarBright.png!00_fxKmnHsr8DqEg4P1vEbwKQ",
     "nameZh": "Citrine",
     "descriptionZh": "凝视这位水晶卫士。Citrine 的水晶可以在战场上支持盟友。战斗只会增强她的分形之美。",
     "passiveDescriptionZh": "Citrine 使附近的友军每秒恢复 |BASE| 生命值。捡起生命球以增加 |HPS| 生命恢复速率，最多增加 |MAX|。"
@@ -4481,6 +4549,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/CitrinePrime.png!00_zSO43XppfS93hrNWWoorbA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/CitrinePrimeAvatarBright.png!00_eEgOqLtN7NT6bCGFI4XyDQ",
     "nameZh": "Citrine Prime",
     "descriptionZh": "水晶堡垒拔地而起。Citrine Prime 散发着令人着迷的夺目光彩，她那璀璨的宝石镶嵌在精美的金丝花纹中。",
     "passiveDescriptionZh": "Citrine 使附近的友军每秒恢复 |BASE| 生命值。捡起生命球以增加 |HPS| 生命恢复速率，最多增加 |MAX|。"
@@ -4538,6 +4607,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/GarudaPrime.png!00_r3P52maqnhq1tKAXKECJlg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GarudaPrimeAvatarBright.png!00_CQnsTtOIJeo4-Usyw7acZA",
     "nameZh": "Garuda Prime",
     "descriptionZh": "纯白、耀金与至深猩红，血腥女王盛装登场。",
     "passiveDescriptionZh": "每一个 Garuda 所击杀的敌人都会为她暂时增加伤害，最高达到 |DAMAGE|%。如果她没有装备近战武器，则会使用其利爪进行斩击。"
@@ -4595,6 +4665,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Garuda.png!00_-rEK8422w08R8O0HCU0ccg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GarudaAvatarBright.png!00_XWK1l6+1vOntCxRMLuS1eA",
     "nameZh": "Garuda",
     "descriptionZh": "血之女王磨砺着她的利爪。Garuda 以敌人的血液为武器，造成高额伤害。血色的美丽与她致命的力量相得益彰。",
     "passiveDescriptionZh": "每一个 Garuda 所击杀的敌人都会为她暂时增加伤害，最高达到 |DAMAGE|%。如果她没有装备近战武器，则会使用其利爪进行斩击。"
@@ -4706,6 +4777,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/FrostPrime.png!00_vsG04q4bhwQzBeTbcCMr-g",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/FrostPrimeAvatarBright.png!00_FNoQMD6cXrOunblitBZs9w",
     "nameZh": "Frost Prime",
     "descriptionZh": "Frost Prime 拥有与 Frost 一样的急冻技能，但自带独特的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "Frost 技能造成的冰冻异常状态持续时间延长 |DURATION|%。Frost 从每个在 <AFFINITY_SHARE>经验共享范围内受到 <DT_FREEZE_COLOR>冰冻异常状态影响的敌人身上获得 |ARMOR| 护甲。"
@@ -4760,6 +4832,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Frost.png!00_PrBX6XKzMB45xQGYbdLTYw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/FrostAvatarBright.png!00_u1ShWMsiAGoCIJgQ5-p5lg",
     "nameZh": "Frost",
     "descriptionZh": "当 Frost 踏上战场时，敌人会感到一阵寒意。 Frost 的攻击可以提供群体控制、保护目标，并提高生存力。驾驭刺骨的冰雪之力。",
     "passiveDescriptionZh": "Frost 技能造成的冰冻异常状态持续时间延长 |DURATION|%。Frost 从每个在 <AFFINITY_SHARE>经验共享范围内受到 <DT_FREEZE_COLOR>冰冻异常状态影响的敌人身上获得 |ARMOR| 护甲。"
@@ -4818,6 +4891,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/TitaniaPrime.png!00_33P4mPvvsMDNsjU3Yi2K2w",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TitaniaPrimeAvatarBright.png!00_LJJBClwsL43DKLhZfwZtDg",
     "nameZh": "Titania Prime",
     "descriptionZh": "诱人而又令人恐惧，这就是 Titania 的终极形态。",
     "passiveDescriptionZh": "每当 Titania 施放一个技能时，她将为自身和附近队友恢复生命值。"
@@ -4876,6 +4950,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Titania.png!00_zkJT1q2bgvS1S+AZNZUKLA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TitaniaHelmetBright.png!00_4KO2DXY8Xz-gr3Tw5ogyig",
     "nameZh": "Titania",
     "descriptionZh": "Titania 仙女般的外表掩盖了她强大的统治力量。这个女魔法师可造成高额伤害并对敌人实施群体控制。她会迫使对手向她致敬，否则就会灭亡。",
     "passiveDescriptionZh": "每当 Titania 施放一个技能时，她将为自身和附近队友恢复生命值。"
@@ -4934,6 +5009,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Cosmetics/WarframeSkins/ExcaliburUmbra.png!00_HGjat70AxEIKAeY1OSsnRw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ExcaliburUmbraAvatarBright.png!00_j77yqxRM42BP2ffZ4fdW9w",
     "nameZh": "Excalibur Umbra",
     "descriptionZh": "来自长夜暗影中的新型 Excalibur。",
     "passiveDescriptionZh": "Umbra 可以在不受传识控制的情况下自主战斗。持剑时，其伤害会提升 |DAMAGE|% 且攻击速度提升 |SPEED|%。"
@@ -4992,6 +5068,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/ExcaliburPrime.png!00_x5wIf3kV8WY+xNs0dwhnVg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ExcaliburPrimeAvatarBright.png!00_hndgVKXKTmeKFRYJKZwjtQ",
     "nameZh": "Excalibur Prime",
     "descriptionZh": "Excalibur Prime 是机动性与攻击性的象征，并拥有与 Excalibur 一样的技能，但自带独特的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "当 Excalibur Prime 持剑时，其伤害会提升 |DAMAGE|% 且攻击速度提升 |SPEED|%。"
@@ -5050,6 +5127,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Excalibur.png!00_rogoG1Uk9x46s7X-HwTx1A",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ExcaliburAvatarBright.png!00_fKaWHrk437RuolA7yJcHXg",
     "nameZh": "Excalibur",
     "descriptionZh": "Excalibur 是战士精神的缩影。他炉火纯青的剑术可造成高额伤害。他是卓越武学的化身。",
     "passiveDescriptionZh": "当 Excalibur 持剑时，其伤害会提升 |DAMAGE|% 且攻击速度提升 |SPEED|%。"
@@ -5105,6 +5183,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/EmberPrime.png!00_q6G8l1lZPrleOHcWrIRoDQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/EmberPrimeAvatarBright.png!00_+8Hn-ASMO2mliAhtReFN8g",
     "nameZh": "Ember Prime",
     "descriptionZh": "Ember Prime 具有像 Ember 一样肆意破坏的潜力，但自带独特的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "从每个在 <AFFINITY_SHARE>经验共享范围内受到 <DT_FIRE_COLOR>火焰异常状态影响的敌人身上获得 |STRENGTH|% 技能强度。"
@@ -5160,6 +5239,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Ember.png!00_af6TVvBndMK+16wcN64jxg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/EmberAvatarBright.png!00_KrwwaZT9xUYtHU1qgMYTbw",
     "nameZh": "Ember",
     "descriptionZh": "操纵烈焰之力。Ember 的火焰会造成很高的伤害。即使战斗进入白热化时，她仍能保持冷静的头脑。",
     "passiveDescriptionZh": "从每个在 <AFFINITY_SHARE>经验共享范围内受到 <DT_FIRE_COLOR>火焰异常状态影响的敌人身上获得 |STRENGTH|% 技能强度。"
@@ -5214,6 +5294,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Narin.png!00_VgbHfTbUXTP2KiDkzvlqlQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NarinAvatarBright.png!00_n7kFjATmk+0PPrJLwbbUZg",
     "nameZh": "Narin",
     "descriptionZh": "Narin 如旋涡般降临，她的利刃锋利无比，如同凛冽的寒风。她能巧妙地运用冰霜防御，如同她迅捷的细剑攻击一般。",
     "passiveDescriptionZh": "敌人身上每叠加一层 <DT_FREEZE_COLOR>冰冻异常状态，生成霜花拾取物的几率就会提高 |CHANCE|%，并使主武器和副武器获得额外 <DT_FREEZE_COLOR>冰冻伤害，持续 |DURATION| 秒。Narin 的技能也会获得冰冻伤害加成。"
@@ -5268,6 +5349,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Chroma.png!00_0zqVAyI8G0Pz6AAVSkoDSA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ChromaAvatarBright.png!00_X6QN6m9LPWXgKzZ4aDewWw",
     "nameZh": "Chroma",
     "descriptionZh": "释放龙之力量。Chroma 使用火焰、电击、毒素和冰冻元素来造成高伤害，同时保持生存能力。以愤怒为翼，翱翔吧。",
     "passiveDescriptionZh": "展开翅膀以进行一次额外的跳跃和旋身飞跃。"
@@ -5322,6 +5404,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/ChromaPrime.png!00_3Qus9vbvLgb7Pi0E2MIEVg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ChromaPrimeAvatarBright.png!00_cR-Rb2TrRSJeNPWdY3dpaw",
     "nameZh": "Chroma Prime",
     "descriptionZh": "与元素紧密结合并发动无尽毁灭之力的 Chroma Prime。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "展开翅膀以进行一次额外的跳跃和旋身飞跃。"
@@ -5376,6 +5459,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/GrendelPrime.png!00_ZrVRLfJFt2LsebKFwlfMAw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GrendelPrimeAvatarBright.png!00_MnaavFoFOnf-s3RDGMNktA",
     "nameZh": "Grendel Prime",
     "descriptionZh": "原始。永不饱足。Grendel Prime 吞食所有反抗他的人。",
     "passiveDescriptionZh": "每名被吞噬的敌人可提供 |ARMOUR| 额外护甲。"
@@ -5430,6 +5514,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Grendel.png!00_Hp-EPePTWkLNeAIrUZxs4g",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GrendelAvatarBright.png!00_n1OYkqjpdMBjkGuAMgfo6A",
     "nameZh": "Grendel",
     "descriptionZh": "Grendel 将每个战场都视为大杂烩。他贪得无厌的胃口使他具有很高的生存能力。敌人会被吃掉，然后被吐出。",
     "passiveDescriptionZh": "每名被吞噬的敌人可提供 |ARMOUR| 额外护甲。"
@@ -5484,6 +5569,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Demonframe.png!00_1rhtV8kTK6reVF4dbQTSHw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/UrielAvatarBright.png!00_rm35CVsXAiWcIl1bgQ3Tog",
     "nameZh": "Uriel",
     "descriptionZh": "以 Xata 异端者的身份战斗，意味着背后有恶魔相助。Uriel 用灼热的硫磺焚烧敌人，并召唤三个邪恶仆从为他效力。",
     "passiveDescriptionZh": "Uriel 统领、强化并守护着三位独特的恶魔。\r\n\r\n缚魔：束缚并减缓敌人，将他们串联起来。对链条中任意敌人造成的伤害会转移到所有被束缚的敌人身上。（通过炼狱火解锁）\r\n\r\n苦魔：吸附在敌人身上，造成持续伤害。如果被击杀，会生成一个痛苦之环。（通过恶魔再生解锁）\r\n\r\n烙魔：在倒下的敌人身上刻下恶魔符文，拾取这些符文可以增加射速和 <DT_FIRE_COLOR>火焰伤害。（通过魔群解锁）"
@@ -5538,6 +5624,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Dagath.png!00_ahMYHdAn-d7zDKPliKq6AQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/DagathAvatarBright.png!00_Zdh9UnSimNRWBDvT3L6V0A",
     "nameZh": "Dagath",
     "descriptionZh": "永远不要低估忧怨带来的力量和怒火。Dagath 的怨恨会造成很高的伤害。",
     "passiveDescriptionZh": "Dagath 拾取能量球和生命球时有 |PERCENT|% 几率使效果提高 |ENERGY|%。"
@@ -5595,6 +5682,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/MesaPrime.png!00_ofCA2+rMQYFxf0phelYUiQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/MesaPrimeAvatarBright.png!00_OHjFeX711iaYbvFDOgpk6A",
     "nameZh": "Mesa Prime",
     "descriptionZh": "通过这名致命的执法者投射一道长影。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "双持次要武器的射速提升 |SPEED|%，单持次要武器的装填速度提升 |RELOAD|%。未装备近战武器时，获得 |HEALTH| 额外生命值。"
@@ -5706,6 +5794,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Qorvex.png!00_HeSSFekitoiroKhvNuL4rQ",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/QorvexAvatarBright.png!00_X85N3rfOgDQPDoVlChKN2g",
     "nameZh": "Qorvex",
     "descriptionZh": "阿尔布雷希特·英择谛设计 Qorvex，是为了防止被选中的指挥官受到其实验室中特殊风险的危害。堆芯赋予了 Qorvex 群体控制的能力，从而使其具有强大的生存能力。",
     "passiveDescriptionZh": "Qorvex 所持有武器具有额外的 |PUNCH_THROUGH| 穿透。"
@@ -5763,6 +5852,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Jade.png!00_wVqsFXwhLYkBZ2qEBMy3Lg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/JadeAvatarBright.png!00_jduaZV4VxPRQn-EH2R-Hyg",
     "nameZh": "Jade",
     "descriptionZh": "沉醉于毁灭之歌。通过她，翠玉之光可以成为毁灭之力，也可以成为支持之源。",
     "passiveDescriptionZh": "Jade 对生与死的深刻理解赋予她两个光环 Mod 槽位。某些技能会施加'审判'，使敌人获得 |CHANCE|% 易伤，持续 |DURATION| 秒。"
@@ -5817,6 +5907,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/XakuPrime.png!00_eVKJD9fuAql+all9vH83Vw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/XakuPrimeAvatarBright.png!00_NEg4tS6hGgq2v8aibFvykQ",
     "nameZh": "Xaku Prime",
     "descriptionZh": "战争与虚空之子在黄金中重生。曾经破碎过的东西可能会比从未破碎过的东西更强大。",
     "passiveDescriptionZh": "在受到范围攻击时，减免 |CHANCE|% 的伤害，并有几率避开武器伤害。"
@@ -5985,6 +6076,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/AtlasPrime.png!00_Inx7E8wYqxmegxxTnWmM3g",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/AtlasPrimeAvatarBright.png!00_3CRI7QEvYD0f5lbvwUtQTQ",
     "nameZh": "Atlas Prime",
     "descriptionZh": "在往事如烟的时代，据说山脉是战士的容身之所。在这个时代，山脉已化身成战士。",
     "passiveDescriptionZh": "在地面时无法被击倒。"
@@ -6042,6 +6134,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/ValkyrPrime.png!00_ARG3TxJCTQyXJh8X1kNXOA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ValkyrPrimeAvatarBright.png!00_O0D6RRW6S3XgIVhGYw8nqQ",
     "nameZh": "Valkyr Prime",
     "descriptionZh": "一位经历了时间与伤痛的洗礼后依然毫发无损的高傲斗士。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "Valkyr 使用近战武器命中或击杀敌人时会积累狂怒值，最高提升 |PERCENT|% 近战伤害。当狂怒值高于 |CONSUME|% 时，受到致命伤害会消耗狂怒值避免死亡并获得 |DURATION| 秒无敌状态。"
@@ -6099,6 +6192,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Valkyr.png!00_ATEsw2Va6suN12ximV0gbw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/ValkyrAvatarBright.png!00_L4oPkoVSBh8rhRpVkcjlCw",
     "nameZh": "Valkyr",
     "descriptionZh": "Valkyr 被改造成一个动机强烈且令人恐惧的杀手。她善于造成伤害和生存下去。她的战吼让所有听到它的人感到恐惧。",
     "passiveDescriptionZh": "Valkyr 使用近战武器命中或击杀敌人时会积累狂怒值，最高提升 |PERCENT|% 近战伤害。当狂怒值高于 |CONSUME|% 时，受到致命伤害会消耗狂怒值避免死亡并获得 |DURATION| 秒无敌状态。"
@@ -6153,6 +6247,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/OctaviaPrime.png!00_8eCWTWgPeE-2hMgNpcNbqg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/OctaviaPrimeBright.png!00_M8JgdkVpIJkaOD4WvkTAZQ",
     "nameZh": "Octavia Prime",
     "descriptionZh": "女音乐家 Octavia，以其卓绝华美的形态，演奏毁灭的乐章。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "每当使用技能后，Octavia 及其周围 |RANGE| 米内的队友就会在 |DURATION| 秒内恢复 |ENERGY| 点能量。"
@@ -6207,6 +6302,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Octavia.png!00_fAUTEhyM+ICMmYqVNadvpw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/OctaviaBright.png!00_WNcpAjgI9ETiQkj-v8midA",
     "nameZh": "Octavia",
     "descriptionZh": "Octavia 将低音、节奏和旋律编成一首毁灭的赞歌。她的曼达和弦琴音乐让她具备高度的生存能力和支援友军的能力。她谱写的歌意味着敌人的毁灭。",
     "passiveDescriptionZh": "每当使用技能后，Octavia 及其周围 |RANGE| 米内的队友就会在 |DURATION| 秒内恢复 |ENERGY| 点能量。"
@@ -6261,6 +6357,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/BansheePrime.png!00_5b4oq1tfQPHE-ElkZ31n6w",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/BansheePrimeAvatarBright.png!00_NvKZYck4Z6nUgn+VDBv2FQ",
     "nameZh": "Banshee Prime",
     "descriptionZh": "Banshee Prime 以操控声波力量造成的致死效果攻击敌人。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "Banshee 施放技能时，会刺穿 |RADIUS| 米范围内敌人的耳朵，并施加最大层数的 <DT_PUNCTURE_COLOR>穿刺异常状态。此外，Banshee 的武器噪音也会减少。"
@@ -6315,6 +6412,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Banshee.png!00_sV1lVQHM-vI699vTXgvY8A",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/BansheeAvatarBright.png!00_hfi-HnudqdcAyiT11TP4xw",
     "nameZh": "Banshee",
     "descriptionZh": "Banshee 的尖叫预示着死亡。她能够用声波攻击来维持群体控制和识别敌人的弱点。当她的力量袭来，几乎没有人能够站稳脚跟。",
     "passiveDescriptionZh": "Banshee 施放技能时，会刺穿 |RADIUS| 米范围内敌人的耳朵，并施加最大层数的 <DT_PUNCTURE_COLOR>穿刺异常状态。此外，Banshee 的武器噪音也会减少。"
@@ -6369,6 +6467,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/NovaPrime.png!00_a+NPjSMFV7xpjBsNRgMCVA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NovaPrimeAvatarBright.png!00_88clTCX3xagBYvrSXzMfAg",
     "nameZh": "Nova Prime",
     "descriptionZh": "Nova Prime 以她的反物质能量波来对敌人造成破坏。拥有改造过的 Mod 极性槽，可提供更优秀的自定义空间。",
     "passiveDescriptionZh": "处于减速状态下的敌人被击杀后有 |CHANCE|% 几率掉落生命球。处于加速状态下的敌人被击杀有 |CHANCE|% 几率掉落能量球。"
@@ -6423,6 +6522,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Nova.png!00_5wi+1lIJLVkGnt8AZutijw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/NovaAvatarBright.png!00_yW3OWVDZWmh+ZqrhuSKNww",
     "nameZh": "Nova",
     "descriptionZh": "利用反物质。 Nova 使用反物质粒子来提供群体控制并放大伤害输出。她通过使物质不稳定来消灭敌人。",
     "passiveDescriptionZh": "处于减速状态下的敌人被击杀后有 |CHANCE|% 几率掉落生命球。处于加速状态下的敌人被击杀有 |CHANCE|% 几率掉落能量球。"
@@ -6477,6 +6577,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Primes/LavosPrime.png!00_KVj3X11yKZfeddkWwhWoLg",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LavosPrimeAvatarBright.png!00_2CUeJPs8CPspqbhCca3fgg",
     "nameZh": "Lavos Prime",
     "descriptionZh": "当其他战甲还在逐步提升时，有些战甲生来就是 Prime 的。Lavos 是炼制术大师，他从不向任何人低头，而是开辟了自己的英勇之路。",
     "passiveDescriptionZh": "能量球和通用补给球可使 Lavos 对异常状态免疫 |DURATION| 秒。\r\n\r\n长按任意技能键，来在下一次施放时注入额外的元素伤害和异常状态。"
@@ -6531,6 +6632,7 @@
     ],
     "productCategory": "Suits",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Warframes/Lavos.png!00_xdi6ETM1MD1S61AXK0HlcA",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/LavosAvatarBright.png!00_cgZgl6hQUQlB-UTD+NEQ2A",
     "nameZh": "Lavos",
     "descriptionZh": "当 Lavos 转化战场时， 他的蛇鼓励着他。他使用毒素、冰冻、电击和火焰来造成元素伤害。掌控黑暗炼金术士的力量。",
     "passiveDescriptionZh": "能量球和通用补给球可使 Lavos 对异常状态免疫 |DURATION| 秒。\r\n\r\n长按任意技能键，来在下一次施放时注入额外的元素伤害和异常状态。"

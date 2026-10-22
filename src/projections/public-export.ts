@@ -30,11 +30,10 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
   ])) as Record<keyof typeof INPUTS, JsonObject>;
   const output: DatasetFileInput[] = [];
 
-  // 中文记录索引（uniqueName → zh 完整记录）与图标索引（uniqueName → iconUrl），
-  // 给 catalog 实体按 uniqueName 对齐内联全部中文字段 + 图标（深度）。
+  // 中文记录索引（uniqueName → zh 完整记录）与图标/头像索引，给 catalog 实体对齐内联中文 + 图标（深度）。
   const zhRecords = readZhRecords(sourceByPath);
-  const iconUrls = readIconUrls(sourceByPath);
-  const enrich = (records: JsonObject[]) => enrichRecords(records, zhRecords, iconUrls);
+  const { iconUrls, avatarUrls } = readIconUrls(sourceByPath);
+  const enrich = (records: JsonObject[]) => enrichRecords(records, zhRecords, iconUrls, avatarUrls);
 
   const warframes = requiredArray(exports.warframes, "ExportWarframes");
   const abilities = new Map<string, JsonObject>();
@@ -182,31 +181,37 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
 /** 官方 ExportUpgrades 文件内部嵌套的 3 个可翻译数组。 */
 const UPGRADE_EXPORT_KEYS = ["ExportUpgrades", "ExportFocusUpgrades", "ExportAvionics"] as const;
 
-/** 读取官方 ExportManifest（shared），构建 uniqueName → 图片 URL。 */
-function readIconUrls(sourceByPath: Map<string, DatasetFileInput>): Map<string, string> {
-  const result = new Map<string, string>();
+/** 读取官方 ExportManifest（shared），构建 uniqueName → 图标 URL 与「战甲名 → 头像 URL」。 */
+function readIconUrls(sourceByPath: Map<string, DatasetFileInput>): { iconUrls: Map<string, string>; avatarUrls: Map<string, string> } {
+  const iconUrls = new Map<string, string>();
+  const avatarUrls = new Map<string, string>();
   let root: JsonObject;
   try {
     root = readExport(sourceByPath, "public-export/shared/ExportManifest.json");
   } catch {
-    return result;
+    return { iconUrls, avatarUrls };
   }
   const manifest = root.Manifest;
-  if (!Array.isArray(manifest)) return result;
+  if (!Array.isArray(manifest)) return { iconUrls, avatarUrls };
   for (const record of manifest) {
     if (typeof record !== "object" || record === null) continue;
     const { uniqueName, textureLocation } = record as JsonObject;
-    if (typeof uniqueName === "string" && typeof textureLocation === "string") {
-      result.set(uniqueName, `https://content.warframe.com/PublicExport/${textureLocation.replace(/^\//u, "")}`);
+    if (typeof uniqueName !== "string" || typeof textureLocation !== "string") continue;
+    const url = `https://content.warframe.com/PublicExport/${textureLocation.replace(/^\//u, "")}`;
+    iconUrls.set(uniqueName, url);
+    // 头像：uniqueName 形如 …Image<Name>Bright（如 /Lotus/…/ImageYareliPrimeBright）→ Player 头像。
+    if (uniqueName.includes("Image") && uniqueName.endsWith("Bright") && textureLocation.includes("/Player/")) {
+      const frameName = uniqueName.split("/").pop()?.slice("Image".length, -"Bright".length);
+      if (frameName) avatarUrls.set(frameName, url);
     }
   }
-  return result;
+  return { iconUrls, avatarUrls };
 }
 
-/** 读取 zh 版本的 5 个官方 Export，构建 uniqueName → zh 完整记录。 */
+/** 读取 zh 版本的官方 Export，构建 uniqueName → zh 完整记录（含 Resources 资源类）。 */
 function readZhRecords(sourceByPath: Map<string, DatasetFileInput>): Map<string, JsonObject> {
   const result = new Map<string, JsonObject>();
-  for (const exportName of ["Warframes", "Weapons", "Upgrades", "RelicArcane", "Regions"] as const) {
+  for (const exportName of ["Warframes", "Weapons", "Upgrades", "RelicArcane", "Regions", "Resources"] as const) {
     let root: JsonObject;
     try {
       root = readExport(sourceByPath, localizedPath("zh", exportName));
@@ -225,11 +230,12 @@ function readZhRecords(sourceByPath: Map<string, DatasetFileInput>): Map<string,
   return result;
 }
 
-/** 给实体记录按 uniqueName 对齐内联中文字段 + 图标（追加 *Zh，不删除原字段）。 */
+/** 给实体记录按 uniqueName 对齐内联中文字段 + 图标/头像（追加 *Zh，不删除原字段）。 */
 function enrichRecords(
   records: JsonObject[],
   zhRecords: Map<string, JsonObject>,
   iconUrls: Map<string, string>,
+  avatarUrls: Map<string, string>,
 ): JsonObject[] {
   return records.map((record) => {
     const key = record.recordKey ?? record.uniqueName;
@@ -237,6 +243,11 @@ function enrichRecords(
     const next: JsonObject = { ...record };
     const iconUrl = keyStr ? iconUrls.get(keyStr) : undefined;
     if (iconUrl) next.iconUrl = iconUrl;
+    // avatarUrl：战甲英文名（去空格）→ Player 头像。
+    if (typeof next.name === "string") {
+      const avatarUrl = avatarUrls.get(next.name.replace(/\s+/gu, ""));
+      if (avatarUrl) next.avatarUrl = avatarUrl;
+    }
     const zh = keyStr ? zhRecords.get(keyStr) : undefined;
     if (!zh) return next;
     if (typeof zh.name === "string") next.nameZh = zh.name;

@@ -1313,6 +1313,7 @@
     "minEnemyLevel": 27,
     "maxEnemyLevel": 29,
     "recordKey": "SolNode105",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/TitaniaHelmetBright.png!00_4KO2DXY8Xz-gr3Tw5ogyig",
     "nameZh": "Titania"
   },
   {
@@ -1397,6 +1398,7 @@
     "minEnemyLevel": 25,
     "maxEnemyLevel": 27,
     "recordKey": "SolNode60",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/CalibanAvatarBright.png!00_Pm8ter524CnNNYRxC42QOw",
     "nameZh": "Caliban"
   },
   {

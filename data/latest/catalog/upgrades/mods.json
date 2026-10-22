@@ -47604,6 +47604,7 @@
     "recordKey": "/Lotus/Upgrades/Mods/Pistol/WeaponFireRateMod",
     "upgradeType": "mod",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Cards/Images/Pistol/PistolFireRateMod.jpg!00_xIg+fE-X06TGrUtJiPkyJw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GunslingerAvatarBright.png!00_USY2BZEzmR649nDGcWXznw",
     "nameZh": "神枪手",
     "compatNameZh": "手枪",
     "levelStatsZh": [
@@ -105931,6 +105932,7 @@
     "recordKey": "/Lotus/Upgrades/Mods/Pistol/Beginner/WeaponFireRateModBeginner",
     "upgradeType": "mod",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Cards/Images/Pistol/PistolFireRateMod.jpg!00_xIg+fE-X06TGrUtJiPkyJw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GunslingerAvatarBright.png!00_USY2BZEzmR649nDGcWXznw",
     "nameZh": "神枪手",
     "compatNameZh": "手枪",
     "levelStatsZh": [
@@ -107277,6 +107279,7 @@
     "recordKey": "/Lotus/Upgrades/Mods/Pistol/Expert/WeaponFireRateModExpert",
     "upgradeType": "mod",
     "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Cards/Images/Pistol/PistolFireRateMod.jpg!00_xIg+fE-X06TGrUtJiPkyJw",
+    "avatarUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/Player/GunslingerAvatarBright.png!00_USY2BZEzmR649nDGcWXznw",
     "nameZh": "神枪手",
     "compatNameZh": "手枪",
     "levelStatsZh": [

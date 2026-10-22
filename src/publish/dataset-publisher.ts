@@ -290,14 +290,16 @@ async function cleanupLeftovers(dataDirectory: string): Promise<void> {
   }
 }
 
-/** 把本次 raw 快照的 plus/ 与 languages/ 目录 gzip 压缩到 tmp/cache/，然后清理所有时间戳工作区（只留 cache）。 */
+/** 把本次 raw 快照的 plus/ 与 languages/ 目录 gzip 压缩到 tmp/cache/，然后清理时间戳工作区（WF_KEEP_TMP=1 时保留）。 */
 async function archiveToCache(tmpDirectory: string, rawRoot: string): Promise<void> {
   const cacheDir = join(tmpDirectory, "cache");
   await rm(cacheDir, { recursive: true, force: true });
   await mkdir(cacheDir, { recursive: true });
   await archiveDirectory(join(rawRoot, "plus"), join(cacheDir, "plus"));
   await archiveDirectory(join(rawRoot, "languages"), join(cacheDir, "languages"));
-  await pruneTmpWorkspaces(tmpDirectory);
+  if (process.env.WF_KEEP_TMP !== "1") {
+    await pruneTmpWorkspaces(tmpDirectory);
+  }
 }
 
 /** 把某个来源目录下的 .json 文件 gzip 到目标目录；来源不存在则跳过。 */
