@@ -1,0 +1,26 @@
+local data = {}
+local index = 0
+for gStarChart:GetRegions() as region do
+	local t = {
+		__order = { "index", "name", "droneDamage", "damageChance", "resources" },
+		index = index++,
+		name = region.name,
+		droneDamage = {
+			__order = { "minValue", "maxValue" },
+			minValue = math.tointeger(region.droneDamage.minValue) or error(),
+			maxValue = math.tointeger(region.droneDamage.maxValue) or error(),
+		},
+		damageChance = region.damageChance,
+		resources = {}
+	}
+	for region.resources as resource do
+		t.resources:insert({
+			__order = { "StoreItem", "ItemType", "Rarity" },
+			StoreItem = resource.mStoreItem:GetFullName(),
+			ItemType = resource.mItemType:GetFullName(),
+			Rarity = { "COMMON", "UNCOMMON", "RARE", "LEGENDARY" }[1 + resource.mRarity],
+		})
+	end
+	data:insert(t)
+end
+print(require"json".encode(data, true))

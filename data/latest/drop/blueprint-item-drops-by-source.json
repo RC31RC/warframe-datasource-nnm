@@ -1,0 +1,4632 @@
+[
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "H-09 Apex Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Steel Essence",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "钢铁精华"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Techrot Scaart Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Instant Secure",
+    "rarity": "Common",
+    "chance": 37.94,
+    "itemZh": "即刻安保"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Techrot Scaart Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Immuno Shield",
+    "rarity": "Common",
+    "chance": 37.94,
+    "itemZh": "免疫护盾"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Techrot Scaart Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Threat Blocker",
+    "rarity": "Uncommon",
+    "chance": 22.11,
+    "itemZh": "威胁壁垒"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Techrot Scaart Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Turbo Protect",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "极速防护"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Techrot Scaart Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Quick Correct",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "快速修正"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vem Tabook Blueprint/Item Drop Chance: 25.00%",
+    "groups": [],
+    "item": "Scimitar Fuselage Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vem Tabook Blueprint/Item Drop Chance: 25.00%",
+    "groups": [],
+    "item": "Brakk Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Leekter Blueprint/Item Drop Chance: 25.00%",
+    "groups": [],
+    "item": "Brakk Receiver",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "布拉克 枪机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shik Tal Blueprint/Item Drop Chance: 25.00%",
+    "groups": [],
+    "item": "Brakk Barrel",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "布拉克 枪管"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Aurax Atloc Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Barrel Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Aurax Atloc Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Receiver Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Aurax Atloc Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Stock Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Tusk Thumper Doma Blueprint/Item Drop Chance: 10.00%",
+    "groups": [],
+    "item": "Korrudo Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Tusk Thumper Bull Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Korrudo Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Boiler Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Akarius Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Boiler Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Acceltra Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Thrasher Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Akarius Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Thrasher Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Acceltra Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Juggernaut Blueprint/Item Drop Chance: 7.50%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Juggernaut Blueprint/Item Drop Chance: 7.50%",
+    "groups": [],
+    "item": "Akarius Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Juggernaut Blueprint/Item Drop Chance: 7.50%",
+    "groups": [],
+    "item": "Acceltra Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Charger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Akarius Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Demolisher Charger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Acceltra Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Aerolyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Aerolyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Summulyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Summulyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ortholyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ortholyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Symbilyst Blueprint/Item Drop Chance: 4.00%",
+    "groups": [],
+    "item": "Shedu Barrel",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "舍杜 枪管"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Symbilyst Blueprint/Item Drop Chance: 4.00%",
+    "groups": [],
+    "item": "Shedu Chassis",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "舍杜 机体"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Symbilyst Blueprint/Item Drop Chance: 4.00%",
+    "groups": [],
+    "item": "Shedu Handle",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "舍杜 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Symbilyst Blueprint/Item Drop Chance: 4.00%",
+    "groups": [],
+    "item": "Shedu Receiver",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "舍杜 枪机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zealoid Prelate Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Pathocyst Blade",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "病囊飞刃 刀刃"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zealoid Prelate Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Pathocyst Subcortex",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "病囊飞刃 下皮层"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zealoid Prelate Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Pathocyst Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Handle",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Head",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤锤头"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Motor",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤马达"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Handle",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Head",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤锤头"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Motor",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "恶狼战锤马达"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Wolf Of Saturn Six Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Wolf Sledge Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Captain Vor Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Cronus Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kuva Hyekka Master Blueprint/Item Drop Chance: 1.50%",
+    "groups": [],
+    "item": "Kavat Incubator Upgrade Segment Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Devourer Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Blade",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 刀刃"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Devourer Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Guard",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 护手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Devourer Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Handle",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Devourer Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Auger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Blade",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 刀刃"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Auger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Guard",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 护手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Auger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Handle",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "塔克 & 卢格 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Auger Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tak & Lug Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Auger Alpha Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Quartakk Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Expired Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Blade",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "通卡拐刃 刀刃"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Expired Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Handle",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "通卡拐刃 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Expired Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Rictus Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Blade",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "通卡拐刃 刀刃"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Rictus Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Handle",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "通卡拐刃 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Rictus Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Tonkkatt Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Ghoul Rictus Alpha Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Stubba Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Heavy Gunner Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Arid Heavy Gunner Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Hyekka Master Blueprint/Item Drop Chance: 1.50%",
+    "groups": [],
+    "item": "Kavat Incubator Upgrade Segment Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Frontier Heavy Gunner Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Hunhow Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Dread Blueprint",
+    "rarity": "Common",
+    "chance": 64.8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Hunhow Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Scimitar Engines Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Hunhow Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Despair Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Hunhow Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Hate Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Juggernaut Behemoth Blueprint/Item Drop Chance: 90.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Juggernaut Blueprint/Item Drop Chance: 90.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Jack O'Naut Blueprint/Item Drop Chance: 90.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kela De Thaym Blueprint/Item Drop Chance: 25.00%",
+    "groups": [],
+    "item": "Twin Kohmak Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orokin Storage Container Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Octavia Chassis Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Jackal Blueprint/Item Drop Chance: 30.00%",
+    "groups": [],
+    "item": "Stropha Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Jackal Blueprint/Item Drop Chance: 30.00%",
+    "groups": [],
+    "item": "Stahlta Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Rare Corpus Storage Container Blueprint/Item Drop Chance: 30.00%",
+    "groups": [],
+    "item": "Mantis Fuselage Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Forgotten Grineer Storage Container Blueprint/Item Drop Chance: 30.00%",
+    "groups": [],
+    "item": "Mantis Engines Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Rare Grineer Storage Container Blueprint/Item Drop Chance: 30.00%",
+    "groups": [],
+    "item": "Mantis Engines Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Rare Orokin Storage Container Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Mantis Avionics Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Drekar Trooper Blueprint/Item Drop Chance: 0.50%",
+    "groups": [],
+    "item": "Boar Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Conculyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Conculyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Decaying Conculyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Decaying Conculyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Dread Blueprint",
+    "rarity": "Common",
+    "chance": 64.8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Scimitar Engines Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Despair Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Hate Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Dread Blueprint",
+    "rarity": "Common",
+    "chance": 41.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Scimitar Engines Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Broken War Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Despair Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Hate Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Shadow Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "War Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Corrupted Warden Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Grineer Warden Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zanuka Hunter Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Detron Barrel",
+    "rarity": "Uncommon",
+    "chance": 32.35,
+    "itemZh": "德特昂 枪管"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zanuka Hunter Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Detron Receiver",
+    "rarity": "Uncommon",
+    "chance": 32.35,
+    "itemZh": "德特昂 枪机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zanuka Hunter Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Scimitar Avionics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 17.65
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Zanuka Hunter Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Detron Blueprint",
+    "rarity": "Uncommon",
+    "chance": 17.65
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Polyp-Hog Juggernaut Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Deimos Juggernaut Blueprint/Item Drop Chance: 90.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Deimos Juggernaut Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Pherliac Pods Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Garv Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Janus Captain Vor Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Cronus Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Dread Blueprint",
+    "rarity": "Common",
+    "chance": 41.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Scimitar Engines Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Broken War Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Despair Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "Hate Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Protector Stalker Blueprint/Item Drop Chance: 50.00%",
+    "groups": [],
+    "item": "War Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Gunner Warden Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Heavy Gunner Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "Gorgon Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Barrel Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Receiver Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Raknoid Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Ambassador Stock Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Thumper Doma Blueprint/Item Drop Chance: 10.00%",
+    "groups": [],
+    "item": "Korrudo Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Narmer Thumper Bull Blueprint/Item Drop Chance: 5.00%",
+    "groups": [],
+    "item": "Korrudo Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Typholyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Typholyst Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Pyr Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Quellor Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Pyr Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Pennant Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Pyr Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Blazing Step Ephemera Blueprint",
+    "rarity": "Rare",
+    "chance": 2.58
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Glacik Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Quellor Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Glacik Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Pennant Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Glacik Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Blazing Step Ephemera Blueprint",
+    "rarity": "Rare",
+    "chance": 2.58
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Lektro Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Quellor Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Lektro Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Pennant Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Lektro Commander Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Blazing Step Ephemera Blueprint",
+    "rarity": "Rare",
+    "chance": 2.58
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Blite Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Quellor Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Blite Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Pennant Blueprint",
+    "rarity": "Common",
+    "chance": 48.71
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Blite Captain Blueprint/Item Drop Chance: 15.00%",
+    "groups": [],
+    "item": "Blazing Step Ephemera Blueprint",
+    "rarity": "Rare",
+    "chance": 2.58
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Taro Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Crewship (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Orm Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Orm Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Engines Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Engines Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Plating Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Plating Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Reactor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Reactor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Shield Array Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Shield Array Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Axio Gox (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Axio Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk I",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Taro Weaver (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Vorac Gox Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 0 - 70) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Vort Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Glazio Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Talyn Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Vorac Weaver (Level 71 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Laith Mk Iv",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk I",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kosma Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Gyre Gokstad Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 0 - 50) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Lavan Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exo Skold Crewship (Level 51 - 100) Blueprint/Item Drop Chance: 20.00%",
+    "groups": [],
+    "item": "Vidar Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Exo Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk I",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Kosma Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 0 - 50) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Ii",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Engines Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Plating Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Reactor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Shield Array Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iii",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Photor Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Cryophon Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Carcinnox Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Pulsar Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Elite Gyre Outrider (Level 51 - 100) Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Zetki Apoc Mk Iv",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kuva Lich Agor Rok Blueprint/Item Drop Chance: 10.00%",
+    "groups": [],
+    "item": "Quellor Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Kuva Lich Agor Rok Blueprint/Item Drop Chance: 10.00%",
+    "groups": [],
+    "item": "Pennant Blueprint",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Archimedean Itzam Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Blade",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 刀片"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Archimedean Itzam Blueprint/Item Drop Chance: 1.00%",
+    "groups": [],
+    "item": "War Hilt",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "战争之剑 握柄"
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Reinforced Carrypod Blueprint/Item Drop Chance: 2.00%",
+    "groups": [],
+    "item": "Parallax Avionics Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Reinforced Carrypod Blueprint/Item Drop Chance: 2.00%",
+    "groups": [],
+    "item": "Parallax Engines Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Reinforced Carrypod Blueprint/Item Drop Chance: 2.00%",
+    "groups": [],
+    "item": "Parallax Fuselage Blueprint",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exploiter Orb Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Hildryn Chassis Blueprint",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exploiter Orb Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Hildryn Neuroptics Blueprint",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Exploiter Orb Blueprint/Item Drop Chance: 100.00%",
+    "groups": [],
+    "item": "Hildryn Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 22.56
+  },
+  {
+    "category": "Blueprint/Item Drops by Source",
+    "source": "Void Fissure Corrupted Enemy Blueprint/Item Drop Chance: 3.00%",
+    "groups": [],
+    "item": "Harrow Chassis Blueprint",
+    "rarity": "Very Common",
+    "chance": 100
+  }
+]

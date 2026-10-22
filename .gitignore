@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.idea/
+.cache/
+npm-debug.log*
+tmp/*
+!tmp/cache/
+data/.gen-*/
+.test-tmp-*/
+docs/
+.DS_Store

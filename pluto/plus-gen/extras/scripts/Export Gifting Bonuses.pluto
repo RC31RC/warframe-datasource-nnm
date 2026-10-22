@@ -1,0 +1,10 @@
+local map = {}
+local v915 = gGameRules:GetStoreManifest()
+local v916 = v915:GetGiftBonusItems()
+for v917 = 1, #v916 do
+	local gift = v916[v917].gift:GetFullName()
+	local reward = v916[v917].reward:GetFullName()
+	map[gift] = reward
+end
+map.__order = map:keys():sort()
+print(require"json".encode(map, true))

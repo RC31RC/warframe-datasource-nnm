@@ -1,0 +1,233 @@
+[
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": null,
+    "rerolled": false,
+    "avg": 5,
+    "stddev": 0,
+    "min": 5,
+    "max": 5,
+    "pop": 50,
+    "median": 5
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Ambassador",
+    "rerolled": true,
+    "avg": 100,
+    "stddev": 0,
+    "min": 100,
+    "max": 100,
+    "pop": 50,
+    "median": 100
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Battacor",
+    "rerolled": true,
+    "avg": 125,
+    "stddev": 0,
+    "min": 125,
+    "max": 125,
+    "pop": 50,
+    "median": 125
+  },
+  {
+    "itemType": "Shotgun Riven Mod",
+    "compatibility": "Boar",
+    "rerolled": true,
+    "avg": 100,
+    "stddev": 0,
+    "min": 100,
+    "max": 100,
+    "pop": 50,
+    "median": 100
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Broken War",
+    "rerolled": true,
+    "avg": 8,
+    "stddev": 0,
+    "min": 8,
+    "max": 8,
+    "pop": 50,
+    "median": 8
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Burston",
+    "rerolled": false,
+    "avg": 50,
+    "stddev": 0,
+    "min": 50,
+    "max": 50,
+    "pop": 50,
+    "median": 50
+  },
+  {
+    "itemType": "Shotgun Riven Mod",
+    "compatibility": "Cedo",
+    "rerolled": true,
+    "avg": 40,
+    "stddev": 0,
+    "min": 40,
+    "max": 40,
+    "pop": 50,
+    "median": 40
+  },
+  {
+    "itemType": "Archgun Riven Mod",
+    "compatibility": "Corvas",
+    "rerolled": false,
+    "avg": 10,
+    "stddev": 0,
+    "min": 10,
+    "max": 10,
+    "pop": 50,
+    "median": 10
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Deth Machine Rifle",
+    "rerolled": true,
+    "avg": 10,
+    "stddev": 0,
+    "min": 10,
+    "max": 10,
+    "pop": 50,
+    "median": 10
+  },
+  {
+    "itemType": "Pistol Riven Mod",
+    "compatibility": "Detron",
+    "rerolled": false,
+    "avg": 20,
+    "stddev": 0,
+    "min": 20,
+    "max": 20,
+    "pop": 50,
+    "median": 20
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Dorrclave",
+    "rerolled": true,
+    "avg": 20,
+    "stddev": 0,
+    "min": 20,
+    "max": 20,
+    "pop": 50,
+    "median": 20
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Dual Viciss",
+    "rerolled": false,
+    "avg": 75,
+    "stddev": 0,
+    "min": 75,
+    "max": 75,
+    "pop": 50,
+    "median": 75
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Glaxion",
+    "rerolled": true,
+    "avg": 375,
+    "stddev": 0,
+    "min": 375,
+    "max": 375,
+    "pop": 50,
+    "median": 375
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Hate",
+    "rerolled": true,
+    "avg": 30,
+    "stddev": 0,
+    "min": 30,
+    "max": 30,
+    "pop": 50,
+    "median": 30
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Latron",
+    "rerolled": true,
+    "avg": 50,
+    "stddev": 0,
+    "min": 50,
+    "max": 50,
+    "pop": 50,
+    "median": 50
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Magistar",
+    "rerolled": true,
+    "avg": 62.5,
+    "stddev": 2.5,
+    "min": 60,
+    "max": 65,
+    "pop": 100,
+    "median": 62.5
+  },
+  {
+    "itemType": "Melee Riven Mod",
+    "compatibility": "Pathocyst",
+    "rerolled": false,
+    "avg": 10,
+    "stddev": 0,
+    "min": 10,
+    "max": 10,
+    "pop": 50,
+    "median": 10
+  },
+  {
+    "itemType": "Shotgun Riven Mod",
+    "compatibility": "Phage",
+    "rerolled": true,
+    "avg": 35,
+    "stddev": 0,
+    "min": 35,
+    "max": 35,
+    "pop": 50,
+    "median": 35
+  },
+  {
+    "itemType": "Shotgun Riven Mod",
+    "compatibility": "Sobek",
+    "rerolled": false,
+    "avg": 60,
+    "stddev": 0,
+    "min": 60,
+    "max": 60,
+    "pop": 50,
+    "median": 60
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Supra",
+    "rerolled": false,
+    "avg": 30,
+    "stddev": 10,
+    "min": 20,
+    "max": 40,
+    "pop": 100,
+    "median": 30
+  },
+  {
+    "itemType": "Rifle Riven Mod",
+    "compatibility": "Torid",
+    "rerolled": true,
+    "avg": 400,
+    "stddev": 300,
+    "min": 100,
+    "max": 700,
+    "pop": 100,
+    "median": 400
+  }
+]

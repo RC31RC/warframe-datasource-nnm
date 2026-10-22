@@ -1,0 +1,2081 @@
+{
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/CommonBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocCommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocCommon",
+      "standingReward": 400
+    },
+    "nameZh": "常见秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/CommonFemaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocCommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocCommon",
+      "standingReward": 400
+    },
+    "nameZh": "常见秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/CommonMaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocCommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocCommon",
+      "standingReward": 400
+    },
+    "nameZh": "常见秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/RareBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocRareName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocRare",
+      "standingReward": 900
+    },
+    "nameZh": "帝王秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/RareFemaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocRareName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocRare",
+      "standingReward": 900
+    },
+    "nameZh": "帝王秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/RareMaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocRareName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocRare",
+      "standingReward": 900
+    },
+    "nameZh": "帝王秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/UncommonBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "游荡秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/UncommonFemaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "游荡秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/BirdOfPrey/UncommonMaleBirdOfPreyAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/CondrocUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/CondrocGenericDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/CondrocUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagCondrocUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "游荡秃鹰",
+    "descriptionZh": "一种食腐鸟类，也是机会主义的猛禽。秃鹰会聚集在一起，以腐肉为食，偶尔也会以\"亲卫队\"为名的群体进行狩猎。几个亲卫队会由一位帝王带领。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedCritter/BaseInfestedCritterAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/Theme/InfestedCritterA.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "狡黠狐帕菲拉",
+    "descriptionZh": "狐帕菲拉性格狡猾，喜欢逃避战斗。其技巧高超到足以传授给主人。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedCritter/CommonInfestedCritterAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCritterCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/InfestedCritterA.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterCommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedCritterCommonRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "狡黠狐帕菲拉",
+    "descriptionZh": "狐帕菲拉性格狡猾，喜欢逃避战斗。其技巧高超到足以传授给主人。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedCritter/RareInfestedCritterAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCritterRareDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/Theme/InfestedCritterC.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterRare",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedCritterRareRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "铁甲狐帕菲拉",
+    "descriptionZh": "这种强壮的生物有一层厚实的胶原皮层，来充当保护性护甲。\r\n\r\n只有在\"混乱\"监视魔胎之境时才会活动。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedCritter/UncommonInfestedCritterAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedCritterUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedCritterUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/InfestedCritterB.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedCritterUncommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedCritterUncommonRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "月刃狐帕菲拉",
+    "descriptionZh": "从战术上来说，这种狐帕菲拉具有传染性，它通过造成 <DT_VIRAL_COLOR>病毒异常状态来削弱敌人，为后续攻击创造优势。\r\n\r\n仅在\"混乱\"期间的魔胎之境出现。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedKDrive/GrottoInfKDriveAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/Deimos/InfestedKDriveGrotto.png",
+    "health": 300,
+    "killXPReward": 200,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveUncommon",
+      "standingReward": 0
+    },
+    "nameZh": "绿色迅敏节虫",
+    "descriptionZh": "这种大型节肢动物通常被发现飞行于火卫二的几个洞穴中。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedKDrive/HighlandInfKDriveAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveRareDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/Deimos/InfestedKDriveHighlands.png",
+    "health": 300,
+    "killXPReward": 200,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveRare",
+      "standingReward": 0
+    },
+    "nameZh": "白色迅敏节虫",
+    "descriptionZh": "迅敏节虫速度最快的品种，它们往往偏爱沼泽地。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedKDrive/SwampInfKDriveAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedKdriveCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/Deimos/InfestedKDriveSwamp.png",
+    "health": 300,
+    "killXPReward": 200,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedKdriveCommon",
+      "standingReward": 0
+    },
+    "nameZh": "紫色迅敏节虫",
+    "descriptionZh": "一种行动迟缓的高原昆虫，在受到威胁时可以爆发出惊人的速度。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMaggot/CommonInfestedMaggotAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMaggotCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotCommon",
+      "standingReward": 0
+    },
+    "nameZh": "穴居隐疾虫",
+    "descriptionZh": "数量最庞大的隐疾虫变种，这种虫的攻击性会让它斩断任何它认为有威胁的东西。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMaggot/RareInfestedMaggotAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotRareDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMaggotRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotRare",
+      "standingReward": 0
+    },
+    "nameZh": "腐蚀隐疾虫",
+    "descriptionZh": "最危险的隐疾虫。它们的腹部有可以喷出酸雾的腺体。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMaggot/UncommonInfestedMaggotAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMaggotUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMaggotUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMaggotUncommon",
+      "standingReward": 0
+    },
+    "nameZh": "脓化隐疾虫",
+    "descriptionZh": "这种虫的传染性可以让它在警觉时进行危险的病毒攻击。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMergoo/CommonInfestedMergooAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMergooCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMergooCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMergooCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooCommon",
+      "standingReward": 0
+    },
+    "nameZh": "常见古羽鸟",
+    "descriptionZh": "一种经常小群聚集的史前类鸟生物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMergoo/RareInfestedMergooAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMergooRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMergooRareDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMergooRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooRare",
+      "standingReward": 0
+    },
+    "nameZh": "粘质古羽鸟",
+    "descriptionZh": "最罕见的古羽鸟，在受到威胁时会产生并放出一种类似焦油的浓稠粘液。\r\n\r\n只有在\"混乱\"监视魔胎之境时才会活动。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedMergoo/UncommonInfestedMergooAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedMergooUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedMergooUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedMergooUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedMergooUncommon",
+      "standingReward": 0
+    },
+    "nameZh": "孢子古羽鸟",
+    "descriptionZh": "这种反复无常的鸟类可以释放出成群的感染孢子，作为其主要的防御机制。\r\n\r\n只有在\"秩序\"监视魔胎之境时才会活动。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedNexifera/BaseInfestedNexiferaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/NexiferaCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/NexiferaCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedNexiferaCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "紫晶悬匿兽",
+    "descriptionZh": "明显带有火卫二特征的怪兽，会从上方攻击它的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedNexifera/CommonInfestedNexiferaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/NexiferaCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/NexiferaCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedNexiferaCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaCommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "紫晶悬匿兽",
+    "descriptionZh": "明显带有火卫二特征的怪兽，会从上方攻击它的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedNexifera/RareInfestedNexiferaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/NexiferaRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/NexiferaRareDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedNexiferaRare.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaRare",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "猩红悬匿兽",
+    "descriptionZh": "由于其非凡的强度，这种悬匿兽在撞击地面时可以引起地震冲击。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedNexifera/UncommonInfestedNexiferaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/NexiferaUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/NexiferaUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedNexiferaUncommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedNexiferaUncommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "铬绿悬匿兽",
+    "descriptionZh": "铬绿悬匿兽会产生一团毒气，最好避开为上。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedPredator/BaseInfestedPredatorAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "woundedAnimalReward": "/Lotus/Types/Items/Conservation/WoundedAnimalRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "宰相扑猎达赛",
+    "descriptionZh": "与火卫二上大多数极具攻击性的生物不同，宰相扑猎达赛更喜欢避免正面交战，而是从远处击退敌人。作为群居生物，它会释放治愈孢子来帮助那些它认为是同伴的个体。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedPredator/CommonInfestedPredatorAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/Theme/InfestedPredatorC.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorCommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedPredatorCommonRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "宰相扑猎达赛",
+    "descriptionZh": "与火卫二上大多数极具攻击性的生物不同，宰相扑猎达赛更喜欢避免正面交战，而是从远处击退敌人。作为群居生物，它会释放治愈孢子来帮助那些它认为是同伴的个体。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedPredator/RareInfestedPredatorAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorRareDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/Theme/InfestedPredatorA.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorRare",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedPredatorRareRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "守卫扑猎达赛",
+    "descriptionZh": "一种强大且极具攻击性的亚种，可以用其带有 <DT_VIRAL_COLOR>病毒的下颚和使人丧失行动能力的孢子与成群的敌人交战。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedPredator/UncommonInfestedPredatorAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/InfestedPredatorUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Pets/Theme/InfestedPredatorB.png",
+    "health": 500,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedPredatorUncommon",
+      "woundedAnimalReward": "/Lotus/Types/Items/Deimos/WoundedInfestedPredatorUncommonRewardItem",
+      "standingReward": 0
+    },
+    "nameZh": "法老扑猎达赛",
+    "descriptionZh": "法老扑猎达赛喜欢尽可能将战斗交给主人，自己则专注于增强主人的武器，同时使敌人更容易受到攻击。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedUndazoa/BaseUndazoaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/UndazoaCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/UndazoaCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedZongroCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroCommon",
+      "standingReward": 0
+    },
+    "nameZh": "深棕水螅履虫",
+    "descriptionZh": "一种害羞且看起来有些怪异的半水生生物，只有在被激怒的情况下才会主动攻击。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedUndazoa/CommonUndazoaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/UndazoaCommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/UndazoaCommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedZongroCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroCommon",
+      "standingReward": 0
+    },
+    "nameZh": "深棕水螅履虫",
+    "descriptionZh": "一种害羞且看起来有些怪异的半水生生物，只有在被激怒的情况下才会主动攻击。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedUndazoa/RareUndazoaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/UndazoaRareName",
+    "description": "/Lotus/Language/InfestedMicroplanet/UndazoaRareDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedZongroRare.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroRare",
+      "standingReward": 0
+    },
+    "nameZh": "尖啸水螅履虫",
+    "descriptionZh": "尖啸水螅履虫很容易受到惊吓。其受惊时发出的刺耳尖啸会吸引其他更危险的动物前来一探究竟。\r\n\r\n只有在\"秩序\"监视魔胎之境时才会活动。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Deimos/InfestedUndazoa/UncommonUndazoaAvatar": {
+    "name": "/Lotus/Language/InfestedMicroplanet/UndazoaUncommonName",
+    "description": "/Lotus/Language/InfestedMicroplanet/UndazoaUncommonDesc",
+    "icon": "/Lotus/Interface/Icons/Conservation/Deimos/InfestedZongroUncommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Deimos/AnimalTagInfestedZongroUncommon",
+      "standingReward": 0
+    },
+    "nameZh": "幻雾水螅履虫",
+    "descriptionZh": "幻雾水螅履虫的命名灵感，源自其会在受到威胁时释放出有毒气体的特性。\r\n\r\n只有在\"混乱\"监视魔胎之境时才会活动。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Duviri/Rabbit/BaseDuviriRabbitAvatar": {
+    "name": "/Lotus/Language/Duviri/DuviriRodentName",
+    "description": "/Lotus/Language/Duviri/DuviriRodentDesc",
+    "icon": "",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 100
+    },
+    "nameZh": "兔纸",
+    "descriptionZh": "这种有角的兔子模样的生物比它的表情所传达的要友善很多。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Duviri/Rabbit/TeshinRabbitAvatar": {
+    "name": "/Lotus/Language/Duviri/DuviriRodentName",
+    "description": "/Lotus/Language/Duviri/DuviriRodentDesc",
+    "icon": "",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 100
+    },
+    "nameZh": "兔纸",
+    "descriptionZh": "这种有角的兔子模样的生物比它的表情所传达的要友善很多。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Duviri/Rabbit/TeshinRabbitOnHandAvatar": {
+    "name": "/Lotus/Language/Duviri/DuviriRodentName",
+    "description": "/Lotus/Language/Duviri/DuviriRodentDesc",
+    "icon": "",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 100
+    },
+    "nameZh": "兔纸",
+    "descriptionZh": "这种有角的兔子模样的生物比它的表情所传达的要友善很多。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Duviri/Wolf/DuviriWolfAvatar": {
+    "name": "/Lotus/Language/Duviri/DuviriKubrowName",
+    "description": "/Lotus/Language/Duviri/DuviriKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 1000
+    },
+    "nameZh": "库贝",
+    "descriptionZh": "库贝非常忠诚。它们会毫不犹豫地为了自己的族群而舍弃个体的安危。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/Duviri/Wolf/DuviriWolfConservationAvatar": {
+    "name": "/Lotus/Language/Duviri/DuviriKubrowName",
+    "description": "/Lotus/Language/Duviri/DuviriKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 1000
+    },
+    "nameZh": "库贝",
+    "descriptionZh": "库贝非常忠诚。它们会毫不犹豫地为了自己的族群而舍弃个体的安危。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/CommonFemaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentCommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaCommon",
+      "standingReward": 200
+    },
+    "nameZh": "平野库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/CommonForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentCommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaCommon",
+      "standingReward": 200
+    },
+    "nameZh": "平野库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/CommonMaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentCommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaCommon",
+      "standingReward": 200
+    },
+    "nameZh": "平野库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/RareFemaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentRareName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaRare",
+      "standingReward": 600
+    },
+    "nameZh": "幽灵库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/RareForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentRareName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaRare",
+      "standingReward": 600
+    },
+    "nameZh": "幽灵库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/RareMaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentRareName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaRare",
+      "standingReward": 600
+    },
+    "nameZh": "幽灵库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/TutorialForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentCommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaCommon.png",
+    "health": 9999999,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaCommon",
+      "standingReward": 200
+    },
+    "nameZh": "平野库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/UncommonFemaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentUncommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "灰白库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/UncommonForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentUncommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "灰白库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/ForestRodent/UncommonMaleForestRodentAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/ForestRodentUncommonName",
+    "description": "/Lotus/Language/Enemies/KuakaForestRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KuakaUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagKuakaUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "灰白库阿卡",
+    "descriptionZh": "一种容易受到惊吓的胆小啮齿动物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/BaseLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 1000
+    },
+    "nameZh": "库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/CommonFemaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonCommon",
+      "standingReward": 1000
+    },
+    "nameZh": "斑纹库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/CommonLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonCommon",
+      "standingReward": 1000
+    },
+    "nameZh": "斑纹库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/CommonMaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonCommon",
+      "standingReward": 1000
+    },
+    "nameZh": "斑纹库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/CommonPupLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonCommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonCommon",
+      "standingReward": 1000
+    },
+    "nameZh": "斑纹库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/RareFemaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowRareName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonRare.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonRare",
+      "standingReward": 4000
+    },
+    "nameZh": "血红库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/RareLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowRareName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonRare.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonRare",
+      "standingReward": 4000
+    },
+    "nameZh": "血红库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/RareMaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowRareName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonRare.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonRare",
+      "standingReward": 4000
+    },
+    "nameZh": "血红库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/RarePupLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowRareName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonRare.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonRare",
+      "standingReward": 4000
+    },
+    "nameZh": "血红库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/UncommonFemaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonUncommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonUncommon",
+      "standingReward": 2000
+    },
+    "nameZh": "山谷库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/UncommonLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonUncommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonUncommon",
+      "standingReward": 2000
+    },
+    "nameZh": "山谷库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/UncommonMaleLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonUncommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonUncommon",
+      "standingReward": 2000
+    },
+    "nameZh": "山谷库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/LegendaryKubrow/UncommonPupLegendaryKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/LegendaryKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/LegendaryKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/KubrodonUncommon.png",
+    "health": 1000,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagKubrodonUncommon",
+      "standingReward": 2000
+    },
+    "nameZh": "山谷库狛顿",
+    "descriptionZh": "金星平原上的顶级掠食者。这些体格巨大的野兽成群活动，并将奥罗金冷却塔周围的区域标为自己的领地。库狛顿是最好避开的危险野兽。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/BaseOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Kubrow.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 700
+    },
+    "nameZh": "炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/CommonFemaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverCommon",
+      "standingReward": 800
+    },
+    "nameZh": "哨兵炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/CommonMaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverCommon",
+      "standingReward": 800
+    },
+    "nameZh": "哨兵炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/CommonOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverCommon",
+      "standingReward": 800
+    },
+    "nameZh": "哨兵炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/CommonPupOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowCommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverCommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverCommon",
+      "standingReward": 800
+    },
+    "nameZh": "哨兵炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/RareFemaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowRareLegendaryName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverRare.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverRare",
+      "standingReward": 3200
+    },
+    "nameZh": "火纹炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/RareMaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowRareLegendaryName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverRare.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverRare",
+      "standingReward": 3200
+    },
+    "nameZh": "火纹炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/RareOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowRareLegendaryName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverRare.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverRare",
+      "standingReward": 3200
+    },
+    "nameZh": "火纹炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/RarePupOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowRareLegendaryName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverRare.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverRare",
+      "standingReward": 3200
+    },
+    "nameZh": "火纹炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/UncommonFemaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverUncommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverUncommon",
+      "standingReward": 1600
+    },
+    "nameZh": "燃烟禁卫炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/UncommonMaleOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverUncommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverUncommon",
+      "standingReward": 1600
+    },
+    "nameZh": "燃烟禁卫炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/UncommonOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverUncommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverUncommon",
+      "standingReward": 1600
+    },
+    "nameZh": "燃烟禁卫炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OrokinKubrow/UncommonPupOrokinKubrowAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/OrokinKubrowUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/OrokinKubrowDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/StoverUncommon.png",
+    "health": 200,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagStoverUncommon",
+      "standingReward": 1600
+    },
+    "nameZh": "燃烟禁卫炽托法",
+    "descriptionZh": "炽托法是一种原型库狛，随着金星解冻而复活。当炽托法成群时，它们是无情的对手。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/CommonFemaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdCommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooCommon",
+      "standingReward": 600
+    },
+    "nameZh": "沿海秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/CommonMaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdCommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooCommon",
+      "standingReward": 600
+    },
+    "nameZh": "沿海秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/CommonOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdCommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooCommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooCommon",
+      "standingReward": 600
+    },
+    "nameZh": "沿海秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/RareFemaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdRareName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooRare",
+      "standingReward": 1800
+    },
+    "nameZh": "璀璨秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/RareMaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdRareName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooRare",
+      "standingReward": 1800
+    },
+    "nameZh": "璀璨秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/RareOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdRareName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooRare.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooRare",
+      "standingReward": 1800
+    },
+    "nameZh": "璀璨秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/UncommonFemaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "林地秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/UncommonMaleOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "林地秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/OstronSeaBird/UncommonOstronSeaBirdAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/OstronSeaBirdUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/OstronSeaBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/MergooUncommon.png",
+    "health": 1,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagMergooUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "林地秋沙鸟",
+    "descriptionZh": "在沿海地区和大片水域周围发现的一种有着荒谬外表的鸟类。Mergoo 在看到海洋掠食者时会绕圈飞并发出嘎嘎声。多亏了这些奇怪的小鸟许多 Ostron 渔民保住了性命。杀一只是会被认为是凶兆。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/BaseSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 400
+    },
+    "nameZh": "波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/CommonFemaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaCommon",
+      "standingReward": 500
+    },
+    "nameZh": "斑点波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/CommonMaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaCommon",
+      "standingReward": 500
+    },
+    "nameZh": "斑点波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/CommonPupSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaCommon",
+      "standingReward": 500
+    },
+    "nameZh": "斑点波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/CommonSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaCommon",
+      "standingReward": 500
+    },
+    "nameZh": "斑点波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/RareFemaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaRare",
+      "standingReward": 1250
+    },
+    "nameZh": "尖角波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/RareMaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaRare",
+      "standingReward": 1250
+    },
+    "nameZh": "尖角波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/RarePupSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaRare",
+      "standingReward": 1250
+    },
+    "nameZh": "尖角波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/RareSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaRare",
+      "standingReward": 1250
+    },
+    "nameZh": "尖角波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/UncommonFemaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaUncommon",
+      "standingReward": 750
+    },
+    "nameZh": "黑条纹波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/UncommonMaleSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaUncommon",
+      "standingReward": 750
+    },
+    "nameZh": "黑条纹波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/UncommonPupSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaUncommon",
+      "standingReward": 750
+    },
+    "nameZh": "黑条纹波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowArmadillo/UncommonSnowArmadilloAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowArmadilloUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowArmadilloDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BolarolaUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagBolarolaUncommon",
+      "standingReward": 750
+    },
+    "nameZh": "黑条纹波雷罗拉",
+    "descriptionZh": "喜欢打雷、闪电和多坑的区域，波雷罗拉的特点就是防御。它们护甲般的外壳可以保护它们免于大多数掠食者之手，缩起来滚走让它们很善于逃跑。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/BaseSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/BirdOfPrey.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 300
+    },
+    "nameZh": "梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/CommonFemaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawCommon",
+      "standingReward": 400
+    },
+    "nameZh": "丝绵梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/CommonMaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawCommon",
+      "standingReward": 400
+    },
+    "nameZh": "丝绵梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/CommonPupSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawCommon",
+      "standingReward": 400
+    },
+    "nameZh": "丝绵梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/CommonSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawCommon",
+      "standingReward": 400
+    },
+    "nameZh": "丝绵梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/RareFemaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawRare",
+      "standingReward": 900
+    },
+    "nameZh": "蛙嘴梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/RareMaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawRare",
+      "standingReward": 900
+    },
+    "nameZh": "蛙嘴梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/RarePupSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawRare",
+      "standingReward": 900
+    },
+    "nameZh": "蛙嘴梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/RareSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawRare",
+      "standingReward": 900
+    },
+    "nameZh": "蛙嘴梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/UncommonFemaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "山地巡监梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/UncommonMaleSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "山地巡监梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/UncommonPupSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "山地巡监梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowBird/UncommonSnowBirdAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowBirdUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowBirdDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/SnowBirdUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagSawgawUncommon",
+      "standingReward": 600
+    },
+    "nameZh": "山地巡监梭歌",
+    "descriptionZh": "\"索哥\"，索拉里斯人是这么称呼它的，这种有着深红色面容的猛禽在悬崖和菌类森林边徘徊追踪，搜索啮齿目猎物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/BaseSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 200
+    },
+    "nameZh": "弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/CommonFemaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkCommon",
+      "standingReward": 300
+    },
+    "nameZh": "白胸弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/CommonMaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkCommon",
+      "standingReward": 300
+    },
+    "nameZh": "白胸弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/CommonPupSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkCommon",
+      "standingReward": 300
+    },
+    "nameZh": "白胸弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/CommonSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkCommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkCommon",
+      "standingReward": 300
+    },
+    "nameZh": "白胸弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/RareFemaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkRare",
+      "standingReward": 500
+    },
+    "nameZh": "红冠弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/RareMaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkRare",
+      "standingReward": 500
+    },
+    "nameZh": "红冠弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/RarePupSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkRare",
+      "standingReward": 500
+    },
+    "nameZh": "红冠弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/RareSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkRare.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkRare",
+      "standingReward": 500
+    },
+    "nameZh": "红冠弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/UncommonFemaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkUncommon",
+      "standingReward": 400
+    },
+    "nameZh": "灰首弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/UncommonMaleSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkUncommon",
+      "standingReward": 400
+    },
+    "nameZh": "灰首弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/UncommonPupSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkUncommon",
+      "standingReward": 400
+    },
+    "nameZh": "灰首弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowCritter/UncommonSnowCritterAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowCritterUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowCritterDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VirminkUncommon.png",
+    "health": 6,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagVirminkUncommon",
+      "standingReward": 400
+    },
+    "nameZh": "灰首弗鸣克",
+    "descriptionZh": "手感光滑，金星弗鸣克的可爱外观掩盖了它的攻击性。喜欢岩石地形，成群的弗鸣克嗅着空气，寻找泡博的气味——那是它们的主要食物来源。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/BaseSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Kubrow.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 700
+    },
+    "nameZh": "惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/CommonFemaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueCommon",
+      "standingReward": 600
+    },
+    "nameZh": "斑纹惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/CommonMaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueCommon",
+      "standingReward": 600
+    },
+    "nameZh": "斑纹惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/CommonPupSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueCommon",
+      "standingReward": 600
+    },
+    "nameZh": "斑纹惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/CommonSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueCommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueCommon",
+      "standingReward": 600
+    },
+    "nameZh": "斑纹惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/RareFemaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueRare.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueRare",
+      "standingReward": 1800
+    },
+    "nameZh": "暴猛惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/RareMaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueRare.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueRare",
+      "standingReward": 1800
+    },
+    "nameZh": "暴猛惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/RarePupSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueRare.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueRare",
+      "standingReward": 1800
+    },
+    "nameZh": "暴猛惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/RareSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueRare.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueRare",
+      "standingReward": 1800
+    },
+    "nameZh": "暴猛惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/UncommonFemaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueUncommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "游水惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/UncommonMaleSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueUncommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "游水惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/UncommonPupSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueUncommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "游水惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowPredator/UncommonSnowPredatorAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowPredatorUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowPredatorDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/HorrasqueUncommon.png",
+    "health": 22,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagHorrasqueUncommon",
+      "standingReward": 1200
+    },
+    "nameZh": "游水惑瓦斯克",
+    "descriptionZh": "在水体附近可以找到，惑瓦斯克主要靠鱼类维生。这种可怕的生物看起来非常恐怖，但除非被激怒就不会攻击。当它吼叫时，连最坚定的兽夹师都会抖三抖。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/BaseSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberCommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 100
+    },
+    "nameZh": "泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/CommonFemaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberCommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersCommon",
+      "standingReward": 200
+    },
+    "nameZh": "阳光泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/CommonMaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberCommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersCommon",
+      "standingReward": 200
+    },
+    "nameZh": "阳光泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/CommonSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentCommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberCommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersCommon",
+      "standingReward": 200
+    },
+    "nameZh": "阳光泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/RareFemaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberRare.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersRare",
+      "standingReward": 400
+    },
+    "nameZh": "地下泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/RareMaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberRare.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersRare",
+      "standingReward": 400
+    },
+    "nameZh": "地下泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/RareSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentRareName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberRare.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersRare",
+      "standingReward": 400
+    },
+    "nameZh": "地下泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/UncommonFemaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberUncommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "精巧泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/UncommonMaleSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberUncommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "精巧泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/SnowRodent/UncommonSnowRodentAvatar": {
+    "name": "/Lotus/Language/SolarisVenus/SnowRodentUncommonName",
+    "description": "/Lotus/Language/SolarisVenus/SnowRodentDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/PobberUncommon.png",
+    "health": 2,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Solaris/AnimalTagPobbersUncommon",
+      "standingReward": 300
+    },
+    "nameZh": "精巧泡博",
+    "descriptionZh": "金星菌类森林的居民，泡博是有着讨厌气味的胆小啮齿类。总是成群行动，一旦发现一点点问题就四散逃窜。它们是弗鸣克和梭歌的主要食物。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/BaseVampireKavatAvatar": {
+    "name": "/Lotus/Language/Pets/VampireKavatNameShort",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavat.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Conservation/ConservationTagItem",
+      "standingReward": 250
+    },
+    "nameZh": "噬血型",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/CommonVampireKavatAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatCommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatCommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatCommon",
+      "standingReward": 250
+    },
+    "nameZh": "奥斯蒂亚噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/CommonVampireKavatCubAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatCommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatCommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatCommon",
+      "standingReward": 250
+    },
+    "nameZh": "奥斯蒂亚噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/CommonVampireKavatFemaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatCommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatCommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatCommon",
+      "standingReward": 250
+    },
+    "nameZh": "奥斯蒂亚噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/CommonVampireKavatMaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatCommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatCommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatCommon",
+      "standingReward": 250
+    },
+    "nameZh": "奥斯蒂亚噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/RareVampireKavatAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatRareName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatRare.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatRare",
+      "standingReward": 750
+    },
+    "nameZh": "拿非尔噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/RareVampireKavatCubAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatRareName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatRare.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatRare",
+      "standingReward": 750
+    },
+    "nameZh": "拿非尔噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/RareVampireKavatFemaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatRareName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatRare.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatRare",
+      "standingReward": 750
+    },
+    "nameZh": "拿非尔噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/RareVampireKavatMaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatRareName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatRare.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatRare",
+      "standingReward": 750
+    },
+    "nameZh": "拿非尔噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/UncommonVampireKavatAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatUncommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatUncommon",
+      "standingReward": 500
+    },
+    "nameZh": "博奥噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/UncommonVampireKavatCubAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatUncommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatUncommon",
+      "standingReward": 500
+    },
+    "nameZh": "博奥噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/UncommonVampireKavatFemaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatUncommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatUncommon",
+      "standingReward": 500
+    },
+    "nameZh": "博奥噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  },
+  "/Lotus/Types/NeutralCreatures/Conservation/VampireKavat/UncommonVampireKavatMaleAvatar": {
+    "name": "/Lotus/Language/EidolonPlains/VampireKavatUncommonName",
+    "description": "/Lotus/Language/EidolonPlains/VampireKavatDesc",
+    "icon": "/Lotus/Interface/Icons/Npcs/Neutral/VampireKavatUncommon.png",
+    "health": 300,
+    "killXPReward": 0,
+    "conservation": {
+      "itemReward": "/Lotus/Types/Items/Eidolon/AnimalTagVampireKavatUncommon",
+      "standingReward": 500
+    },
+    "nameZh": "博奥噬血型库娃",
+    "descriptionZh": "噬血病毒菌株是一种通过感染的库娃的唾液，来传播的共生血源性病毒。其存在的目的仅仅是为了通过使宿主越来越依赖于血液的摄入，从而让自身在族群中传播的速度越来越快。随着时间的流逝，受噬血型病毒感染的库娃将会失去自我意识，变得越来越狡猾、暴力和贪婪。"
+  }
+}

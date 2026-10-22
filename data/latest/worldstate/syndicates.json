@@ -1,0 +1,202 @@
+{
+  "ArbitersSyndicate": {
+    "name": "Arbiters of Hexis",
+    "nameZh": "均衡仲裁者",
+    "uniqueName": "/Lotus/Syndicates/ArbitersSyndicate"
+  },
+  "CephalonSudaSyndicate": {
+    "name": "Cephalon Suda",
+    "nameZh": "中枢苏达",
+    "uniqueName": "/Lotus/Syndicates/CephalonSudaSyndicate"
+  },
+  "ConclaveSyndicate": {
+    "name": "Conclave",
+    "nameZh": "武形秘仪",
+    "uniqueName": "/Lotus/Syndicates/ConclaveSyndicate"
+  },
+  "EntratiSyndicate": {
+    "name": "Entrati",
+    "nameZh": "英择谛",
+    "uniqueName": "/Lotus/Syndicates/Deimos/EntratiSyndicate"
+  },
+  "NecraloidSyndicate": {
+    "name": "Necraloid",
+    "nameZh": "殁世械灵",
+    "uniqueName": "/Lotus/Syndicates/Deimos/NecraloidSyndicate"
+  },
+  "EntratiLabSyndicate": {
+    "name": "Cavia",
+    "nameZh": "科维兽",
+    "uniqueName": "/Lotus/Syndicates/EntratiLab/EntratiLabSyndicate"
+  },
+  "EventSyndicate": {
+    "name": "Operational Supply",
+    "nameZh": "行动补给",
+    "uniqueName": "/Lotus/Syndicates/EventSyndicate"
+  },
+  "HexSyndicate": {
+    "name": "The Hex",
+    "nameZh": "六人组",
+    "uniqueName": "/Lotus/Syndicates/Hex/HexSyndicate"
+  },
+  "KahlSyndicate": {
+    "name": "Garrison",
+    "nameZh": "驻军",
+    "uniqueName": "/Lotus/Syndicates/Kahl/KahlSyndicate"
+  },
+  "LibrarySyndicate": {
+    "name": "Cephalon Simaris",
+    "nameZh": "中枢 Simaris",
+    "uniqueName": "/Lotus/Syndicates/LibrarySyndicate"
+  },
+  "NewLokaSyndicate": {
+    "name": "New Loka",
+    "nameZh": "新世间",
+    "uniqueName": "/Lotus/Syndicates/NewLokaSyndicate"
+  },
+  "NightcapJournalSyndicate": {
+    "name": "Nightcap",
+    "nameZh": "夜帽",
+    "uniqueName": "/Lotus/Syndicates/Nightcap/NightcapJournalSyndicate"
+  },
+  "CetusSyndicate": {
+    "name": "Ostron",
+    "nameZh": "Ostron",
+    "uniqueName": "/Lotus/Syndicates/Ostron/CetusSyndicate"
+  },
+  "QuillsSyndicate": {
+    "name": "The Quills",
+    "nameZh": "夜羽",
+    "uniqueName": "/Lotus/Syndicates/Ostron/QuillsSyndicate"
+  },
+  "PerrinSyndicate": {
+    "name": "The Perrin Sequence",
+    "nameZh": "佩兰数列",
+    "uniqueName": "/Lotus/Syndicates/PerrinSyndicate"
+  },
+  "RadioLegion2Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegion2Syndicate"
+  },
+  "RadioLegion3Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegion3Syndicate"
+  },
+  "RadioLegionIntermission10Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission10Syndicate"
+  },
+  "RadioLegionIntermission11Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission11Syndicate"
+  },
+  "RadioLegionIntermission12Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission12Syndicate"
+  },
+  "RadioLegionIntermission13Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission13Syndicate"
+  },
+  "RadioLegionIntermission14Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission14Syndicate"
+  },
+  "RadioLegionIntermission15Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission15Syndicate"
+  },
+  "RadioLegionIntermission16Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission16Syndicate"
+  },
+  "RadioLegionIntermission2Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission2Syndicate"
+  },
+  "RadioLegionIntermission3Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission3Syndicate"
+  },
+  "RadioLegionIntermission4Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission4Syndicate"
+  },
+  "RadioLegionIntermission5Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission5Syndicate"
+  },
+  "RadioLegionIntermission6Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission6Syndicate"
+  },
+  "RadioLegionIntermission7Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission7Syndicate"
+  },
+  "RadioLegionIntermission8Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission8Syndicate"
+  },
+  "RadioLegionIntermission9Syndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermission9Syndicate"
+  },
+  "RadioLegionIntermissionSyndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionIntermissionSyndicate"
+  },
+  "RadioLegionSyndicate": {
+    "name": "Nightwave",
+    "nameZh": "午夜电波",
+    "uniqueName": "/Lotus/Syndicates/RadioLegionSyndicate"
+  },
+  "RedVeilSyndicate": {
+    "name": "Red Veil",
+    "nameZh": "血色面纱",
+    "uniqueName": "/Lotus/Syndicates/RedVeilSyndicate"
+  },
+  "SolarisSyndicate": {
+    "name": "Solaris United",
+    "nameZh": "索拉里斯联盟",
+    "uniqueName": "/Lotus/Syndicates/Solaris/SolarisSyndicate"
+  },
+  "VentKidsSyndicate": {
+    "name": "Ventkids",
+    "nameZh": "通风小子",
+    "uniqueName": "/Lotus/Syndicates/Solaris/VentKidsSyndicate"
+  },
+  "VoxSyndicate": {
+    "name": "Vox Solaris",
+    "nameZh": "索拉里斯之声",
+    "uniqueName": "/Lotus/Syndicates/Solaris/VoxSyndicate"
+  },
+  "SteelMeridianSyndicate": {
+    "name": "Steel Meridian",
+    "nameZh": "钢铁防线",
+    "uniqueName": "/Lotus/Syndicates/SteelMeridianSyndicate"
+  },
+  "ZarimanSyndicate": {
+    "name": "The Holdfasts",
+    "nameZh": "坚守者",
+    "uniqueName": "/Lotus/Syndicates/Zariman/ZarimanSyndicate"
+  }
+}

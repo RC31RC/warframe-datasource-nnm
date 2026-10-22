@@ -1,0 +1,3558 @@
+[
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/YinYang#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/YinYang",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangSwitchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/YinYang#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/YinYang",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangTargetAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/YinYang#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/YinYang",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangAuraAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/YinYang#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/YinYang",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangBurstAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/EquinoxPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangSwitchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/EquinoxPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangTargetAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/EquinoxPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangAuraAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/YinYang/EquinoxPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/YinYang/EquinoxPrime",
+    "abilityBkey": "/Lotus/Powersuits/YinYang/Abilities/YinYangBurstAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/YareliPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/YareliPrime",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliBubbleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/YareliPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/YareliPrime",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliBoardAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/YareliPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/YareliPrime",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliDisksAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/YareliPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/YareliPrime",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliSpoutAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/Yareli#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/Yareli",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliBubbleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/Yareli#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/Yareli",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliBoardAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/Yareli#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/Yareli",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliDisksAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Yareli/Yareli#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Yareli/Yareli",
+    "abilityBkey": "/Lotus/Powersuits/Yareli/Abilities/YareliSpoutAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/Wraith#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/Wraith",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithReapAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/Wraith#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/Wraith",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/Wraith#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/Wraith",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithGloomAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/Wraith#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/Wraith",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/SevagothPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithReapAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/SevagothPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithSowAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/SevagothPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithGloomAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wraith/SevagothPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wraith/SevagothPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wraith/Abilities/WraithReaperAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/WispPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/WispPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispReservoirAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/WispPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/WispPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/WispPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/WispPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispHarnessAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/WispPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/WispPrime",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/Wisp#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/Wisp",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispReservoirAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/Wisp#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/Wisp",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispLightAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/Wisp#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/Wisp",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispHarnessAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Wisp/Wisp#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Wisp/Wisp",
+    "abilityBkey": "/Lotus/Powersuits/Wisp/Abilities/WispSunAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/Werewolf#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfShroudAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/Werewolf#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfBiteAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/Werewolf#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfLeapAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/Werewolf#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/Werewolf",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/VorunaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/VorunaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfShroudAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/VorunaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/VorunaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfBiteAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/VorunaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/VorunaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfLeapAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Werewolf/VorunaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Werewolf/VorunaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Werewolf/Abilities/WerewolfHowlAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/VoltPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/VoltPrime",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/VoltPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/VoltPrime",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/SpeedAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/VoltPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/VoltPrime",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/ShieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/VoltPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/VoltPrime",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/OverLoadAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/Volt#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/Volt",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/ShockAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/Volt#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/Volt",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/SpeedAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/Volt#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/Volt",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/ShieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Volt/Volt#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Volt/Volt",
+    "abilityBkey": "/Lotus/Powersuits/Volt/Abilities/OverLoadAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/TrinityPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/WellOfLifeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/TrinityPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/EnergyVampireAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/TrinityPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/LinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/TrinityPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/TrinityPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/BlessingAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/Trinity#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/Trinity",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/WellOfLifeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/Trinity#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/Trinity",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/EnergyVampireAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/Trinity#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/Trinity",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/LinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trinity/Trinity#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trinity/Trinity",
+    "abilityBkey": "/Lotus/Powersuits/Trinity/Abilities/BlessingAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/TrapperPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/TrapperPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/TrapperMultinadeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/TrapperPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/TrapperStrikeAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/TrapperPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/TrapperPrime",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/LevTrapAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/Trapper#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/Trapper",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/ZapTrapAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/Trapper#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/Trapper",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/TrapperMultinadeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/Trapper#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/Trapper",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/TrapperStrikeAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Trapper/Trapper#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Trapper/Trapper",
+    "abilityBkey": "/Lotus/Powersuits/Trapper/Abilities/LevTrapAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/ZephyrPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TailWindAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/ZephyrPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TenguBurstAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/ZephyrPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TurbulenceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/ZephyrPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/ZephyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TornadoAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/Tengu#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/Tengu",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TailWindAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/Tengu#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/Tengu",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TenguBurstAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/Tengu#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/Tengu",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TurbulenceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Tengu/Tengu#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Tengu/Tengu",
+    "abilityBkey": "/Lotus/Powersuits/Tengu/Abilities/TornadoAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Temple/Temple#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Temple/Temple",
+    "abilityBkey": "/Lotus/Powersuits/Temple/Abilities/TempleShredAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Temple/Temple#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Temple/Temple",
+    "abilityBkey": "/Lotus/Powersuits/Temple/Abilities/TempleSpeakersAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Temple/Temple#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Temple/Temple",
+    "abilityBkey": "/Lotus/Powersuits/Temple/Abilities/TempleSoloAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Temple/Temple#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Temple/Temple",
+    "abilityBkey": "/Lotus/Powersuits/Temple/Abilities/TempleGuitarAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusScytheAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusBuffAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusFieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/SiriusSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/Sentient#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/Sentient",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientWhirlwindAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/Sentient#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/Sentient",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientStompAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/Sentient#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/Sentient",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientSummonAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/Sentient#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/Sentient",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientBlastAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/CalibanPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/CalibanPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientWhirlwindAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/CalibanPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/CalibanPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientStompAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/CalibanPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/CalibanPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientSummonAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sentient/CalibanPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sentient/CalibanPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sentient/Abilities/SentientBlastAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/SarynPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/PoisonAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/SarynPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/ShedAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/SarynPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/WeaponPoisonAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/SarynPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/SarynPrime",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/ExplosiveDissolveAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/Saryn#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/Saryn",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/PoisonAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/Saryn#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/Saryn",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/ShedAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/Saryn#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/Saryn",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/WeaponPoisonAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Saryn/Saryn#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Saryn/Saryn",
+    "abilityBkey": "/Lotus/Powersuits/Saryn/Abilities/ExplosiveDissolveAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/Sandman#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/Sandman",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanBlastAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/Sandman#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/Sandman",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanStormAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/Sandman#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/Sandman",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanArmorAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/Sandman#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/Sandman",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanSwarmAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/InarosPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanBlastAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/InarosPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanStormAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/InarosPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanArmorAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Sandman/InarosPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Sandman/InarosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Sandman/Abilities/SandmanSwarmAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/Runner#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/Runner",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerRushAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/Runner#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/Runner",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerPlatingAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/Runner#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/Runner",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerTransferAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/Runner#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/Runner",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerRedlineAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/GaussPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/GaussPrime",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerRushAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/GaussPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/GaussPrime",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerPlatingAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/GaussPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/GaussPrime",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerTransferAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Runner/GaussPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Runner/GaussPrime",
+    "abilityBkey": "/Lotus/Powersuits/Runner/Abilities/RunnerRedlineAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/RhinoPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoChargeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/RhinoPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/IronSkinAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/RhinoPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/RhinoPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/RhinoPrime",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoStompAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/Rhino#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/Rhino",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoChargeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/Rhino#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/Rhino",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/IronSkinAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/Rhino#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/Rhino",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoRoarAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Rhino/Rhino#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Rhino/Rhino",
+    "abilityBkey": "/Lotus/Powersuits/Rhino/Abilities/RhinoStompAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/RevenantPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantMarkAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/RevenantPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantSentientAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/RevenantPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantAfflictionAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/RevenantPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/RevenantPrime",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantRebornAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/Revenant#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/Revenant",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantMarkAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/Revenant#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/Revenant",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantSentientAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/Revenant#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/Revenant",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantAfflictionAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Revenant/Revenant#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Revenant/Revenant",
+    "abilityBkey": "/Lotus/Powersuits/Revenant/Abilities/RevenantRebornAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/Ranger#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/Ranger",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerQuiverAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/Ranger#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/Ranger",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/Ranger#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/Ranger",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerStealAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/Ranger#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/Ranger",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerBowAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/IvaraPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerQuiverAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/IvaraPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerControlAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/IvaraPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerStealAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ranger/IvaraPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ranger/IvaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ranger/Abilities/RangerBowAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/Priest#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/Priest",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestCondemnAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/Priest#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/Priest",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestPenanceAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/Priest#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/Priest",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/Priest#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/Priest",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/HarrowPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestCondemnAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/HarrowPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestPenanceAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/HarrowPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestRavageAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Priest/HarrowPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Priest/HarrowPrime",
+    "abilityBkey": "/Lotus/Powersuits/Priest/Abilities/PriestPactAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/Pirate#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/Pirate",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/Pirate#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/Pirate",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/TidalWaveAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/Pirate#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/Pirate",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/PirateArmourAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/Pirate#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/Pirate",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/KrakenAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/HydroidPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/CannonBarrageAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/HydroidPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/TidalWaveAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/HydroidPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/PirateArmourAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pirate/HydroidPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pirate/HydroidPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pirate/Abilities/KrakenAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "abilityBkey": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxTeleportAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "abilityBkey": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxBladesAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "abilityBkey": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxLinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/PaxDuviricus/PaxDuviricus",
+    "abilityBkey": "/Lotus/Powersuits/PaxDuviricus/Abilities/PaxFieldAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/PaladinPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/SmiteAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/PaladinPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/StairwayToHeavenAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/PaladinPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/RegenerationAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/PaladinPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/PaladinPrime",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/ReckoningAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/Paladin#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/Paladin",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/SmiteAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/Paladin#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/Paladin",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/StairwayToHeavenAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/Paladin#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/Paladin",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/RegenerationAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Paladin/Paladin#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Paladin/Paladin",
+    "abilityBkey": "/Lotus/Powersuits/Paladin/Abilities/ReckoningAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pagemaster/Pagemaster#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "abilityBkey": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterBookAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pagemaster/Pagemaster#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "abilityBkey": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterLifeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pagemaster/Pagemaster#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "abilityBkey": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterDeathAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pagemaster/Pagemaster#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pagemaster/Pagemaster",
+    "abilityBkey": "/Lotus/Powersuits/Pagemaster/Abilities/PagemasterFinalChapterAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/Pacifist#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDodgeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/Pacifist#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistWaveAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/Pacifist#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDisarmAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/Pacifist#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/Pacifist",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistFistAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/BaruukPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDodgeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/BaruukPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistWaveAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/BaruukPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistDisarmAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Pacifist/BaruukPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Pacifist/BaruukPrime",
+    "abilityBkey": "/Lotus/Powersuits/Pacifist/Abilities/PacifistFistAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Oraxia/Oraxia#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Oraxia/Oraxia",
+    "abilityBkey": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaLungeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Oraxia/Oraxia#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Oraxia/Oraxia",
+    "abilityBkey": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaEntangleAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Oraxia/Oraxia#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Oraxia/Oraxia",
+    "abilityBkey": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaSpidersAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Oraxia/Oraxia#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Oraxia/Oraxia",
+    "abilityBkey": "/Lotus/Powersuits/Oraxia/Abilities/OraxiaClimbAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/ProteaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskFanAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/ProteaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskBFGAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/ProteaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskDispensaryAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/ProteaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/ProteaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskAnchorAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/Odalisk#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskFanAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/Odalisk#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskBFGAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/Odalisk#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskDispensaryAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Odalisk/Odalisk#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Odalisk/Odalisk",
+    "abilityBkey": "/Lotus/Powersuits/Odalisk/Abilities/OdaliskAnchorAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nokko/Nokko#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nokko/Nokko",
+    "abilityBkey": "/Lotus/Powersuits/Nokko/Abilities/NokkoToxicShroomAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nokko/Nokko#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nokko/Nokko",
+    "abilityBkey": "/Lotus/Powersuits/Nokko/Abilities/NokkoPowerShroomAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nokko/Nokko#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nokko/Nokko",
+    "abilityBkey": "/Lotus/Powersuits/Nokko/Abilities/NokkoShrinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nokko/Nokko#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nokko/Nokko",
+    "abilityBkey": "/Lotus/Powersuits/Nokko/Abilities/NokkoLaunchAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/Ninja#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/Ninja",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/GlaiveAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/Ninja#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/Ninja",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/SmokeScreenAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/Ninja#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/Ninja",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/TeleportToAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/Ninja#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/Ninja",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/NinjaStormAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/AshPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/AshPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/GlaiveAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/AshPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/AshPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/SmokeScreenAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/AshPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/AshPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/TeleportToAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ninja/AshPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ninja/AshPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ninja/Abilities/NinjaStormAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/NezhaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaTrailAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/NezhaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaRingAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/NezhaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaSashAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/NezhaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/NezhaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaSpearAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/Nezha#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/Nezha",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaTrailAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/Nezha#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/Nezha",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaRingAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/Nezha#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/Nezha",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaSashAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Nezha/Nezha#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Nezha/Nezha",
+    "abilityBkey": "/Lotus/Powersuits/Nezha/Abilities/NezhaSpearAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/NekrosPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/SoulPunchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/NekrosPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/TerrorTotemAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/NekrosPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/SearchTheDeadAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/NekrosPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/NekrosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/CloneTheDeadAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/Necro#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/Necro",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/SoulPunchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/Necro#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/Necro",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/TerrorTotemAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/Necro#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/Necro",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/SearchTheDeadAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Necro/Necro#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Necro/Necro",
+    "abilityBkey": "/Lotus/Powersuits/Necro/Abilities/CloneTheDeadAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/WukongPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyHairAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/WukongPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyCloudAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/WukongPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyDeathNewAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/WukongPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/WukongPrime",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyStaffAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyHairAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyCloudAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyDeathNewAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/MonkeyKing/MonkeyKing",
+    "abilityBkey": "/Lotus/Powersuits/MonkeyKing/Abilities/MonkeyStaffAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/Magician#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/Magician",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/Magician#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/Magician",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/Magician#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/Magician",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/VolatileAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/Magician#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/Magician",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/TearInSpaceAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/LimboPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/LimboPrime",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/BanishAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/LimboPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/LimboPrime",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/MagicianStasisAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/LimboPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/LimboPrime",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/VolatileAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Magician/LimboPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Magician/LimboPrime",
+    "abilityBkey": "/Lotus/Powersuits/Magician/Abilities/TearInSpaceAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/MagPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/MagPrime",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/PullAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/MagPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/MagPrime",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/BulletAttractorAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/MagPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/MagPrime",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/ShieldRegenAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/MagPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/MagPrime",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/CrushAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/Mag#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/Mag",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/PullAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/Mag#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/Mag",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/BulletAttractorAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/Mag#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/Mag",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/ShieldRegenAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Mag/Mag#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Mag/Mag",
+    "abilityBkey": "/Lotus/Powersuits/Mag/Abilities/CrushAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/LokiPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/LokiPrime",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/LokiPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/LokiPrime",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/LokiPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/LokiPrime",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/SwitchTeleportAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/LokiPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/LokiPrime",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/RadialDisarmAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/Loki#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/Loki",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/DecoyAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/Loki#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/Loki",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/InvisibilityAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/Loki#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/Loki",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/SwitchTeleportAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Loki/Loki#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Loki/Loki",
+    "abilityBkey": "/Lotus/Powersuits/Loki/Abilities/RadialDisarmAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Koumei/Koumei#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Koumei/Koumei",
+    "abilityBkey": "/Lotus/Powersuits/Koumei/Abilities/KoumeiStringsAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Koumei/Koumei#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Koumei/Koumei",
+    "abilityBkey": "/Lotus/Powersuits/Koumei/Abilities/KoumeiFortuneAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Koumei/Koumei#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Koumei/Koumei",
+    "abilityBkey": "/Lotus/Powersuits/Koumei/Abilities/KoumeiBlockAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Koumei/Koumei#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Koumei/Koumei",
+    "abilityBkey": "/Lotus/Powersuits/Koumei/Abilities/KoumeiPuppetAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/KhoraPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/KhoraPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraTwirlAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/KhoraPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/KhoraPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/KhoraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraCageAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/Khora#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/Khora",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraCrackAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/Khora#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/Khora",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraTwirlAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/Khora#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/Khora",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraKavatAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Khora/Khora#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Khora/Khora",
+    "abilityBkey": "/Lotus/Powersuits/Khora/Abilities/KhoraCageAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/NyxPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/NyxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/NyxPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/NyxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/DaggerAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/NyxPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/NyxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/ChaosAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/NyxPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/NyxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/SelfBulletAttractorAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/Jade#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/Jade",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/MindControlAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/Jade#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/Jade",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/DaggerAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/Jade#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/Jade",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/ChaosAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Jade/Jade#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Jade/Jade",
+    "abilityBkey": "/Lotus/Powersuits/Jade/Abilities/SelfBulletAttractorAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFramePrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameBlastAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFramePrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameStripAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFramePrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameAuraAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFramePrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFramePrime",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameEruptionAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFrame#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameBlastAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFrame#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameStripAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFrame#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameAuraAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/IronFrame/IronFrame#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/IronFrame/IronFrame",
+    "abilityBkey": "/Lotus/Powersuits/IronFrame/Abilities/IronFrameEruptionAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Inkblot/Inkblot#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Inkblot/Inkblot",
+    "abilityBkey": "/Lotus/Powersuits/Inkblot/Abilities/InkFieldAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Inkblot/Inkblot#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Inkblot/Inkblot",
+    "abilityBkey": "/Lotus/Powersuits/Inkblot/Abilities/InkSketchAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Inkblot/Inkblot#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Inkblot/Inkblot",
+    "abilityBkey": "/Lotus/Powersuits/Inkblot/Abilities/InkCloneAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Inkblot/Inkblot#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Inkblot/Inkblot",
+    "abilityBkey": "/Lotus/Powersuits/Inkblot/Abilities/InkBalloonAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/InfestationPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/InfestationPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/InfestationPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/InfestationPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/InfestationPrime",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/Infestation#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/Infestation",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestRuptureAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/Infestation#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/Infestation",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestTendrilsAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/Infestation#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/Infestation",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestLinkAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Infestation/Infestation#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Infestation/Infestation",
+    "abilityBkey": "/Lotus/Powersuits/Infestation/Abilities/InfestPodsAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/StyanaxPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/StyanaxPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/StyanaxPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/StyanaxPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/StyanaxPrime",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/Hoplite#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteImpaleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/Hoplite#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteBashAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/Hoplite#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteRallyAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Hoplite/Hoplite#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Hoplite/Hoplite",
+    "abilityBkey": "/Lotus/Powersuits/Hoplite/Abilities/HopliteArmyAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/MiragePrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/IllusionAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/MiragePrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/HarlequinObjectChangeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/MiragePrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/LightAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/MiragePrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/MiragePrime",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/Prism",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/Harlequin#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/IllusionAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/Harlequin#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/HarlequinObjectChangeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/Harlequin#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/LightAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Harlequin/Harlequin#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Harlequin/Harlequin",
+    "abilityBkey": "/Lotus/Powersuits/Harlequin/Abilities/Prism",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/GyrePrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/GyrePrime",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyrePulseAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/GyrePrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/GyrePrime",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreSphereAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/GyrePrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/GyrePrime",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreEnergizedAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/GyrePrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/GyrePrime",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreOverchargedAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/Gyre#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/Gyre",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyrePulseAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/Gyre#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/Gyre",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreSphereAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/Gyre#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/Gyre",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreEnergizedAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Gyre/Gyre#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Gyre/Gyre",
+    "abilityBkey": "/Lotus/Powersuits/Gyre/Abilities/GyreOverchargedAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/Glass#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/Glass",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassShankAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/Glass#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/Glass",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassShatterAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/Glass#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/Glass",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/Glass#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/Glass",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassRingAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/GaraPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/GaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassShankAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/GaraPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/GaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassShatterAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/GaraPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/GaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassFragmentAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Glass/GaraPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Glass/GaraPrime",
+    "abilityBkey": "/Lotus/Powersuits/Glass/Abilities/GlassRingAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/Geode#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/Geode",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/Geode#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/Geode",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/Geode#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/Geode",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/Geode#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/Geode",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/CitrinePrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/CitrinePrime",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeShardsAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/CitrinePrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/CitrinePrime",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeShellAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/CitrinePrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/CitrinePrime",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeCrystalAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Geode/CitrinePrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Geode/CitrinePrime",
+    "abilityBkey": "/Lotus/Powersuits/Geode/Abilities/GeodeGrowthsAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/GarudaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaShieldAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/GarudaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaSiphonAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/GarudaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaBloodAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/GarudaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/GarudaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaUnstoppableAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/Garuda#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/Garuda",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaShieldAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/Garuda#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/Garuda",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaSiphonAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/Garuda#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/Garuda",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaBloodAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Garuda/Garuda#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Garuda/Garuda",
+    "abilityBkey": "/Lotus/Powersuits/Garuda/Abilities/GarudaUnstoppableAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frumentarius/Frumentarius#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "abilityBkey": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusScanAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frumentarius/Frumentarius#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "abilityBkey": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusAmmoAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frumentarius/Frumentarius#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "abilityBkey": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusCloakAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frumentarius/Frumentarius#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frumentarius/Frumentarius",
+    "abilityBkey": "/Lotus/Powersuits/Frumentarius/Abilities/FrumentariusSniperAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/FrostPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/FrostPrime",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IcicleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/FrostPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/FrostPrime",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IceSpikeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/FrostPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/FrostPrime",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/FrostPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/FrostPrime",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/AvalancheAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/Frost#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/Frost",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IcicleAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/Frost#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/Frost",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IceSpikeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/Frost#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/Frost",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/IceShieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Frost/Frost#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Frost/Frost",
+    "abilityBkey": "/Lotus/Powersuits/Frost/Abilities/AvalancheAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/TitaniaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyDustAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/TitaniaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairySoulAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/TitaniaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyLightAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/TitaniaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/TitaniaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyFlightAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/Fairy#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/Fairy",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyDustAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/Fairy#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/Fairy",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairySoulAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/Fairy#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/Fairy",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyLightAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Fairy/Fairy#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Fairy/Fairy",
+    "abilityBkey": "/Lotus/Powersuits/Fairy/Abilities/FairyFlightAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/UmbraSlashDashNewAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/UmbraRadialRoarAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/UmbraRadialJavelinAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburUmbra",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/UmbraSwordOfDoomAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/SlashDashNewAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/RadialBlindAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/RadialJavelinAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/ExcaliburPrime",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoomAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/Excalibur#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/SlashDashNewAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/Excalibur#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/RadialBlindAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/Excalibur#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/RadialJavelinAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Excalibur/Excalibur#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Excalibur/Excalibur",
+    "abilityBkey": "/Lotus/Powersuits/Excalibur/Abilities/SwordOfDoomAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/EmberPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/EmberPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/FireBallAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/EmberPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/EmberPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/EmberImmolationAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/EmberPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/EmberPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/FireBlastAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/EmberPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/EmberPrime",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/EmberInfernoAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/Ember#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/Ember",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/FireBallAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/Ember#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/Ember",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/EmberImmolationAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/Ember#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/Ember",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/FireBlastAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Ember/Ember#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Ember/Ember",
+    "abilityBkey": "/Lotus/Powersuits/Ember/Abilities/EmberInfernoAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Duelist/Duelist#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Duelist/Duelist",
+    "abilityBkey": "/Lotus/Powersuits/Duelist/Abilities/DuelistThrustAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Duelist/Duelist#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Duelist/Duelist",
+    "abilityBkey": "/Lotus/Powersuits/Duelist/Abilities/DuelistRiposteAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Duelist/Duelist#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Duelist/Duelist",
+    "abilityBkey": "/Lotus/Powersuits/Duelist/Abilities/DuelistLeapAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Duelist/Duelist#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Duelist/Duelist",
+    "abilityBkey": "/Lotus/Powersuits/Duelist/Abilities/DuelistBladeDanceAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/Dragon#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/Dragon",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonBreathAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/Dragon#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/Dragon",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonLuckAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/Dragon#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/Dragon",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonScalesAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/Dragon#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/Dragon",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonPeltAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/ChromaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonBreathAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/ChromaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonLuckAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/ChromaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonScalesAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dragon/ChromaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dragon/ChromaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Dragon/Abilities/DragonPeltAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/GrendelPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerDevourAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/GrendelPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerConsumeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/GrendelPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerBowlAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/GrendelPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/GrendelPrime",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerRegurgitateAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/Devourer#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/Devourer",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerDevourAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/Devourer#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/Devourer",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerConsumeAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/Devourer#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/Devourer",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerBowlAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Devourer/Devourer#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Devourer/Devourer",
+    "abilityBkey": "/Lotus/Powersuits/Devourer/Abilities/DevourerRegurgitateAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/DemonFrame/DemonFrame#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+    "abilityBkey": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameFireBallAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/DemonFrame/DemonFrame#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+    "abilityBkey": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameHealAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/DemonFrame/DemonFrame#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+    "abilityBkey": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameCloneAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/DemonFrame/DemonFrame#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/DemonFrame/DemonFrame",
+    "abilityBkey": "/Lotus/Powersuits/DemonFrame/Abilities/DemonFrameBrimstoneAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dagath/Dagath#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dagath/Dagath",
+    "abilityBkey": "/Lotus/Powersuits/Dagath/Abilities/DagathVolleyAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dagath/Dagath#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dagath/Dagath",
+    "abilityBkey": "/Lotus/Powersuits/Dagath/Abilities/DagathCurseAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dagath/Dagath#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dagath/Dagath",
+    "abilityBkey": "/Lotus/Powersuits/Dagath/Abilities/DagathApparitionAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Dagath/Dagath#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Dagath/Dagath",
+    "abilityBkey": "/Lotus/Powersuits/Dagath/Abilities/DagathHorseAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/MesaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/BallisticBatteryAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/MesaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/RussianRouletteAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/MesaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/RicochetArmorAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/MesaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/MesaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/GunFuAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/Cowgirl#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/BallisticBatteryAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/Cowgirl#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/RussianRouletteAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/Cowgirl#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/RicochetArmorAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Cowgirl/Cowgirl#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Cowgirl/Cowgirl",
+    "abilityBkey": "/Lotus/Powersuits/Cowgirl/Abilities/GunFuAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "abilityBkey": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcretePillarAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "abilityBkey": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteWallAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "abilityBkey": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteAuraAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/ConcreteFrame/ConcreteFrame",
+    "abilityBkey": "/Lotus/Powersuits/ConcreteFrame/Abilities/ConcreteLaserAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Choir/Choir#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Choir/Choir",
+    "abilityBkey": "/Lotus/Powersuits/Choir/Abilities/ChoirPoolAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Choir/Choir#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Choir/Choir",
+    "abilityBkey": "/Lotus/Powersuits/Choir/Abilities/ChoirChorusAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Choir/Choir#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Choir/Choir",
+    "abilityBkey": "/Lotus/Powersuits/Choir/Abilities/ChoirEyesAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Choir/Choir#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Choir/Choir",
+    "abilityBkey": "/Lotus/Powersuits/Choir/Abilities/ChoirEruptAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/XakuPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenRotAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/XakuPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenGraspAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/XakuPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenEmbraceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/XakuPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/XakuPrime",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenDestructAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenRotAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenGraspAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenEmbraceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/BrokenFrame/BrokenFrame",
+    "abilityBkey": "/Lotus/Powersuits/BrokenFrame/Abilities/BrokenDestructAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/Brawler#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/Brawler",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerPunchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/Brawler#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/Brawler",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/Brawler#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/Brawler",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerGazeAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/Brawler#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/Brawler",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerSummonAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/AtlasPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerPunchAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/AtlasPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerBarrierAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/AtlasPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerGazeAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Brawler/AtlasPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Brawler/AtlasPrime",
+    "abilityBkey": "/Lotus/Powersuits/Brawler/Abilities/BrawlerSummonAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/ValkyrPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/GrappleHookAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/ValkyrPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/BerserkerScreamAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/ValkyrPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/ShieldBashAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/ValkyrPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/ValkyrPrime",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/Berserker#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/Berserker",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/GrappleHookAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/Berserker#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/Berserker",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/BerserkerScreamAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/Berserker#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/Berserker",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/ShieldBashAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Berserker/Berserker#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Berserker/Berserker",
+    "abilityBkey": "/Lotus/Powersuits/Berserker/Abilities/LastStandAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/OctaviaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardMusicAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/OctaviaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardCharmAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/OctaviaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardJamAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/OctaviaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/OctaviaPrime",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardAmplifyAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/Bard#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/Bard",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardMusicAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/Bard#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/Bard",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardCharmAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/Bard#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/Bard",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardJamAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Bard/Bard#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Bard/Bard",
+    "abilityBkey": "/Lotus/Powersuits/Bard/Abilities/BardAmplifyAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/BansheePrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/BansheePrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/BansheePrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/BansheePrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/BansheePrime",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/Banshee#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/Banshee",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/PushAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/Banshee#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/Banshee",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SonarAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/Banshee#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/Banshee",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SilenceAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Banshee/Banshee#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Banshee/Banshee",
+    "abilityBkey": "/Lotus/Powersuits/Banshee/Abilities/SonicEarthQuakeAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/NovaPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/NullStarAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/NovaPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/AntiMatterDrop",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/NovaPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/WormHoleAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/NovaPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/NovaPrime",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/MolecularPrimeAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/Anti#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/Anti",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/NullStarAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/Anti#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/Anti",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/AntiMatterDrop",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/Anti#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/Anti",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/WormHoleAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/AntiMatter/Anti#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/AntiMatter/Anti",
+    "abilityBkey": "/Lotus/Powersuits/AntiMatter/Abilities/MolecularPrimeAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/LavosPrime#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistSerpentAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/LavosPrime#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistVialAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/LavosPrime#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistTransmuteAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/LavosPrime#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/LavosPrime",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistDistillAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/Alchemist#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistSerpentAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/Alchemist#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistVialAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/Alchemist#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistTransmuteAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Alchemist/Alchemist#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/Alchemist/Alchemist",
+    "abilityBkey": "/Lotus/Powersuits/Alchemist/Abilities/AlchemistDistillAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/NechroTech#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechOilGrenadeAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/NechroTech#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechShockingIronAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/NechroTech#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechMinefieldAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/NechroTech#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/NechroTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechTurretModeAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/ThanoTech#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechGrabAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/ThanoTech#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRiotShieldAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/ThanoTech#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechRepulseAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/EntratiMech/ThanoTech#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/EntratiMech/ThanoTech",
+    "abilityBkey": "/Lotus/Powersuits/EntratiMech/Abilities/EntratiMechSwordAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/OrionSuit#ability:0",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionScytheAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/OrionSuit#ability:1",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionBuffAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/OrionSuit#ability:2",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/OrionVortexAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/SiriusOrion/OrionSuit#ability:3",
+    "ownerType": "warframe",
+    "parentBkey": "/Lotus/Powersuits/SiriusOrion/OrionSuit",
+    "abilityBkey": "/Lotus/Powersuits/SiriusOrion/Abilities/SiriusOrionUltimateAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack#ability:0",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportDronesAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack#ability:1",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportAnchorsAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack#ability:2",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportWardAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack#ability:3",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/SupportJetPack/SupportJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/SupportEnergyAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack#ability:0",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/GrappleHookAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack#ability:1",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/CloakingAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack#ability:2",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/GravitationalInstabilityAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack#ability:3",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StealthJetPack/StealthJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/DistractionDronesAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack#ability:0",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack#ability:1",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FlareCounterMeasureAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack#ability:2",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack#ability:3",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/StandardJetPack/StandardJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/EMPPushAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack#ability:0",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FireShieldAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack#ability:1",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/FlareCounterMeasureAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack#ability:2",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/MissileVolleyAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack#ability:3",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/PrimeJetPack/PrimeJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/EMPPushAbility",
+    "abilityOrder": 3
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack#ability:0",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/TnTAbility",
+    "abilityOrder": 0
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack#ability:1",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ExhaustTrailAbility",
+    "abilityOrder": 1
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack#ability:2",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/ArtilleryBarrageAbility",
+    "abilityOrder": 2
+  },
+  {
+    "recordKey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack#ability:3",
+    "ownerType": "archwing",
+    "parentBkey": "/Lotus/Powersuits/Archwing/DemolitionJetPack/DemolitionJetPack",
+    "abilityBkey": "/Lotus/Powersuits/Archwing/ArchwingAbilities/BigBoyAbility",
+    "abilityOrder": 3
+  }
+]

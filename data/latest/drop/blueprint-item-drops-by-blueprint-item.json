@@ -1,0 +1,5874 @@
+[
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Stahlta Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Jackal",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "豺狼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Guard",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Devourer",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "吞噬者尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Guard",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Auger",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "钻孔尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pathocyst Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zealoid Prelate",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "狂热主教"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Blazing Step Ephemera Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Pyr Captain",
+    "rarity": "Rare",
+    "chance": 2.58,
+    "itemZh": "Pyr 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Blazing Step Ephemera Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Glacik Commander",
+    "rarity": "Rare",
+    "chance": 2.58,
+    "itemZh": "Glacik 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Blazing Step Ephemera Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Lektro Commander",
+    "rarity": "Rare",
+    "chance": 2.58,
+    "itemZh": "Lektro 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Blazing Step Ephemera Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Blite Captain",
+    "rarity": "Rare",
+    "chance": 2.58,
+    "itemZh": "Blite 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Stropha Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Jackal",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "豺狼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Mantis Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Forgotten Grineer Storage Container",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "遗落的 Grineer 存储容器"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Mantis Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Rare Grineer Storage Container",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "稀有 Grineer 存储容器"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Shedu Receiver",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Symbilyst",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "共生使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Reactor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hate Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Hunhow",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hate Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hate Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hate Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pathocyst Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zealoid Prelate",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "狂热主教"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Stock Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Aurax Atloc Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "傲金锁战蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Stock Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Expired",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "除役尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Rictus",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "裂嘴尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Mantis Avionics Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Rare Orokin Storage Container",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "稀有奥罗金存储容器"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Detron Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zanuka Hunter",
+    "rarity": "Uncommon",
+    "chance": 17.65,
+    "itemZh": "Zanuka 猎犬"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Detron Barrel",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zanuka Hunter",
+    "rarity": "Uncommon",
+    "chance": 32.35,
+    "itemZh": "Zanuka 猎犬"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Heavy Gunner",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "重型机枪手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Arid Heavy Gunner",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "沙漠重型机枪手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Frontier Heavy Gunner",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "前线重型机枪手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Corrupted Warden",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "堕落典狱长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Grineer Warden",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "Grineer 典狱长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Garv",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "加弗"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Gunner Warden",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "合一众机枪手典狱长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Gorgon Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Heavy Gunner",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "合一众重型机枪手"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Despair Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Hunhow",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Despair Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Despair Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Despair Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Shedu Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Symbilyst",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "共生使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Turbo Protect",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Techrot Scaart",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "科腐者恐形兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Mantis Fuselage Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Rare Corpus Storage Container",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "稀有 Corpus 存储容器"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Brakk Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vem Tabook",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Expired",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "除役尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Rictus",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "裂嘴尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Brakk Receiver",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Leekter",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quartakk Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Auger Alpha",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "钻孔尸鬼头领"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Brakk Barrel",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shik Tal",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Aerolyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "空飞使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Summulyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "召唤使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ortholyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "直垂使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Conculyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "震荡使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Decaying Conculyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "腐朽震荡使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Typholyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "巨锤使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Hilt",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Archimedean Itzam",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "哲士伊赞"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Parallax Avionics Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Reinforced Carrypod",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "加强型随身舱"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Acceltra Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Boiler",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型痈裂者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Acceltra Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Thrasher",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型奔跳者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Acceltra Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Juggernaut",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "爆破型巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Acceltra Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Charger",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型疾冲者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pennant Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Pyr Captain",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Pyr 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pennant Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Glacik Commander",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Glacik 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pennant Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Lektro Commander",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Lektro 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pennant Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Blite Captain",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Blite 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pennant Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kuva Lich Agor Rok",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Shield Array Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Barrel Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Aurax Atloc Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "傲金锁战蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Barrel Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Harrow Chassis Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Void Fissure Corrupted Enemy",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Instant Secure",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Techrot Scaart",
+    "rarity": "Common",
+    "chance": 37.94,
+    "itemZh": "科腐者恐形兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Expired",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "除役尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tonkkatt Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Rictus",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "裂嘴尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Reactor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Dread Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Hunhow",
+    "rarity": "Common",
+    "chance": 64.8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Dread Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Stalker",
+    "rarity": "Common",
+    "chance": 64.8,
+    "itemZh": "追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Dread Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Common",
+    "chance": 41.33,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Dread Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Common",
+    "chance": 41.33,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Detron Receiver",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zanuka Hunter",
+    "rarity": "Uncommon",
+    "chance": 32.35,
+    "itemZh": "Zanuka 猎犬"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Akarius Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Boiler",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型痈裂者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Akarius Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Thrasher",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型奔跳者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Akarius Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Juggernaut",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "爆破型巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Akarius Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Charger",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "爆破型疾冲者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Devourer",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "吞噬者尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Auger",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "钻孔尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hildryn Systems Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exploiter Orb",
+    "rarity": "Uncommon",
+    "chance": 22.56,
+    "itemZh": "剥削者圆蛛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Stubba Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Rictus Alpha",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "裂嘴尸鬼头领"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Parallax Fuselage Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Reinforced Carrypod",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "加强型随身舱"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Parallax Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Reinforced Carrypod",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "加强型随身舱"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hildryn Neuroptics Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exploiter Orb",
+    "rarity": "Common",
+    "chance": 38.72,
+    "itemZh": "剥削者圆蛛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Shield Array Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Immuno Shield",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Techrot Scaart",
+    "rarity": "Common",
+    "chance": 37.94,
+    "itemZh": "科腐者恐形兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Broken War Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Broken War Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Avionics Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zanuka Hunter",
+    "rarity": "Uncommon",
+    "chance": 17.65,
+    "itemZh": "Zanuka 猎犬"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Shedu Chassis",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Symbilyst",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "共生使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Aerolyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "空飞使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Summulyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "召唤使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ortholyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "直垂使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Conculyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "震荡使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Decaying Conculyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "腐朽震荡使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Typholyst",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "巨锤使"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blade",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Archimedean Itzam",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "哲士伊赞"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Receiver Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Aurax Atloc Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "傲金锁战蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Ambassador Receiver Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Raknoid",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众蛛形机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Motor",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Motor",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Korrudo Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Tusk Thumper Doma",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "巨牙重击者朵玛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Korrudo Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Tusk Thumper Bull",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "巨牙重击者公牛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Korrudo Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Thumper Doma",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "合一众重击者朵玛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Korrudo Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Narmer Thumper Bull",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "合一众重击者公牛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quick Correct",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Techrot Scaart",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "科腐者恐形兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Head",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Head",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Cryophon Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Engines Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Plating Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Steel Essence",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "H-09 Apex",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "H-09 王者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Cronus Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Captain Vor",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "沃尔上尉"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Cronus Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Janus Captain Vor",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "雅努斯沃尔上尉"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Twin Kohmak Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kela De Thaym",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Apoc Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Reactor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Apoc Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quellor Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Pyr Captain",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Pyr 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quellor Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Glacik Commander",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Glacik 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quellor Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Lektro Commander",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Lektro 指挥官"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quellor Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Blite Captain",
+    "rarity": "Common",
+    "chance": 48.71,
+    "itemZh": "Blite 舰长"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Quellor Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kuva Lich Agor Rok",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Kavat Incubator Upgrade Segment Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kuva Hyekka Master",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "赤毒鬣猫驯兽师"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Kavat Incubator Upgrade Segment Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Hyekka Master",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "鬣猫驯兽师"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Threat Blocker",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Techrot Scaart",
+    "rarity": "Uncommon",
+    "chance": 22.11,
+    "itemZh": "科腐者恐形兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Engines Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Wolf Sledge Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Wolf Of Saturn Six",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Glazio Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Carcinnox Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Vort Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Carcinnox Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Laith Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Pulsar Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Devourer",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "吞噬者尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Auger",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "钻孔尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Photor Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8.89
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Pulsar Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exo Skold Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Hunhow",
+    "rarity": "Uncommon",
+    "chance": 11.73
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Engines Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Glazio Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Plating Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Scimitar Fuselage Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vem Tabook",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Apoc Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Laith Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Demolisher Juggernaut",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "爆破型巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Juggernaut Behemoth",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "重装巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Juggernaut",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Jack O'Naut",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "南瓜巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Polyp-Hog Juggernaut",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "寻息巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Deimos Juggernaut",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "惊惧巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pherliac Pods Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Deimos Juggernaut",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "惊惧巨兽"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Octavia Chassis Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orokin Storage Container",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "奥罗金存储容器"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Devourer",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "吞噬者尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Tak & Lug Handle",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Ghoul Auger",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "钻孔尸鬼"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Kosma Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Laith Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Pulsar Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Gyre Gokstad Crewship (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Plating Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Hildryn Chassis Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Exploiter Orb",
+    "rarity": "Common",
+    "chance": 38.72,
+    "itemZh": "剥削者圆蛛"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Glazio Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Reactor Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Gokstad Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Exo Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Cryophon Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Gyre Outrider (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Plating Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Pathocyst Subcortex",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Zealoid Prelate",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "狂热主教"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "奥穆神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Gox (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Engines Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Gox",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "沃拉神锋战机"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Vidar Talyn Mk Ii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Taro Crewship (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Axio Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Lavan Talyn Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Vorac Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Vort Mk Iv",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Carcinnox Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Shadow Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "黑影追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "War Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Protector Stalker",
+    "rarity": "Uncommon",
+    "chance": 11.73,
+    "itemZh": "卫护追猎者"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Orm Crewship (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Orm Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Axio Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 51 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 0 - 70)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Talyn Mk Iii",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Vorac Weaver (Level 71 - 100)",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Taro Weaver (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Zetki Shield Array Mk I",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Elite Kosma Outrider (Level 0 - 50)",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Boar Blueprint",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Drekar Trooper",
+    "rarity": "Very Common",
+    "chance": 100,
+    "itemZh": "龙舰骑兵"
+  },
+  {
+    "category": "Blueprint/Item Drops by Blueprint/Item",
+    "source": "Shedu Barrel",
+    "groups": [
+      "Source Blueprint/Item Drop Chance Chance"
+    ],
+    "item": "Symbilyst",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "共生使"
+  }
+]

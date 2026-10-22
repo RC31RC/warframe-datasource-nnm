@@ -1,0 +1,186 @@
+{
+  "MT_ASSASSINATION": {
+    "name": "ASSASSINATION",
+    "nameZh": "刺杀"
+  },
+  "MT_EXTERMINATION": {
+    "name": "EXTERMINATE",
+    "nameZh": "歼灭"
+  },
+  "MT_SURVIVAL": {
+    "name": "SURVIVAL",
+    "nameZh": "生存"
+  },
+  "MT_RESCUE": {
+    "name": "RESCUE",
+    "nameZh": "救援"
+  },
+  "MT_SABOTAGE": {
+    "name": "SABOTAGE",
+    "nameZh": "破坏"
+  },
+  "MT_CAPTURE": {
+    "name": "CAPTURE",
+    "nameZh": "捕获"
+  },
+  "MT_COUNTER_INTEL": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_INTEL": {
+    "name": "SPY",
+    "nameZh": "间谍"
+  },
+  "MT_DEFENSE": {
+    "name": "DEFENSE",
+    "nameZh": "防御"
+  },
+  "MT_MOBILE_DEFENSE": {
+    "name": "MOBILE DEFENSE",
+    "nameZh": "移动防御"
+  },
+  "MT_PVP": {
+    "name": "CONCLAVE",
+    "nameZh": "武形秘仪"
+  },
+  "MT_MASTERY": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_RECOVERY": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_TERRITORY": {
+    "name": "INTERCEPTION",
+    "nameZh": "拦截"
+  },
+  "MT_RETRIEVAL": {
+    "name": "HIJACK",
+    "nameZh": "劫持"
+  },
+  "MT_HIVE": {
+    "name": "HIVE",
+    "nameZh": "清巢"
+  },
+  "MT_SALVAGE": {
+    "name": "SECTOR WARS",
+    "nameZh": "黑暗地带战争"
+  },
+  "MT_EXCAVATE": {
+    "name": "EXCAVATION",
+    "nameZh": "挖掘"
+  },
+  "MT_RAID": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_PURGE": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_GENERIC": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_PURIFY": {
+    "name": "INFESTED SALVAGE",
+    "nameZh": "INFESTED 资源回收"
+  },
+  "MT_ARENA": {
+    "name": "ARENA",
+    "nameZh": "竞技场"
+  },
+  "MT_JUNCTION": {
+    "name": "SOLAR RAIL JUNCTION",
+    "nameZh": "星际航道结合点"
+  },
+  "MT_PURSUIT": {
+    "name": "PURSUIT",
+    "nameZh": "追击"
+  },
+  "MT_RACE": {
+    "name": "RUSH",
+    "nameZh": "突袭"
+  },
+  "MT_ASSAULT": {
+    "name": "ASSAULT",
+    "nameZh": "强袭"
+  },
+  "MT_EVACUATION": {
+    "name": "DEFECTION",
+    "nameZh": "叛逃"
+  },
+  "MT_LANDSCAPE": {
+    "name": "FREE ROAM",
+    "nameZh": "自由漫游"
+  },
+  "MT_RESOURCE_THEFT": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_ENDLESS_EXTERMINATION": {
+    "name": "SANCTUARY ONSLAUGHT",
+    "nameZh": "圣殿突袭"
+  },
+  "MT_ENDLESS_DUVIRI": {
+    "name": "THE CIRCUIT",
+    "nameZh": "无尽回廊"
+  },
+  "MT_RAILJACK": {
+    "name": "",
+    "nameZh": ""
+  },
+  "MT_ARTIFACT": {
+    "name": "DISRUPTION",
+    "nameZh": "中断"
+  },
+  "MT_CORRUPTION": {
+    "name": "VOID FLOOD",
+    "nameZh": "虚空洪流"
+  },
+  "MT_VOID_CASCADE": {
+    "name": "VOID CASCADE",
+    "nameZh": "虚空覆涌"
+  },
+  "MT_ARMAGEDDON": {
+    "name": "VOID ARMAGEDDON",
+    "nameZh": "虚空决战"
+  },
+  "MT_VAULTS": {
+    "name": "Netracell",
+    "nameZh": "衰退室"
+  },
+  "MT_ALCHEMY": {
+    "name": "Alchemy",
+    "nameZh": "元素转换"
+  },
+  "MT_ASCENSION": {
+    "name": "Ascension",
+    "nameZh": "扬升"
+  },
+  "MT_ENDLESS_CAPTURE": {
+    "name": "Legacyte Harvest",
+    "nameZh": "传承种收割"
+  },
+  "MT_OFFERING": {
+    "name": "SHRINE DEFENSE",
+    "nameZh": "祈运坛防御"
+  },
+  "MT_PVPVE": {
+    "name": "Faceoff",
+    "nameZh": "对战"
+  },
+  "MT_DESCENT": {
+    "name": "The Descendia",
+    "nameZh": "沉沦之地"
+  },
+  "MT_TAU_WAR": {
+    "name": "The Perita Rebellion",
+    "nameZh": "佩里塔叛乱"
+  },
+  "MT_PAINT_FLOOD": {
+    "name": "Follie's Hunt",
+    "nameZh": "Follie 的狩猎"
+  }
+}

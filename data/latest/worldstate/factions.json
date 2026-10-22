@@ -1,0 +1,50 @@
+{
+  "FC_GRINEER": {
+    "name": "Grineer",
+    "nameZh": "Grineer"
+  },
+  "FC_CORPUS": {
+    "name": "Corpus",
+    "nameZh": "Corpus"
+  },
+  "FC_INFESTATION": {
+    "name": "Infestation",
+    "nameZh": "Infestation"
+  },
+  "FC_OROKIN": {
+    "name": "Orokin",
+    "nameZh": "奥罗金"
+  },
+  "FC_RED_VEIL": {
+    "name": "RED VEIL",
+    "nameZh": "血色面纱"
+  },
+  "FC_SENTIENT": {
+    "name": "SENTIENT",
+    "nameZh": "SENTIENT"
+  },
+  "FC_NARMER": {
+    "name": "Narmer",
+    "nameZh": "合一众"
+  },
+  "FC_MITW": {
+    "name": "The Murmur",
+    "nameZh": "低语者"
+  },
+  "FC_SCALDRA": {
+    "name": "Scaldra",
+    "nameZh": "炽蛇军"
+  },
+  "FC_TECHROT": {
+    "name": "Techrot",
+    "nameZh": "科腐者"
+  },
+  "FC_DUVIRI": {
+    "name": "Duviri",
+    "nameZh": "双衍王境"
+  },
+  "FC_TENNO": {
+    "name": "",
+    "nameZh": ""
+  }
+}

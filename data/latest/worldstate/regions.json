@@ -1,0 +1,90 @@
+{
+  "0": {
+    "name": "Mercury",
+    "nameZh": "水星"
+  },
+  "1": {
+    "name": "Venus",
+    "nameZh": "金星"
+  },
+  "2": {
+    "name": "Earth",
+    "nameZh": "地球"
+  },
+  "3": {
+    "name": "Mars",
+    "nameZh": "火星"
+  },
+  "4": {
+    "name": "Jupiter",
+    "nameZh": "木星"
+  },
+  "5": {
+    "name": "Saturn",
+    "nameZh": "土星"
+  },
+  "6": {
+    "name": "Uranus",
+    "nameZh": "天王星"
+  },
+  "7": {
+    "name": "Neptune",
+    "nameZh": "海王星"
+  },
+  "8": {
+    "name": "Pluto",
+    "nameZh": "冥王星"
+  },
+  "9": {
+    "name": "Ceres",
+    "nameZh": "谷神星"
+  },
+  "10": {
+    "name": "Eris",
+    "nameZh": "阋神星"
+  },
+  "11": {
+    "name": "Sedna",
+    "nameZh": "赛德娜"
+  },
+  "12": {
+    "name": "Europa",
+    "nameZh": "欧罗巴"
+  },
+  "14": {
+    "name": "Void",
+    "nameZh": "虚空"
+  },
+  "15": {
+    "name": "Phobos",
+    "nameZh": "火卫一"
+  },
+  "16": {
+    "name": "Deimos",
+    "nameZh": "火卫二"
+  },
+  "17": {
+    "name": "Lua",
+    "nameZh": "月球"
+  },
+  "18": {
+    "name": "Kuva Fortress",
+    "nameZh": "赤毒要塞"
+  },
+  "21": {
+    "name": "Zariman",
+    "nameZh": "扎里曼号"
+  },
+  "22": {
+    "name": "Duviri",
+    "nameZh": "双衍王境"
+  },
+  "23": {
+    "name": "Höllvania",
+    "nameZh": "霍瓦尼亚"
+  },
+  "24": {
+    "name": "Dark Refractory, Deimos",
+    "nameZh": "深溯池，火卫二"
+  }
+}

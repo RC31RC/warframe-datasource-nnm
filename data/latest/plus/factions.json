@@ -1,0 +1,60 @@
+{
+  "FC_GRINEER": {
+    "index": 0,
+    "name": "/Lotus/Language/Game/Faction_GrineerUC",
+    "nameZh": "Grineer"
+  },
+  "FC_CORPUS": {
+    "index": 1,
+    "name": "/Lotus/Language/Game/Faction_CorpusUC",
+    "nameZh": "Corpus"
+  },
+  "FC_INFESTATION": {
+    "index": 2,
+    "name": "/Lotus/Language/Game/Faction_InfestationUC",
+    "nameZh": "Infestation"
+  },
+  "FC_OROKIN": {
+    "index": 3,
+    "name": "/Lotus/Language/Game/Faction_OrokinUC",
+    "nameZh": "奥罗金"
+  },
+  "FC_RED_VEIL": {
+    "index": 4,
+    "name": "/Lotus/Language/Game/Faction_RedVeilUC",
+    "nameZh": "血色面纱"
+  },
+  "FC_SENTIENT": {
+    "index": 5,
+    "name": "/Lotus/Language/Game/Faction_SentientUC",
+    "nameZh": "SENTIENT"
+  },
+  "FC_NARMER": {
+    "index": 6,
+    "name": "/Lotus/Language/Game/Faction_NarmerUC",
+    "nameZh": "合一众"
+  },
+  "FC_MITW": {
+    "index": 7,
+    "name": "/Lotus/Language/Game/Faction_MITW",
+    "nameZh": "低语者"
+  },
+  "FC_SCALDRA": {
+    "index": 8,
+    "name": "/Lotus/Language/1999/Faction_Scaldra",
+    "nameZh": "炽蛇军"
+  },
+  "FC_TECHROT": {
+    "index": 9,
+    "name": "/Lotus/Language/1999/Faction_Techrot",
+    "nameZh": "科腐者"
+  },
+  "FC_DUVIRI": {
+    "index": 10,
+    "name": "/Lotus/Language/Duviri/Duviri",
+    "nameZh": "双衍王境"
+  },
+  "FC_TENNO": {
+    "index": 11
+  }
+}

@@ -1,0 +1,7495 @@
+[
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ayatan Valana Sculpture",
+    "rarity": "Rare",
+    "chance": 9,
+    "itemZh": "阿耶檀识 Valana 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ayatan Sah Sculpture",
+    "rarity": "Rare",
+    "chance": 9,
+    "itemZh": "阿耶檀识 Sah 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ayatan Ayr Sculpture",
+    "rarity": "Rare",
+    "chance": 9,
+    "itemZh": "阿耶檀识 Ayr 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3X Vitus Essence",
+    "rarity": "Rare",
+    "chance": 7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Arcane Pistoleer",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·枪炮"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Arcane Tanker",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·坦克"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Arcane Bodyguard",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·卫士"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Combat Discipline",
+    "rarity": "Rare",
+    "chance": 2,
+    "itemZh": "战斗教条"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Adaptation",
+    "rarity": "Rare",
+    "chance": 2,
+    "itemZh": "适应"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Aerodynamic",
+    "rarity": "Rare",
+    "chance": 2,
+    "itemZh": "空气动力"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Omni Forma Blueprint",
+    "rarity": "Ultra Rare",
+    "chance": 1
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "900 Endo",
+    "rarity": "Common",
+    "chance": 44
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Ayatan Vaya Sculpture",
+    "rarity": "Uncommon",
+    "chance": 12,
+    "itemZh": "阿耶檀识 Vaya 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Ayatan Piv Sculpture",
+    "rarity": "Uncommon",
+    "chance": 12,
+    "itemZh": "阿耶檀识 Piv 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3X Vitus Essence",
+    "rarity": "Rare",
+    "chance": 7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arcane Bodyguard",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·卫士"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arcane Blade Charger",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·刀刃充能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arcane Primary Charger",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·主武充能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Combat Discipline",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "战斗教条"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Adaptation",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "适应"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Shepherd",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "牧羊人"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Omni Forma Blueprint",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Common",
+    "chance": 44.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Ayatan Orta Sculpture",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "阿耶檀识 Orta 塑像"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X Vitus Essence",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arcane Pistoleer",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·枪炮"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arcane Tanker",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·坦克"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arcane Blade Charger",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·刀刃充能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arcane Primary Charger",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "赋能·主武充能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Combat Discipline",
+    "rarity": "Rare",
+    "chance": 3.5,
+    "itemZh": "战斗教条"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Melee Guidance",
+    "rarity": "Rare",
+    "chance": 3.5,
+    "itemZh": "近战指引"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Swift Momentum",
+    "rarity": "Rare",
+    "chance": 3.5,
+    "itemZh": "迅敏动量"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Omni Forma Blueprint",
+    "rarity": "Rare",
+    "chance": 4.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Arbitrations",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "1500 Endo",
+    "rarity": "Common",
+    "chance": 35
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Corrupt Charge",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "邪恶蓄力"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Hollow Point",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "空尖弹"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Spoiled Strike",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "腐坏打击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Magnum Force",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "重装火力"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Tainted Clip",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "感染弹匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Critical Delay",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "关键延迟"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Heavy Caliber",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "重口径"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Tainted Mag",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "腐败弹匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Vile Precision",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "极恶精准"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Narrow Minded",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "心志偏狭"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Fleeting Expertise",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "弹指瞬技"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Blind Rage",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "盲怒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Overextended",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "过度延展"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Tainted Shell",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "污秽弹药"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Vicious Spread",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "恶性扩散"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Burdened Magazine",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "过载弹匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Anemic Agility",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "乏能迅敏"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Vile Acceleration",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "卑劣加速"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Frail Momentum",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "虚弱动能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Critical Deceleration",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "降速暴击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Creeping Bullseye",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "匍匐靶心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Transient Fortitude",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "瞬时坚毅"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Depleted Reload",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "耗竭装填"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Derelict Vault",
+    "groups": [],
+    "item": "Catalyzing Shields",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "催化护盾"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Phorid Assassination",
+    "groups": [],
+    "item": "Nyx Neuroptics Blueprint",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Phorid Assassination",
+    "groups": [],
+    "item": "Nyx Chassis Blueprint",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Phorid Assassination",
+    "groups": [],
+    "item": "Nyx Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 22.56
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ice Storm",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "冰风暴"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Stunning Speed",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "慑人神速"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Hammer Shot",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "重锤射击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Wildfire",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "野火"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Accelerated Blast",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "加速冲击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Blaze",
+    "rarity": "Ultra Rare",
+    "chance": 1.01
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Chilling Reload",
+    "rarity": "Uncommon",
+    "chance": 22.11,
+    "itemZh": "激冷装填"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Drifting Contact",
+    "rarity": "Uncommon",
+    "chance": 22.56,
+    "itemZh": "漂移接触"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Seeking Fury",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "狂暴追猎"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Armored Agility",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "灵活装甲"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Shred",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "撕裂"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Rending Strike",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "撕裂打击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Fortitude",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "不屈不挠"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Streamlined Form",
+    "rarity": "Uncommon",
+    "chance": 22.56,
+    "itemZh": "流线外形"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Animal Instinct",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "动物本能"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Vigor",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "活力"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Lethal Torrent",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "致命洪流"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Focus Energy",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "聚焦能量"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Mode Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Constitution",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "百折不挠"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 40
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Imperator Vandal Barrel",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "凯旋将军·破坏者 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Imperator Vandal Receiver",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "凯旋将军·破坏者 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Imperator Vandal Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Hypothermic Shell",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "低温外壳"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Charged Bullets",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "带电子弹"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Contamination Casing",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "毒染套管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Cryo Coating",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "冷冻包覆"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Ion Infusion",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "离子注入"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Fomorian Sabotage",
+    "groups": [],
+    "item": "Infectious Injection",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "传染性注射"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Gorgon Wraith Blueprint",
+    "rarity": "Uncommon",
+    "chance": 18.97
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Gorgon Wraith Barrel",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "蛇发女妖·亡魂 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Gorgon Wraith Receiver",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "蛇发女妖·亡魂 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Gorgon Wraith Stock",
+    "rarity": "Uncommon",
+    "chance": 18.97,
+    "itemZh": "蛇发女妖·亡魂 枪托"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Bore",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "枪膛"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Piercing Caliber",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "穿甲口径"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Breach Loader",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "破裂填装"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Auger Strike",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "螺钻打击"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Magma Chamber",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "熔岩弹膛"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Razorback",
+    "groups": [],
+    "item": "Searing Steel",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "炽燃钢铁"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Kuva Siphon",
+    "groups": [],
+    "item": "100 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Kuva Siphon",
+    "groups": [],
+    "item": "Requiem Eterna Relic",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Kuva Flood",
+    "groups": [],
+    "item": "Requiem Eterna Relic",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "7,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "7,500 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "7,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "7,500 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "7,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "7,500 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "125X Kuva",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "125X Kuva",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ancient Protector Specter Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Charger Specter Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "500X Nano Spores",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Norg",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "诺格"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Boot",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "靴子"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "100X Plastids",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Orokin Cell",
+    "rarity": "Uncommon",
+    "chance": 12.65,
+    "itemZh": "奥罗金电池"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "175X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "175X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Argon Crystal",
+    "rarity": "Uncommon",
+    "chance": 11.06,
+    "itemZh": "氩结晶"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Forma Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.06
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Clem Clone Blueprint",
+    "rarity": "Ultra Rare",
+    "chance": 1.01
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Universal Medallion",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "万用勋章"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "600 Endo",
+    "rarity": "Rare",
+    "chance": 5.53
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "225X Kuva",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "225X Kuva",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Argon Crystal",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "氩结晶"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Day Of The Dead Sigil",
+    "rarity": "Rare",
+    "chance": 5.53
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Kavat Genetic Code",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "库娃遗传密码"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Kubrow Egg",
+    "rarity": "Rare",
+    "chance": 5.53,
+    "itemZh": "库狛蛋"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Mission Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Universal Medallion",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "万用勋章"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "150X Kuva",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "150X Kuva",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Ancient Protector Specter Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Charger Specter Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2X Pherliac Pods",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Norg",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "诺格"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Boot",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "靴子"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Argon Crystal",
+    "rarity": "Uncommon",
+    "chance": 12.65,
+    "itemZh": "氩结晶"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2X Orokin Cell",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "200X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "200X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Mutagen Mass",
+    "rarity": "Uncommon",
+    "chance": 11.06,
+    "itemZh": "突变原聚合物"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Forma Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.06
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Clem Clone Blueprint",
+    "rarity": "Ultra Rare",
+    "chance": 1.01
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Universal Medallion",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "万用勋章"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "250X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "250X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "2X Argon Crystal",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Day Of The Dead Sigil",
+    "rarity": "Uncommon",
+    "chance": 12.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Kavat Genetic Code",
+    "rarity": "Uncommon",
+    "chance": 11.06,
+    "itemZh": "库娃遗传密码"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Kubrow Egg",
+    "rarity": "Uncommon",
+    "chance": 11.06,
+    "itemZh": "库狛蛋"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Hallowed Flame Endurance Caches",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Universal Medallion",
+    "rarity": "Ultra Rare",
+    "chance": 1.01,
+    "itemZh": "万用勋章"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2,000 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "2,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "5X Void Traces",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Granum Crown Decoration",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "格拉努硬币装饰"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "200 Endo",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Corpus Ship Bridge Scene",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "Corpus 舰桥场景"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stropha Barrel",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "诡计之刃 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stropha Blade",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "诡计之刃 刀刃"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stahlta Receiver",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "钢刃步枪 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Velox Barrel",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "逐电 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Protea Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "10X Void Traces",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Exemplar Granum Crown Decoration",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "范本格拉努硬币装饰"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "5,000 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "5,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Corpus Ship Hangar Scene",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "Corpus 船舰库场景"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stropha Receiver",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "诡计之刃 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stahlta Stock",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "钢刃步枪 枪托"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Velox Receiver",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "逐电 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Extended Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Protea Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "7,500 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "7,500 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Void Traces",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Zenith Granum Crown Decoration",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "顶级格拉努硬币装饰"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Common",
+    "chance": 50,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "600 Endo",
+    "rarity": "Common",
+    "chance": 33.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Corpus Ship Orbital Cannon Scene",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "Corpus 船舰追踪炮场景"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Mortuus Shoulder Guard",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "亡者护肩"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stropha Stock",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "诡计之刃 枪托"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Stahlta Barrel",
+    "rarity": "Uncommon",
+    "chance": 29.63,
+    "itemZh": "钢刃步枪 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nightmare Granum Void",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Protea Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "3X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 37.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Epitaph Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Epitaph Barrel",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "葬铭 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Epitaph Receiver",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "葬铭 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Earth Resource Bundle",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "地球资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith L8 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith A13 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith C15 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith S19 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith G14 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith S18 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Earth)",
+    "groups": [],
+    "item": "Lith V11 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "3X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 37.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Epitaph Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Epitaph Barrel",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "葬铭 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Epitaph Receiver",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "葬铭 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Venus Resource Bundle",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "金星资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith L8 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith A13 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith C15 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith S19 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith G14 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith S18 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Venus)",
+    "groups": [],
+    "item": "Lith V11 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "5X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 35.71
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 11.9
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Epitaph Blueprint",
+    "rarity": "Rare",
+    "chance": 9.52
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Epitaph Barrel",
+    "rarity": "Rare",
+    "chance": 9.52,
+    "itemZh": "葬铭 枪管"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Epitaph Receiver",
+    "rarity": "Rare",
+    "chance": 9.52,
+    "itemZh": "葬铭 枪机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Saturn Resource Bundle",
+    "rarity": "Rare",
+    "chance": 4.76,
+    "itemZh": "土星资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso Y2 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso K9 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso V17 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso D8 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso V13 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso A12 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso D9 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Saturn)",
+    "groups": [],
+    "item": "Meso C11 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "4X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 35.71
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 11.9
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Sevagoth Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 9.52
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Sevagoth Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 9.52
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Sevagoth Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.52
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Neptune Resource Bundle",
+    "rarity": "Rare",
+    "chance": 4.76,
+    "itemZh": "海王星资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso Y2 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso K9 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso V17 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso D8 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso V13 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso A12 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso D9 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Neptune)",
+    "groups": [],
+    "item": "Meso C11 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.38
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "6X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 37.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Sevagoth Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Sevagoth Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Sevagoth Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Pluto Resource Bundle",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "冥王星资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo C7 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo A16 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo Y2 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo C11 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo K10 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo V13 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Pluto)",
+    "groups": [],
+    "item": "Neo C10 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "10X Corrupted Holokey",
+    "rarity": "Common",
+    "chance": 37.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Sevagoth Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Sevagoth Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Sevagoth Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Veil Resource Bundle",
+    "rarity": "Rare",
+    "chance": 2.5,
+    "itemZh": "面纱比邻星域资源包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi S21 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi D6 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi V14 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi C12 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi A21 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi A22 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Void Storm (Veil Proxima)",
+    "groups": [],
+    "item": "Axi P10 Relic (Radiant)",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Full Experience",
+    "groups": [],
+    "item": "Kovnik",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "福烁草"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Full Experience",
+    "groups": [],
+    "item": "Eevani",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "延凡草"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Full Experience",
+    "groups": [],
+    "item": "Connla Sprout",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "慧泉嫩芽"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Full Experience",
+    "groups": [],
+    "item": "5X Aggristone",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Full Experience",
+    "groups": [],
+    "item": "3X Saggen Pearl",
+    "rarity": "Common",
+    "chance": 38.72
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "Yao Shrub",
+    "rarity": "Legendary",
+    "chance": 0.25,
+    "itemZh": "瑶丛"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "Dracroot",
+    "rarity": "Legendary",
+    "chance": 0.25,
+    "itemZh": "龙旋根"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "Eevani",
+    "rarity": "Ultra Rare",
+    "chance": 1,
+    "itemZh": "延凡草"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "Connla Sprout",
+    "rarity": "Ultra Rare",
+    "chance": 1,
+    "itemZh": "慧泉嫩芽"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "Kovnik",
+    "rarity": "Uncommon",
+    "chance": 22,
+    "itemZh": "福烁草"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "7X Aggristone",
+    "rarity": "Common",
+    "chance": 37.75
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Circuit",
+    "groups": [],
+    "item": "5X Saggen Pearl",
+    "rarity": "Common",
+    "chance": 37.75
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Ice",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·冰冷"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Nullifier",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·消磁"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Warmth",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·温暖"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Deflection",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·偏折"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Healing",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·复原"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Resistance",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·抗毒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Agility",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·灵敏"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Eruption",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·爆发"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Phantasm",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·幻象"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Pulse",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·生机"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Ultimatum",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·通牒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Trickery",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·诡计"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Consequence",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·结果"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal",
+    "groups": [],
+    "item": "Arcane Arachne",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "赋能·蜘蛛"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Secondary Shiver",
+    "rarity": "Rare",
+    "chance": 2.78,
+    "itemZh": "次要·冷颤"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Longbow Sharpshot",
+    "rarity": "Rare",
+    "chance": 2.78,
+    "itemZh": "弓箭·利矢"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Arcane Reaper",
+    "rarity": "Rare",
+    "chance": 2.78,
+    "itemZh": "赋能·收割"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Arcane Intention",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "赋能·心相"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Primary Exhilarate",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "主要·激昂"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Shotgun Vendetta",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "霰弹·仇杀"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Primary Obstruct",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "主要·滞阻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Magus Aggress",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "魔导·侵略"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Primary Blight",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Arcane Power Ramp",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "赋能·力升"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Akimbo Slip Shot",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "双枪·滑射"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Static Undercroft Portal (Steel Path)",
+    "groups": [],
+    "item": "Secondary Outburst",
+    "rarity": "Uncommon",
+    "chance": 10.19,
+    "itemZh": "次要·爆发"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Melee Duplicate",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "近战·刃影"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Melee Crescendo",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "近战·渐强"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Melee Arcane Adapter",
+    "rarity": "Uncommon",
+    "chance": 15
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Crimson Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 17.5,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Azure Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 17.5,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Amber Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 17.5,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.17,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Melee Duplicate",
+    "rarity": "Uncommon",
+    "chance": 15,
+    "itemZh": "近战·刃影"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Melee Crescendo",
+    "rarity": "Uncommon",
+    "chance": 15,
+    "itemZh": "近战·渐强"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Melee Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Crimson Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 13.13,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Azure Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 13.13,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Amber Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 13.13,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 8.54,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 8.54,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 8.54,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Melee Duplicate",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "近战·刃影"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Melee Crescendo",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "近战·渐强"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Deep Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 16.67,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2100 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso K9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2400 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi P10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2100 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso K9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2400 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Single Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi P10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2100 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso K9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2400 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi P10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Winner)",
+    "groups": [],
+    "item": "30X Vosfor",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "2100 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso K9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Meso C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2400 Endo",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Axi P10 Relic",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Faceoff: Squad VS Squad (Steel Path Winner)",
+    "groups": [],
+    "item": "50X Vosfor",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Arcane Escapist",
+    "rarity": "Rare",
+    "chance": 8.76,
+    "itemZh": "赋能·脱逃"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Arcane Hot Shot",
+    "rarity": "Rare",
+    "chance": 8.76,
+    "itemZh": "赋能·热火"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Arcane Universal Fallout",
+    "rarity": "Rare",
+    "chance": 8.76,
+    "itemZh": "赋能·辐照"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Elemental Vice",
+    "rarity": "Uncommon",
+    "chance": 13.14,
+    "itemZh": "元素恶癖"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Crimson Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 15.33,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Azure Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 15.33,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Amber Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 15.33,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.65,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.65,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.65,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Silver Rewards",
+    "groups": [],
+    "item": "Omni Forma Blueprint",
+    "rarity": "Rare",
+    "chance": 3.65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Arcane Escapist",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "赋能·脱逃"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Arcane Hot Shot",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "赋能·热火"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Arcane Universal Fallout",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "赋能·辐照"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Elemental Vice",
+    "rarity": "Rare",
+    "chance": 2.84,
+    "itemZh": "元素恶癖"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.45,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.45,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.45,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.84,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.84,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 4.84,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Emerald Archon Shard",
+    "rarity": "Rare",
+    "chance": 5.59,
+    "itemZh": "翡翠执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Topaz Archon Shard",
+    "rarity": "Rare",
+    "chance": 5.59,
+    "itemZh": "黄玉执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Violet Archon Shard",
+    "rarity": "Rare",
+    "chance": 5.59,
+    "itemZh": "紫晶执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Emerald Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.64,
+    "itemZh": "翡翠执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Topaz Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.64,
+    "itemZh": "黄玉执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Tauforged Violet Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.64,
+    "itemZh": "紫晶执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Gold Rewards",
+    "groups": [],
+    "item": "Omni Forma",
+    "rarity": "Rare",
+    "chance": 7.09,
+    "itemZh": "全能 Forma"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Arcane Escapist",
+    "rarity": "Uncommon",
+    "chance": 13.66,
+    "itemZh": "赋能·脱逃"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Arcane Hot Shot",
+    "rarity": "Uncommon",
+    "chance": 13.66,
+    "itemZh": "赋能·热火"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Arcane Universal Fallout",
+    "rarity": "Uncommon",
+    "chance": 13.66,
+    "itemZh": "赋能·辐照"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 9.11,
+    "itemZh": "深红执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 9.11,
+    "itemZh": "蔚蓝执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 9.11,
+    "itemZh": "琥珀执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Emerald Archon Shard",
+    "rarity": "Rare",
+    "chance": 6.83,
+    "itemZh": "翡翠执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Topaz Archon Shard",
+    "rarity": "Rare",
+    "chance": 6.83,
+    "itemZh": "黄玉执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Tauforged Violet Archon Shard",
+    "rarity": "Rare",
+    "chance": 6.83,
+    "itemZh": "紫晶执刑官 Tau 融造源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Temporal Archimedea Legendary Rewards",
+    "groups": [],
+    "item": "Omni Forma",
+    "rarity": "Uncommon",
+    "chance": 11.2,
+    "itemZh": "全能 Forma"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "20X Temporal Dust",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "8X Enigma Gyrum",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Barrel Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Gauntlet Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Blade Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Handle Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex String Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "16X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "17X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "18X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "19X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "20X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "25X Temporal Dust",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "8X Enigma Gyrum",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Oraxia Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Barrel Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Scyotid Gauntlet Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Blade Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex Handle Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Spinnerex String Blueprint",
+    "rarity": "Rare",
+    "chance": 7.69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "20X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "21X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "22X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "23X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Duviri Murmur Invasion Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "24X Scuttler Husk",
+    "rarity": "Uncommon",
+    "chance": 19.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "11X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "12X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "13X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "14X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 30,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "1000 Endo",
+    "rarity": "Uncommon",
+    "chance": 15,
+    "itemZh": "1000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "20X Mytocardia Spore",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Receiver Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 5,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "2000 Endo",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Receiver Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "11X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "12X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "13X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "14X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 30,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "1000 Endo",
+    "rarity": "Uncommon",
+    "chance": 15,
+    "itemZh": "1000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "20X Thermal Sludge",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Barrel Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 5,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "2000 Endo",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Barrel Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "11X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "12X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "13X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "14X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 30,
+    "itemZh": "10,000 现金匣"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "1000 Endo",
+    "rarity": "Uncommon",
+    "chance": 15,
+    "itemZh": "1000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "20X Gorgaricus Spore",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 4,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Stock Blueprint",
+    "rarity": "Rare",
+    "chance": 2.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 5,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "2000 Endo",
+    "rarity": "Uncommon",
+    "chance": 14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Stock Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 2
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "16X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "17X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "18X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "19X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2X 10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3500 Endo",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Receiver Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 10,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "4000 Endo",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "4000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Receiver Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Critter Liberation Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "16X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "17X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "18X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "19X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2X 10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3500 Endo",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Barrel Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 10,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "4000 Endo",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "4000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Barrel Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Corporate Restructuring (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "15X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "16X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "17X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 22
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "18X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "19X Fergolyte",
+    "rarity": "Uncommon",
+    "chance": 19
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "2X 10,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3500 Endo",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Rare",
+    "chance": 8,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Nokko Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "Arbucep Stock Blueprint",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "3X 10,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "4000 Endo",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "4000 内融核心"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Frostbite",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·霜冻"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Primary Blight",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "主要·毒侵"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Conjunction Voltage",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "联结·电压"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Encumber",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·妨害"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Secondary Fortifier",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "次要·筑垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Stock Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Nokko Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Arbucep Blueprint",
+    "rarity": "Rare",
+    "chance": 8
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "Nokko: Weed The Gardens Rewards (Steel Path)",
+    "groups": [
+      "Rotation C"
+    ],
+    "item": "Archgun Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 4
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Consequence",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Ice",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Momentum",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Nullifier",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Tempo",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Warmth",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Deflection",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Healing",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Resistance",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Victory",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Acceleration",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Agility",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Awakening",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Eruption",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Phantasm",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Strike",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Precision",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Pulse",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Ultimatum",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Trickery",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Velocity",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Arachne",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Avenger",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Fury",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Rage",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Aegis",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards",
+    "groups": [],
+    "item": "3X Arcane Guardian",
+    "rarity": "Rare",
+    "chance": 3.7
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Primary Bulwark",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "主要·堡垒"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Melee Careen",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "近战·疾驰"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Primary Overcharge",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "主要·过载"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Arcane Expertise",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "赋能·精湛"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Arcane Persistence",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "赋能·坚韧"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Arcane Circumvent",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "赋能·规避"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Secondary Irradiate",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "次要·照射"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Arcane Concentration",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "赋能·专注"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 6 and 13 Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "Primary Debilitate",
+    "rarity": "Uncommon",
+    "chance": 11.11,
+    "itemZh": "主要·衰弱"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Common Rewards (Steel Path)",
+    "groups": [],
+    "item": "75X Ignia",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Common Rewards (Steel Path)",
+    "groups": [],
+    "item": "15X Maphica",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Orokin Catalyst Blueprint",
+    "rarity": "Uncommon",
+    "chance": 19.36
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Orokin Reactor Blueprint",
+    "rarity": "Uncommon",
+    "chance": 19.36
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Omni Forma Blueprint",
+    "rarity": "Uncommon",
+    "chance": 19.36
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Uncommon",
+    "chance": 19.36
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Rare Rewards (Steel Path)",
+    "groups": [],
+    "item": "Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Forma Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Melee Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "近战裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Pistol Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "手枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Rifle Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "步枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Shotgun Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "霰弹枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Zaw Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "Zaw 裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Kitgun Riven Mod",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "组合枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Primary Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Secondary Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Melee Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "Amp Arcane Adapter",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "3 Day Affinity Booster",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "3 天经验值加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "3 Day Resource Drop Chance Booster",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "3 天资源掉落几率加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Uncommon Rewards (Steel Path)",
+    "groups": [],
+    "item": "3 Day Mod Drop Chance Booster",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "3 天 Mod 掉落几率加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Steel Essence Rewards (Steel Path)",
+    "groups": [],
+    "item": "25X Steel Essence",
+    "rarity": "Very Common",
+    "chance": 100
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Primary Bulwark",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Melee Careen",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Primary Overcharge",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Arcane Expertise",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Arcane Persistence",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Arcane Circumvent",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Secondary Irradiate",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Arcane Concentration",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Infernum 20 Triple Arcane Rewards (Steel Path)",
+    "groups": [],
+    "item": "3X Primary Debilitate",
+    "rarity": "Uncommon",
+    "chance": 11.11
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Uriel Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Uriel Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Uriel Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Vinquibus Barrel Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Vinquibus Blade Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Vinquibus Receiver Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Vinquibus Stock Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Descendia: Roathe",
+    "groups": [],
+    "item": "Vinquibus Blueprint",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Riven Transmuter",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "裂罅转换器"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Veiled Riven Cipher",
+    "rarity": "Rare",
+    "chance": 5,
+    "itemZh": "裂罅破解器"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Omni Forma",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "全能 Forma"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Forma Bundle",
+    "rarity": "Uncommon",
+    "chance": 10,
+    "itemZh": "Forma 组合包"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Melee Riven Mod",
+    "rarity": "Uncommon",
+    "chance": 10.5,
+    "itemZh": "近战裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Pistol Riven Mod",
+    "rarity": "Rare",
+    "chance": 8.75,
+    "itemZh": "手枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Rifle Riven Mod",
+    "rarity": "Rare",
+    "chance": 8.75,
+    "itemZh": "步枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Shotgun Riven Mod",
+    "rarity": "Rare",
+    "chance": 4.55,
+    "itemZh": "霰弹枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Archgun Riven Mod",
+    "rarity": "Ultra Rare",
+    "chance": 1.22,
+    "itemZh": "曲翼枪械裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Companion Weapon Riven Mod",
+    "rarity": "Ultra Rare",
+    "chance": 1.22,
+    "itemZh": "同伴武器裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Azure Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 11.67,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Crimson Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 11.67,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Amber Archon Shard",
+    "rarity": "Uncommon",
+    "chance": 11.67,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "7500X Kuva",
+    "rarity": "Very Common",
+    "chance": 69
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "17500X Kuva",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Crested Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "100000X Kuva",
+    "rarity": "Ultra Rare",
+    "chance": 1
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Crimson Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.33,
+    "itemZh": "深红执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Azure Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.33,
+    "itemZh": "蔚蓝执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Amber Archon Shard",
+    "rarity": "Rare",
+    "chance": 3.33,
+    "itemZh": "琥珀执刑官源力石"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Forma",
+    "rarity": "Uncommon",
+    "chance": 16.88
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "200X Vosfor",
+    "rarity": "Uncommon",
+    "chance": 16.88
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3 Day Affinity Booster",
+    "rarity": "Rare",
+    "chance": 5.63,
+    "itemZh": "3 天经验值加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3 Day Resource Drop Chance Booster",
+    "rarity": "Rare",
+    "chance": 5.63,
+    "itemZh": "3 天资源掉落几率加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3 Day Resource Booster",
+    "rarity": "Rare",
+    "chance": 5.63,
+    "itemZh": "3 天资源数量加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "3 Day Credit Booster",
+    "rarity": "Rare",
+    "chance": 5.63,
+    "itemZh": "3 天现金加成"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Melee Riven Mod",
+    "rarity": "Uncommon",
+    "chance": 11.81,
+    "itemZh": "近战裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Pistol Riven Mod",
+    "rarity": "Rare",
+    "chance": 8.44,
+    "itemZh": "手枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Rifle Riven Mod",
+    "rarity": "Rare",
+    "chance": 8.44,
+    "itemZh": "步枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation A"
+    ],
+    "item": "Shotgun Riven Mod",
+    "rarity": "Rare",
+    "chance": 5.06,
+    "itemZh": "霰弹枪裂罅 Mod"
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "1750X Kuva",
+    "rarity": "Common",
+    "chance": 65
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "3500X Kuva",
+    "rarity": "Uncommon",
+    "chance": 30
+  },
+  {
+    "category": "Dynamic Location Rewards",
+    "source": "The Icebind: Frozen Chests",
+    "groups": [
+      "Rotation B"
+    ],
+    "item": "7500X Kuva",
+    "rarity": "Rare",
+    "chance": 5
+  }
+]

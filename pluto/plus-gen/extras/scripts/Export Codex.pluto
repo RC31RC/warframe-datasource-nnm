@@ -1,0 +1,22 @@
+local ExportCodex = {
+	__order = { "objects", "allTypes" },
+	objects = { __order = {} },
+	allTypes = {},
+}
+local codexManifest = Resource("/Lotus/Types/Lore/PrimaryCodexManifest")
+for codexManifest:GetEnvironmentEntries() as entry do
+	ExportCodex.objects.__order:insert(entry.type:GetFullName())
+	ExportCodex.objects[entry.type:GetFullName()] = {
+		__order = { "name", "icon", "reqScans", "secret" },
+		name = tostring(entry.locName),
+		icon = entry.icon:GetFullName(),
+		reqScans = entry.reqScans,
+		secret = entry.secret,
+	}
+end
+for codexManifest:GetAllEntries() as entry do
+	if entry.type then
+		ExportCodex.allTypes:insert(entry.type:GetFullName())
+	end
+end
+print(require"json".encode(ExportCodex, true))

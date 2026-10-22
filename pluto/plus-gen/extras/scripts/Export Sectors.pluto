@@ -1,0 +1,91 @@
+local function export_counted_item(ci)
+	return {
+		__order = { "ItemType", "ItemCount" },
+		ItemType = ci.mItemType:GetFullName(),
+		ItemCount = ci.mItemCount,
+	}
+end
+
+local data = { __order = {} }
+for gStarChart:GetRegions() as region do
+	for region.sectors as sector do
+		local reward = sector.mission.missionReward
+		local reward_export = { __order = {} }
+		if reward.credits ~= 0 then
+			reward_export.__order:insert("credits")
+			reward_export.credits = reward.credits
+		end
+		if #reward.items ~= 0 then
+			reward_export.__order:insert("items")
+			reward_export.items = {}
+			for reward.items as item do
+				reward_export.items:insert(item:GetFullName())
+			end
+		end
+		if #reward.countedItems ~= 0 then
+			reward_export.__order:insert("countedItems")
+			reward_export.countedItems = {}
+			for reward.countedItems as ci do
+				reward_export.countedItems:insert(export_counted_item(ci))
+			end
+		end
+		if #reward.countedStoreItems ~= 0 then
+			reward_export.__order:insert("countedStoreItems")
+			reward_export.countedStoreItems = {}
+			for reward.countedStoreItems as ci do
+				reward_export.countedStoreItems:insert({
+					__order = { "StoreItem", "ItemCount" },
+					StoreItem = ci.mStoreItem:GetFullName(),
+					ItemCount = ci.mItemCount,
+				})
+			end
+		end
+		local sector_export = { __order = {} }
+		if sector.mission.levelOverride then
+			sector_export.__order:insert("levelOverride")
+			sector_export.levelOverride = sector.mission.levelOverride:GetFullName()
+		end
+		if sector.mission.enemySpec then
+			sector_export.__order:insert("enemySpec")
+			sector_export.enemySpec = sector.mission.enemySpec:GetFullName()
+		end
+		if sector.mission.extraEnemySpec then
+			sector_export.__order:insert("extraEnemySpec")
+			sector_export.extraEnemySpec = sector.mission.extraEnemySpec:GetFullName()
+		end
+		if sector.mission.vipAgent then
+			sector_export.__order:insert("vipAgent")
+			sector_export.vipAgent = sector.mission.vipAgent:GetFullName()
+		end
+		if #sector.mission.customAdvancedSpawners ~= 0 then
+			sector_export.__order:insert("customAdvancedSpawners")
+			sector_export.customAdvancedSpawners = sector.mission.customAdvancedSpawners:map(|x| -> x:GetFullName())
+		end
+		if #reward_export.__order ~= 0 then
+			sector_export.__order:insert("missionReward")
+			sector_export.missionReward = reward_export
+		end
+		if sector.mission.miscItemFee.mItemType then
+			sector_export.__order:insert("miscItemFee")
+			sector_export.miscItemFee = export_counted_item(sector.mission.miscItemFee)
+		end
+		if sector.founders:strip() ~= "" then
+			sector_export.__order:insert("founders")
+			sector_export.founders = sector.founders:strip()
+		end
+		if sector.tileset then
+			sector_export.__order:insert("tileset")
+			sector_export.tileset = sector.tileset:GetFullName()
+		end
+		if #sector.challenges ~= 0 then
+			sector_export.__order:insert("challenges")
+			sector_export.challenges = sector.challenges:map(|x| -> x:GetType():GetFullName())
+		end
+		if #sector_export.__order ~= 0 then
+			local tag = tostring(sector.name)
+			data.__order:insert(tag)
+			data[tag] = sector_export
+		end
+	end
+end
+print(require"json".encode(data, true))

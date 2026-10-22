@@ -1,0 +1,1813 @@
+{
+  "schemaVersion": 1,
+  "buildId": "20261022T172626462Z-7ef1bebcb6dd",
+  "createdAt": "2026-10-22T17:26:26.462Z",
+  "producer": "warframe-datasource-nnm",
+  "files": [
+    {
+      "path": "arbitration/schedule.json",
+      "sha256": "6961e04c1c56bb0514d5ca10cc9b777e4c75981aca2262b2f39fc962dc5723fe",
+      "bytes": 17693682,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "arbitration/schedule.json",
+        "url": "https://browse.wf/arbys.txt",
+        "capturedAt": "2026-10-22T17:26:13.933Z",
+        "upstreamRevision": "8dcb6ab1a77d7e824c064e3b1fac823ce1be361df4570a7f0c0bbabb2acf86d2",
+        "transformer": "warframe-datasource-nnm/arbitration-schedule-projection@1",
+        "derivedFrom": [
+          "arbitration/arbys.txt",
+          "worldstate/nodes.json"
+        ]
+      },
+      "recordCount": 44056
+    },
+    {
+      "path": "catalog/craft/recipe-ingredients.json",
+      "sha256": "327302c46e60ccfa8208d20d51e89736f7683c863af7faa74faad435c670af90",
+      "bytes": 2707294,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/craft/recipe-ingredients.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRecipes_en.json!00_oac+LCAtIyqDxZF8Qe1ZZA",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "b2b6ea5c9f33d3252c71396e813849ae00934e0febeb42ca7b50f100e66fd092",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRecipes_en.json"
+        ]
+      },
+      "recordCount": 6752
+    },
+    {
+      "path": "catalog/craft/recipes.json",
+      "sha256": "d4c6c95728ca42eef2f60039f0c4ade506379a959feee06a6bd5571f467bd256",
+      "bytes": 2174635,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/craft/recipes.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRecipes_en.json!00_oac+LCAtIyqDxZF8Qe1ZZA",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "b2b6ea5c9f33d3252c71396e813849ae00934e0febeb42ca7b50f100e66fd092",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRecipes_en.json"
+        ]
+      },
+      "recordCount": 1885
+    },
+    {
+      "path": "catalog/equipment/abilities.json",
+      "sha256": "102c2fcf6098df4bb1c16c167a77a3341c2339de67f3f949790f903cc2c15a6b",
+      "bytes": 151792,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/abilities.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWarframes_en.json!00_AIDVHigS64IrZQVY2GdWfg",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "164c75901047ba5b55ccb067b3276e4a587cdaddc2ead8f1bb60fde6ee5585ee",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWarframes_en.json"
+        ]
+      },
+      "recordCount": 308
+    },
+    {
+      "path": "catalog/equipment/ability-slots.json",
+      "sha256": "337ad6196f033deb87acb45a740ab2249b5215664089b2e583be95d75d49006e",
+      "bytes": 132814,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/ability-slots.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWarframes_en.json!00_AIDVHigS64IrZQVY2GdWfg",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "164c75901047ba5b55ccb067b3276e4a587cdaddc2ead8f1bb60fde6ee5585ee",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWarframes_en.json"
+        ]
+      },
+      "recordCount": 508
+    },
+    {
+      "path": "catalog/equipment/archwings.json",
+      "sha256": "d0a6a26c621f75f3ed29256b1fbaa373471b0613c8a51127b38627ce20fdca5d",
+      "bytes": 15394,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/archwings.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWarframes_en.json!00_AIDVHigS64IrZQVY2GdWfg",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "164c75901047ba5b55ccb067b3276e4a587cdaddc2ead8f1bb60fde6ee5585ee",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWarframes_en.json"
+        ]
+      },
+      "recordCount": 5
+    },
+    {
+      "path": "catalog/equipment/railjack-weapons.json",
+      "sha256": "20b5394c6bbc11079d3652b158c8124607e69c4c80671ed4bf89d83e1a8e0922",
+      "bytes": 191727,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/railjack-weapons.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWeapons_en.json!00_RcEdsq5S+l61BkfnQuzJFw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "ac00f1b118be7f06aaa4d60108896507dc6dc8bd3dd87bac1ed41f7deef354bd",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWeapons_en.json"
+        ]
+      },
+      "recordCount": 143
+    },
+    {
+      "path": "catalog/equipment/warframes.json",
+      "sha256": "272c22cca3692dbf69e17cf11041ceeba302fc157bdc3e52a689a7be9400b79c",
+      "bytes": 508073,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/warframes.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWarframes_en.json!00_AIDVHigS64IrZQVY2GdWfg",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "164c75901047ba5b55ccb067b3276e4a587cdaddc2ead8f1bb60fde6ee5585ee",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWarframes_en.json"
+        ]
+      },
+      "recordCount": 122
+    },
+    {
+      "path": "catalog/equipment/weapons.json",
+      "sha256": "8f916640a96fb9d85afe61f690fc59862ccf56a3955fbe97f12e1ffc9bcdb1d0",
+      "bytes": 1093105,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/equipment/weapons.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWeapons_en.json!00_RcEdsq5S+l61BkfnQuzJFw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "ac00f1b118be7f06aaa4d60108896507dc6dc8bd3dd87bac1ed41f7deef354bd",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWeapons_en.json"
+        ]
+      },
+      "recordCount": 841
+    },
+    {
+      "path": "catalog/i18n/items.json",
+      "sha256": "b250edbed1ddc75a830500d88dd82a88a3cd4f994150e706a13703a1a2a6e03f",
+      "bytes": 18051867,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/i18n/items.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWarframes_en.json!00_AIDVHigS64IrZQVY2GdWfg",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "d71c30b2b44cc29d0c1836e05f1c4d50e6fda254cb47f8ea2dcbf585f79ee56c",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWarframes_en.json",
+          "public-export/en/ExportWeapons_en.json",
+          "public-export/en/ExportUpgrades_en.json",
+          "public-export/en/ExportRelicArcane_en.json",
+          "public-export/en/ExportRegions_en.json",
+          "public-export/en/ExportRecipes_en.json",
+          "public-export/de/ExportWarframes_de.json",
+          "public-export/de/ExportWeapons_de.json",
+          "public-export/de/ExportUpgrades_de.json",
+          "public-export/de/ExportRelicArcane_de.json",
+          "public-export/de/ExportRegions_de.json",
+          "public-export/de/ExportRecipes_de.json",
+          "public-export/es/ExportWarframes_es.json",
+          "public-export/es/ExportWeapons_es.json",
+          "public-export/es/ExportUpgrades_es.json",
+          "public-export/es/ExportRelicArcane_es.json",
+          "public-export/es/ExportRegions_es.json",
+          "public-export/es/ExportRecipes_es.json",
+          "public-export/fr/ExportWarframes_fr.json",
+          "public-export/fr/ExportWeapons_fr.json",
+          "public-export/fr/ExportUpgrades_fr.json",
+          "public-export/fr/ExportRelicArcane_fr.json",
+          "public-export/fr/ExportRegions_fr.json",
+          "public-export/fr/ExportRecipes_fr.json",
+          "public-export/it/ExportWarframes_it.json",
+          "public-export/it/ExportWeapons_it.json",
+          "public-export/it/ExportUpgrades_it.json",
+          "public-export/it/ExportRelicArcane_it.json",
+          "public-export/it/ExportRegions_it.json",
+          "public-export/it/ExportRecipes_it.json",
+          "public-export/ja/ExportWarframes_ja.json",
+          "public-export/ja/ExportWeapons_ja.json",
+          "public-export/ja/ExportUpgrades_ja.json",
+          "public-export/ja/ExportRelicArcane_ja.json",
+          "public-export/ja/ExportRegions_ja.json",
+          "public-export/ja/ExportRecipes_ja.json",
+          "public-export/ko/ExportWarframes_ko.json",
+          "public-export/ko/ExportWeapons_ko.json",
+          "public-export/ko/ExportUpgrades_ko.json",
+          "public-export/ko/ExportRelicArcane_ko.json",
+          "public-export/ko/ExportRegions_ko.json",
+          "public-export/ko/ExportRecipes_ko.json",
+          "public-export/pl/ExportWarframes_pl.json",
+          "public-export/pl/ExportWeapons_pl.json",
+          "public-export/pl/ExportUpgrades_pl.json",
+          "public-export/pl/ExportRelicArcane_pl.json",
+          "public-export/pl/ExportRegions_pl.json",
+          "public-export/pl/ExportRecipes_pl.json",
+          "public-export/pt/ExportWarframes_pt.json",
+          "public-export/pt/ExportWeapons_pt.json",
+          "public-export/pt/ExportUpgrades_pt.json",
+          "public-export/pt/ExportRelicArcane_pt.json",
+          "public-export/pt/ExportRegions_pt.json",
+          "public-export/pt/ExportRecipes_pt.json",
+          "public-export/ru/ExportWarframes_ru.json",
+          "public-export/ru/ExportWeapons_ru.json",
+          "public-export/ru/ExportUpgrades_ru.json",
+          "public-export/ru/ExportRelicArcane_ru.json",
+          "public-export/ru/ExportRegions_ru.json",
+          "public-export/ru/ExportRecipes_ru.json",
+          "public-export/tc/ExportWarframes_tc.json",
+          "public-export/tc/ExportWeapons_tc.json",
+          "public-export/tc/ExportUpgrades_tc.json",
+          "public-export/tc/ExportRelicArcane_tc.json",
+          "public-export/tc/ExportRegions_tc.json",
+          "public-export/tc/ExportRecipes_tc.json",
+          "public-export/th/ExportWarframes_th.json",
+          "public-export/th/ExportWeapons_th.json",
+          "public-export/th/ExportUpgrades_th.json",
+          "public-export/th/ExportRelicArcane_th.json",
+          "public-export/th/ExportRegions_th.json",
+          "public-export/th/ExportRecipes_th.json",
+          "public-export/tr/ExportWarframes_tr.json",
+          "public-export/tr/ExportWeapons_tr.json",
+          "public-export/tr/ExportUpgrades_tr.json",
+          "public-export/tr/ExportRelicArcane_tr.json",
+          "public-export/tr/ExportRegions_tr.json",
+          "public-export/tr/ExportRecipes_tr.json",
+          "public-export/uk/ExportWarframes_uk.json",
+          "public-export/uk/ExportWeapons_uk.json",
+          "public-export/uk/ExportUpgrades_uk.json",
+          "public-export/uk/ExportRelicArcane_uk.json",
+          "public-export/uk/ExportRegions_uk.json",
+          "public-export/uk/ExportRecipes_uk.json",
+          "public-export/zh/ExportWarframes_zh.json",
+          "public-export/zh/ExportWeapons_zh.json",
+          "public-export/zh/ExportUpgrades_zh.json",
+          "public-export/zh/ExportRelicArcane_zh.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "public-export/zh/ExportRecipes_zh.json"
+        ]
+      },
+      "recordCount": 7101
+    },
+    {
+      "path": "catalog/i18n/nodes.json",
+      "sha256": "0ccd0647c7dc42669b6a89002f06ed490ccf16c1098294a9398d9fe5308713f7",
+      "bytes": 318425,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/i18n/nodes.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRegions_en.json!00_457BHCafc9wNaxtGHmvoOw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "dad85ad5cb99d5f9fcd5f2a061879155e2b7546b6efef738301636c1d51838fb",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/de/ExportRegions_de.json",
+          "public-export/es/ExportRegions_es.json",
+          "public-export/fr/ExportRegions_fr.json",
+          "public-export/it/ExportRegions_it.json",
+          "public-export/ja/ExportRegions_ja.json",
+          "public-export/ko/ExportRegions_ko.json",
+          "public-export/pl/ExportRegions_pl.json",
+          "public-export/pt/ExportRegions_pt.json",
+          "public-export/ru/ExportRegions_ru.json",
+          "public-export/tc/ExportRegions_tc.json",
+          "public-export/th/ExportRegions_th.json",
+          "public-export/tr/ExportRegions_tr.json",
+          "public-export/uk/ExportRegions_uk.json",
+          "public-export/zh/ExportRegions_zh.json"
+        ]
+      },
+      "recordCount": 269
+    },
+    {
+      "path": "catalog/loot/relics.json",
+      "sha256": "d825c34cc5b458fa38eb086d4a55724555e2f3d56847260b1b18823921b2abc8",
+      "bytes": 5525549,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/loot/relics.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRelicArcane_en.json!00_yfpUexy9C05OPU7UR+f6pA",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "1ecfdab07f39023b251d5cbed417863acf92ec289babacfcce2e1f8cae956199",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRelicArcane_en.json"
+        ]
+      },
+      "recordCount": 3197
+    },
+    {
+      "path": "catalog/upgrades/arcane-rank-stats.json",
+      "sha256": "eca739b07b593b24cd46f42379943408bc1a0a1ad616a6cd88a16512263a3ecc",
+      "bytes": 396654,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/arcane-rank-stats.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRelicArcane_en.json!00_yfpUexy9C05OPU7UR+f6pA",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "1ecfdab07f39023b251d5cbed417863acf92ec289babacfcce2e1f8cae956199",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRelicArcane_en.json"
+        ]
+      },
+      "recordCount": 956
+    },
+    {
+      "path": "catalog/upgrades/arcanes.json",
+      "sha256": "858f46bb58f78a17f3273397ee5adfb76ef9eaa725d69943c58d3ee7e1d5cde0",
+      "bytes": 392182,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/arcanes.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRelicArcane_en.json!00_yfpUexy9C05OPU7UR+f6pA",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "1ecfdab07f39023b251d5cbed417863acf92ec289babacfcce2e1f8cae956199",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRelicArcane_en.json"
+        ]
+      },
+      "recordCount": 172
+    },
+    {
+      "path": "catalog/upgrades/avionics-rank-stats.json",
+      "sha256": "d024426bb546a942a2bd283402928ebb65198f8b01462c14dd62f8b362cbcd2b",
+      "bytes": 177782,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/avionics-rank-stats.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 492
+    },
+    {
+      "path": "catalog/upgrades/avionics.json",
+      "sha256": "f8ba99bffcd133d59ec5513b4286240ea508dd96f81895d221541f74a0dc2c87",
+      "bytes": 160624,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/avionics.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 82
+    },
+    {
+      "path": "catalog/upgrades/focus-upgrades-rank-stats.json",
+      "sha256": "f846247a389525bd9dbf5c8b5376b1a5a1c67a6769640f9fade1d039490ed5ae",
+      "bytes": 173675,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/focus-upgrades-rank-stats.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 434
+    },
+    {
+      "path": "catalog/upgrades/focus-upgrades.json",
+      "sha256": "9401805a4637d2d658da54e4e40d6cb38b0175cc51f9a64e5ff3c37cec34a64d",
+      "bytes": 198432,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/focus-upgrades.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 105
+    },
+    {
+      "path": "catalog/upgrades/mod-set-rank-stats.json",
+      "sha256": "ea6821a3e9efd3954cd5c4628c0f01620d162fa906693eb231d75a03f0f49541",
+      "bytes": 21764,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/mod-set-rank-stats.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 72
+    },
+    {
+      "path": "catalog/upgrades/mod-sets.json",
+      "sha256": "d4df129cb03ae6bbb276429c0dcc608046d8052441f48419eeaaa2bf769e713e",
+      "bytes": 24529,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/mod-sets.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 19
+    },
+    {
+      "path": "catalog/upgrades/mods-rank-stats.json",
+      "sha256": "5f0227d3ab73f34be20c19adcd6292e1ab0aaa8efb9e124129064c6569291e29",
+      "bytes": 3061451,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/mods-rank-stats.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 8540
+    },
+    {
+      "path": "catalog/upgrades/mods.json",
+      "sha256": "25840a0cf1c0f9a72372ed482e0a41f280a89b13802673d96a5b95e32762ed3d",
+      "bytes": 5760113,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/upgrades/mods.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "2e5058d00d6b4db7f52b830eefd55a1ef8c009bf8149f41843dc051acc2b58a2",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json"
+        ]
+      },
+      "recordCount": 1603
+    },
+    {
+      "path": "catalog/world/nodes.json",
+      "sha256": "e341cf598d02a31481d4c366f23d8eaedc8bea6d57fea6576fb7593579686b4f",
+      "bytes": 82569,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "catalog/world/nodes.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportRegions_en.json!00_457BHCafc9wNaxtGHmvoOw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "f13e093673270a571dba89e4baeaa65c4307218319e206c4c8937b6bbf6f98cd",
+        "transformer": "warframe-datasource-nnm/public-export-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json"
+        ]
+      },
+      "recordCount": 269
+    },
+    {
+      "path": "drop/additional-item-drops-by-source.json",
+      "sha256": "aa48ea5e98af527143425a55cd61d1e20dea1c2134e53ab98c5986d9c6155870",
+      "bytes": 14935,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/additional-item-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 58
+    },
+    {
+      "path": "drop/albrechts-laboratories-bounty-rewards.json",
+      "sha256": "780f518b7cdf03cecf247a1d0d9e101604176e3f6657c013895c70520d78cce2",
+      "bytes": 10374,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/albrechts-laboratories-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 41
+    },
+    {
+      "path": "drop/blueprint-item-drops-by-blueprint-item.json",
+      "sha256": "b707c703695ab09dd0a2f11f482ece3299c0487140bbb523fed319fc175706ea",
+      "bytes": 155032,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/blueprint-item-drops-by-blueprint-item",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 573
+    },
+    {
+      "path": "drop/blueprint-item-drops-by-source.json",
+      "sha256": "6fe981ee4285f55adde3d005b72852decab737c2232fc2fdf15927fa7f9137ce",
+      "bytes": 136525,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/blueprint-item-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 573
+    },
+    {
+      "path": "drop/cambion-drift-bounty-rewards.json",
+      "sha256": "52700cf25e117a2790e9c6f8a9d4ab8710ae9b0a0564ce1894db61e88782aca0",
+      "bytes": 247854,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/cambion-drift-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 893
+    },
+    {
+      "path": "drop/cetus-bounty-rewards.json",
+      "sha256": "5e4de888bf874503a5f92c4f0de15bb3bb3d95111dc2ddff48d158350186056f",
+      "bytes": 182518,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/cetus-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 711
+    },
+    {
+      "path": "drop/dynamic-location-rewards.json",
+      "sha256": "5527757f73fa02d2ba1255b48cf4d298cee7b32967b60869d327568c3f09bfca",
+      "bytes": 174141,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/dynamic-location-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 776
+    },
+    {
+      "path": "drop/hex-bounty-rewards.json",
+      "sha256": "6bead99fb113cd5302f34575c9d55cf788957afa80b6983a7d7b1751f2fa7bf6",
+      "bytes": 13492,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/hex-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 59
+    },
+    {
+      "path": "drop/keys.json",
+      "sha256": "d1b518111245075afeca3679ba55b521bc615e12844dfbc617eaa77d00bf10a5",
+      "bytes": 130396,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/keys",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 668
+    },
+    {
+      "path": "drop/missions.json",
+      "sha256": "b534ceab6940034aae23a41c412f45d2dd7e107453f23ec771e89a49ed3129da",
+      "bytes": 2135641,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/missions",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 10364
+    },
+    {
+      "path": "drop/mod-drops-by-mod.json",
+      "sha256": "16d974c504fcc2f56026b6daf2fde47964f069aa21673224b897bbb83548f115",
+      "bytes": 1840189,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/mod-drops-by-mod",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 7553
+    },
+    {
+      "path": "drop/mod-drops-by-source.json",
+      "sha256": "cc8283c17632cce41273f5cc5685631bad0aec5c39d77dacc8457d757b54d25d",
+      "bytes": 1661576,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/mod-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 7553
+    },
+    {
+      "path": "drop/orb-vallis-bounty-rewards.json",
+      "sha256": "c69d1f6d5a8e546415af6698125b530c4f2473b459b6a44b0b4a213096e5a8b7",
+      "bytes": 125242,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/orb-vallis-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 474
+    },
+    {
+      "path": "drop/relic-drops-by-source.json",
+      "sha256": "c8223215c2e17e280a5edf538b35dee4c0dcd61579ed5fad486b6e9cf52d2aab",
+      "bytes": 2126,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/relic-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 11
+    },
+    {
+      "path": "drop/relics.json",
+      "sha256": "e664677e3d5fe1e7e8966263f3bdbb7288b0dc8d62bdc426ae40607e2dbf8182",
+      "bytes": 3723542,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/relics",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 19166
+    },
+    {
+      "path": "drop/resource-drops-by-resource.json",
+      "sha256": "b2707d29b251a93ff1590837ceec7564eb1879b532a45a6c4ca8ed0be57ff73b",
+      "bytes": 492639,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/resource-drops-by-resource",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 1879
+    },
+    {
+      "path": "drop/resource-drops-by-source.json",
+      "sha256": "51ac6a8c55cb137a39aeeada537d729998933cf6dce3bf948888558595c4d16e",
+      "bytes": 424550,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/resource-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 1879
+    },
+    {
+      "path": "drop/sigil-drops-by-source.json",
+      "sha256": "52e849f05ce53b8bad120c8f2bd8461a4bf35f9267fe72da8c6e0b109cc7b321",
+      "bytes": 18749,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/sigil-drops-by-source",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 81
+    },
+    {
+      "path": "drop/sorties.json",
+      "sha256": "a6034699a2abb750d3e0fbac80687f41490b18f0dc9c544e04d612e36bfa7cfd",
+      "bytes": 3073,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/sorties",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 17
+    },
+    {
+      "path": "drop/zariman-bounty-rewards.json",
+      "sha256": "c3afd6610c1cfd081bb7c5a060aa5813bcbf024582475efe1558663f8a3b8cd8",
+      "bytes": 10068,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Drop Tables",
+        "dataset": "droptables/zariman-bounty-rewards",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:22:27.836Z",
+        "upstreamRevision": "599169fc08deda359ddc661de5397566dbd6b9603dd1681fdd602ed71d08d37b",
+        "transformer": "warframe-datasource-nnm/droptables-projection@1",
+        "derivedFrom": [
+          "droptables/droptables.html"
+        ]
+      },
+      "recordCount": 43
+    },
+    {
+      "path": "languages/en.json",
+      "sha256": "b13e1be57dcb6abd903afc7e79bed193dc5101e415d57b18593e0cd3471566ed",
+      "bytes": 17910778,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-languages-bin-data",
+        "dataset": "languages/en",
+        "url": "https://github.com/calamity-inc/warframe-languages-bin-data/blob/master/en.json",
+        "capturedAt": "2026-10-22T17:23:27.678Z",
+        "upstreamRevision": "b13e1be57dcb6abd903afc7e79bed193dc5101e415d57b18593e0cd3471566ed",
+        "transformer": "warframe-datasource-nnm/languages-pass-through@1"
+      },
+      "recordCount": 140358
+    },
+    {
+      "path": "languages/zh.json",
+      "sha256": "9ff4f5f720b3394abf738ae15b90d4ef2820d93432fb30e52d946f15bd2236d9",
+      "bytes": 18158561,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-languages-bin-data",
+        "dataset": "languages/zh",
+        "url": "https://github.com/calamity-inc/warframe-languages-bin-data/blob/master/zh.json",
+        "capturedAt": "2026-10-22T17:23:27.678Z",
+        "upstreamRevision": "9ff4f5f720b3394abf738ae15b90d4ef2820d93432fb30e52d946f15bd2236d9",
+        "transformer": "warframe-datasource-nnm/languages-pass-through@1"
+      },
+      "recordCount": 140358
+    },
+    {
+      "path": "linked/items.json",
+      "sha256": "acf300eca1fbd5a15541aa2428174180e89553fd45013acf4e244a9ca5dabe97",
+      "bytes": 2871337,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "linked/items",
+        "url": "https://api.warframe.market/v2/items",
+        "capturedAt": "2026-10-22T17:22:26.304Z",
+        "upstreamRevision": "4eb48216fcef0b3fac166a805507fce5d571f2de3e9c4c8dd82b0105d9a73a59",
+        "transformer": "warframe-datasource-nnm/linked-items-projection@1",
+        "derivedFrom": [
+          "catalog/i18n/items.json",
+          "market/items.json"
+        ]
+      },
+      "recordCount": 3871
+    },
+    {
+      "path": "linked/relics.json",
+      "sha256": "9e2254752c5a8bc62ada28099fbda809a33e23cb563ff15a41d7c05fba32de39",
+      "bytes": 3297240,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "linked/relics",
+        "url": "https://www.warframe.com/droptables",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "48f7b22dd3ac438b558b13949c1e7930182866c08dd6ec2f2da612ce73e731e8",
+        "transformer": "warframe-datasource-nnm/linked-relics-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRelicArcane_en.json",
+          "public-export/zh/ExportRelicArcane_zh.json",
+          "drop/relics.json",
+          "drop/missions.json",
+          "market/items.json"
+        ]
+      },
+      "recordCount": 799
+    },
+    {
+      "path": "market/items.json",
+      "sha256": "8b3e8ef2d1a1d1ee70127db9ccf1cab0f4072c832a4709c83f50f18316e80f51",
+      "bytes": 3380391,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Warframe Market API v2",
+        "dataset": "items/nnm-projection",
+        "url": "https://api.warframe.market/v2/items",
+        "capturedAt": "2026-10-22T17:22:26.304Z",
+        "upstreamRevision": "4589831eb54d7accff45c82b39372e1e19f6448860c9565ec864fadfe77ad9eb",
+        "transformer": "warframe-datasource-nnm/market-items-projection@1",
+        "derivedFrom": [
+          "warframe-market/items-v2.json"
+        ]
+      },
+      "recordCount": 3892
+    },
+    {
+      "path": "market/riven-attributes.json",
+      "sha256": "40e7a6502dff6f80d2c4b1b853fe0ab73700b31bae6eaceef1097b10edc88d5f",
+      "bytes": 36020,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Warframe Market API v2",
+        "dataset": "riven/attributes/nnm-projection",
+        "url": "https://api.warframe.market/v2/riven/attributes",
+        "capturedAt": "2026-10-22T17:26:16.190Z",
+        "upstreamRevision": "2a1f77ace9eabf5064739a06582b6d85b9daa4ccb892ba8d6eceb7daa2c69c8e",
+        "transformer": "warframe-datasource-nnm/market-riven-projection@1",
+        "derivedFrom": [
+          "warframe-market/riven-attributes-v2.json"
+        ]
+      },
+      "recordCount": 50
+    },
+    {
+      "path": "market/riven-weapons.json",
+      "sha256": "3e4dbafd0383a01671e7541aad5d0d9f4e7746c67449561402ef9068f7962010",
+      "bytes": 241651,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Warframe Market API v2",
+        "dataset": "riven/weapons/nnm-projection",
+        "url": "https://api.warframe.market/v2/riven/weapons",
+        "capturedAt": "2026-10-22T17:26:16.854Z",
+        "upstreamRevision": "18d0e7af72e6e8b8046bb483dbf2ed65e08d396ab02ec23eb3186f3097809f52",
+        "transformer": "warframe-datasource-nnm/market-riven-weapons-projection@1",
+        "derivedFrom": [
+          "warframe-market/riven-weapons-v2.json"
+        ]
+      },
+      "recordCount": 420
+    },
+    {
+      "path": "plus/achievements.json",
+      "sha256": "9b5771ba2c6d92725476ec4d78b775f993bc1400670d4e855cf8b04214695ef2",
+      "bytes": 117281,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Achievements",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportAchievements.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "01a8a8dc91c901ce551c0ec458954ce59094b4ce13722c867b30daa897cb9f48",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportAchievements.json"
+        ]
+      },
+      "recordCount": 376
+    },
+    {
+      "path": "plus/animals.json",
+      "sha256": "ee9297abaa834252959f6dc62f541d39a417bdfe04cc78ec1f13c95c3a9a9000",
+      "bytes": 114106,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Animals",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportAnimals.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "855776772371a23e6e383e16d37e8b74f6444d05cd6ecf44194ac97710f0344e",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportAnimals.json"
+        ]
+      },
+      "recordCount": 159
+    },
+    {
+      "path": "plus/boosterpacks.json",
+      "sha256": "ec9b193eabea7a4cf9fdffbdd6dbb7eb89152b876cffc16a266f347959400b1b",
+      "bytes": 389768,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/BoosterPacks",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportBoosterPacks.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "59b8b350b55f128cd552e78b2d6167b8bce4767e9c8dca3b1d1a3b16ee6a7898",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportBoosterPacks.json"
+        ]
+      },
+      "recordCount": 38
+    },
+    {
+      "path": "plus/boosters.json",
+      "sha256": "9c6213b9433fdd72f8b202f647bbdbc8e63f998f59bfa7726422af6a6488bd6f",
+      "bytes": 4962,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Boosters",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportBoosters.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "2c222c49a72a8f52a87bfb1885435ca8e005e0393b23615d3fa220f1dbc5c116",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportBoosters.json"
+        ]
+      },
+      "recordCount": 11
+    },
+    {
+      "path": "plus/bounties.json",
+      "sha256": "33a1f237f45477fe9e284e0d2d5cc3867070d64704ffe09eba98b8b502e72d35",
+      "bytes": 95081,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Bounties",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportBounties.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "a53d295991e51b2c28ac1af428a417b19f0f06d458ef779e91d4479a668b9a8b",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportBounties.json"
+        ]
+      },
+      "recordCount": 54
+    },
+    {
+      "path": "plus/bundles.json",
+      "sha256": "3ab8b83c7a18af8df893620c526462ffa8cf72237b079de784837997ef78f97e",
+      "bytes": 1444997,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Bundles",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportBundles.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "2396b94d6fb1cec4a7a20c48ae579ce91aab57fe703dc3ccc08017df892f995d",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportBundles.json"
+        ]
+      },
+      "recordCount": 1164
+    },
+    {
+      "path": "plus/challenges.json",
+      "sha256": "b3d79339ff1d13142bb5b76a8adc0633e0d97d94004c59ef84677881fba6d2b3",
+      "bytes": 268453,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Challenges",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportChallenges.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "38dec5c4675b4c96aa2c819bace51d13c3861c396d7261a59b1e8cd323c1816c",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportChallenges.json"
+        ]
+      },
+      "recordCount": 630
+    },
+    {
+      "path": "plus/codex.json",
+      "sha256": "a4b78fe4f8d09ec47ac36d80d45b8aefd640d24cf8413bbe05d09293d262cb18",
+      "bytes": 257970,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Codex",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportCodex.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "6ace332b6369d358454a43612994051c7c49b63ae114163819318e74501e3c5f",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportCodex.json"
+        ]
+      },
+      "recordCount": 4
+    },
+    {
+      "path": "plus/creditbundles.json",
+      "sha256": "1f6e30aa870229415a0c5fc7eda2d44926575ffbd15e0f4939d8851bf91a60a7",
+      "bytes": 7141,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/CreditBundles",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportCreditBundles.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "d331559e989fa65dc41b65bb24637752a68d33b553f3f2b4902cfa3e1bf2911a",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportCreditBundles.json"
+        ]
+      },
+      "recordCount": 26
+    },
+    {
+      "path": "plus/emailitems.json",
+      "sha256": "502f04564cf45e002d22134aa95009991e51484f6dd75e640451607afb6defbb",
+      "bytes": 29507,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/EmailItems",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportEmailItems.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "4ca4008772d49ca3d191954ca9b74c15f724e306c7b0e0b25ce67e84b2f35289",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportEmailItems.json"
+        ]
+      },
+      "recordCount": 54
+    },
+    {
+      "path": "plus/enemies.json",
+      "sha256": "2503ee61a2a9080dc0ea7aa97e43006ff61a1703706506d073388bdfde1ddccb",
+      "bytes": 5005945,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Enemies",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportEnemies.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "7328d7f92a5df9b0ce646d8cfbe56dab7bb05ff4e070c634bdefb1f290921dda",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportEnemies.json"
+        ]
+      },
+      "recordCount": 6
+    },
+    {
+      "path": "plus/factions.json",
+      "sha256": "d656b1d05b6cb3919894f1b3141fbd82dbdb7f390fbc7cea5886efc522694346",
+      "bytes": 1335,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Factions",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportFactions.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "fc940c5432724bfff0d02902373ec0cdd7cb0bdca2735489b547d75ad7b5a7ea",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportFactions.json"
+        ]
+      },
+      "recordCount": 12
+    },
+    {
+      "path": "plus/images.json",
+      "sha256": "a2ffb9f0b137705fc65e425f5078675ec9a418672f0a659ff5cdad5e8ffac157",
+      "bytes": 1677792,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Images",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportImages.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "fdce85c475a60a879c8a26526e37c8cc50af62fee3d87fde3d9842e98acd6101",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportImages.json"
+        ]
+      },
+      "recordCount": 12467
+    },
+    {
+      "path": "plus/intrinsics.json",
+      "sha256": "fb7b1124572e70d91db0dc82d36f162b7e43b36aa1f597e63f737880799549c2",
+      "bytes": 17054,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Intrinsics",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportIntrinsics.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "206662b0f51af60ec69e8f1d15a4bcd7c830a23037fa13135a82b57d3cc47648",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportIntrinsics.json"
+        ]
+      },
+      "recordCount": 5
+    },
+    {
+      "path": "plus/missiontypes.json",
+      "sha256": "de15042d5e56e96775d7cd8ca39f1ea78a73bce48b31abbe0ffd73caf0f25d5a",
+      "bytes": 5246,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/MissionTypes",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportMissionTypes.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "886768768dce18c70bd92acc58e77accd78dc8f22f17199e7dd45bef71eea847",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportMissionTypes.json"
+        ]
+      },
+      "recordCount": 46
+    },
+    {
+      "path": "plus/nightwave.json",
+      "sha256": "ff0dfa30e303297a783b59630b11a67540c384067d27fcae6fa039bf740428cb",
+      "bytes": 249005,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Nightwave",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportNightwave.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "ea0f5ed496f4a98f0f30f2a74bfd406ae8235ff3498195d1e60ceb661e7680bf",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportNightwave.json"
+        ]
+      },
+      "recordCount": 3
+    },
+    {
+      "path": "plus/rewards.json",
+      "sha256": "60e507c1a64fa94ad434ae2f9cb7bc1ee571980c0f3f8d5c984f5bf8aea6a8a9",
+      "bytes": 1917157,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Rewards",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportRewards.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "8241d2df5f7cdd158992ccacec66c92c2c9a0efac72d7692069fad689edd3fe8",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportRewards.json"
+        ]
+      },
+      "recordCount": 1103
+    },
+    {
+      "path": "plus/syndicates.json",
+      "sha256": "7fe3115334ae2697b77dca40b16664d0f7f2feba0bcff4220f1cfb2ba2bd9d7e",
+      "bytes": 1727011,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Syndicates",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportSyndicates.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "f6311abaf009a1e88862b7744d0e08e71982e5023ee6988e1139d30f12a65f3d",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportSyndicates.json"
+        ]
+      },
+      "recordCount": 40
+    },
+    {
+      "path": "plus/systems.json",
+      "sha256": "c92ceb3ab7ceae6b36de3e5bdebc843d8b2d04ed83e652929115eb019f8f0a5a",
+      "bytes": 21922,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Systems",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportSystems.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "9747f84c8ce5953d7d7129fa13a52989a8255e1c06db43d9d42ffdbf0d255707",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportSystems.json"
+        ]
+      },
+      "recordCount": 25
+    },
+    {
+      "path": "plus/texticons.json",
+      "sha256": "e2f96b7304616f46a3db6365b5b0fa26cb98f518d78b4d9c7ddf85c24270e655",
+      "bytes": 87859,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/TextIcons",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportTextIcons.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "e156ee252e9d53c4c8a3fa666bab410ea237e803db8e10eb05ca77340b7fd46f",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportTextIcons.json"
+        ]
+      },
+      "recordCount": 678
+    },
+    {
+      "path": "plus/tilesets.json",
+      "sha256": "b0099522b8277c3341f3ad14c2fa72624495f6b03f32738620aee24f5b9e3434",
+      "bytes": 67087,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Tilesets",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportTilesets.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "2c49f2a5874b17134280df8f6deb8be9e81e1b6d503f44d129c5bc38b95ccc19",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportTilesets.json"
+        ]
+      },
+      "recordCount": 28
+    },
+    {
+      "path": "plus/vendors.json",
+      "sha256": "86c27ca169f910bfdb3fba2d696c4425344ae203f9731604de8ecc60777345a8",
+      "bytes": 2171788,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Vendors",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportVendors.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "5dbcc887574dd15f7a8d59c14a1ac9dc1beceb999f9643909942cc21c872b7fc",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportVendors.json"
+        ]
+      },
+      "recordCount": 96
+    },
+    {
+      "path": "plus/virtuals.json",
+      "sha256": "446b5823a65042795007a943780927e8ace9f6ca2952b75257a2000cfe0a2050",
+      "bytes": 27781,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-public-export-plus",
+        "dataset": "plus/Virtuals",
+        "url": "https://github.com/calamity-inc/warframe-public-export-plus/blob/senpai/ExportVirtuals.json",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "d96264c584a32cb617185e41544342675437521db97d3639850458b0e8804473",
+        "transformer": "warframe-datasource-nnm/plus-exclusive-pass-through@1",
+        "derivedFrom": [
+          "plus/ExportVirtuals.json"
+        ]
+      },
+      "recordCount": 172
+    },
+    {
+      "path": "riven/definitions.json",
+      "sha256": "3ba23e008443dda436c2c1864aa4a1172c7bdf370ccad63b6aec93f5bf504060",
+      "bytes": 3458163,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "riven/definitions.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportUpgrades_en.json!00_VyAyYCx-vby5YN-tLPimVw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "4a2eb214b8c5831c929d53ea1c62b0c55298cdddc2c8ec5c6935b2c12df99904",
+        "transformer": "warframe-datasource-nnm/riven-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportUpgrades_en.json",
+          "public-export/zh/ExportUpgrades_zh.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 7
+    },
+    {
+      "path": "riven/disposition.json",
+      "sha256": "a443b880bcc9e428b63ff2f200fb38ac3c54f6c9a650b2bc0fa09a8f4eae7b6d",
+      "bytes": 254481,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Public Export",
+        "dataset": "riven/disposition.json",
+        "url": "https://content.warframe.com/PublicExport/Manifest/ExportWeapons_en.json!00_RcEdsq5S+l61BkfnQuzJFw",
+        "capturedAt": "2026-10-22T17:21:52.173Z",
+        "upstreamRevision": "ac00f1b118be7f06aaa4d60108896507dc6dc8bd3dd87bac1ed41f7deef354bd",
+        "transformer": "warframe-datasource-nnm/riven-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportWeapons_en.json"
+        ]
+      },
+      "recordCount": 982
+    },
+    {
+      "path": "riven/weekly-pc.json",
+      "sha256": "59520ad799dbcb95b49a2dda5433f5d34664027339321d08f6e97b173d338e08",
+      "bytes": 162257,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Weekly Rivens",
+        "dataset": "riven/weekly/PC",
+        "url": "https://www-static.warframe.com/repos/weeklyRivensPC.json",
+        "capturedAt": "2026-10-22T17:26:17.336Z",
+        "upstreamRevision": "c295c88c72ea8bc67d5c8125fe558698863c9fd17391c7c85a0212f82ebf4c9f",
+        "transformer": "warframe-datasource-nnm/weekly-rivens-projection@1",
+        "derivedFrom": [
+          "weekly-rivens/PC.txt"
+        ]
+      },
+      "recordCount": 808
+    },
+    {
+      "path": "riven/weekly-ps4.json",
+      "sha256": "8fe2bd51ac8408a3db3a1e74fd06f37e1fc529d621d997310110b234a8a52ff0",
+      "bytes": 89924,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Weekly Rivens",
+        "dataset": "riven/weekly/PS4",
+        "url": "https://www-static.warframe.com/repos/weeklyRivensPS4.json",
+        "capturedAt": "2026-10-22T17:26:17.336Z",
+        "upstreamRevision": "aab3c5acd319a2b74337b54b7fbd50f4697c225fa467ba11f2342057d658277d",
+        "transformer": "warframe-datasource-nnm/weekly-rivens-projection@1",
+        "derivedFrom": [
+          "weekly-rivens/PS4.txt"
+        ]
+      },
+      "recordCount": 457
+    },
+    {
+      "path": "riven/weekly-swi.json",
+      "sha256": "acd28516ee029a5a59fb789102f04bf4940cb6c641a11dc0d66caa27dd31fa26",
+      "bytes": 4080,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Weekly Rivens",
+        "dataset": "riven/weekly/SWI",
+        "url": "https://www-static.warframe.com/repos/weeklyRivensSWI.json",
+        "capturedAt": "2026-10-22T17:26:17.336Z",
+        "upstreamRevision": "2132d939b07c4dba52c32b3d8e9e5834f16b1cf4764efcaf356fac010a0f4bcf",
+        "transformer": "warframe-datasource-nnm/weekly-rivens-projection@1",
+        "derivedFrom": [
+          "weekly-rivens/SWI.txt"
+        ]
+      },
+      "recordCount": 21
+    },
+    {
+      "path": "riven/weekly-xb1.json",
+      "sha256": "8bd5660483019f401b728d7f10590564049faf18bfd5a92cf7a9b6c394dc187f",
+      "bytes": 62961,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Weekly Rivens",
+        "dataset": "riven/weekly/XB1",
+        "url": "https://www-static.warframe.com/repos/weeklyRivensXB1.json",
+        "capturedAt": "2026-10-22T17:26:17.336Z",
+        "upstreamRevision": "5ce41b249ee6c471826ccd3da10477270d2bf659ff9dcfbb79ba2f918ffb1fb9",
+        "transformer": "warframe-datasource-nnm/weekly-rivens-projection@1",
+        "derivedFrom": [
+          "weekly-rivens/XB1.txt"
+        ]
+      },
+      "recordCount": 321
+    },
+    {
+      "path": "usage/2020.json",
+      "sha256": "3d548627e8bb634d2dfd63eecf9aff82391e766fb4ab586c5063f42463bba6b3",
+      "bytes": 11741793,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2020/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2020.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "f4143fb545aeab9ebfc3b79164089679fe9e05ba89578ce1c3bc1bf7994c0125",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2020.json"
+        ]
+      },
+      "recordCount": 75670
+    },
+    {
+      "path": "usage/2021.json",
+      "sha256": "164c5814f5f180cc454d25f45fe4cd9191068f663f9c3b46c0dfad5ea1496cea",
+      "bytes": 13724717,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2021/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2021.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "75b76d2493d7b00041f59a293edb34600a45b6f7dc675da1b6d2b3a454170b11",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2021.json"
+        ]
+      },
+      "recordCount": 88807
+    },
+    {
+      "path": "usage/2022.json",
+      "sha256": "c29ec37133d4680cb17fb57f851e80eb7a67c32f6bfd8da0dfeeb54519ebd24b",
+      "bytes": 14302890,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2022/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2022.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "341bea23c009fbf0ce60392e2d5c48cb256575bc701bf3037933b164c545756b",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2022.json"
+        ]
+      },
+      "recordCount": 91983
+    },
+    {
+      "path": "usage/2023.json",
+      "sha256": "4c332e521418f578f1154e7ae78d6652b94999e66c087a61880094e4bb11d789",
+      "bytes": 15859015,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2023/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2023.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "1fe69ccfc5a56e38e72a5a26b1a364f43881e2d0477907a08a75260048c14a93",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2023.json"
+        ]
+      },
+      "recordCount": 102015
+    },
+    {
+      "path": "usage/2024.json",
+      "sha256": "a3f418e0de6aeae4ce78af3336cfd64a8be7aa2e86053ae671504280159dca0b",
+      "bytes": 3634764,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2024/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2024.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "0621fc7aaaea5aa88e9b16050c36193d91815cdad98d773f8a1fe274160aa9b7",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2024.json"
+        ]
+      },
+      "recordCount": 23251
+    },
+    {
+      "path": "usage/2025.json",
+      "sha256": "35b0074ac8179f56899dcfdf417bb42b8f7d87b51b9955cd7e37ed13d1a14632",
+      "bytes": 3971910,
+      "mediaType": "application/json",
+      "source": {
+        "project": "Digital Extremes Warframe Usage Data",
+        "dataset": "usage/2025/nnm-projection",
+        "url": "https://www-static.warframe.com/repos/WarframeUsageData2025.json",
+        "capturedAt": "2026-10-22T17:26:19.691Z",
+        "upstreamRevision": "5b69c70660bdb59d7103a4328c94d1062bc089fe0b5eaa7c93408376c9728972",
+        "transformer": "warframe-datasource-nnm/usage-projection@1",
+        "derivedFrom": [
+          "usage/raw/WarframeUsageData2025.json"
+        ]
+      },
+      "recordCount": 25403
+    },
+    {
+      "path": "worldstate/factions.json",
+      "sha256": "bb432cf3c3bfa79b4e4c18e8047b7d3c51842498fbf02aa24603d4c8e15374e7",
+      "bytes": 855,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/factions.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "d9ff44ba00e9beb5258d604dbff77e3072c342611eab83c0ed56042946b5f171",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 12
+    },
+    {
+      "path": "worldstate/fissure-modifiers.json",
+      "sha256": "0a35274fc44cf62a54a068093ef7410b2ee90f5f0deefdb855b109c170637c1a",
+      "bytes": 467,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/fissure-modifiers.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "250d8ff8764b18a2e0c913ece4fd122ca7135db35dfeceaeceb5f3d1c5b5d767",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRelicArcane_en.json",
+          "public-export/zh/ExportRelicArcane_zh.json"
+        ]
+      },
+      "recordCount": 6
+    },
+    {
+      "path": "worldstate/mission-types.json",
+      "sha256": "2b5c7153e143c7317f4599608c729ba312368b4e201ef9095a83d9dbebaf4371",
+      "bytes": 3412,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/mission-types.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "cbbc4dec856bf6705065bfe17c34802ba708509147294c68ebb6bdb10444d5d4",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 46
+    },
+    {
+      "path": "worldstate/nodes.json",
+      "sha256": "ee48eca4871d0e3dbb51f8448c06ade9c6bdea68a36a6d3932688f370154a160",
+      "bytes": 202981,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/nodes.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "7514cdff590f138e77c083d9fc7be3b71439ae240a9a07aad2f6d1fa14f3380c",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 354
+    },
+    {
+      "path": "worldstate/regions.json",
+      "sha256": "14bd25a3a25c77e5675fedb5d43d6038f9c0bc052be1ef1a4e1542121caa7d2b",
+      "bytes": 1397,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/regions.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "da605f61bc12ed423b7dd200481da6dc974baadd079a34b7c17a1be1b01a810d",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 22
+    },
+    {
+      "path": "worldstate/syndicates.json",
+      "sha256": "30ccbacfcfda1c5fbe0689fb343ff75acaa45bddf3ea3f34383fa23f61946bf2",
+      "bytes": 6272,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/syndicates.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "d0d7d873a10d793ad035e0f6d0204d0cec2447761b05023b20595bd6ebd7ab7d",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 40
+    },
+    {
+      "path": "worldstate/upgrade-types.json",
+      "sha256": "6416b52f95c62d6cce4f8fc146f780d30b5125fcdfa99b63e3844f01db39b287",
+      "bytes": 3276,
+      "mediaType": "application/json",
+      "source": {
+        "project": "warframe-datasource-nnm",
+        "dataset": "worldstate/upgrade-types.json",
+        "url": "https://api.warframe.com/cdn/worldState.php",
+        "capturedAt": "2026-10-22T17:22:31.140Z",
+        "upstreamRevision": "2c07cfb705f5d9d6ffc0233abd5e5eeb375b6184efbcf7e59bdbb7206f8f546c",
+        "transformer": "warframe-datasource-nnm/worldstate-codebook-projection@1",
+        "derivedFrom": [
+          "public-export/en/ExportRegions_en.json",
+          "public-export/zh/ExportRegions_zh.json",
+          "plus/ExportRegions.json",
+          "plus/ExportMissionTypes.json",
+          "plus/ExportFactions.json",
+          "plus/ExportSyndicates.json",
+          "languages/en.json",
+          "languages/zh.json"
+        ]
+      },
+      "recordCount": 28
+    }
+  ]
+}

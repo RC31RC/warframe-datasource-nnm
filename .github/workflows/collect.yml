@@ -1,0 +1,53 @@
+name: Collect & Publish
+
+on:
+  schedule:
+    # 每天 03:17 UTC（覆盖 arbys.txt 每小时追加、market 每日变化；其余数据幂等）
+    - cron: "17 3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # pluto/ 与 tmp/cache/ 已随仓库提交（checkout 即得兜底）：
+      # - languages 走「pluto/languages → GitHub Raw」降级
+      # - plus 走「raw → tmp/cache 解压」降级
+      # - 其余（官方 Export/掉落表/market/usage/arbys）直接访问上游 URL
+      - name: Collect
+        run: npm run collect
+
+      - name: Verify
+        run: npm run verify
+
+      # data/latest 覆盖式发布；tmp/cache 每次 collect 后更新为上一轮快照。
+      # 数据有变化时打日期 tag（data-YYYYMMDD）作为稳定快照锚点。
+      - name: Commit and tag regenerated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data tmp pluto
+          if git diff --cached --quiet; then
+            echo "No changes, skip commit and tag"
+          else
+            git commit -m "data: regenerate $(date -u +%F)"
+            TAG="data-$(date -u +%Y%m%d)"
+            if git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then
+              TAG="$TAG-$(date -u +%H%M%S)"
+            fi
+            git tag "$TAG"
+            git push origin main "$TAG"
+          fi

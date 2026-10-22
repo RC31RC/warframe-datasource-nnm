@@ -1,0 +1,37 @@
+local json = require "json"
+
+local ExportResources = io.contents([[C:\Users\Sainan\Desktop\Repos\warframe-public-export-plus\ExportResources.json]]) |> json.decode
+
+local names = {}
+for k in ExportResources do
+	names:insert(k)
+end
+local srl = UISys.ScriptResLoader_Create(names)
+while not srl:IsDone() do
+	yield()
+end
+
+local data = {}
+for k in ExportResources do
+	ivkr_push_string(k)
+	ivkr_call(ivkr_find_global("Resource"), 1)
+	if ivkr_type(-1) == 0 then
+		error("nil for "..k)
+		ivkr_pop(1)
+		continue
+	end
+	ivkr_call(ivkr_find_method("Item", "GetAmount"), 1)
+	local range = ivkr_pop_range()
+	if range.minValue == 0 and range.maxValue == 0 then
+		continue
+	end
+	if range.minValue == 1 and range.maxValue == 1 then
+		continue
+	end
+	data[k] = {
+		__order = { "minValue", "maxValue" },
+		minValue = math.tointeger(range.minValue) or error(),
+		maxValue = math.tointeger(range.maxValue) or error(),
+	}
+end
+print(json.encode(data, true))

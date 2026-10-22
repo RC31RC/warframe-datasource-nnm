@@ -1,0 +1,15 @@
+[
+  {
+    "ids": 1,
+    "effect": "弹药上限",
+    "group": "default",
+    "negative_only": "0",
+    "positive_is_negative": "0",
+    "prefix": "Ampi",
+    "search_only": "0",
+    "suffix": "Bin",
+    "units": "percent",
+    "url_name": "ammo_maximum",
+    "exclusive_to": "[\"shotgun\",\"rifle\",\"pistol\",\"kitgun\"]"
+  }
+]

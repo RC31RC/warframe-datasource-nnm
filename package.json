@@ -1,0 +1,26 @@
+{
+  "name": "warframe-datasource-nnm",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Warframe data collection and static JSON generation for GitHub Raw consumers.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "collect": "tsx src/cli.ts collect",
+    "verify": "tsx src/cli.ts verify",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "json5": "^2.2.3",
+    "lzma-native": "^8.0.6"
+  },
+  "devDependencies": {
+    "@types/lzma-native": "^4.0.4",
+    "@types/node": "^24.10.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,8306 @@
+[
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Redirection",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "蓄能重划"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "100X Oxium",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "15X Iradite",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Redirection",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "蓄能重划"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100X Oxium",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "15X Iradite",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.52
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Point Blank",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Streamline",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "简化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Redirection",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "蓄能重划"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "100X Oxium",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "15X Iradite",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Point Blank",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Streamline",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "简化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Morphics",
+    "rarity": "Rare",
+    "chance": 2.01
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 30.56
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Point Blank",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Streamline",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "简化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Morphics",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Pressure Point",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "压迫点"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "100X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "15X Grokdrul",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Pressure Point",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "压迫点"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "15X Grokdrul",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.52
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Hornet Strike",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "黄蜂螫刺"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Stretch",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "延伸"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Pressure Point",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "压迫点"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "100X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "15X Grokdrul",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Hornet Strike",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "黄蜂螫刺"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Stretch",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "延伸"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Morphics",
+    "rarity": "Rare",
+    "chance": 2.01
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 30.56
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Hornet Strike",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "黄蜂螫刺"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Stretch",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "延伸"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Morphics",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Vitality",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "生命力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "200X Plastids",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "15X Nistlepod",
+    "rarity": "Uncommon",
+    "chance": 20
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vitality",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "生命力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200X Plastids",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.49,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "15X Nistlepod",
+    "rarity": "Uncommon",
+    "chance": 15.49
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.52
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Point Blank",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Intensify",
+    "rarity": "Rare",
+    "chance": 7.52,
+    "itemZh": "聚精会神"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Vitality",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "生命力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "200X Plastids",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "1,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.18,
+    "itemZh": "1,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "50 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "15X Nistlepod",
+    "rarity": "Uncommon",
+    "chance": 15.18
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.37
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Point Blank",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Intensify",
+    "rarity": "Rare",
+    "chance": 7.37,
+    "itemZh": "聚精会神"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Gallium",
+    "rarity": "Rare",
+    "chance": 2.01
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 30.56
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Point Blank",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "抵近射击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Intensify",
+    "rarity": "Uncommon",
+    "chance": 30.56,
+    "itemZh": "聚精会神"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 5 - 15 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Gallium",
+    "rarity": "Rare",
+    "chance": 8.33
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Steel Fiber",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "钢铁纤维"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "200X Oxium",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Steel Fiber",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "钢铁纤维"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200X Oxium",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.08
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Charged Chamber",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "蓄力装填"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Burning Wasp",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "炙热黄蜂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.88,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Steel Fiber",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "钢铁纤维"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "200X Oxium",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.68
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Charged Chamber",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "蓄力装填"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Burning Wasp",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "炙热黄蜂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.65,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Control Module",
+    "rarity": "Rare",
+    "chance": 4.03
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Charged Chamber",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "蓄力装填"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Burning Wasp",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "炙热黄蜂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 14.58,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Control Module",
+    "rarity": "Uncommon",
+    "chance": 10.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Energy Inversion",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "能量转化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "200X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Energy Inversion",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "能量转化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.08
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Speed Trigger",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "灵敏扳机"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Reaping Spiral",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "收割螺旋"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.88,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Energy Inversion",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "能量转化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "200X Cryotic",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.68
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Speed Trigger",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "灵敏扳机"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Reaping Spiral",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "收割螺旋"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.65,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Neural Sensors",
+    "rarity": "Rare",
+    "chance": 4.03
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Speed Trigger",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "灵敏扳机"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Reaping Spiral",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "收割螺旋"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 14.58,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Neural Sensors",
+    "rarity": "Uncommon",
+    "chance": 10.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Point Strike",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "致命一击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "300X Circuits",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Point Strike",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "致命一击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Circuits",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.97,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.08
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Enhanced Durability",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "耐久强化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Grim Fury",
+    "rarity": "Uncommon",
+    "chance": 10.08,
+    "itemZh": "冷面狂怒"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.88,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Point Strike",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "致命一击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Circuits",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2,500 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 15.32,
+    "itemZh": "2,500 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "100 Endo",
+    "rarity": "Uncommon",
+    "chance": 15.32
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.68
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Enhanced Durability",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "耐久强化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Grim Fury",
+    "rarity": "Rare",
+    "chance": 9.68,
+    "itemZh": "冷面狂怒"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 5.65,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Orokin Cell",
+    "rarity": "Rare",
+    "chance": 4.03
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Enhanced Durability",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "耐久强化"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Grim Fury",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "冷面狂怒"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 14.58,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 10 - 30 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Orokin Cell",
+    "rarity": "Uncommon",
+    "chance": 10.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Gladiator Aegis",
+    "rarity": "Uncommon",
+    "chance": 27.59,
+    "itemZh": "角斗士 圣盾"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Uncommon",
+    "chance": 13.79,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 29.31,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 29.31
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gladiator Aegis",
+    "rarity": "Uncommon",
+    "chance": 18.08,
+    "itemZh": "角斗士 圣盾"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Rare",
+    "chance": 9.04,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 19.21,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 19.21
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 9.04
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Augur Accord",
+    "rarity": "Rare",
+    "chance": 9.04,
+    "itemZh": "预言 协约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.04
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 7.34,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Aegis",
+    "rarity": "Uncommon",
+    "chance": 17.68,
+    "itemZh": "角斗士 圣盾"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Rare",
+    "chance": 8.84,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 18.78,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.78
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 8.84
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Accord",
+    "rarity": "Rare",
+    "chance": 8.84,
+    "itemZh": "预言 协约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 8.84
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 7.18,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Supplies",
+    "rarity": "Rare",
+    "chance": 2.21,
+    "itemZh": "私法 补给"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 24.62
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Augur Accord",
+    "rarity": "Uncommon",
+    "chance": 24.62,
+    "itemZh": "预言 协约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 24.62
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Vigilante Supplies",
+    "rarity": "Rare",
+    "chance": 6.15,
+    "itemZh": "私法 补给"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Vigilante Armaments",
+    "rarity": "Common",
+    "chance": 35.19,
+    "itemZh": "私法 军备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "200 Endo",
+    "rarity": "Common",
+    "chance": 35.19
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vigilante Armaments",
+    "rarity": "Uncommon",
+    "chance": 22.09,
+    "itemZh": "私法 军备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Rare",
+    "chance": 9.3,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Rare",
+    "chance": 9.3,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 22.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 9.3
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gladiator Might",
+    "rarity": "Rare",
+    "chance": 9.3,
+    "itemZh": "角斗士 威猛"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.47
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 8.14,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Armaments",
+    "rarity": "Uncommon",
+    "chance": 21.59,
+    "itemZh": "私法 军备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.59
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 9.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Might",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "角斗士 威猛"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.23
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 7.95,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Seeker",
+    "rarity": "Rare",
+    "chance": 2.27,
+    "itemZh": "预言 探求"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 23.53
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gladiator Might",
+    "rarity": "Uncommon",
+    "chance": 23.53,
+    "itemZh": "角斗士 威猛"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 26.47
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 20.59,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Augur Seeker",
+    "rarity": "Rare",
+    "chance": 5.88,
+    "itemZh": "预言 探求"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Augur Pact",
+    "rarity": "Common",
+    "chance": 35.19,
+    "itemZh": "预言 契约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "200 Endo",
+    "rarity": "Common",
+    "chance": 35.19
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Augur Pact",
+    "rarity": "Uncommon",
+    "chance": 21.97,
+    "itemZh": "预言 契约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 9.25,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Rare",
+    "chance": 9.25,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.97
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.4
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vigilante Fervor",
+    "rarity": "Rare",
+    "chance": 9.25,
+    "itemZh": "私法 热诚"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 8.67,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Pact",
+    "rarity": "Uncommon",
+    "chance": 21.47,
+    "itemZh": "预言 契约"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 9.04,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Rare",
+    "chance": 9.04,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "200 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.47
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.17
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Fervor",
+    "rarity": "Rare",
+    "chance": 9.04,
+    "itemZh": "私法 热诚"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 9.04
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Rare",
+    "chance": 8.47,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Vice",
+    "rarity": "Rare",
+    "chance": 2.26,
+    "itemZh": "角斗士 钳制"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gara Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 26.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Vigilante Fervor",
+    "rarity": "Uncommon",
+    "chance": 23.19,
+    "itemZh": "私法 热诚"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Systems Blueprint",
+    "rarity": "Uncommon",
+    "chance": 23.19
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 21.74,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 20 - 40 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gladiator Vice",
+    "rarity": "Rare",
+    "chance": 5.8,
+    "itemZh": "角斗士 钳制"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Gladiator Rush",
+    "rarity": "Common",
+    "chance": 35.19,
+    "itemZh": "角斗士 猛突"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Common",
+    "chance": 35.19
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gladiator Rush",
+    "rarity": "Uncommon",
+    "chance": 21.35,
+    "itemZh": "角斗士 猛突"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.35
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 10.11,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Augur Reach",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "预言 通灵"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.99
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 11.24,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Rush",
+    "rarity": "Uncommon",
+    "chance": 20.88,
+    "itemZh": "角斗士 猛突"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Unairu Lens",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "Unairu 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Madurai Lens",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "Madurai 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 20.88
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.89,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Reach",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "预言 通灵"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.79
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 10.99,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Offense",
+    "rarity": "Rare",
+    "chance": 2.2,
+    "itemZh": "私法 进攻"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 24.32,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Augur Reach",
+    "rarity": "Uncommon",
+    "chance": 21.62,
+    "itemZh": "预言 通灵"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 21.62
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 27.03,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Vigilante Offense",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "私法 进攻"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Vigilante Vigor",
+    "rarity": "Common",
+    "chance": 35.19,
+    "itemZh": "私法 活力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Uncommon",
+    "chance": 14.81,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Common",
+    "chance": 35.19
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vigilante Vigor",
+    "rarity": "Uncommon",
+    "chance": 21.35,
+    "itemZh": "私法 活力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.35
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 10.11,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Gladiator Resolve",
+    "rarity": "Rare",
+    "chance": 8.99,
+    "itemZh": "角斗士 决心"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.99
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 11.24,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Vigor",
+    "rarity": "Uncommon",
+    "chance": 20.88,
+    "itemZh": "私法 活力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Zenurik Lens",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "Zenurik 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Vazarin Lens",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "Vazarin 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 20.88
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.89,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Resolve",
+    "rarity": "Rare",
+    "chance": 8.79,
+    "itemZh": "角斗士 决心"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.79
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 10.99,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Secrets",
+    "rarity": "Rare",
+    "chance": 2.2,
+    "itemZh": "预言 神密"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 24.32,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gladiator Resolve",
+    "rarity": "Uncommon",
+    "chance": 21.62,
+    "itemZh": "角斗士 决心"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 21.62
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 27.03,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Augur Secrets",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "预言 神密"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Augur Message",
+    "rarity": "Uncommon",
+    "chance": 29.31,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Uncommon",
+    "chance": 27.59
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Uncommon",
+    "chance": 13.79,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 29.31
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Augur Message",
+    "rarity": "Uncommon",
+    "chance": 18.48,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 8.7,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.48
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 8.7,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Rare",
+    "chance": 8.7,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.7
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 10.87,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Message",
+    "rarity": "Uncommon",
+    "chance": 18.09,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Uncommon",
+    "chance": 17.02
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Rare",
+    "chance": 8.51,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 10.64,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Finesse",
+    "rarity": "Rare",
+    "chance": 2.13,
+    "itemZh": "角斗士 灵巧"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Uncommon",
+    "chance": 22.22,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 22.22
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 27.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 30 - 50 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gladiator Finesse",
+    "rarity": "Rare",
+    "chance": 5.56,
+    "itemZh": "角斗士 灵巧"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Left Gauntlet",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "弗拉克斯·亡魂 左拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Carving Mantis",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "雕斩螳螂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Left Gauntlet",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "弗拉克斯·亡魂 左拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Carving Mantis",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "雕斩螳螂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Right Gauntlet",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "弗拉克斯·亡魂 右拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Swooping Falcon",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "猎鹰俯击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Right Gauntlet",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "弗拉克斯·亡魂 右拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Swooping Falcon",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "猎鹰俯击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Blueprint",
+    "rarity": "Rare",
+    "chance": 5.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Twirling Spire",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "回转尖峰"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Blueprint",
+    "rarity": "Rare",
+    "chance": 8.16
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Twirling Spire",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "回转尖峰"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 60 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Left Gauntlet",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "弗拉克斯·亡魂 左拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Carving Mantis",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "雕斩螳螂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Left Gauntlet",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "弗拉克斯·亡魂 左拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Carving Mantis",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "雕斩螳螂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Right Gauntlet",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "弗拉克斯·亡魂 右拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Swooping Falcon",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "猎鹰俯击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Right Gauntlet",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "弗拉克斯·亡魂 右拳套"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Swooping Falcon",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "猎鹰俯击"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "400 Endo",
+    "rarity": "Common",
+    "chance": 50
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 21.74
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 17.39
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 6.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 33.04,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "400 Endo",
+    "rarity": "Uncommon",
+    "chance": 16.89
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 13.51
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 25.68,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Furax Wraith Blueprint",
+    "rarity": "Rare",
+    "chance": 5.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Twirling Spire",
+    "rarity": "Rare",
+    "chance": 5.41,
+    "itemZh": "回转尖峰"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 4.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 6.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 20.41
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "300X Kuva",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Common",
+    "chance": 38.78,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Furax Wraith Blueprint",
+    "rarity": "Rare",
+    "chance": 8.16
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Twirling Spire",
+    "rarity": "Rare",
+    "chance": 8.16,
+    "itemZh": "回转尖峰"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Eidolon Lens Blueprint",
+    "rarity": "Rare",
+    "chance": 7.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 100 - 100 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Neuroptics Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.2
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Amar's Anguish",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "欺谋狼主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "600 Endo",
+    "rarity": "Common",
+    "chance": 46.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Amar's Anguish",
+    "rarity": "Rare",
+    "chance": 8.11,
+    "itemZh": "欺谋狼主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Caliban Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 8.11
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Boreal's Hatred",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "诡文枭主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Amar's Anguish",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "欺谋狼主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Caliban Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Boreal's Hatred",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "诡文枭主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Nira's Contempt",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "混沌蛇主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Verdilac Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Caliban Systems Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Boreal's Hatred",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "诡文枭主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Nira's Contempt",
+    "rarity": "Rare",
+    "chance": 7.5,
+    "itemZh": "混沌蛇主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Verdilac Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Boreal's Anguish",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "诡文枭主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 1"
+    ],
+    "item": "600 Endo",
+    "rarity": "Common",
+    "chance": 46.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Boreal's Anguish",
+    "rarity": "Rare",
+    "chance": 8.11,
+    "itemZh": "诡文枭主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Caliban Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 8.11
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Nira's Hatred",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "混沌蛇主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Boreal's Anguish",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "诡文枭主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Caliban Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Nira's Hatred",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "混沌蛇主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Amar's Contempt",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "欺谋狼主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "Nepheri Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Caliban Chassis Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Nira's Hatred",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "混沌蛇主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Amar's Contempt",
+    "rarity": "Rare",
+    "chance": 7.5,
+    "itemZh": "欺谋狼主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Nepheri Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation B",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Nira's Anguish",
+    "rarity": "Uncommon",
+    "chance": 20,
+    "itemZh": "混沌蛇主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Common",
+    "chance": 33.33,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 1"
+    ],
+    "item": "600 Endo",
+    "rarity": "Common",
+    "chance": 46.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Nira's Anguish",
+    "rarity": "Rare",
+    "chance": 8.11,
+    "itemZh": "混沌蛇主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Caliban Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 8.11
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Amar's Hatred",
+    "rarity": "Uncommon",
+    "chance": 13.51,
+    "itemZh": "欺谋狼主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 18.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Nira's Anguish",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "混沌蛇主之苦"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "合一众塑讯块"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "600 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Caliban Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Amar's Hatred",
+    "rarity": "Rare",
+    "chance": 9.09,
+    "itemZh": "欺谋狼主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Boreal's Contempt",
+    "rarity": "Rare",
+    "chance": 5.45,
+    "itemZh": "诡文枭主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "Korumm Blueprint",
+    "rarity": "Rare",
+    "chance": 5.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Rare",
+    "chance": 9.09
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.73
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Caliban Neuroptics Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Amar's Hatred",
+    "rarity": "Uncommon",
+    "chance": 12.5,
+    "itemZh": "欺谋狼主之恨"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "2X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "900 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Boreal's Contempt",
+    "rarity": "Rare",
+    "chance": 7.5,
+    "itemZh": "诡文枭主之鄙"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Korumm Blueprint",
+    "rarity": "Rare",
+    "chance": 7.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "3X Narmer Isoplast",
+    "rarity": "Uncommon",
+    "chance": 12.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 50 - 70 Cetus Bounty",
+    "groups": [
+      "Rotation C",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "1200 Endo",
+    "rarity": "Uncommon",
+    "chance": 17.5
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Common",
+    "chance": 36.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 26.47,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Hunter Adrenaline",
+    "rarity": "Common",
+    "chance": 36.76,
+    "itemZh": "猎人 肾上腺素"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 8.74,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Hunter Adrenaline",
+    "rarity": "Uncommon",
+    "chance": 12.14,
+    "itemZh": "猎人 肾上腺素"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 19.42,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Hunter Munitions",
+    "rarity": "Rare",
+    "chance": 9.71,
+    "itemZh": "猎人 战备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Stubba Blueprint",
+    "rarity": "Rare",
+    "chance": 4.85
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.71,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 4.85
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Uncommon",
+    "chance": 18.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Rare",
+    "chance": 8.93
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 6.43,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Adrenaline",
+    "rarity": "Rare",
+    "chance": 8.93,
+    "itemZh": "猎人 肾上腺素"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 14.29,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Munitions",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "猎人 战备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Stubba Blueprint",
+    "rarity": "Rare",
+    "chance": 3.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 3.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Uncommon",
+    "chance": 13.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Track",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "猎人 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Rare",
+    "chance": 3.57,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 15.71,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 18.87,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Hunter Munitions",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "猎人 战备"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Stubba Blueprint",
+    "rarity": "Rare",
+    "chance": 4.72
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 4.72
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Uncommon",
+    "chance": 17.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Hunter Track",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "猎人 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Rare",
+    "chance": 4.72,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 20.75,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Common",
+    "chance": 36.76
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Uncommon",
+    "chance": 26.47,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Hunter Recovery",
+    "rarity": "Common",
+    "chance": 36.76,
+    "itemZh": "猎人 复元"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 8.74,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Hunter Recovery",
+    "rarity": "Uncommon",
+    "chance": 12.14,
+    "itemZh": "猎人 复元"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 19.42,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Hunter Synergy",
+    "rarity": "Rare",
+    "chance": 9.71,
+    "itemZh": "猎人 协力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Quartakk Blueprint",
+    "rarity": "Rare",
+    "chance": 4.85
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.71,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 4.85
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Uncommon",
+    "chance": 18.45
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Rare",
+    "chance": 8.93
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "3,000 Credits Cache",
+    "rarity": "Rare",
+    "chance": 6.43,
+    "itemZh": "3,000 现金匣"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Recovery",
+    "rarity": "Rare",
+    "chance": 8.93,
+    "itemZh": "猎人 复元"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 14.29,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Synergy",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "猎人 协力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Quartakk Blueprint",
+    "rarity": "Rare",
+    "chance": 3.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 3.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Uncommon",
+    "chance": 13.57
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Hunter Command",
+    "rarity": "Rare",
+    "chance": 7.14,
+    "itemZh": "猎人 命令"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Rare",
+    "chance": 3.57,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 15.71,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Encrypted Journal Fragment",
+    "rarity": "Uncommon",
+    "chance": 18.87,
+    "itemZh": "加密的日记碎片"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Hunter Synergy",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "猎人 协力"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Quartakk Blueprint",
+    "rarity": "Rare",
+    "chance": 4.72
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "5X Breath Of The Eidolon",
+    "rarity": "Rare",
+    "chance": 4.72
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Uncommon",
+    "chance": 17.92
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Hunter Command",
+    "rarity": "Rare",
+    "chance": 9.43,
+    "itemZh": "猎人 命令"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Nitain Extract",
+    "rarity": "Rare",
+    "chance": 4.72,
+    "itemZh": "泥炭萃取物"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 40 - 50 Ghoul Bounty",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Aya",
+    "rarity": "Uncommon",
+    "chance": 20.75,
+    "itemZh": "阿耶精华"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Augur Message",
+    "rarity": "Uncommon",
+    "chance": 25,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Uncommon",
+    "chance": 23.86
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Uncommon",
+    "chance": 14.77,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 25
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Lith L8 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Lith A13 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Lith S19 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 1"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Ultra Rare",
+    "chance": 1.14
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Augur Message",
+    "rarity": "Uncommon",
+    "chance": 12.87,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Uncommon",
+    "chance": 12.28
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 7.6,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Uncommon",
+    "chance": 12.87
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Lith L8 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Lith A13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Lith S19 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 14.04,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Uncommon",
+    "chance": 14.04,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 14.04
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Lith C15 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Lith G14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 2, Stage 3 of 4, and Stage 3 of 5"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Legendary",
+    "chance": 0.58
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Augur Message",
+    "rarity": "Rare",
+    "chance": 9.28,
+    "itemZh": "预言 启示"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "100X Kuva",
+    "rarity": "Rare",
+    "chance": 8.86
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Naramon Lens",
+    "rarity": "Rare",
+    "chance": 5.49,
+    "itemZh": "Naramon 晶体"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "300 Endo",
+    "rarity": "Rare",
+    "chance": 9.28
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith L8 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith A13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith S19 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso Y2 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo Y2 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 10.13,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Uncommon",
+    "chance": 10.13,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 10.13
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith C15 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith G14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Gladiator Finesse",
+    "rarity": "Uncommon",
+    "chance": 23.21,
+    "itemZh": "角斗士 灵巧"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith S18 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Lith V11 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.42
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Cetus Wisp",
+    "rarity": "Uncommon",
+    "chance": 16.11,
+    "itemZh": "希图斯幽魂"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Vigilante Pursuit",
+    "rarity": "Uncommon",
+    "chance": 16.11,
+    "itemZh": "私法 追踪"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Revenant Chassis Blueprint",
+    "rarity": "Uncommon",
+    "chance": 16.11
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Lith C15 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Lith G14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso D8 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo C11 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo K10 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo V13 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi C12 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi A21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi A22 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Gladiator Finesse",
+    "rarity": "Common",
+    "chance": 36.91,
+    "itemZh": "角斗士 灵巧"
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Lith S18 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Lith V11 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso A12 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso V17 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Meso D9 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo C10 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo C7 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Neo A16 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi S21 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi D6 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  },
+  {
+    "category": "Cetus Bounty Rewards",
+    "source": "Level 15 - 25 Plague Star",
+    "groups": [
+      "Rotation A",
+      "Stage 4 of 5",
+      "Final Stage"
+    ],
+    "item": "Axi V14 Relic",
+    "rarity": "Legendary",
+    "chance": 0.67
+  }
+]
