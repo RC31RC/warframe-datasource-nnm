@@ -3,7 +3,7 @@ import { test } from "node:test";
 import { projectPublicExport } from "../src/projections/public-export.js";
 import type { DatasetFileInput, SourceMetadata } from "../src/domain/contracts.js";
 
-test("projects official files into separate stable datasets and preserves lineage", () => {
+test("projects bilingual entities with parent-owned nested children", () => {
   const output = projectPublicExport(makeRawFiles());
   const json = (path: string): unknown => {
     const file = output.find((candidate) => candidate.path === path);
@@ -14,38 +14,45 @@ test("projects official files into separate stable datasets and preserves lineag
   const warframes = json("catalog/equipment/warframes.json") as Array<Record<string, unknown>>;
   const archwings = json("catalog/equipment/archwings.json") as Array<Record<string, unknown>>;
   const abilities = json("catalog/equipment/abilities.json") as Array<Record<string, unknown>>;
-  const slots = json("catalog/equipment/ability-slots.json") as Array<Record<string, unknown>>;
-  const modRanks = json("catalog/upgrades/mods-rank-stats.json") as Array<Record<string, unknown>>;
-  const setRanks = json("catalog/upgrades/mod-set-rank-stats.json") as Array<Record<string, unknown>>;
+  const mods = json("catalog/upgrades/mods.json") as Array<Record<string, unknown>>;
+  const sets = json("catalog/upgrades/mod-sets.json") as Array<Record<string, unknown>>;
+  const arcanes = json("catalog/upgrades/arcanes.json") as Array<Record<string, unknown>>;
   const recipes = json("catalog/craft/recipes.json") as Record<string, Record<string, unknown>>;
-  const ingredients = json("catalog/craft/recipe-ingredients.json") as Array<Record<string, unknown>>;
   const translations = json("catalog/i18n/items.json") as Record<string, Record<string, Record<string, unknown>>>;
-  const nodeTranslations = json("catalog/i18n/nodes.json") as Record<string, Record<string, Record<string, unknown>>>;
 
   assert.equal(warframes.length, 2);
   assert.equal(archwings.length, 1);
-  assert.equal(abilities.length, 3);
-  assert.equal(slots.length, 4);
-  assert.equal(slots[0]?.recordKey, "/Lotus/Powersuits/Excalibur#ability:0");
-  assert.equal(slots[3]?.ownerType, "archwing");
-  assert.equal((modRanks[0]?.stats as Record<string, unknown>).stats instanceof Array, true);
-  assert.equal(modRanks[0]?.rankNumber, 0);
-  assert.equal(setRanks[0]?.rankNumber, 1);
-  assert.deepEqual(setRanks[0]?.stats, "set rank one");
+  assert.equal(abilities.length, 4);
+  const standaloneAbility = abilities.find((ability) => ability.recordKey === "/Lotus/PowersuitAbilities/HelminthAbility");
+  assert.equal(standaloneAbility?.nameZh, "感染者技能");
+  assert.equal(standaloneAbility?.abilityNameZh, "感染者技能");
+  assert.deepEqual(standaloneAbility?.ownerBkeys, []);
+  const frameAbilities = warframes[0]?.abilities as Array<Record<string, unknown>>;
+  assert.equal(frameAbilities[0]?.recordKey, "/Lotus/PowersuitAbilities/TestAbility");
+  assert.equal(frameAbilities[0]?.abilityNameZh, "测试技能");
+  assert.deepEqual((mods[0]?.ranks as Array<Record<string, unknown>>)[0]?.stats, { stats: ["rank zero"] });
+  assert.deepEqual((sets[0]?.ranks as Array<Record<string, unknown>>)[0]?.stats, "set rank one");
+  assert.equal((arcanes[0]?.ranks as Array<Record<string, unknown>>)[0]?.rank, 0);
+  assert.equal(output.filter((candidate) => candidate.path === "catalog/upgrades/arcanes.json").length, 1);
   assert.equal(Object.keys(recipes)[0], "/Lotus/Types/Recipes/TestBlueprint");
-  assert.equal(ingredients[0]?.parentBkey, "/Lotus/Types/Recipes/TestBlueprint");
+  const recipe = recipes["/Lotus/Types/Recipes/TestBlueprint"];
+  const ingredients = recipe?.ingredients as Array<Record<string, unknown>>;
+  assert.equal((ingredients[0]?.item as Record<string, unknown>).name, "Component");
+  assert.equal((ingredients[0]?.item as Record<string, unknown>).nameZh, "组件");
+  assert.equal((recipe?.resultItem as Record<string, unknown>).nameZh, "测试物品");
   assert.deepEqual(translations["/Lotus/Powersuits/Excalibur"]?.en?.abilities, [{
     abilityUniqueName: "/Lotus/PowersuitAbilities/TestAbility",
     abilityName: "Test Skill",
     description: "Skill text en",
   }]);
   assert.equal(translations["/Lotus/Powersuits/Excalibur"]?.zh?.name, "圣剑");
-  assert.equal(nodeTranslations.SolNode94?.en?.systemName, "Mercury");
 
-  const slotFile = output.find((candidate) => candidate.path === "catalog/equipment/ability-slots.json");
-  assert.ok(slotFile);
-  assert.deepEqual(slotFile.source.derivedFrom, ["public-export/en/ExportWarframes_en.json"]);
-  assert.equal(slotFile.source.transformer, "warframe-datasource-nnm/public-export-projection@1");
+  assert.equal(output.some((candidate) => candidate.path === "catalog/equipment/ability-slots.json"), false);
+  assert.equal(output.some((candidate) => candidate.path === "catalog/craft/recipe-ingredients.json"), false);
+  assert.equal(output.some((candidate) => candidate.path === "catalog/i18n/nodes.json"), false);
+  const modFile = output.find((candidate) => candidate.path === "catalog/upgrades/mods.json");
+  assert.ok(modFile);
+  assert.deepEqual(modFile.source.derivedFrom, ["public-export/en/ExportUpgrades_en.json"]);
 });
 
 test("rejects conflicting same-build ability definitions instead of selecting one", () => {
@@ -89,7 +96,11 @@ function makeRawFiles(conflictingAbility = false): DatasetFileInput[] {
           abilities: [{ abilityUniqueName: "/Lotus/PowersuitAbilities/Flight", abilityName: "Flight", description: "Fly" }],
         },
       ],
-      ExportAbilities: [],
+      ExportAbilities: [{
+        abilityUniqueName: "/Lotus/PowersuitAbilities/HelminthAbility",
+        abilityName: pick(locale, "Infested Ability", "感染者技能"),
+        description: pick(locale, "Infested ability text", "感染者技能说明"),
+      }],
     };
     const weapons = { ExportWeapons: [{ uniqueName: "/Lotus/Weapons/Test", name: "Test Weapon" }], ExportRailjackWeapons: [] };
     const upgrades = {
@@ -123,6 +134,12 @@ function makeRawFiles(conflictingAbility = false): DatasetFileInput[] {
     ] as const) {
       files.push(rawFile(locale, name, payload, capturedAt));
     }
+    files.push(rawFile(locale, "ExportResources", {
+      ExportResources: [
+        { uniqueName: "/Lotus/Types/Items/Test", name: pick(locale, "Test Product", "测试物品") },
+        { uniqueName: "/Lotus/Types/Items/Component", name: pick(locale, "Component", "组件") },
+      ],
+    }, capturedAt));
   }
   return files;
 }

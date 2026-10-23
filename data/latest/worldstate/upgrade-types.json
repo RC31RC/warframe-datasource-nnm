@@ -1,114 +1,142 @@
 {
   "GAMEPLAY_BULLET_KILL_POWER_AMOUNT": {
     "name": "BULLET KILL POWER AMOUNT",
-    "nameZh": "子弹总计射杀伤害"
+    "nameZh": "子弹总计射杀伤害",
+    "nameEn": "BULLET KILL POWER AMOUNT"
   },
   "GAMEPLAY_BULLET_KILL_XP_AMOUNT": {
     "name": "BULLET KILL XP AMOUNT",
-    "nameZh": "子弹总计射杀经验"
+    "nameZh": "子弹总计射杀经验",
+    "nameEn": "BULLET KILL XP AMOUNT"
   },
   "GAMEPLAY_DAMAGE_TO_POWER": {
     "name": "DAMAGE TO POWER",
-    "nameZh": "能力伤害"
+    "nameZh": "能力伤害",
+    "nameEn": "DAMAGE TO POWER"
   },
   "GAMEPLAY_ENEMY_AVATAR_XP_REWARD": {
     "name": "ENEMY KILL XP AMOUNT",
-    "nameZh": "总计杀敌经验"
+    "nameZh": "总计杀敌经验",
+    "nameEn": "ENEMY KILL XP AMOUNT"
   },
   "GAMEPLAY_EXECUTION_HEALTH_THRESHOLD": {
     "name": "EXECUTION HEALTH THRESHOLD",
-    "nameZh": "所达到的血量极限值"
+    "nameZh": "所达到的血量极限值",
+    "nameEn": "EXECUTION HEALTH THRESHOLD"
   },
   "GAMEPLAY_FACTION_DAMAGE": {
     "name": "DAMAGE TO FACTION",
-    "nameZh": "派系伤害"
+    "nameZh": "派系伤害",
+    "nameEn": "DAMAGE TO FACTION"
   },
   "GAMEPLAY_FACTION_SHIELD_DAMAGE_RESISTANCE": {
     "name": "SHIELD DAMAGE RESISTANCE FROM FACTION",
-    "nameZh": "护盾对派系伤害的抗性"
+    "nameZh": "护盾对派系伤害的抗性",
+    "nameEn": "SHIELD DAMAGE RESISTANCE FROM FACTION"
   },
   "GAMEPLAY_FINISHER_XP_AMOUNT": {
     "name": "EXECUTION XP AMOUNT",
-    "nameZh": "总计处决经验"
+    "nameZh": "总计处决经验",
+    "nameEn": "EXECUTION XP AMOUNT"
   },
   "GAMEPLAY_ITEM_EFFECTIVENESS": {
     "name": "ITEM EFFECTIVENESS",
-    "nameZh": "物品效率"
+    "nameZh": "物品效率",
+    "nameEn": "ITEM EFFECTIVENESS"
   },
   "GAMEPLAY_KILL_POWER_AMOUNT": {
     "name": "KILL POWER AMOUNT",
-    "nameZh": "能力击杀总和"
+    "nameZh": "能力击杀总和",
+    "nameEn": "KILL POWER AMOUNT"
   },
   "GAMEPLAY_KILL_POWER_COOLDOWN": {
     "name": "KILL POWER COOLDOWN",
-    "nameZh": "击杀冷却能力"
+    "nameZh": "击杀冷却能力",
+    "nameEn": "KILL POWER COOLDOWN"
   },
   "GAMEPLAY_KILL_XP_AMOUNT": {
     "name": "AFFINITY FROM KILLS",
-    "nameZh": "击杀经验"
+    "nameZh": "击杀经验",
+    "nameEn": "AFFINITY FROM KILLS"
   },
   "GAMEPLAY_KILL_XP_AMOUNT_LotusMeleeWeapon": {
     "name": "AFFINITY FROM MELEE KILLS",
-    "nameZh": "近战击杀经验"
+    "nameZh": "近战击杀经验",
+    "nameEn": "AFFINITY FROM MELEE KILLS"
   },
   "GAMEPLAY_KILL_XP_AMOUNT_LotusPistol": {
     "name": "AFFINITY FROM PISTOL KILLS",
-    "nameZh": "手枪击杀经验"
+    "nameZh": "手枪击杀经验",
+    "nameEn": "AFFINITY FROM PISTOL KILLS"
   },
   "GAMEPLAY_KILL_XP_AMOUNT_LotusRifle": {
     "name": "AFFINITY FROM RIFLE KILLS",
-    "nameZh": "步枪击杀经验"
+    "nameZh": "步枪击杀经验",
+    "nameEn": "AFFINITY FROM RIFLE KILLS"
   },
   "GAMEPLAY_KILL_XP_AMOUNT_LotusShotgun": {
     "name": "AFFINITY FROM SHOTGUN KILLS",
-    "nameZh": "霰弹枪击杀经验"
+    "nameZh": "霰弹枪击杀经验",
+    "nameEn": "AFFINITY FROM SHOTGUN KILLS"
   },
   "GAMEPLAY_MAX_HEALTH_SEGMENT_REWARD": {
     "name": "MAX HEALTH SEGMENT REWARD",
-    "nameZh": "最大劈砍致死生命值加成"
+    "nameZh": "最大劈砍致死生命值加成",
+    "nameEn": "MAX HEALTH SEGMENT REWARD"
   },
   "GAMEPLAY_MELEE_KILL_POWER_AMOUNT": {
     "name": "MELEE KILL POWER AMOUNT",
-    "nameZh": "近战击杀能力加成总和"
+    "nameZh": "近战击杀能力加成总和",
+    "nameEn": "MELEE KILL POWER AMOUNT"
   },
   "GAMEPLAY_MELEE_KILL_XP_AMOUNT": {
     "name": "MELEE KILL XP AMOUNT",
-    "nameZh": "近战击杀总计经验"
+    "nameZh": "近战击杀总计经验",
+    "nameEn": "MELEE KILL XP AMOUNT"
   },
   "GAMEPLAY_MONEY_DROP_AMOUNT": {
     "name": "BONUS CREDITS DROPPED",
-    "nameZh": "额外现金掉落"
+    "nameZh": "额外现金掉落",
+    "nameEn": "BONUS CREDITS DROPPED"
   },
   "GAMEPLAY_PICKUP_RATE": {
     "name": "PICKUP RATE",
-    "nameZh": "拾取率"
+    "nameZh": "拾取率",
+    "nameEn": "PICKUP RATE"
   },
   "GAMEPLAY_PICKUP_RATE_Mod": {
     "name": "MOD DROP CHANCE",
-    "nameZh": "Mod 掉落几率"
+    "nameZh": "Mod 掉落几率",
+    "nameEn": "MOD DROP CHANCE"
   },
   "GAMEPLAY_PICKUP_RATE_ResourceItem": {
     "name": "RESOURCE DROP CHANCE",
-    "nameZh": "资源掉落几率"
+    "nameZh": "资源掉落几率",
+    "nameEn": "RESOURCE DROP CHANCE"
   },
   "GAMEPLAY_POWER_COOLDOWN": {
     "name": "COOLDOWN",
-    "nameZh": "冷却"
+    "nameZh": "冷却",
+    "nameEn": "COOLDOWN"
   },
   "GAMEPLAY_POWER_TO_HEALTH_ON_DAMAGE": {
     "name": "ENERGY TO HEALTH ON DAMAGE",
-    "nameZh": "受到伤害时能量转为生命"
+    "nameZh": "受到伤害时能量转为生命",
+    "nameEn": "ENERGY TO HEALTH ON DAMAGE"
   },
   "GAMEPLAY_POWER_TO_HEALTH_ON_DEATH": {
     "name": "ENERGY TO HEALTH ON DEATH",
-    "nameZh": "死亡时能量转为生命"
+    "nameZh": "死亡时能量转为生命",
+    "nameEn": "ENERGY TO HEALTH ON DEATH"
   },
   "GAMEPLAY_SHIELD_UPGRADE_LEVEL": {
     "name": "SHIELD UPGRADE LEVEL",
-    "nameZh": "护盾升级等级"
+    "nameZh": "护盾升级等级",
+    "nameEn": "SHIELD UPGRADE LEVEL"
   },
   "GAMEPLAY_TURN_OBJECT_TO_GRENADE": {
     "name": "TURN OBJECT TO GRENADE",
-    "nameZh": "将物件变为榴弹"
+    "nameZh": "将物件变为榴弹",
+    "nameEn": "TURN OBJECT TO GRENADE"
   }
 }

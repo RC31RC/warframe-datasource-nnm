@@ -1,0 +1,594 @@
+{
+  "/Lotus/Types/Items/FusionTreasures/OroFusexA": {
+    "name": "Ayatan Sah Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexA.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexADeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Sah Sculpture",
+    "nameZh": "阿耶檀识 Sah 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexA",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexA",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexADeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexA.png!00_yKzCJF91xvqmU21et1Atdw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexB": {
+    "name": "Ayatan Ayr Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexB.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexBDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Ayr Sculpture",
+    "nameZh": "阿耶檀识 Ayr 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexB",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexB",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexBDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexB.png!00_YKpGUBtB8ExlprHj3DLyig",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexC": {
+    "name": "Ayatan Orta Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexC.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexCDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Orta Sculpture",
+    "nameZh": "阿耶檀识 Orta 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexC",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexC",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexCDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexC.png!00_79OsetYBPwUMO2pjvnOfFw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexD": {
+    "name": "Ayatan Vaya Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexD.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexDDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Vaya Sculpture",
+    "nameZh": "阿耶檀识 Vaya 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexD",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexD",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexDDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexD.png!00_IllhT3TBZJ5S4uNRSnUEGw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexE": {
+    "name": "Ayatan Piv Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexE.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexEDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Piv Sculpture",
+    "nameZh": "阿耶檀识 Piv 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexE",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexE",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexEDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexE.png!00_k8t++JNUT6X3Pgvl8TdtOA",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexEntrati": {
+    "name": "Ayatan Kitha Sculpture",
+    "description": "Struck to commemorate the Entrati family's power and prestige, as well as safeguarding their memories of one another. Many things changed in the years that followed, and that which had once shone brightly grew dark and dim. But even a single Ayatan Star may make all the difference.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexEntrati.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexKDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Kitha Sculpture",
+    "nameZh": "阿耶檀识 Kitha 塑像",
+    "descriptionEn": "Struck to commemorate the Entrati family's power and prestige, as well as safeguarding their memories of one another. Many things changed in the years that followed, and that which had once shone brightly grew dark and dim. But even a single Ayatan Star may make all the difference.",
+    "descriptionZh": "这尊雕像之所以被打造出来，不仅是为了纪念英择谛家族的实力与威望，同时也是为了保存家族成员之间的珍贵记忆。时过境迁，曾今闪耀的雕像现已变得暗淡无光。但只要插上一颗阿耶檀识星，它就会变得截然不同。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexEntrati",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexEntrati",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexKDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexEntrati.png!00_ntVImvicwItYuTYLjtZPGg",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexF": {
+    "name": "Ayatan Anasa Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexF.png",
+    "codexSecret": true,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexFDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Anasa Sculpture",
+    "nameZh": "阿耶檀识 Anasa 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexF",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexF",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexFDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexF.png!00_kfg+ZiUyQp4-3qOVTqCN5g",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexG": {
+    "name": "Ayatan Valana Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexG.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexGDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Valana Sculpture",
+    "nameZh": "阿耶檀识 Valana 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexG",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexG",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexGDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexG.png!00_yHogxBkZVoJull3TocsOdQ",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexH": {
+    "name": "Ayatan Zambuka Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexH.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexHDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Zambuka Sculpture",
+    "nameZh": "阿耶檀识 Zambuka 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexH",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexH",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexHDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexH.png!00_GdGUDJMwXmHtyNsWTt3rcw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexI": {
+    "name": "Ayatan Chattraka Sculpture",
+    "description": "Some sort of fancy Orokin wizbang that Nightcap found buried in the Deepmines.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/FusionTreasures/OroFusexI.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexIDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Chattraka Sculpture",
+    "nameZh": "阿耶檀识 Chattraka 塑像",
+    "descriptionEn": "Some sort of fancy Orokin wizbang that Nightcap found buried in the Deepmines.",
+    "descriptionZh": "夜帽在深矿中发现的某种奇特的 奥罗金花哨装置。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexI",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexI",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexIDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/ShipDecos/FusionTreasures/OroFusexI.png!00_9WDmIBuXXp-OOrh+89gkmg",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexJ": {
+    "name": "Ayatan Hemakara Sculpture",
+    "description": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/ShipDecos/FusionTreasures/OroFusexJ.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasure",
+    "productCategory": "FusionTreasures",
+    "rarity": "UNCOMMON",
+    "deco": "/Lotus/Objects/Gameplay/OroFusexJDeco",
+    "capacityCost": 5,
+    "dojoCapacityCost": 20,
+    "sockets": [
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+      "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA"
+    ],
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Hemakara Sculpture",
+    "nameZh": "阿耶檀识 Hemakara 塑像",
+    "descriptionEn": "This kinetic Orokin sculpture springs to life when filled with Ayatan Stars. It may also be a source of Endo.",
+    "descriptionZh": "当这座带有活动机关的奥罗金塑像填满阿耶檀识之星时，它便会开始自主运动。此外，它也能作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexJ",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexJ",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasure",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      },
+      {
+        "field": "deco",
+        "uniqueName": "/Lotus/Objects/Gameplay/OroFusexJDeco",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "gameplay",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/ShipDecos/FusionTreasures/OroFusexJ.png!00_Rb5LlbNz9y7ZkdDiScYIMg",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA": {
+    "name": "Ayatan Cyan Star",
+    "description": "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentA.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasures/FusionOrnament",
+    "productCategory": "MiscItems",
+    "rarity": "RARE",
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Cyan Star",
+    "nameZh": "阿耶檀识青蓝星",
+    "descriptionEn": "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+    "descriptionZh": "将这些星星置入阿耶檀识塑像之中为其提供动力。也可以作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentA",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasures/FusionOrnament",
+        "name": "",
+        "nameZh": "",
+        "domain": "plus",
+        "resolution": "stable_identity_only",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentA.png!00_5XMljBi69inqoE95r37x9A",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB": {
+    "name": "Ayatan Amber Star",
+    "description": "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentB.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/FusionTreasures/FusionOrnament",
+    "productCategory": "MiscItems",
+    "rarity": "RARE",
+    "excludeFromMarket": true,
+    "nameEn": "Ayatan Amber Star",
+    "nameZh": "阿耶檀识琥珀星",
+    "descriptionEn": "Place these stars into Ayatan Sculptures to power their movement. May also be a source of Endo.",
+    "descriptionZh": "将这些星星置入阿耶檀识塑像之中为其提供动力。也可以作为内融核心的来源。",
+    "uniqueName": "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+    "recordKey": "/Lotus/Types/Items/FusionTreasures/OroFusexOrnamentB",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/FusionTreasures/FusionOrnament",
+        "name": "",
+        "nameZh": "",
+        "domain": "plus",
+        "resolution": "stable_identity_only",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/MiscItems/Treasures/OroFusexOrnamentB.png!00_SK-x03Xo2uRkMgo5GVSXBQ",
+    "iconStatus": "available"
+  }
+}

@@ -6,6 +6,7 @@ type JsonObject = Record<string, unknown>;
 const REGIONS_EN = "public-export/en/ExportRegions_en.json";
 const REGIONS_ZH = "public-export/zh/ExportRegions_zh.json";
 const PLUS_REGIONS = "plus/ExportRegions.json";
+const PLUS_SYSTEMS = "plus/ExportSystems.json";
 const PLUS_MISSION_TYPES = "plus/ExportMissionTypes.json";
 const PLUS_FACTIONS = "plus/ExportFactions.json";
 const PLUS_SYNDICATES = "plus/ExportSyndicates.json";
@@ -13,6 +14,7 @@ const LANG_EN = "languages/en.json";
 const LANG_ZH = "languages/zh.json";
 const RELIC_EN = "public-export/en/ExportRelicArcane_en.json";
 const RELIC_ZH = "public-export/zh/ExportRelicArcane_zh.json";
+const LOCALES = ["en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh"] as const;
 
 /**
  * WorldState 代码簿投影：产出解析 worldState.php 动态快照所需的静态映射。
@@ -49,6 +51,7 @@ export function projectWorldstateCodebook(
   const regionsEn = readArray(publicExportFiles, REGIONS_EN, "ExportRegions");
   const regionsZh = readArray(publicExportFiles, REGIONS_ZH, "ExportRegions");
   const plusRegions = readObject(plusFiles, PLUS_REGIONS);
+  const plusSystems = readArray(plusFiles, PLUS_SYSTEMS);
   const plusMissionTypes = readObject(plusFiles, PLUS_MISSION_TYPES);
   const plusFactions = readObject(plusFiles, PLUS_FACTIONS);
   const plusSyndicates = readObject(plusFiles, PLUS_SYNDICATES);
@@ -80,7 +83,14 @@ export function projectWorldstateCodebook(
   for (const [key, rawValue] of Object.entries(plusMissionTypes)) {
     const value = asObject(rawValue, `mission type ${key}`);
     const nameKey = text(value, "name") ?? "";
-    missionTypes[key] = { name: translate(nameKey, langEn), nameZh: translate(nameKey, langZh) };
+    const name = translate(nameKey, langEn);
+    missionTypes[key] = {
+      ...value,
+      ...(nameKey ? { nameKey } : {}),
+      name,
+      nameEn: name,
+      nameZh: translate(nameKey, langZh),
+    };
   }
 
   // 派系：FC_* -> 名称（先构建，供节点内联可读名）。
@@ -88,7 +98,14 @@ export function projectWorldstateCodebook(
   for (const [key, rawValue] of Object.entries(plusFactions)) {
     const value = asObject(rawValue, `faction ${key}`);
     const nameKey = text(value, "name") ?? "";
-    factions[key] = { name: translate(nameKey, langEn), nameZh: translate(nameKey, langZh) };
+    const name = translate(nameKey, langEn);
+    factions[key] = {
+      ...value,
+      ...(nameKey ? { nameKey } : {}),
+      name,
+      nameEn: name,
+      nameZh: translate(nameKey, langZh),
+    };
   }
 
   // 辛迪加：键 -> 名称。
@@ -96,9 +113,14 @@ export function projectWorldstateCodebook(
   for (const [key, rawValue] of Object.entries(plusSyndicates)) {
     const value = asObject(rawValue, `syndicate ${key}`);
     const nameKey = text(value, "name") ?? "";
-    const entry: JsonObject = { name: translate(nameKey, langEn), nameZh: translate(nameKey, langZh) };
-    if (text(value, "uniqueName")) entry.uniqueName = text(value, "uniqueName");
-    syndicates[key] = entry;
+    const name = translate(nameKey, langEn);
+    syndicates[key] = {
+      ...value,
+      ...(nameKey ? { nameKey } : {}),
+      name,
+      nameEn: name,
+      nameZh: translate(nameKey, langZh),
+    };
   }
 
   // 节点：以 Plus 更全的节点集合为底，官方有 name 的用官方，特殊节点用语言表翻译。
@@ -115,6 +137,10 @@ export function projectWorldstateCodebook(
     const secondaryFaction = text(node, "secondaryFaction");
 
     const entry: JsonObject = {
+      ...node,
+      ...(nameKey ? { nameKey } : {}),
+      ...(systemKey ? { systemNameKey: systemKey } : {}),
+      ...(missionNameKey ? { missionNameKey } : {}),
       name: (official?.name as string | undefined) ?? translate(nameKey, langEn),
       nameZh: (official?.nameZh as string | undefined) ?? translate(nameKey, langZh),
     };
@@ -129,6 +155,7 @@ export function projectWorldstateCodebook(
     }
     if (missionNameKey) {
       entry.missionName = translate(missionNameKey, langEn);
+      entry.missionNameEn = translate(missionNameKey, langEn);
       entry.missionNameZh = translate(missionNameKey, langZh);
     }
     if (faction) {
@@ -163,6 +190,8 @@ export function projectWorldstateCodebook(
     nodes[nodeId] = entry;
   }
 
+  const worldMap = buildWorldMap(nodes, publicExportFiles, plusSystems, langEn, langZh);
+
   // 裂缝 modifier：VoidT1~T5 由官方遗物 uniqueName 前缀 T1~T5 推导（Lith/Meso/Neo/Axi/Requiem）。
   // VoidT6 = Omnia（全能）裂缝：允许使用任意遗物的特殊裂缝，不对应单一遗物 tier，故用固定映射。
   const relicEn = readArray(publicExportFiles, RELIC_EN, "ExportRelicArcane");
@@ -180,30 +209,24 @@ export function projectWorldstateCodebook(
   }
   fissureModifiers.VoidT6 = { name: "Omnia", nameZh: "全能", tier: 6 };
 
-  // 星系索引：官方 ExportRegions 的 systemIndex → systemName（服务 worldState.php PersistentEnemies[].Region）。
-  const regions: Record<string, JsonObject> = {};
-  const regionNameEn = new Map<number, string>();
-  const regionNameZh = new Map<number, string>();
-  for (const record of regionsEn) {
-    const index = number(record, "systemIndex");
-    const name = text(record, "systemName");
-    if (index !== undefined && name && !regionNameEn.has(index)) regionNameEn.set(index, name);
-  }
-  for (const record of regionsZh) {
-    const index = number(record, "systemIndex");
-    const name = text(record, "systemName");
-    if (index !== undefined && name && !regionNameZh.has(index)) regionNameZh.set(index, name);
-  }
-  for (const [index, name] of regionNameEn) {
-    regions[String(index)] = { name, nameZh: regionNameZh.get(index) ?? "" };
-  }
-
   // 升级类型：GAMEPLAY_* → 中英名（服务 worldState.php GlobalUpgrades[].operationType）。
   const upgradeTypes: Record<string, JsonObject> = {};
   for (const [key, name] of Object.entries(langEn)) {
     const match = /^\/Lotus\/Language\/Labels\/(GAMEPLAY_[A-Za-z0-9_]+)$/u.exec(key);
     if (!match || !match[1]) continue;
     upgradeTypes[match[1]] = { name, nameZh: langZh[key] ?? "" };
+  }
+
+  // PHP boss tokens and client localization share the explicit Archon identifier.
+  const bosses: Record<string, JsonObject> = {};
+  for (const [key, name] of Object.entries(langEn)) {
+    const suffix = /^\/Lotus\/Language\/Narmer\/Archon(Amar|Boreal|Nira)$/u.exec(key)?.[1];
+    if (!suffix) continue;
+    const variants = ["", "Mythic"].map((variant) => {
+      const nameKey = `/Lotus/Language/Narmer/ArchonCrystal${suffix}${variant}NameNoIcon`;
+      return { nameKey, nameEn: langEn[nameKey] ?? "", nameZh: langZh[nameKey] ?? "", tauforged: !!variant };
+    });
+    bosses[`SORTIE_BOSS_${suffix.toUpperCase()}`] = { nameKey: key, name, nameEn: name, nameZh: langZh[key] ?? "", shardCategory: { variants, selection: "account_and_reward_rules_required" } };
   }
 
   const capturedAt = plusFiles.find((f) => f.path === PLUS_REGIONS)?.source.capturedAt ?? "";
@@ -213,14 +236,236 @@ export function projectWorldstateCodebook(
   const fissureInputs = [RELIC_EN, RELIC_ZH];
   const project = "warframe-datasource-nnm";
   return [
-    appendCodebook("worldstate/nodes.json", nodes, Object.keys(nodes).length, inputs, capturedAt, project),
+    appendWorldMap(worldMap, Object.keys(nodes).length, publicExportFiles, plusFiles, languagesFiles),
     appendCodebook("worldstate/mission-types.json", missionTypes, Object.keys(missionTypes).length, inputs, capturedAt, project),
     appendCodebook("worldstate/factions.json", factions, Object.keys(factions).length, inputs, capturedAt, project),
     appendCodebook("worldstate/syndicates.json", syndicates, Object.keys(syndicates).length, inputs, capturedAt, project),
     appendCodebook("worldstate/fissure-modifiers.json", fissureModifiers, Object.keys(fissureModifiers).length, fissureInputs, capturedAt, project),
-    appendCodebook("worldstate/regions.json", regions, Object.keys(regions).length, inputs, capturedAt, project),
+    appendCodebook("worldstate/bosses.json", bosses, Object.keys(bosses).length, [LANG_EN, LANG_ZH], capturedAt, project),
     appendCodebook("worldstate/upgrade-types.json", upgradeTypes, Object.keys(upgradeTypes).length, inputs, capturedAt, project),
   ];
+}
+
+function buildWorldMap(
+  nodes: Record<string, JsonObject>,
+  publicExportFiles: DatasetFileInput[],
+  plusSystems: JsonObject[],
+  langEn: Record<string, string>,
+  langZh: Record<string, string>,
+): JsonObject {
+  const localizedByNode = new Map<string, Map<string, JsonObject>>();
+  const itemDetails = readPublicResourceDetails(publicExportFiles);
+  for (const locale of LOCALES) {
+    const path = `public-export/${locale}/ExportRegions_${locale}.json`;
+    const file = publicExportFiles.find((candidate) => candidate.path === path);
+    if (!file) continue;
+    const root = parseObject(file);
+    const records = root.ExportRegions;
+    if (!Array.isArray(records)) throw new Error(`Expected ExportRegions array in ${path}`);
+    for (const raw of records) {
+      const record = asObject(raw, path);
+      const nodeKey = text(record, "uniqueName");
+      if (!nodeKey) continue;
+      const locales = localizedByNode.get(nodeKey) ?? new Map<string, JsonObject>();
+      if (locales.has(locale)) throw new Error(`Duplicate localized world node ${nodeKey}/${locale}`);
+      locales.set(locale, record);
+      localizedByNode.set(nodeKey, locales);
+    }
+  }
+
+  const systems = new Map<number, JsonObject & { nodes: JsonObject[]; translations: Record<string, JsonObject> }>();
+  const systemNameCandidates = new Map<number, Map<string, Map<string, number>>>();
+  for (const rawSystem of plusSystems) {
+    const systemIndex = number(rawSystem, "index");
+    const nameKey = text(rawSystem, "name");
+    if (systemIndex === undefined || !nameKey) throw new Error("Plus system lacks index or name key");
+    if (systems.has(systemIndex)) throw new Error(`Duplicate Plus system index ${systemIndex}`);
+    const en = translate(nameKey, langEn);
+    const zh = translate(nameKey, langZh);
+    const resourceDrops = Array.isArray(rawSystem.resources)
+      ? rawSystem.resources.map((rawResource, index) => {
+        const resource = asObject(rawResource, `Plus system ${systemIndex}/resources[${index}]`);
+        const storeItem = text(resource, "StoreItem") ?? "";
+        const itemType = text(resource, "ItemType") ?? "";
+        const uniqueName = storeItem || itemType;
+        const details = itemDetails.get(canonicalItemPath(uniqueName));
+        return {
+          ...resource,
+          item: {
+            uniqueName,
+            name: details?.name ?? "",
+            nameZh: details?.nameZh ?? "",
+            ...(details?.iconUrl ? { iconUrl: details.iconUrl } : {}),
+            resolution: details?.name || details?.nameZh ? "localized" : "identity_only",
+          },
+        };
+      })
+      : [];
+    systems.set(systemIndex, {
+      ...rawSystem,
+      systemIndex,
+      name: en,
+      nameZh: zh,
+      resources: resourceDrops,
+      translations: {
+        en: { name: en },
+        zh: { name: zh },
+      },
+      nodes: [],
+    });
+  }
+  for (const [nodeKey, node] of Object.entries(nodes)) {
+    const systemIndex = number(node, "systemIndex");
+    if (systemIndex === undefined) throw new Error(`WorldState node ${nodeKey} lacks systemIndex`);
+    const system = systems.get(systemIndex) ?? {
+      systemIndex,
+      name: text(node, "systemName") ?? "",
+      nameZh: text(node, "systemNameZh") ?? "",
+      translations: {},
+      nodes: [],
+    };
+    const translations: Record<string, JsonObject> = {};
+    for (const locale of LOCALES) {
+      const record = localizedByNode.get(nodeKey)?.get(locale);
+      const localizedName = text(record ?? {}, "name");
+      const localizedSystemName = text(record ?? {}, "systemName");
+      const fallbackName = locale === "en" ? text(node, "name")
+        : locale === "zh" ? text(node, "nameZh") : undefined;
+      const fallbackSystem = locale === "en" ? text(node, "systemName")
+        : locale === "zh" ? text(node, "systemNameZh") : undefined;
+      const translation: JsonObject = {};
+      const name = localizedName ?? fallbackName;
+      const systemName = localizedSystemName ?? fallbackSystem;
+      if (name) translation.name = name;
+      if (systemName) translation.systemName = systemName;
+      if (Object.keys(translation).length > 0) translations[locale] = translation;
+      if (systemName) {
+        const locales = systemNameCandidates.get(systemIndex) ?? new Map<string, Map<string, number>>();
+        const names = locales.get(locale) ?? new Map<string, number>();
+        names.set(systemName, (names.get(systemName) ?? 0) + 1);
+        locales.set(locale, names);
+        systemNameCandidates.set(systemIndex, locales);
+      }
+    }
+    const enrichedNode: JsonObject = {
+      nodeKey,
+      uniqueName: nodeKey,
+      ...node,
+      translations,
+    };
+    system.nodes.push(enrichedNode);
+    // Parent systems come from ExportSystems; node labels may describe a Proxima subregion.
+    // Missing parent names are resolved below by the stable majority across nodes.
+    systems.set(systemIndex, system);
+  }
+
+  const orderedSystems = [...systems.values()].sort((left, right) =>
+    Number(left.systemIndex) - Number(right.systemIndex),
+  );
+  for (const system of orderedSystems) {
+    const index = Number(system.systemIndex);
+    for (const [locale, names] of systemNameCandidates.get(index) ?? []) {
+      const name = selectMostCommonName(names);
+      if (!name) continue;
+      if (!system.translations[locale]?.name) system.translations[locale] = { name };
+      if (locale === "en" && !system.name) system.name = name;
+      if (locale === "zh" && !system.nameZh) system.nameZh = name;
+    }
+    system.nodes.sort((left, right) => compareText(String(left.nodeKey), String(right.nodeKey)));
+  }
+  return {
+    systems: orderedSystems,
+    nodeCount: Object.keys(nodes).length,
+    systemCount: orderedSystems.length,
+  };
+}
+
+function readPublicResourceDetails(publicExportFiles: DatasetFileInput[]): Map<string, JsonObject> {
+  const details = new Map<string, JsonObject>();
+  for (const locale of ["en", "zh"] as const) {
+    const path = `public-export/${locale}/ExportResources_${locale}.json`;
+    const file = publicExportFiles.find((candidate) => candidate.path === path);
+    if (!file) continue;
+    const root = parseObject(file);
+    const records = root.ExportResources;
+    if (!Array.isArray(records)) throw new Error(`Expected ExportResources array in ${path}`);
+    for (const raw of records) {
+      const record = asObject(raw, path);
+      const uniqueName = text(record, "uniqueName");
+      if (!uniqueName) continue;
+      const key = canonicalItemPath(uniqueName);
+      const item = details.get(key) ?? {};
+      const name = text(record, "name");
+      if (name) item[locale === "en" ? "name" : "nameZh"] = name;
+      details.set(key, item);
+    }
+  }
+
+  const manifestFile = publicExportFiles.find((candidate) => candidate.path === "public-export/shared/ExportManifest.json");
+  if (manifestFile) {
+    const manifest = parseObject(manifestFile).Manifest;
+    if (Array.isArray(manifest)) {
+      for (const raw of manifest) {
+        const record = asObject(raw, manifestFile.path);
+        const uniqueName = text(record, "uniqueName");
+        const textureLocation = text(record, "textureLocation");
+        if (!uniqueName || !textureLocation) continue;
+        const item = details.get(canonicalItemPath(uniqueName));
+        if (item) item.iconUrl = `https://content.warframe.com/PublicExport/${textureLocation.replace(/^\//u, "")}`;
+      }
+    }
+  }
+  return details;
+}
+
+function canonicalItemPath(uniqueName: string): string {
+  return uniqueName.replace("/Lotus/StoreItems/", "/Lotus/");
+}
+
+function selectMostCommonName(names: Map<string, number>): string | undefined {
+  return [...names].sort((left, right) => right[1] - left[1] || compareText(left[0], right[0]))[0]?.[0];
+}
+
+function appendWorldMap(
+  value: JsonObject,
+  nodeCount: number,
+  publicExportFiles: DatasetFileInput[],
+  plusFiles: DatasetFileInput[],
+  languagesFiles: DatasetFileInput[],
+): DatasetFileInput {
+  const paths = [
+    ...LOCALES.flatMap((locale) => [
+      `public-export/${locale}/ExportRegions_${locale}.json`,
+      ...(locale === "en" || locale === "zh" ? [`public-export/${locale}/ExportResources_${locale}.json`] : []),
+    ]).filter((path) => publicExportFiles.some((file) => file.path === path)),
+    ...(publicExportFiles.some((file) => file.path === "public-export/shared/ExportManifest.json")
+      ? ["public-export/shared/ExportManifest.json"] : []),
+    PLUS_REGIONS,
+    PLUS_SYSTEMS,
+    PLUS_MISSION_TYPES,
+    PLUS_FACTIONS,
+    PLUS_SYNDICATES,
+    LANG_EN,
+    LANG_ZH,
+  ];
+  const inputFiles = paths.map((path) => findFile(path, [...publicExportFiles, ...plusFiles, ...languagesFiles]));
+  const capturedAt = inputFiles[0]?.source.capturedAt ?? "";
+  const path = "catalog/world/map.json";
+  return {
+    stage: "cleaned",
+    path,
+    content: `${JSON.stringify(value, null, 2)}\n`,
+    recordCount: nodeCount,
+    source: {
+      project: "warframe-datasource-nnm",
+      dataset: path,
+      url: "https://content.warframe.com/PublicExport/Manifest",
+      capturedAt,
+      upstreamRevision: createHash("sha256").update(JSON.stringify(value)).digest("hex"),
+      transformer: "warframe-datasource-nnm/world-map-projection@2",
+      derivedFrom: paths,
+    },
+  };
 }
 
 /** 从官方遗物 uniqueName（/Lotus/.../Projections/T1VoidProjection...）提取 tier 名（name 首词）。 */
@@ -264,6 +509,21 @@ function appendCodebook(
   };
 }
 
+function parseObject(file: DatasetFileInput): JsonObject {
+  const value = JSON.parse(Buffer.isBuffer(file.content) ? file.content.toString("utf8") : file.content) as unknown;
+  return asObject(value, file.path);
+}
+
+function findFile(path: string, files: DatasetFileInput[]): DatasetFileInput {
+  const file = files.find((candidate) => candidate.path === path);
+  if (!file) throw new Error(`Worldstate codebook input is missing: ${path}`);
+  return file;
+}
+
+function compareText(left: string, right: string): number {
+  return left < right ? -1 : left > right ? 1 : 0;
+}
+
 /** 把 /Lotus/Language/... 语言 key 翻译成可读名；查不到时回退到 key 本身。 */
 function translate(langKey: string, languages: Record<string, string>): string {
   if (!langKey) return "";
@@ -291,10 +551,14 @@ function readObject(files: DatasetFileInput[], path: string): JsonObject {
   return value as JsonObject;
 }
 
-function readArray(files: DatasetFileInput[], path: string, key: string): JsonObject[] {
-  const root = readObject(files, path);
-  const records = root[key];
-  if (!Array.isArray(records)) throw new Error(`Expected ${key} array in ${path}`);
+function readArray(files: DatasetFileInput[], path: string, key: string): JsonObject[];
+function readArray(files: DatasetFileInput[], path: string): JsonObject[];
+function readArray(files: DatasetFileInput[], path: string, key?: string): JsonObject[] {
+  const file = files.find((f) => f.path === path);
+  if (!file) throw new Error(`Worldstate codebook input is missing: ${path}`);
+  const value = JSON.parse(Buffer.isBuffer(file.content) ? file.content.toString("utf8") : file.content) as unknown;
+  const records = key === undefined ? value : asObject(value, path)[key];
+  if (!Array.isArray(records)) throw new Error(`Expected ${key ?? "top-level"} array in ${path}`);
   return records.map((r) => asObject(r, path));
 }
 

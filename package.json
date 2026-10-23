@@ -9,6 +9,7 @@
   },
   "scripts": {
     "collect": "tsx src/cli.ts collect",
+    "replay": "tsx src/cli.ts replay",
     "verify": "tsx src/cli.ts verify",
     "test": "node --import tsx --test test/*.test.ts",
     "typecheck": "tsc --noEmit"

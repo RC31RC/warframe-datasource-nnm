@@ -12,10 +12,14 @@ import type { DatasetFileInput } from "../domain/contracts.js";
 export interface DropEntry {
   category: string;
   source: string;
+  sourceDropChancePercent?: number;
+  sourceTableIndex?: number;
   groups: string[];
   item: string;
   rarity: string;
-  chance: number;
+  chance: number | null;
+  chanceResolution?: "parsed" | "unparsed";
+  sourceChanceText?: string;
 }
 
 const DROP_TABLE_URL = "https://www.warframe.com/droptables";
@@ -28,25 +32,18 @@ export async function collectDropTables(now = new Date()): Promise<DatasetFileIn
     retries: config.requestRetries,
     headers: { accept: "text/html", "accept-encoding": "identity" },
   });
-  const html = bytes.toString("utf8");
-  const entries = parseDropTables(html);
-  const upstreamRevision = createHash("sha256").update(bytes).digest("hex");
   const rawPath = "droptables/droptables.html";
-  const source = {
-    project: "Digital Extremes Warframe Drop Tables",
-    dataset: "droptables",
-    url: DROP_TABLE_URL,
-    capturedAt,
-    upstreamRevision,
-  };
-  const output: DatasetFileInput[] = [
-    {
-      stage: "raw",
-      path: rawPath,
-      content: bytes,
-      source,
-    },
-  ];
+  return projectDropTableHtml({ stage: "raw", path: rawPath, content: bytes, source: {
+    project: "Digital Extremes Warframe Drop Tables", dataset: "droptables", url: DROP_TABLE_URL,
+    capturedAt, upstreamRevision: createHash("sha256").update(bytes).digest("hex"),
+  } });
+}
+
+/** Reparse frozen HTML on every build, so cleaner changes never rely on stale acquisition projections. */
+export function projectDropTableHtml(raw: DatasetFileInput): DatasetFileInput[] {
+  const entries = parseDropTables(Buffer.from(raw.content).toString("utf8"));
+  const rawPath = raw.path, source = raw.source;
+  const output: DatasetFileInput[] = [raw];
 
   // 按分类产出清洗后的掉落数据。
   const byCategory = new Map<string, DropEntry[]>();
@@ -90,10 +87,13 @@ function parseSection(category: string, body: string): DropEntry[] {
   const entries: DropEntry[] = [];
   const rows = body.match(/<tr[^>]*>[\s\S]*?<\/tr>/gu) ?? [];
   let source = "";
+  let sourceDropChancePercent: number | undefined;
   let groups: string[] = [];
+  let sourceTableIndex = -1;
   for (const row of rows) {
     if (row.includes("blank-row")) {
       source = "";
+      sourceDropChancePercent = undefined;
       groups = [];
       continue;
     }
@@ -101,9 +101,12 @@ function parseSection(category: string, body: string): DropEntry[] {
     if (headers.length > 0) {
       const text = headers.join(" ").trim();
       if (!text) continue;
-      if (isColumnHeader(text)) continue;
+      if (headers.every(isColumnHeader)) continue;
       if (source === "") {
-        source = text;
+        sourceTableIndex += 1;
+        const sourceHeading = parseSourceHeading(text);
+        source = sourceHeading.source;
+        sourceDropChancePercent = sourceHeading.sourceDropChancePercent;
         groups = [];
       } else {
         groups = pushGroup(groups, text);
@@ -116,13 +119,20 @@ function parseSection(category: string, body: string): DropEntry[] {
     if (!item) continue;
     const rarityChance = pickRarityChanceCell(cells);
     const parsed = parseRarityChance(rarityChance);
+    const rowSourceDropChance = cells.length >= 3 && cells[0] !== ""
+      ? parsePercent(cells[1] ?? "")
+      : undefined;
+    const effectiveSourceChance = rowSourceDropChance ?? sourceDropChancePercent;
     entries.push({
       category,
       source,
+      sourceTableIndex,
+      ...(effectiveSourceChance === undefined ? {} : { sourceDropChancePercent: effectiveSourceChance }),
       groups: [...groups],
       item,
       rarity: parsed.rarity,
       chance: parsed.chance,
+      ...(parsed.chance === null ? { chanceResolution: "unparsed", sourceChanceText: rarityChance } : {}),
     });
   }
   return entries;
@@ -153,19 +163,30 @@ function pushGroup(groups: string[], text: string): string[] {
 }
 
 function isColumnHeader(text: string): boolean {
-  return /^(Source|Chance|Mod Drop Chance|Item|Blueprint\/Item|Resource|Sigil)$/iu.test(text);
+  return /^(Source|Chance|Mod Drop Chance|Item|Blueprint(?:\/Item|\/Part)?(?: Drop Chance)?|Resource(?: Drop Chance)?|Relic(?: Drop Chance)?|Sigil(?: Drop Chance)?|Additional Item(?: Drop Chance)?)$/iu.test(text);
 }
 
-function parseRarityChance(text: string): { rarity: string; chance: number } {
-  const match = text.match(/^([A-Za-z ]+)\s*\((\d+(?:\.\d+)?)%\)$/u);
-  if (match) {
-    return { rarity: match[1]?.trim() ?? "", chance: Number(match[2] ?? 0) };
+function parseSourceHeading(text: string): { source: string; sourceDropChancePercent?: number } {
+  const match = /^(.*?)\s+(?:Mod|Blueprint\/(?:Item|Part)|Resource|Relic|Sigil|Additional Item) Drop Chance:\s*(\d+(?:\.\d+)?)%$/iu.exec(text);
+  if (!match?.[1] || !match[2]) return { source: text };
+  return { source: match[1].trim(), sourceDropChancePercent: Number(match[2]) };
+}
+
+function parsePercent(text: string): number | undefined {
+  const match = /^(\d+(?:\.\d+)?)%$/u.exec(text.trim());
+  return match?.[1] === undefined ? undefined : Number(match[1]);
+}
+
+function parseRarityChance(text: string): { rarity: string; chance: number | null } {
+  // Keep review annotations in rarity while still extracting the official numeric rate.
+  const rate = /\((\d+(?:\.\d+)?)%\)\s*$/u.exec(text.trim());
+  if (rate?.[1] !== undefined) {
+    const rarity = text.trim().slice(0, rate.index).replace(/\s*$/u, "");
+    return { rarity, chance: Number(rate[1]) };
   }
-  const plain = text.match(/^(\d+(?:\.\d+)?)%$/u);
-  if (plain) {
-    return { rarity: "", chance: Number(plain[1]) };
-  }
-  return { rarity: text, chance: 0 };
+  const plain = /^(\d+(?:\.\d+)?)%$/u.exec(text.trim());
+  if (plain?.[1] !== undefined) return { rarity: "", chance: Number(plain[1]) };
+  return { rarity: text.trim(), chance: null };
 }
 
 function slugify(category: string): string {

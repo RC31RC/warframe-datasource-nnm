@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { test } from "node:test";
 import { extractAttributes, projectAttributes, projectItems } from "../src/collectors/market.js";
 import { decompressIndex, parsePublicExportIndex, REQUIRED_EXPORTS } from "../src/collectors/public-export.js";
+import { projectMarketItems } from "../src/projections/linked.js";
 
 test("parses localized Public Export index references without losing hashes", () => {
   const entries = parsePublicExportIndex([
@@ -104,6 +105,55 @@ test("projects Market items with stable slugs and gameRef bridge keys", () => {
   assert.equal(records[1]?.gameRef, "");
   assert.throws(() => projectItems({ data: [{ slug: "a" }, { slug: "a" }] }), /Duplicate/u);
   assert.throws(() => projectItems({ data: [] }), /no data records/u);
+});
+
+test("enriches Market records in place and retains records without catalog identities", () => {
+  const capturedAt = "2026-10-22T00:00:00.000Z";
+  const source = { project: "test", dataset: "test", url: "https://example.invalid", capturedAt };
+  const output = projectMarketItems([
+    {
+      stage: "cleaned",
+      path: "catalog/i18n/items.json",
+      content: JSON.stringify({
+        "/Lotus/Types/Recipes/TestBlueprint": {
+          en: { name: "Test Blueprint" },
+          zh: { name: "测试蓝图" },
+          iconUrl: "https://content.warframe.com/test.png",
+        },
+      }),
+      source,
+    },
+  ], [
+    { stage: "raw", path: "warframe-market/items-v2.json", content: "{}", source },
+    {
+      stage: "cleaned",
+      path: "market/items.json",
+      content: JSON.stringify([
+        { slug: "test_blueprint", gameRef: "/Lotus/Types/Recipes/TestBlueprint", name: "Test Blueprint", icon: "items/test.png" },
+        { slug: "community_only", gameRef: "", name: "Community Only" },
+        { slug: "unknown_game_ref", gameRef: "/Lotus/Unknown/Item", name: "Unknown Item" },
+      ]),
+      recordCount: 3,
+      source,
+    },
+  ]);
+
+  const projected = output.find((file) => file.path === "market/items.json");
+  assert.ok(projected);
+  const items = JSON.parse(String(projected.content)) as Array<Record<string, unknown>>;
+  assert.equal(items.length, 3);
+  assert.deepEqual(items[0]?.gameItem, {
+    uniqueName: "/Lotus/Types/Recipes/TestBlueprint",
+    name: "Test Blueprint",
+    nameZh: "测试蓝图",
+    iconUrl: "https://content.warframe.com/test.png",
+    resolution: "catalog_match",
+  });
+  assert.equal(items[1]?.gameRefStatus, "missing_game_ref");
+  assert.equal(items[1]?.gameItem, null);
+  assert.equal(items[2]?.gameRefStatus, "unresolved_catalog_identity");
+  assert.equal(output.some((file) => file.path === "linked/items.json"), false);
+  assert.equal(output.some((file) => file.stage === "raw" && file.path === "warframe-market/items-v2.json"), true);
 });
 
 test("does not mutate raw Market records while adding the NnmBot projection", () => {

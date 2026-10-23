@@ -20,6 +20,18 @@ test("builds the WorldState codebook from official regions, Plus, and language t
     raw("public-export/zh/ExportRegions_zh.json", {
       ExportRegions: [{ uniqueName: "SolNode94", name: "阿波罗多罗斯", systemName: "水星", systemIndex: 0 }],
     }),
+    raw("public-export/en/ExportResources_en.json", {
+      ExportResources: [{ uniqueName: "/Lotus/Types/Items/MiscItems/Ferrite", name: "Ferrite" }],
+    }),
+    raw("public-export/zh/ExportResources_zh.json", {
+      ExportResources: [{ uniqueName: "/Lotus/Types/Items/MiscItems/Ferrite", name: "铁氧体" }],
+    }),
+    raw("public-export/shared/ExportManifest.json", {
+      Manifest: [{
+        uniqueName: "/Lotus/Types/Items/MiscItems/Ferrite",
+        textureLocation: "/Lotus/Interface/Icons/StoreItems/Ferrite.png",
+      }],
+    }),
     raw("public-export/en/ExportRelicArcane_en.json", {
       ExportRelicArcane: [
         { uniqueName: "/Lotus/Types/Game/Projections/T1VoidProjectionLithH2", name: "Lith H2 Relic" },
@@ -34,6 +46,18 @@ test("builds the WorldState codebook from official regions, Plus, and language t
     }),
   ];
   const plusFiles = [
+    raw("plus/ExportSystems.json", [
+      {
+        index: 0,
+        name: "/Lotus/Language/Locations/Mercury",
+        resources: [{
+          StoreItem: "/Lotus/StoreItems/Types/Items/MiscItems/Ferrite",
+          ItemType: "/Lotus/Types/Items/MiscItems/FerritePickup",
+          Rarity: "COMMON",
+        }],
+      },
+      { index: 20, name: "/Lotus/Language/Locations/Earth_SPACE", resources: [] },
+    ]),
     raw("plus/ExportRegions.json", {
       SolNode94: {
         name: "/Lotus/Language/Locations/Apollodorus",
@@ -48,13 +72,17 @@ test("builds the WorldState codebook from official regions, Plus, and language t
         systemIndex: 0,
         tileset: "GrineerAsteroidTileset",
         nextNodes: ["SolNode95"],
+        rewardManifests: ["/Lotus/Types/Game/MissionDecks/TestRewards"],
+        levelOverride: "/Lotus/Levels/TestLevel",
       },
+      CrewBattleNodeTest: { name: "/Lotus/Language/Locations/Apollodorus", systemIndex: 0, systemName: "/Lotus/Language/Locations/Earth_SPACE", missionType: "MT_RAILJACK" },
       CrewBattleNode559: {
         name: "/Lotus/Language/Locations/NemesisShowdownNodeInfested",
         systemName: "/Lotus/Language/Locations/Earth_SPACE",
         missionType: "MT_RAILJACK",
         faction: "FC_INFESTATION",
         hidden: true,
+        systemIndex: 20,
       },
     }),
     raw("plus/ExportMissionTypes.json", {
@@ -71,6 +99,7 @@ test("builds the WorldState codebook from official regions, Plus, and language t
   const languagesFiles = [
     raw("languages/en.json", {
       "/Lotus/Language/Locations/Apollodorus": "Apollodorus",
+      "/Lotus/Language/Locations/Mercury": "Mercury",
       "/Lotus/Language/Locations/NemesisShowdownNodeInfested": "TECHNOCYTE CODA CONCERT",
       "/Lotus/Language/Locations/Earth_SPACE": "Earth Proxima",
       "/Lotus/Language/Missions/MissionName_Survival": "Survival",
@@ -78,9 +107,11 @@ test("builds the WorldState codebook from official regions, Plus, and language t
       "/Lotus/Language/Game/Faction_InfestationUC": "Infested",
       "/Lotus/Language/Syndicates/ArbitersName": "Arbiters of Hexis",
       "/Lotus/Language/Labels/GAMEPLAY_KILL_XP_AMOUNT": "AFFINITY FROM KILLS",
+      "/Lotus/Language/Labels/GAMEPLAY_DAMAGE_TO_POWER": "DAMAGE TO POWER",
     }),
     raw("languages/zh.json", {
       "/Lotus/Language/Locations/Apollodorus": "阿波罗多罗斯撞击坑",
+      "/Lotus/Language/Locations/Mercury": "水星",
       "/Lotus/Language/Locations/NemesisShowdownNodeInfested": "科技细胞终幕者演唱会",
       "/Lotus/Language/Locations/Earth_SPACE": "地球比邻星",
       "/Lotus/Language/Missions/MissionName_Survival": "生存",
@@ -88,13 +119,22 @@ test("builds the WorldState codebook from official regions, Plus, and language t
       "/Lotus/Language/Game/Faction_InfestationUC": "疫变感染体",
       "/Lotus/Language/Syndicates/ArbitersName": "均衡仲裁者",
       "/Lotus/Language/Labels/GAMEPLAY_KILL_XP_AMOUNT": "击杀经验",
+      "/Lotus/Language/Labels/GAMEPLAY_DAMAGE_TO_POWER": "伤害转能量",
     }),
   ];
 
   const output = projectWorldstateCodebook(publicExportFiles, plusFiles, languagesFiles);
-  const nodes = output.find((f) => f.path === "worldstate/nodes.json");
-  assert.ok(nodes);
-  const nodeMap = JSON.parse(String(nodes.content)) as Record<string, Record<string, unknown>>;
+  const worldMapFile = output.find((f) => f.path === "catalog/world/map.json");
+  assert.ok(worldMapFile);
+  const worldMap = JSON.parse(String(worldMapFile.content)) as {
+    nodeCount: number;
+    systemCount: number;
+    systems: Array<{ systemIndex: number; name: string; nameZh: string; nodes: Array<Record<string, unknown>>; resources: Array<Record<string, unknown>> }>;
+  };
+  const nodeMap = Object.fromEntries(worldMap.systems.flatMap((system) =>
+    system.nodes.map((node) => [String(node.nodeKey), node]),
+  )) as Record<string, Record<string, unknown>>;
+  assert.equal(Object.hasOwn(nodeMap, "CrewBattleNode559"), true);
 
   // 官方节点：直接用官方中英名（不用语言表）
   assert.equal(nodeMap.SolNode94?.name, "Apollodorus");
@@ -118,6 +158,8 @@ test("builds the WorldState codebook from official regions, Plus, and language t
   assert.equal(nodeMap.SolNode94?.systemIndex, 0);
   assert.equal(nodeMap.SolNode94?.tileset, "GrineerAsteroidTileset");
   assert.deepEqual(nodeMap.SolNode94?.nextNodes, ["SolNode95"]);
+  assert.deepEqual(nodeMap.SolNode94?.rewardManifests, ["/Lotus/Types/Game/MissionDecks/TestRewards"]);
+  assert.equal(nodeMap.SolNode94?.levelOverride, "/Lotus/Levels/TestLevel");
 
   // 特殊节点：官方没有，用 Plus 语言 key 翻译；hidden 标记保留
   assert.equal(nodeMap.CrewBattleNode559?.name, "TECHNOCYTE CODA CONCERT");
@@ -132,6 +174,8 @@ test("builds the WorldState codebook from official regions, Plus, and language t
   const factions = JSON.parse(String(output.find((f) => f.path === "worldstate/factions.json")?.content)) as Record<string, Record<string, unknown>>;
   assert.equal(factions.FC_GRINEER?.name, "Grineer");
   assert.equal(factions.FC_INFESTATION?.name, "Infested");
+  assert.equal(factions.FC_INFESTATION?.nameKey, "/Lotus/Language/Game/Faction_InfestationUC");
+  assert.deepEqual(Object.keys(factions.FC_INFESTATION ?? {}).sort(), ["name", "nameEn", "nameKey", "nameZh"].sort());
   const syndicates = JSON.parse(String(output.find((f) => f.path === "worldstate/syndicates.json")?.content)) as Record<string, Record<string, unknown>>;
   assert.equal(syndicates.ArbitersSyndicate?.name, "Arbiters of Hexis");
   assert.equal(syndicates.ArbitersSyndicate?.nameZh, "均衡仲裁者");
@@ -147,12 +191,27 @@ test("builds the WorldState codebook from official regions, Plus, and language t
   assert.equal(fissure.VoidT6?.tier, 6);
 
   // 星系索引 + 升级类型（一手推导）
-  const regions = JSON.parse(String(output.find((f) => f.path === "worldstate/regions.json")?.content)) as Record<string, Record<string, unknown>>;
-  assert.equal(regions["0"]?.name, "Mercury");
-  assert.equal(regions["0"]?.nameZh, "水星");
+  assert.equal(output.some((f) => f.path === "worldstate/regions.json"), false);
+  assert.equal(output.some((f) => f.path === "worldstate/nodes.json"), false);
   const upgradeTypes = JSON.parse(String(output.find((f) => f.path === "worldstate/upgrade-types.json")?.content)) as Record<string, Record<string, unknown>>;
   assert.equal(upgradeTypes.GAMEPLAY_KILL_XP_AMOUNT?.name, "AFFINITY FROM KILLS");
   assert.equal(upgradeTypes.GAMEPLAY_KILL_XP_AMOUNT?.nameZh, "击杀经验");
+  assert.equal(upgradeTypes.GAMEPLAY_DAMAGE_TO_POWER?.name, "DAMAGE TO POWER");
+  assert.equal(upgradeTypes.GAMEPLAY_DAMAGE_TO_POWER?.nameZh, "伤害转能量");
+
+  assert.equal(worldMap.nodeCount, 3);
+  assert.equal(worldMap.systemCount, 2);
+  assert.equal(worldMap.systems.length, 2);
+  assert.equal(worldMap.systems.find((system) => system.systemIndex === 0)?.name, "Mercury");
+  assert.equal(worldMap.systems.find((system) => system.systemIndex === 0)?.nodes.find((node) => node.nodeKey === "SolNode94")?.nodeKey, "SolNode94");
+  assert.equal(worldMap.systems.find((system) => system.systemIndex === 20)?.name, "Earth Proxima");
+  assert.equal(worldMap.systems.find((system) => system.systemIndex === 20)?.nameZh, "地球比邻星");
+  const ferrite = worldMap.systems.find((system) => system.systemIndex === 0)?.resources[0]?.item as Record<string, unknown>;
+  assert.equal(ferrite.name, "Ferrite");
+  assert.equal(ferrite.nameZh, "铁氧体");
+  assert.equal(ferrite.iconUrl, "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreItems/Ferrite.png");
+  assert.equal(output.some((f) => f.path === "catalog/world/nodes.json"), false);
+  assert.equal(output.some((f) => f.path === "catalog/i18n/nodes.json"), false);
 });
 
 test("rejects missing codebook inputs", () => {

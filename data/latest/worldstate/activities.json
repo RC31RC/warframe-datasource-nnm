@@ -1,0 +1,1303 @@
+{
+  "conquests": {
+    "types": {
+      "CT_LAB": {
+        "nameKey": "/Lotus/Language/Conquest/SolarMapLabConquestNode",
+        "nameEn": "Deep Archimedea",
+        "nameZh": "深层科研"
+      },
+      "CT_HEX": {
+        "nameKey": "/Lotus/Language/1999/ConquestSetup_Title",
+        "nameEn": "Temporal Archimedea",
+        "nameZh": "时光科研"
+      }
+    },
+    "conditions": {
+      "AcceleratedEnemies": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_AcceleratedEnemies",
+        "nameEn": "Bold Venture",
+        "nameZh": "激进冒险",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_AcceleratedEnemies_Desc",
+        "descriptionEn": "Enemies deal -15% Damage and take +15% Damage but gain +15% Movement Speed, Attack Speed, and Fire Rate.",
+        "descriptionZh": "敌人造成的伤害 -15%，受到的伤害 +15% ，但移动速度、攻击速度和射速 +15%。"
+      },
+      "AntiMaterialWeapons": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_AntiMaterialWeapons",
+        "nameEn": "Commanding Culverins",
+        "nameZh": "指挥型重型炮兵",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_AntiMaterialWeapons_Desc",
+        "descriptionEn": "Rogue Culverins equip weapons that deal 5x Damage to Overguard and Necramechs.",
+        "descriptionZh": "暴戾重型炮兵装备的武器对超宏防护和殁世机甲造成 5 倍的伤害。"
+      },
+      "ArcadeAutomata": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_ArcadeAutomata",
+        "nameEn": "Arcade Automata",
+        "nameZh": "自动街机",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_ArcadeAutomata_Desc",
+        "descriptionEn": "Enemy guns launch large, slow moving orbs instead of their usual ordnance.",
+        "descriptionZh": "敌人的枪械发射巨大且缓慢移动的球体，而不是他们平常的弹药。"
+      },
+      "ArtilleryBeacons": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_ArtilleryBeacons",
+        "nameEn": "Artillery Beacons",
+        "nameZh": "炮击信标",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_ArtilleryBeacons_Desc",
+        "descriptionEn": "When killed, Scaldra troops drop artillery beacons that summon bombardments.",
+        "descriptionZh": "炽蛇军敌人被击杀时会掉落炮击信标召唤轰炸。"
+      },
+      "BalloonFest": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_BalloonFest",
+        "nameEn": "Balloonfest",
+        "nameZh": "气球嘉年华",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_BalloonFest_Desc",
+        "descriptionEn": "Scaldra Harbingers are more numerous and attack and move more quickly.",
+        "descriptionZh": "炽蛇军前哨气球数量更多，攻击和移动速度更快。"
+      },
+      "CompetitionSpillover": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_CompetitionSpillover",
+        "nameEn": "Competitive Streak",
+        "nameZh": "竞争优势",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_CompetitionSpillover_Desc",
+        "descriptionEn": "Random negative penalties from Amir and Aoi's \"Faceoff\" mode will be applied throughout the mission.",
+        "descriptionZh": "在整个任务过程中，阿米尔和碧的\"对战\"模式将产生随机负面惩罚。"
+      },
+      "Deflectors": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_Deflectors",
+        "nameEn": "Fortified Foes",
+        "nameZh": "坚不可摧",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_Deflectors_Desc",
+        "descriptionEn": "Guardian Eximus units may be encountered, including Guardian Eximus Necramechs.",
+        "descriptionZh": "可能会出现守护者卓越者敌人，包括守护者卓越者殁世机甲。"
+      },
+      "DrainingResiduals": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_DrainingResiduals",
+        "nameEn": "Devil's Bargain",
+        "nameZh": "恶魔契约",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_DrainingResiduals_Desc",
+        "descriptionEn": "Allies within 4m of slain enemies gain +25% Fire Rate at the cost of -50% Ammo Efficiency.",
+        "descriptionZh": "敌人被击杀时 4 米范围内的友军会牺牲 50% 的弹药效率以换取 +25% 的射速。"
+      },
+      "EfervonFog": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_EfervonFog",
+        "nameEn": "Dense Fog",
+        "nameZh": "浓雾",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_EfervonFog_Desc",
+        "descriptionEn": "Efervon gas blankets the level. Enemies may drop filters that can provide a temporary reprieve.",
+        "descriptionZh": "艾弗旺气体覆盖整个关卡。敌人可能会掉落提供短暂缓解的过滤器。"
+      },
+      "EmpoweredEnemies": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_EmpoweredEnemies",
+        "nameEn": "Proportional Resistance",
+        "nameZh": "等比增防",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_EmpoweredEnemies_Desc",
+        "descriptionEn": "Enemies have their Health and Shields increased by 100%, and an additional 50% for each squad member up to a maximum of 300%. Eximus units are deployed more frequently.",
+        "descriptionZh": "敌人的生命值和护盾增加 100%，每拥有一个小队成员额外增加 50%，最多 300%。卓越者单位的部署更加频繁。"
+      },
+      "EnemyElementalEnhancement": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_EnemyElementalEnhancement",
+        "nameEn": "Elemental Potency",
+        "nameZh": "元素效力",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_EnemyElementalEnhancement_Desc",
+        "descriptionEn": "Enemies deal +100% Elemental Damage and have +85% resistance to Elemental Damage.",
+        "descriptionZh": "敌人造成 +100% 元素伤害，并对元素伤害有 +85% 抗性。"
+      },
+      "ExplosiveCrawlers": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_ExplosiveCrawlers",
+        "nameEn": "Explosive Potential",
+        "nameZh": "易爆潜能",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_ExplosiveCrawlers_Desc",
+        "descriptionEn": "Rupturing Fragments replace Shuffling Fragments.",
+        "descriptionZh": "爆裂断肢取代蹒跚断肢。"
+      },
+      "ExplosiveSummer": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_ExplosiveSummer",
+        "nameEn": "Excessive Explosives",
+        "nameZh": "过量炸药",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_ExplosiveSummer_Desc",
+        "descriptionEn": "All supply crates are replaced with explosive barrels.",
+        "descriptionZh": "所有补给箱都被炸药桶替换。"
+      },
+      "FallFog": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_FallFog",
+        "nameEn": "Foggy Fall",
+        "nameZh": "浓雾之秋",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_FallFog_Desc",
+        "descriptionEn": "A fog limits vision across the mission zone.",
+        "descriptionZh": "迷雾限制了整个任务区的视野。"
+      },
+      "HeavyWarfare": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_HeavyWarfare",
+        "nameEn": "Heavy Warfare",
+        "nameZh": "重装作战",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_HeavyWarfare_Desc",
+        "descriptionEn": "Enemies take x1.25 damage from Heavy Weapons and Thermian RPGs, 95% less from other sources. Enemies will drop heavy ammo packs and heavy weapon recall time reduced to 5s.",
+        "descriptionZh": "敌人受到重型武器和热熔火箭炮的伤害增加 1.25 倍，其他来源的伤害降低 95%。敌人会掉落重型弹药包，重型武器的召回时间缩短至 5 秒。"
+      },
+      "HostileOvergrowth": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_HostileOvergrowth",
+        "nameEn": "It's Alive",
+        "nameZh": "它是活的",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_HostileOvergrowth_Desc",
+        "descriptionEn": "Within the underground, hostile overgrowths will attack if players stop moving.",
+        "descriptionZh": "在地下，如果玩家停止移动，敌方增生物就会发起攻击。"
+      },
+      "InfectedTechrot": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_InfectedTechrot",
+        "nameEn": "Corrupted Flesh",
+        "nameZh": "腐朽之躯",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_InfectedTechrot_Desc",
+        "descriptionEn": "Techrot enemies are infused with Efervon and take damage over time. They explode when killed and leave behind deadly Efervon in their wake.",
+        "descriptionZh": "科腐者敌人被注入艾弗旺并随时间推移受到伤害。他们被击杀后会爆炸并留下致命的艾弗旺。"
+      },
+      "JadeSpring": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_JadeSpring",
+        "nameEn": "Jade Spirits",
+        "nameZh": "翠玉之灵",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_JadeSpring_Desc",
+        "descriptionEn": "Jade Wisps haunt the region. If approached, they chase down the player responsible and transform into Jade Light beams.",
+        "descriptionZh": "翠玉之灵徘徊在该区域。如果玩家靠近，它们就会追逐玩家并转变为翠玉光束。"
+      },
+      "MagneticHounds": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_MagneticHounds",
+        "nameEn": "Alluring Arcocanids",
+        "nameZh": "迷人弧犬",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_MagneticHounds_Desc",
+        "descriptionEn": "As Rogue Arcocanids charge attacks, they pull Warframes toward them.",
+        "descriptionZh": "当暴戾弧犬发起攻击时，它们会将战甲拉向自己。"
+      },
+      "MeleeOnlyEnemies": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_MeleeOnlyEnemies",
+        "nameEn": "Close Quarters",
+        "nameZh": "短兵相接",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_MeleeOnlyEnemies_Desc",
+        "descriptionEn": "Only enemies with melee attacks are present.",
+        "descriptionZh": "只出现近战攻击的敌人。"
+      },
+      "MiasmiteHive": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_MiasmiteHive",
+        "nameEn": "Miasmite Swarm",
+        "nameZh": "自爆虫群",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_MiasmiteHive_Desc",
+        "descriptionEn": "Techrot Miasmites swarm out of the shadows throughout the mission.",
+        "descriptionZh": "在任务过程中，科腐者自爆虫会从阴影中蜂拥而出。"
+      },
+      "MurmurIncursion": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_MurmurIncursion",
+        "nameEn": "Beyond The Wall",
+        "nameZh": "墙壁之外",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_MurmurIncursion_Desc",
+        "descriptionEn": "Murmur enemies join ranks with Scaldra and the Techrot.",
+        "descriptionZh": "低语者敌人加入炽蛇军和科腐者阵营。"
+      },
+      "PointBlank": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_PointBlank",
+        "nameEn": "Myopic Munitions",
+        "nameZh": "短视弹药",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_PointBlank_Desc",
+        "descriptionEn": "Enemies will only take damage if a player is within 15m of them.",
+        "descriptionZh": "玩家距离敌人 15 米以内时，敌人才会受到伤害。"
+      },
+      "Quicksand": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_Quicksand",
+        "nameEn": "Entanglement",
+        "nameZh": "牵连",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_Quicksand_Desc",
+        "descriptionEn": "Allies within 4m of slain enemies endure reduced Movement Speed and Parkour Velocity.",
+        "descriptionZh": "被击杀敌人 4 米范围内的友军， 移动速度和跑酷速度会降低。"
+      },
+      "RangedOnlyEnemies": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_RangedOnlyEnemies",
+        "nameEn": "Ranged Engagements",
+        "nameZh": "远程交战",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_RangedOnlyEnemies_Desc",
+        "descriptionEn": "Only enemies with ranged attacks are present.",
+        "descriptionZh": "只出现远程攻击的敌人。"
+      },
+      "RegeneratingEnemies": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_RegeneratingEnemies",
+        "nameEn": "Hostile Regeneration",
+        "nameZh": "敌军复生",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_RegeneratingEnemies_Desc",
+        "descriptionEn": "Enemy health slowly regenerates.",
+        "descriptionZh": "敌人的生命值会缓慢恢复。"
+      },
+      "RestrictedConsumables": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_RestrictedConsumables",
+        "nameEn": "Delayed Supply",
+        "nameZh": "延迟供应",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_RestrictedConsumables_Desc",
+        "descriptionEn": "Consumable gear items have 30s cooldown timers. Specters, on call crew, and Archguns are exempted.",
+        "descriptionZh": "消耗品有 30 秒冷却时间。魅影，待命舰员以及曲翼枪械除外。"
+      },
+      "RestrictedRespawns": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_RestrictedRespawns",
+        "nameEn": "Finality",
+        "nameZh": "终局",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_RestrictedRespawns_Desc",
+        "descriptionEn": "Self-revive is disabled. Dead players can only be revived by killing a Mocking Whisper. Dead players will not proceed to successive missions.",
+        "descriptionZh": "禁用自我复活。濒死的玩家只能通过击杀嘲讽低语来复活。死亡的玩家无法继续进行连续任务。"
+      },
+      "SentientAdaptation": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_SentientAdaptation",
+        "nameEn": "Adaptive Aberrations",
+        "nameZh": "适应异变",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_SentientAdaptation_Desc",
+        "descriptionEn": "Enemies gain resistance to Elemental Damage that has been inflicted upon them. Resistance is lost if no damage is taken from that element for 5s.",
+        "descriptionZh": "敌人受到元素伤害时产生相应的抗性。如果在 5 秒内没有受到该元素伤害，则抗性会消失。"
+      },
+      "ShieldedFoes": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_ShieldedFoes",
+        "nameEn": "Bolstered Belligerents",
+        "nameZh": "强化好战",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_ShieldedFoes_Desc",
+        "descriptionEn": "All enemies have Overguard equal to 50% of their max health.",
+        "descriptionZh": "所有敌人获得相当于他们最大生命值 50% 的超宏防护。"
+      },
+      "Vanquisher": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_Vanquisher",
+        "nameEn": "Eximus Reinforcements",
+        "nameZh": "卓越支援",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_Vanquisher_Desc",
+        "descriptionEn": "Additional Eximus units will be deployed.",
+        "descriptionZh": "部署额外的卓越者敌人。"
+      },
+      "VoidAberration": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_VoidAberration",
+        "nameEn": "Vampyric Liminus",
+        "nameZh": "吸血界影",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_VoidAberration_Desc",
+        "descriptionEn": "Slow moving, immortal, Duviri Liminus drain health and energy from allies who get too close.",
+        "descriptionZh": "行动缓慢且不死的双衍王境界影，能从过于接近的友军身上吸取生命和能量。"
+      },
+      "Voidburst": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_Voidburst",
+        "nameEn": "Postmortal Surges",
+        "nameZh": "死后冲击",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_Voidburst_Desc",
+        "descriptionEn": "Slain enemies burst with Void energy.",
+        "descriptionZh": "被击杀的敌人会爆发出虚空能量。"
+      },
+      "WinterFrost": {
+        "nameKey": "/Lotus/Language/Conquest/Condition_WinterFrost",
+        "nameEn": "Thick Ice",
+        "nameZh": "厚冰",
+        "descriptionKey": "/Lotus/Language/Conquest/Condition_WinterFrost_Desc",
+        "descriptionEn": "Arctic Eximus globes have 30x their normal durability.",
+        "descriptionZh": "极寒卓越者护罩的耐久度是正常值的 30 倍。"
+      }
+    },
+    "personalModifiers": {
+      "AbilityLockout": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_AbilityLockout",
+        "nameEn": "Powerless",
+        "nameZh": "技能禁用",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_AbilityLockout_Desc",
+        "descriptionEn": "All Abilities are disabled until the squad kills 50 enemies.",
+        "descriptionZh": "小队击杀 50 名敌人前，所有技能均被禁止使用。"
+      },
+      "AnemicShields": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_AnemicShields",
+        "nameEn": "Anemic Shields",
+        "nameZh": "乏能护盾",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_AnemicShields_Desc",
+        "descriptionEn": "Maximum shield and overshield will not exceed 500.",
+        "descriptionZh": "最大护盾和过载护盾不会超过 500。"
+      },
+      "AntiGuard": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_AntiGuard",
+        "nameEn": "Dropped Guard",
+        "nameZh": "超宏衰减",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_AntiGuard_Desc",
+        "descriptionEn": "Warframe and ally Overguard gain reduced by 75%",
+        "descriptionZh": "战甲和友军超宏防护获取量减少 75%"
+      },
+      "AoeDebuff": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_AoeDebuff",
+        "nameEn": "Low Yield",
+        "nameZh": "低收益",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_AoeDebuff_Desc",
+        "descriptionEn": "Blast radius of weapons with radial attacks is set to |val|m.",
+        "descriptionZh": "具有范围攻击的武器爆炸半径固定为 |val| 米。"
+      },
+      "Armorless": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Armorless",
+        "nameEn": "Fractured Armor",
+        "nameZh": "破损护甲",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Armorless_Desc",
+        "descriptionEn": "Casting an ability reduces armor by 10% for 10s.",
+        "descriptionZh": "施放技能会使护甲降低 10%，持续 10 秒。"
+      },
+      "ChannelDrain": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ChannelDrain",
+        "nameEn": "Channeled Greed",
+        "nameZh": "贪婪导引",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ChannelDrain_Desc",
+        "descriptionEn": "While a channeled ability is active, maximum shields and overshields are reduced each second. 10s cooldown to fully recover.",
+        "descriptionZh": "导引技能激活期间，最大护盾和过载护盾每秒都会降低。完全恢复需要 10 秒的冷却时间。"
+      },
+      "ComboCountChance": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ComboCountChance",
+        "nameEn": "Dull Blades",
+        "nameZh": "钝重兵刃",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ComboCountChance_Desc",
+        "descriptionEn": "-50% melee combo chance",
+        "descriptionZh": "近战连击数几率减少 50%"
+      },
+      "Conductive": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Conductive",
+        "nameEn": "Conductive",
+        "nameZh": "导电侵袭",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Conductive_Desc",
+        "descriptionEn": "Take <DT_ELECTRICITY>Electricity Damage every few seconds.",
+        "descriptionZh": "每隔几秒就会受到 <DT_ELECTRICITY>电击伤害。"
+      },
+      "ContactDamage": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ContactDamage",
+        "nameEn": "Secondary Wounds",
+        "nameZh": "二次伤害",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ContactDamage_Desc",
+        "descriptionEn": "Gain 1 <DT_PUNCTURE>Puncture Status Effect every time you take damage.",
+        "descriptionZh": "每次受到伤害时，获得 1 层 <DT_PUNCTURE>穿刺异常状态。"
+      },
+      "DamageMomentum": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_DamageMomentum",
+        "nameEn": "Terminal Velocity",
+        "nameZh": "致命速率",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_DamageMomentum_Desc",
+        "descriptionEn": "You do 0 damage while not moving.",
+        "descriptionZh": "静止不动时无法造成伤害。"
+      },
+      "DecayingFlesh": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_DecayingFlesh",
+        "nameEn": "Permanent Injury",
+        "nameZh": "永久损伤",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_DecayingFlesh_Desc",
+        "descriptionEn": "Max health reduced each time health damage is taken",
+        "descriptionZh": "受到生命值伤害时还会扣减最大生命上限"
+      },
+      "EnergyStarved": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_EnergyStarved",
+        "nameEn": "Constricted",
+        "nameZh": "能量缩减",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_EnergyStarved_Desc",
+        "descriptionEn": "Max energy reduced by 75%",
+        "descriptionZh": "最大能量值减少 75%"
+      },
+      "Exhaustion": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Exhaustion",
+        "nameEn": "Energy Exhaustion",
+        "nameZh": "能量枯竭",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Exhaustion_Desc",
+        "descriptionEn": "Lose 2 Energy per second for each enemy within 10 meters of you.",
+        "descriptionZh": "周围 10 米范围内的所有敌人使你每秒丢失 2 能量。"
+      },
+      "ExposureCurse": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ExposureCurse",
+        "nameEn": "Exposure Curse",
+        "nameZh": "显露之诅",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ExposureCurse_Desc",
+        "descriptionEn": "Shields are removed.",
+        "descriptionZh": "护盾被移除。"
+      },
+      "Framecurse": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Framecurse",
+        "nameEn": "Framecurse Syndrome",
+        "nameZh": "咒甲减益",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Framecurse_Desc",
+        "descriptionEn": "Activating an Ability inflicts 50 health and 150 shield damage upon you.",
+        "descriptionZh": "激活一项技能时，会对你生命值造成 50 伤害，对护盾造成 150 伤害。"
+      },
+      "Gearless": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Gearless",
+        "nameEn": "Gear Embargo",
+        "nameZh": "携带装备限制",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Gearless_Desc",
+        "descriptionEn": "All gear restricted except for Archguns, Atomicycles and Necramechs",
+        "descriptionZh": "除曲翼枪械、原子摩托车和殁世机甲外，所有装备均受限制"
+      },
+      "InfectedWounds": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_InfectedWounds",
+        "nameEn": "Infected Wounds",
+        "nameZh": "感染伤口",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_InfectedWounds_Desc",
+        "descriptionEn": "Gain a <DT_POISON_COLOR>Toxin Status Effect every time you take damage.",
+        "descriptionZh": "每次受到伤害时，获得一层 <DT_POISON_COLOR>毒素异常状态。"
+      },
+      "Knifestep": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Knifestep",
+        "nameEn": "Knifestep Syndrome",
+        "nameZh": "如履刀尖",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Knifestep_Desc",
+        "descriptionEn": "Lose 2 Health when moving. Jumping pauses the effect.",
+        "descriptionZh": "移动时损失 2 点生命值。跳跃会暂停效果。"
+      },
+      "MaxAmmo": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_MaxAmmo",
+        "nameEn": "Undersupplied",
+        "nameZh": "补给短缺",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_MaxAmmo_Desc",
+        "descriptionEn": "Max ammo on all weapons reduced by 75%",
+        "descriptionZh": "所有武器的弹药最大值减少 75%"
+      },
+      "NoPets": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_NoPets",
+        "nameEn": "No Pets Allowed",
+        "nameZh": "宠物禁入",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_NoPets_Desc",
+        "descriptionEn": "Companions are disabled",
+        "descriptionZh": "禁用同伴"
+      },
+      "OperatorLockout": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_OperatorLockout",
+        "nameEn": "Transference Distortion",
+        "nameZh": "传识失真",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_OperatorLockout_Desc",
+        "descriptionEn": "Transference into Operator and Drifter is blocked.",
+        "descriptionZh": "无法传识到指挥官或漂泊者。"
+      },
+      "OverSensitive": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_OverSensitive",
+        "nameEn": "Hypersensitive",
+        "nameZh": "过敏受体",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_OverSensitive_Desc",
+        "descriptionEn": "Duration of negative Status Effects is tripled",
+        "descriptionZh": "负面异常状态的持续时间增加到三倍"
+      },
+      "RangeDebuff": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_RangeDebuff",
+        "nameEn": "Shortened Reach",
+        "nameZh": "咫尺之限",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_RangeDebuff_Desc",
+        "descriptionEn": "Ability range reduced by |val|%.",
+        "descriptionZh": "技能范围减少 |val|%。"
+      },
+      "Sanguine": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Sanguine",
+        "nameEn": "Sanguine Syndrome",
+        "nameZh": "血色减益",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Sanguine_Desc",
+        "descriptionEn": "Every time you take damage, you also suffer a <DT_SLASH>Slash Status Effect.",
+        "descriptionZh": "每当你受到伤害时，还会陷入 <DT_SLASH>切割异常状态。"
+      },
+      "ScarcityCurse": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ScarcityCurse",
+        "nameEn": "Ammo Scarcity",
+        "nameZh": "弹药枯竭",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ScarcityCurse_Desc",
+        "descriptionEn": "Ammo depletes steadily. Battery weapons recharge slowly.",
+        "descriptionZh": "弹药逐渐耗尽。电池武器充能缓慢。"
+      },
+      "ShieldDelay": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_ShieldDelay",
+        "nameEn": "Lethargic Shields",
+        "nameZh": "嗜睡护盾",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_ShieldDelay_Desc",
+        "descriptionEn": "Shield recharge delay increased |val|%.",
+        "descriptionZh": "护盾充能延迟增加 |val|%。"
+      },
+      "Starvation": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Starvation",
+        "nameEn": "Ammo Deficit",
+        "nameZh": "弹药亏空",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Starvation_Desc",
+        "descriptionEn": "Ammo restored by drops and gear is reduced 75%.",
+        "descriptionZh": "通过掉落和道具恢复的弹药减少 75%。"
+      },
+      "TimeDilation": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_TimeDilation",
+        "nameEn": "Abbreviated Abilities",
+        "nameZh": "缩短技能",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_TimeDilation_Desc",
+        "descriptionEn": "Ability durations reduced by |val|%.",
+        "descriptionZh": "技能持续时间减少 |val|%。"
+      },
+      "Vampyri": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Vampyri",
+        "nameEn": "Vampyric Syndrome",
+        "nameZh": "吸血减益",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Vampyri_Desc",
+        "descriptionEn": "Lose Health every second. Killing enemies restores Health.",
+        "descriptionZh": "每秒流失生命值。击杀敌人可恢复生命值。"
+      },
+      "VitalEnergy": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_VitalEnergy",
+        "nameEn": "Concussive Drain",
+        "nameZh": "震荡耗能",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_VitalEnergy_Desc",
+        "descriptionEn": "Taking health damage also consumes 5% of max energy per hit.",
+        "descriptionZh": "每当生命值受到伤害，也会消耗最大能量的 5%。"
+      },
+      "VoidEnergyOverload": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_VoidEnergyOverload",
+        "nameEn": "Ability Overload",
+        "nameZh": "技能超载",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_VoidEnergyOverload_Desc",
+        "descriptionEn": "Using an ability opens a void rift nearby",
+        "descriptionZh": "使用技能将在附近打开一道虚空裂隙"
+      },
+      "Withering": {
+        "nameKey": "/Lotus/Language/Conquest/PersonalMod_Withering",
+        "nameEn": "Untreatable",
+        "nameZh": "无法治愈",
+        "descriptionKey": "/Lotus/Language/Conquest/PersonalMod_Withering_Desc",
+        "descriptionEn": "Pickups do not heal, and Health Orbs cannot be picked up.",
+        "descriptionZh": "拾取无法提供治疗，并且无法拾取生命球。"
+      }
+    },
+    "missionVariants": {
+      "HexConquest": {
+        "ChemicalNoise": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ChemicalNoise",
+          "nameEn": "Noise Suppression",
+          "nameZh": "噪音抑制",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ChemicalNoise_Desc",
+          "descriptionEn": "Drones fly above Flare, spraying them with Efervon gas.",
+          "descriptionZh": "无人机在弗莱尔上方飞行，向他喷射艾弗旺气体。"
+        },
+        "ContaminationZone": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ContaminationZone",
+          "nameEn": "Hold Your Breath",
+          "nameZh": "屏住呼吸",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ContaminationZone_Desc",
+          "descriptionEn": "The entire region deals <DT_POISON_COLOR>Toxin damage over time, increasing the longer players remain, except in the vicinity of Hell-Scrubbers. Some enemies may drop filters that create additional, static temporary safe zones.",
+          "descriptionZh": "整个区域会随着玩家停留时间的延长而造成 <DT_POISON_COLOR>毒素伤害，地狱净化器附近区域除外。有些敌人可能会掉落过滤器，可用于创造额外稳定的临时安全区。"
+        },
+        "DisruptiveSounds": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_DisruptiveSounds",
+          "nameEn": "Vamp Rock",
+          "nameZh": "吸血摇滚",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_DisruptiveSounds_Desc",
+          "descriptionEn": "Flare creates a field that disrupts player abilities while draining energy to boost Flare's health. Flare slowly loses health when no players are in range.",
+          "descriptionZh": "弗莱尔会创造一个力场，干扰玩家的技能，同时消耗能量以增强弗莱尔的生命值。当没有玩家在范围内时，弗莱尔会缓慢失去生命值。"
+        },
+        "DoubleTroubleLegacyte": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_DoubleTroubleLegacyte",
+          "nameEn": "Mitosis",
+          "nameZh": "有丝分裂",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_DoubleTroubleLegacyte_Desc",
+          "descriptionEn": "Two Legacytes spawn each round and twice as many captures are needed for success.",
+          "descriptionZh": "每轮产生两个传承种，需要两倍的捕获次数才能成功。"
+        },
+        "EscalateImmediately": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_EscalateImmediately",
+          "nameEn": "Cache Crash",
+          "nameZh": "破坏补给",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_EscalateImmediately_Desc",
+          "descriptionEn": "Consequences of opening a Supply Cache are active from the start and will intensify once it is opened. Failure to open a Supply Cache doubles the kill count required to finish the mission.",
+          "descriptionZh": "任务开始时，触发打开补给箱的负面效果，一旦打开就会加剧。未能打开补给箱会导致完成任务所需的击杀数翻倍。"
+        },
+        "ExplosiveEnergy": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ExplosiveEnergy",
+          "nameEn": "Miasmite Mash",
+          "nameZh": "自爆虫浆",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_ExplosiveEnergy_Desc",
+          "descriptionEn": "Enemies drop Miasmites upon death that immediately rush Flare.",
+          "descriptionZh": "敌人死亡时掉落的自爆虫会立即冲向弗莱尔。"
+        },
+        "FortifiedFoes": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_FortifiedFoes",
+          "nameEn": "Sealed Armor",
+          "nameZh": "密闭装甲",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_FortifiedFoes_Desc",
+          "descriptionEn": "Enemies take 90% less damage from non-weak point hits.",
+          "descriptionZh": "非弱点命中对敌人造成的伤害降低 90%。"
+        },
+        "GestatingTumors": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_GestatingTumors",
+          "nameEn": "Sporogenesis",
+          "nameZh": "孢子增殖",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_GestatingTumors_Desc",
+          "descriptionEn": "Techrot Tumors appear near Hell-Scrubbers, increasing the rate of life support decay with each active tumor.",
+          "descriptionZh": "地狱净化器附近会出现科腐者肿瘤，每个活跃的肿瘤都会增加维生系统衰减的速度。"
+        },
+        "HighScalingLegacyte": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_HighScalingLegacyte",
+          "nameEn": "Growth Hormones",
+          "nameZh": "生长激素",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_HighScalingLegacyte_Desc",
+          "descriptionEn": "Legacytes are more powerful with each generation but take longer to escape.",
+          "descriptionZh": "每一代传承种都更加强大，但同时也需要更长的时间来逃脱。"
+        },
+        "HostileSecurity": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_HostileSecurity",
+          "nameEn": "Disruptive Sounds",
+          "nameZh": "破坏之音",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_HostileSecurity_Desc",
+          "descriptionEn": "Flare emits a disruptive field around themselves that disrupts abilities and drains energy. Flare will lose health if no players are within range. They gain health based on the number of players within range.",
+          "descriptionZh": "弗莱尔在自身周围发出一个干扰力场，干扰技能并消耗能量。如果范围内没有玩家，弗莱尔将流失生命值。他会根据范围内的玩家数量获得生命值。"
+        },
+        "MutatedEnemies": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_MutatedEnemies",
+          "nameEn": "Parallel Evolution",
+          "nameZh": "平行进化",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_MutatedEnemies_Desc",
+          "descriptionEn": "As the Legacyte evolves other enemies present also gain new abilities.",
+          "descriptionZh": "随着传承种进化，其他在场敌人也将获得新技能。"
+        },
+        "TankReinforcements": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankReinforcements",
+          "nameEn": "Reinforcements",
+          "nameZh": "支援",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankReinforcements_Desc",
+          "descriptionEn": "Reinforcements will arrive during the fight; first Scaldra, then Techrot.",
+          "descriptionZh": "战斗过程中会有敌方援军抵达，首先是炽蛇军，然后是科腐者。"
+        },
+        "TankStrongArmor": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankStrongArmor",
+          "nameEn": "Thermian Plating",
+          "nameZh": "热熔装甲板",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankStrongArmor_Desc",
+          "descriptionEn": "Only Thermian RPGs can damage the tank. Reinforcements that carry Thermian RPGs will arrive during the fight.",
+          "descriptionZh": "只有热熔火箭弹才能对坦克造成伤害。携带热熔火箭炮的增援部队将在战斗中持续出现。"
+        },
+        "TankSuperToxic": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankSuperToxic",
+          "nameEn": "Toxic Tank",
+          "nameZh": "剧毒坦克",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TankSuperToxic_Desc",
+          "descriptionEn": "The tank has a <DT_POISON_COLOR>Toxin aura, leaves <DT_POISON_COLOR>Toxin trails, and its attacks all deal <DT_POISON_COLOR> Toxin damage.",
+          "descriptionZh": "坦克拥有 <DT_POISON_COLOR>毒素光环，留下 <DT_POISON_COLOR>毒素尾迹，并且所有的攻击会造成 <DT_POISON_COLOR>毒素伤害。"
+        },
+        "TechrotConjunction": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TechrotConjunction",
+          "nameEn": "Pile-On",
+          "nameZh": "科腐围攻",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_HexConquest_TechrotConjunction_Desc",
+          "descriptionEn": "Techrot enemies attempt to melee attack Hell-Scrubbers, bursting on contact and increasing scrubber contamination by 33%.",
+          "descriptionZh": "科腐者敌人会尝试近战攻击地狱净化器，接触后将其引爆，并使净化器污染增加 33%。"
+        }
+      },
+      "LabConquest": {
+        "AlchemicalShields": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_AlchemicalShields",
+          "nameEn": "Alchemical Invulnerability",
+          "nameZh": "炼金难侵",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_AlchemicalShields_Desc",
+          "descriptionEn": "10% of enemies are equipped with an impervious Elemental Barrier that can only be destroyed by an Amphor of the corresponding element.",
+          "descriptionZh": "有 10% 敌人装备了不可穿透的元素屏障，只有对应元素的元素瓶才能摧毁屏障。"
+        },
+        "DoubleTrouble": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_DoubleTrouble",
+          "nameEn": "Double Demolishers",
+          "nameZh": "双重爆破",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_DoubleTrouble_Desc",
+          "descriptionEn": "Two Necramech Demolishers will attack any conduit, but their health is reduced.",
+          "descriptionZh": "两台爆破型殁世机甲会攻击任意导管，但它们的生命值降低。"
+        },
+        "DuoAssassination": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_DuoAssassination",
+          "nameEn": "The Fragmented Two",
+          "nameZh": "双重接肢",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_DuoAssassination_Desc",
+          "descriptionEn": "Face two fragmented forms in the final battle.",
+          "descriptionZh": "在最终战斗中对战两个接肢怪。"
+        },
+        "EnemyLink": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EnemyLink",
+          "nameEn": "Damage Link",
+          "nameZh": "伤害链接",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EnemyLink_Desc",
+          "descriptionEn": "Enemies within 10m of each other form a Damage Linked group. Any damage done to an individual is distributed evenly to the entire linked group.",
+          "descriptionZh": "相距 10 米内的敌人形成一个伤害链接群体。任何对单个成员造成的伤害都会平均分摊到整个群体。"
+        },
+        "EnvironmentalSystem": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EnvironmentalSystem",
+          "nameEn": "Hazardous Areas",
+          "nameZh": "危险区域",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EnvironmentalSystem_Desc",
+          "descriptionEn": "Activate Life Support Towers to clear Hazardous Areas for your squad.",
+          "descriptionZh": "激活维生装置塔以为你的小队清除危险区域。"
+        },
+        "EximusGrenadiers": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EximusGrenadiers",
+          "nameEn": "Eximus Amphors",
+          "nameZh": "卓越者元素瓶",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_EximusGrenadiers_Desc",
+          "descriptionEn": "Eximus units always drop Amphors but they are the only units that drop them.",
+          "descriptionZh": "卓越者敌人必定掉落元素瓶，但只有他们会掉落元素瓶。"
+        },
+        "FortifiedFoes": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_FortifiedFoes",
+          "nameEn": "Sealed Armor",
+          "nameZh": "密闭装甲",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_FortifiedFoes_Desc",
+          "descriptionEn": "Enemies take 90% less damage from non-weak point hits.",
+          "descriptionZh": "非弱点命中对敌人造成的伤害降低 90%。"
+        },
+        "FragileNodes": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_FragileNodes",
+          "nameEn": "Unified Purpose",
+          "nameZh": "统一目标",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_FragileNodes_Desc",
+          "descriptionEn": "Enemies can target and destroy Conduits.",
+          "descriptionZh": "敌人可以瞄准并摧毁导管。"
+        },
+        "GrowingIncursion": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_GrowingIncursion",
+          "nameEn": "Fissure Cascade",
+          "nameZh": "裂缝激增",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_GrowingIncursion_Desc",
+          "descriptionEn": "Fissures rip into the mission, causing the Enemy Level to go up by 1 every 10s. Destroy them to stop the level from increasing further.",
+          "descriptionZh": "裂缝在任务中形成，使得敌人的等级每 10 秒提升 1 级。消灭它们以防止等级增加。"
+        },
+        "HarshWords": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HarshWords",
+          "nameEn": "Barbed Glyphs",
+          "nameZh": "带刺钥符",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HarshWords_Desc",
+          "descriptionEn": "Each Glyph inflicts a small amount of damage when collected.",
+          "descriptionZh": "每个浮印在被收集时都会造成少量伤害。"
+        },
+        "HostileSecurity": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HostileSecurity",
+          "nameEn": "Eroding Senses",
+          "nameZh": "侵蚀感官",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HostileSecurity_Desc",
+          "descriptionEn": "The Auricle and Vitreum take damage over time, collecting the required Vosphene Glyphs will halt the degradation and partially heal them.",
+          "descriptionZh": "魔耳和魔瞳随着时间逐渐受损，收集所需的荧音浮印可暂停损伤并对它们进行部分修复。"
+        },
+        "HungryPillars": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HungryPillars",
+          "nameEn": "Radioactive Breakdown",
+          "nameZh": "辐化御敌",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_HungryPillars_Desc",
+          "descriptionEn": "All enemies are invulnerable and only take damage when they are inflicted with <DT_RADIATION>Radiation Status. Chyrinka Pillars appear randomly and inflict Radiation Status. ",
+          "descriptionZh": "所有敌人都是无敌的，只有在受到辐射异常状态影响时才会受到伤害。辐射柱体随机出现并造成 <DT_RADIATION>辐射异常状态。 "
+        },
+        "InfiniteTide": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_InfiniteTide",
+          "nameEn": "Relentless Tide",
+          "nameZh": "无情肢潮",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_InfiniteTide_Desc",
+          "descriptionEn": "The Fragmented Tide never stops attacking.",
+          "descriptionZh": "断肢潮不会停止攻击。"
+        },
+        "LostInTranslation": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_LostInTranslation",
+          "nameEn": "Glyph Inflation",
+          "nameZh": "浮印膨胀",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_LostInTranslation_Desc",
+          "descriptionEn": "The security system requires twice as many Vosphene Glyphs to activate.",
+          "descriptionZh": "安全系统需要两倍的荧音浮印才能激活。"
+        },
+        "MisguidedInstructions": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_MisguidedInstructions",
+          "nameEn": "Glyph Trap",
+          "nameZh": "浮印陷阱",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_MisguidedInstructions_Desc",
+          "descriptionEn": "Some Vosphene Glyphs are booby trapped with a portal that Teleports those that touch it 250m away. After the portal is revealed it lasts 45s.",
+          "descriptionZh": "某些荧音浮印附有传送门陷阱，接触它时会被传送到 250 米以外的地方。传送门显性后持续 45 秒。"
+        },
+        "NecramechActivation": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_NecramechActivation",
+          "nameEn": "Necramech Influx",
+          "nameZh": "殁世机甲激增",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_NecramechActivation_Desc",
+          "descriptionEn": "Necramechs appear with greater frequency.",
+          "descriptionZh": "殁世机甲出现的频率更高。"
+        },
+        "NecramechLockout": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_NecramechLockout",
+          "nameEn": "Hostile Support",
+          "nameZh": "敌意支援",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_NecramechLockout_Desc",
+          "descriptionEn": "The Life Support Tower delivery system is disabled. Necramechs spawn every 90 seconds, and drop 6 Life Support Modules when killed.",
+          "descriptionZh": "禁用维生装置塔运送系统。每 90 秒生成殁世机甲，击杀时掉落 6 个维生模块。"
+        },
+        "Reinforcements": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_Reinforcements",
+          "nameEn": "Coordinated Front",
+          "nameZh": "协调阵线",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_Reinforcements_Desc",
+          "descriptionEn": "Eximus units support The Fragmented Tide and its final form.",
+          "descriptionZh": "卓越者敌人出现并支援断肢潮和最终的接肢怪。"
+        },
+        "SameTeam": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_SameTeam",
+          "nameEn": "Angelic Cohort",
+          "nameZh": "天使同行",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_SameTeam_Desc",
+          "descriptionEn": "Void Angels fight alongside final fragmented form.",
+          "descriptionZh": "虚空天使与最终的接肢怪并肩作战。"
+        },
+        "StickyFingers": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_StickyFingers",
+          "nameEn": "Engorged Gruzzlings",
+          "nameZh": "暴食贪囤",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_StickyFingers_Desc",
+          "descriptionEn": "All Gruzzlings are Eximus.",
+          "descriptionZh": "所有贪囤断肢都是卓越者。"
+        },
+        "UnpoweredCapsules": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_UnpoweredCapsules",
+          "nameEn": "Parasitic Towers",
+          "nameZh": "寄生装置塔",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_UnpoweredCapsules_Desc",
+          "descriptionEn": "Life Support Towers only activate after 20 enemies have been killed within a 15m radius of them. ",
+          "descriptionZh": "维生装置塔只有在其 15 米范围内杀死 20 名敌人后才会激活。 "
+        },
+        "VolatileGrenades": {
+          "nameKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_VolatileGrenades",
+          "nameEn": "Hazardous Goods",
+          "nameZh": "高危物资",
+          "descriptionKey": "/Lotus/Language/Conquest/MissionVariant_LabConquest_VolatileGrenades_Desc",
+          "descriptionEn": "Amphors will inflict their associated elemental damage while being carried.",
+          "descriptionZh": "携带元素瓶时会受到与之对应的元素伤害。"
+        }
+      }
+    }
+  },
+  "descents": {
+    "challenges": {
+      "99Tank": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallenge99Tank",
+        "nameEn": "Efervon Tank",
+        "nameZh": "艾弗旺坦克"
+      },
+      "AladV": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeAladV",
+        "nameEn": "Alad V",
+        "nameZh": "阿拉德 V"
+      },
+      "Arbitation": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArbitation",
+        "nameEn": "Arbitration Drones",
+        "nameZh": "仲裁无人机"
+      },
+      "ArbitersNightmareLawyer": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArbitersNightmareLawyer",
+        "nameEn": "Sisters of Parvos",
+        "nameZh": "帕尔沃斯的姐妹"
+      },
+      "ArbitersNightmareLich": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArbitersNightmareLich",
+        "nameEn": "Kuva Liches",
+        "nameZh": "赤毒玄骸"
+      },
+      "ArchonAmar": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArchonAmar",
+        "nameEn": "Archon Amar",
+        "nameZh": "执刑官欺谋狼主"
+      },
+      "ArchonBoreal": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArchonBoreal",
+        "nameEn": "Archon Boreal",
+        "nameZh": "执刑官诡文枭主"
+      },
+      "ArchonNira": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeArchonNira",
+        "nameEn": "Archon Nira",
+        "nameZh": "执刑官混沌蛇主"
+      },
+      "CorruptedVor": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeCorruptedVor",
+        "nameEn": "Corrupted Vor",
+        "nameZh": "堕落的沃尔"
+      },
+      "Darkness": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeDarkness",
+        "nameEn": "Sol Banished",
+        "nameZh": "放逐之阳"
+      },
+      "DoubleVor": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeDoubleVor",
+        "nameEn": "Twin Vors",
+        "nameZh": "双子沃尔"
+      },
+      "EximusBlitzLeech": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusBlitzLeech",
+        "nameEn": "Leech Blitz Eximus Cabal",
+        "nameZh": "突袭吸血卓越者军团"
+      },
+      "EximusFireAndIce": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusFireAndIce",
+        "nameEn": "Fire & Ice Eximus Cabal",
+        "nameZh": "冰火卓越者军团"
+      },
+      "EximusFreezeInShoot": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusFreezeInShoot",
+        "nameEn": "Frozen Light Eximus Cabal",
+        "nameZh": "冰封之光卓越者军团"
+      },
+      "EximusHardshell": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusHardshell",
+        "nameEn": "Frozen Guardians Eximus Cabal",
+        "nameZh": "冰封卓越者军团"
+      },
+      "EximusJadeGuardian": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusJadeGuardian",
+        "nameEn": "Jade Guardian Eximus Cabal",
+        "nameZh": "翠玉卓越者军团"
+      },
+      "EximusPowerhouse": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusPowerhouse",
+        "nameEn": "Power Hungry Eximus Cabal",
+        "nameZh": "力量贪婪卓越者军团"
+      },
+      "EximusShockingLeech": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusShockingLeech",
+        "nameEn": "Shocking Leech Eximus Cabal",
+        "nameZh": "电击吸血卓越者军团"
+      },
+      "EximusToxicFire": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusToxicFire",
+        "nameEn": "Toxic Flames Eximus Cabal",
+        "nameZh": "毒焰卓越者军团"
+      },
+      "EximusVeryToxic": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeEximusVeryToxic",
+        "nameEn": "Toxic Leech Eximus Cabal",
+        "nameZh": "毒蛭吸血卓越者军团"
+      },
+      "FieryJuggernauts": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeFieryJuggernauts",
+        "nameEn": "Flaming Juggernauts",
+        "nameZh": "烈焰巨兽"
+      },
+      "FieryTrail": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeFieryTrail",
+        "nameEn": "Fire Trails",
+        "nameZh": "防火道"
+      },
+      "Firechain": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeFirechain",
+        "nameEn": "Chains of Fire",
+        "nameZh": "烈焰枷锁"
+      },
+      "Giantrealm": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeGiantrealm",
+        "nameEn": "Gigantism",
+        "nameZh": "巨人症"
+      },
+      "GlassMaker": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeGlassMaker",
+        "nameEn": "Glassmaker Cephalites",
+        "nameZh": "玻璃匠中枢人"
+      },
+      "GrenadeRollers": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeGrenadeRollers",
+        "nameEn": "Roller Bombers",
+        "nameZh": "滚子轰炸机"
+      },
+      "GrenadesOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeGrenadesOnly",
+        "nameEn": "Foes Vulnerable to Amphors",
+        "nameZh": "易受元素瓶攻击的敌人"
+      },
+      "HeavyWeaponsOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeHeavyWeaponsOnly",
+        "nameEn": "Foes Vulnerable to Archguns",
+        "nameZh": "易受曲翼枪械攻击的敌人"
+      },
+      "HorseCombatOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeHorseCombatOnly",
+        "nameEn": "Battle Kaithes",
+        "nameZh": "绝灵骥战斗"
+      },
+      "HyenaPack": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeHyenaPack",
+        "nameEn": "Hyena Pack",
+        "nameZh": "鬣狗群"
+      },
+      "InfestedAladV": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeInfestedAladV",
+        "nameEn": "Mutalist Alad V",
+        "nameZh": "异融阿拉德 V"
+      },
+      "InfestedBoyband": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeInfestedBoyband",
+        "nameEn": "Technocyte Coda",
+        "nameZh": "科技细胞终幕者"
+      },
+      "InfestedLichDuo": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeInfestedLichDuo",
+        "nameEn": "Technocyte Coda Duet",
+        "nameZh": "科技细胞终幕者二重对决"
+      },
+      "InfestedTank": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeInfestedTank",
+        "nameEn": "Techrot Tank",
+        "nameZh": "科腐者坦克"
+      },
+      "JohnProdman": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeJohnProdman",
+        "nameEn": "The Prodmen",
+        "nameZh": "跑得慢"
+      },
+      "Jumpsmash": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeJumpsmash",
+        "nameEn": "Head Stompers",
+        "nameZh": "跺头者"
+      },
+      "Kullervo": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeKullervo",
+        "nameEn": "UNTAMED GUILT",
+        "nameZh": "未驯之罪"
+      },
+      "ManicsOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeManicsOnly",
+        "nameEn": "Manic Mania",
+        "nameZh": "躁狂症"
+      },
+      "MechCombatOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeMechCombatOnly",
+        "nameEn": "VILCOR'S REVENGE",
+        "nameZh": "维尔科的复仇"
+      },
+      "MotorcycleCombatOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeMotorcycleCombatOnly",
+        "nameEn": "Atomicycle Rampage",
+        "nameZh": "原子摩托车狂飙"
+      },
+      "NarmerPhobia": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeNarmerPhobia",
+        "nameEn": "Narmer Deacons",
+        "nameZh": "合一众执事"
+      },
+      "NecroMechWeakpoints": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeNecroMechWeakpoints",
+        "nameEn": "Only Weak Points are Vulnerable",
+        "nameZh": "只有弱点才会受到伤害"
+      },
+      "NecroMechs": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeNecroMechs",
+        "nameEn": "Necramechs",
+        "nameZh": "殁世机甲"
+      },
+      "NullifiersOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeNullifiersOnly",
+        "nameEn": "Total Nullification",
+        "nameZh": "全面无效"
+      },
+      "Octopede": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeOctopede",
+        "nameEn": "The Fragmented One",
+        "nameZh": "接肢至尊"
+      },
+      "Oraxia": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeOraxia",
+        "nameEn": "Oraxia",
+        "nameZh": "Oraxia"
+      },
+      "Phorid": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengePhorid",
+        "nameEn": "Phorid",
+        "nameZh": "Phorid"
+      },
+      "PoisonGas": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengePoisonGas",
+        "nameEn": "Chemical Warfare",
+        "nameZh": "化学战"
+      },
+      "RaceHorse": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRaceHorse",
+        "nameEn": "Kaithe Race",
+        "nameZh": "绝灵骥竞速"
+      },
+      "RaceMotorcycle": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRaceMotorcycle",
+        "nameEn": "Atomicycle Race",
+        "nameZh": "原子摩托车竞速"
+      },
+      "RangedArcadiaOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRangedArcadiaOnly",
+        "nameEn": "Bubble Blasters",
+        "nameZh": "泡泡枪"
+      },
+      "Raptor": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRaptor",
+        "nameEn": "Raptor",
+        "nameZh": "猛禽"
+      },
+      "RocketsOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRocketsOnly",
+        "nameEn": "Foes Vulnerable to RPGs",
+        "nameZh": "易受火箭炮攻击的敌人"
+      },
+      "Rollers": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeRollers",
+        "nameEn": "Rolling Fury",
+        "nameZh": "滚动的狂怒"
+      },
+      "ScaldraBalloonsOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeScaldraBalloonsOnly",
+        "nameEn": "Harbingers",
+        "nameZh": "先驱者前哨"
+      },
+      "Sentients": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeSentients",
+        "nameEn": "Tau's Revenge",
+        "nameZh": "Tau 的复仇"
+      },
+      "SpicyKnife": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeSpicyKnife",
+        "nameEn": "Bomb Defusal",
+        "nameZh": "拆弹"
+      },
+      "SpicyMeatball": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeSpicyMeatball",
+        "nameEn": "Fireball Rollers",
+        "nameZh": "火球滚轮"
+      },
+      "Spikeceiling": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeSpikeceiling",
+        "nameEn": "Falling Debris",
+        "nameZh": "坠落的碎片"
+      },
+      "StalkerParty": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeStalkerParty",
+        "nameEn": "Stalkers",
+        "nameZh": "追猎者"
+      },
+      "Sunlight": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeSunlight",
+        "nameEn": "Sol's Fury",
+        "nameZh": "太阳神之怒"
+      },
+      "UnseenFoes": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeUnseenFoes",
+        "nameEn": "Hidden Threats",
+        "nameZh": "潜在威胁"
+      },
+      "VayHekBipedalForm": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeVayHekBipedalForm",
+        "nameEn": "Vay Hek",
+        "nameZh": "韦·海克"
+      },
+      "VayHekDroneForm": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeVayHekDroneForm",
+        "nameEn": "Airborne Vay Hek",
+        "nameZh": "空中韦·海克"
+      },
+      "WeakpointHorde": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeWeakpointHorde",
+        "nameEn": "Weak Point Horde",
+        "nameZh": "弱点敌群"
+      },
+      "WeakpointsOnly": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHChallengeWeakpointsOnly",
+        "nameEn": "Only Weak Points are Vulnerable",
+        "nameZh": "只有弱点才会受到伤害"
+      }
+    },
+    "gameModes": {
+      "99Capture": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemode99Capture",
+        "nameEn": "LEGACYTE CAPTURE",
+        "nameZh": "传承种捕获"
+      },
+      "Alchemy": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeAlchemy",
+        "nameEn": "ALCHEMY",
+        "nameZh": "元素转换"
+      },
+      "Collection": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeCollection",
+        "nameEn": "GATHER",
+        "nameZh": "收集"
+      },
+      "CollectionBasic": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeCollectionBasic",
+        "nameEn": "Plunder",
+        "nameZh": "掠夺"
+      },
+      "Defense": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeDefense",
+        "nameEn": "DEFENSE",
+        "nameZh": "防御"
+      },
+      "DefenseHarrow": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeDefenseHarrow",
+        "nameEn": "DEFEND LYON",
+        "nameZh": "保护里昂"
+      },
+      "DefenseWisp": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeDefenseWisp",
+        "nameEn": "PROTECT MARIE",
+        "nameZh": "保护玛丽"
+      },
+      "DestroyTargets": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeDestroyTargets",
+        "nameEn": "Destroy Hologlobes",
+        "nameZh": "摧毁全息球"
+      },
+      "Excavation": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeExcavation",
+        "nameEn": "EXCAVATION",
+        "nameZh": "挖掘"
+      },
+      "Exterminate": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeExterminate",
+        "nameEn": "EXTERMINATION",
+        "nameZh": "歼灭"
+      },
+      "Hive": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeHive",
+        "nameEn": "HIVE",
+        "nameZh": "清巢"
+      },
+      "KeyTarget": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeKeyTarget",
+        "nameEn": "TARGETED ELIMINATION",
+        "nameZh": "消灭目标"
+      },
+      "LootRoom": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeLootRoom",
+        "nameEn": "PLUNDER",
+        "nameZh": "掠夺"
+      },
+      "Meltdown": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeMeltdown",
+        "nameEn": "PRESSURE COOKER",
+        "nameZh": "压力锅"
+      },
+      "MobileDefense": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeMobileDefense",
+        "nameEn": "MOBILE DEFENSE",
+        "nameZh": "移动防御"
+      },
+      "MobileInterception": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeMobileInterception",
+        "nameEn": "MOBILE INTERCEPTION",
+        "nameZh": "移动拦截"
+      },
+      "MultiDefense": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeMultiDefense",
+        "nameEn": "MULTI-DEFENSE",
+        "nameZh": "多重防御"
+      },
+      "Purify": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodePurify",
+        "nameEn": "PURIFY",
+        "nameZh": "净化"
+      },
+      "Race": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeRace",
+        "nameEn": "TIME TRIBULATION",
+        "nameZh": "时间试炼"
+      },
+      "ShrineDefense": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHGamemodeShrineDefense",
+        "nameEn": "SHRINE DEFENSE",
+        "nameZh": "祈运坛防御"
+      }
+    },
+    "protoframes": {
+      "Devil": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHProtoframeDevil",
+        "nameEn": "Roathe's Oblivion",
+        "nameZh": "罗瑟的遗忘"
+      },
+      "Harrow": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHProtoframeHarrow",
+        "nameEn": "Lyon's Sanctuary",
+        "nameZh": "里昂的圣所"
+      },
+      "Wisp": {
+        "nameKey": "/Lotus/Language/CircleOfHell/CoHProtoframeWisp",
+        "nameEn": "Marie's Sanctuary",
+        "nameZh": "玛丽的圣所"
+      }
+    }
+  }
+}

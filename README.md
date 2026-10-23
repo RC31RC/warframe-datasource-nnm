@@ -1,10 +1,8 @@
 # warframe-datasource-nnm
 
-本地运行的 Warframe 数据采集与静态 JSON 生成项目。**不启动 Web 服务，不监听端口，不直接对外提供 API。**
+Warframe 数据采集、清洗和静态 JSON 生成项目。采集器运行后退出，不启动 Web 服务。生成的 `data/latest/` 整包属于 NnmBot 的官方数据，通过本仓库固定 tag/commit 消费。
 
-工作方式：拉取本仓库 → 执行采集 → 校验生成文件 → 提交并推送 GitHub（本地手动，或由 GitHub Actions 定时/手动触发自动提交打 tag）→ NnmBot 或其他消费者在运行时通过 GitHub Raw 拉取。采集器不作为 NnmBot 的内部模块；本项目不会修改 NnmBot。
-
-## 运行
+## 运行与复现
 
 要求 Node.js 22 或更新版本。
 
@@ -14,58 +12,78 @@ npm run collect
 npm run verify
 ```
 
-`collect` 获取原始数据、生成 projection，产出两棵目录树：`tmp/<时间戳>/`（原始数据，本地保留最近两份、不提交）与 `data/latest/`（清洗数据，覆盖式发布、提交）。命令完成后退出，无需额外服务进程。`verify` 离线校验 `data/latest/` 的 manifest、文件集合、JSON、SHA-256、长度及来源引用。
-
-开发验证（不依赖外网，不运行生产打包）：
+`collect [snapshot-dir]` 获取全部输入并冻结到 `tmp/inputs-<时间>/`，再执行纯数据投影，完整校验后覆盖发布 `data/latest/`。失败的采集可用同一目录重试，已冻结且校验通过的任务会复用；需要刷新上游时使用新目录。冻结目录保留原始文件、必要的初次解析输入和 SHA-256 索引，供后续重建使用，不纳入 Git。
 
 ```bash
+npm run collect -- tmp/inputs-example
+npm run replay -- tmp/inputs-example
+npm run verify
 npm run typecheck
 npm test
 ```
 
-## 当前输出
+`replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。相同输入与代码应生成相同的各成品字节；manifest 的构建时间与 `buildId` 时间部分会变化。每次发布产生的临时 raw 工作区在成功后清理，Plus 与语言表归档到 `tmp/cache/`；`WF_KEEP_TMP=1` 可保留该工作区。冻结输入目录独立保留，需按本地磁盘情况清理。
 
-`data/latest/` 中的文件覆盖式发布（每次构建整树替换，只保留一份，历史靠 Git 提交追溯）；`tmp/<时间戳>/` 是中间产物，本地保留最近两份供 plus 降级、不提交：
 
-```text
-tmp/<时间戳>/public-export/...   # DE 官方原始文件（index/en/zh/shared）
-tmp/<时间戳>/warframe-market/...  # Market 紫卡原始响应
-tmp/<时间戳>/weekly-rivens/...    # 官方周成交原始 JS 字面量（.txt）
-tmp/<时间戳>/plus/...             # Pluto 提取的 Export*.json 快照
+`verify` 离线检查 manifest、文件集合、路径层级、JSON、字节数及 SHA-256。本轮 PHP 解析只是本地验收，动态响应和验收工具不加入生产采集或发布链；NnmBot 后续自行定时拉取 PHP，并使用成品中的静态定义解析。
 
-data/latest/catalog/...          # 官方领域投影（22）
-data/latest/market/...           # Market 物品目录+紫卡属性+武器（3）
-data/latest/riven/...            # 紫卡定义/倾向/周成交（6）
-data/latest/plus/...             # Pluto 提取独有域（23）
-data/latest/drop/...             # 官方掉落表解析（20）
-data/latest/linked/...           # 跨源关联表（2）
-data/latest/worldstate/...       # WorldState 代码簿（7）
-data/latest/usage/...            # 官方年度使用率（6）
-data/latest/arbitration/...      # 仲裁小时排期（1）
-```
+## 成品目录与字段
 
-完整文件清单以生成后的 `data/latest/manifest.json` 为准，每个文件的字段、主键、来源与更新频率见 [数据契约](docs/数据契约.md)。原始输入与清洗投影分开保留，不建立跨来源的统一物品总表。
+`data/latest/` 下最多一层业务子目录，文件清单以 `manifest.json` 为准：
 
-当前包含官方 Export 15 语言 + 领域投影（装备/升级/战利品/配方）+ Market 物品目录与紫卡 + 官方紫卡定义/倾向/周成交 + 官方掉落表解析 + Pluto 独有域 + WorldState 代码簿 + 官方年度使用率 + 仲裁排期。黑话/攻略/地图等社区人工策展内容不纳入一手产物（见 [数据覆盖与参考结论](docs/数据覆盖与参考结论.md)）。
+| 业务目录 | 主要文件与内容 |
+| --- | --- |
+| `equipment` | 战甲、武器、技能、Archwing、Railjack 武器、动物/机械同伴、道具、无人机、飞船 |
+| `upgrades` | Mod、赋能、专精、航电、套装；`riven-{attributes,definitions,weapons}.json` 保存裂罅相关定义和统计 |
+| `items` | 资源、部件、装饰、阿耶檀识珍宝、补给、Captura 场景、歌曲、外观、礼包及内部引用定义 |
+| `crafting` | `recipes.json`、`dojo-recipes.json`，配方内嵌产物、材料与制造条件 |
+| `world` | `star-chart.json`、场景、敌人、商人静态目录、资料库、任务钥匙和信件 |
+| `rewards` | `relics.json`：遗物/精炼/奖励/概率/获取位置；`drop-tables.json`、`reward-pools.json`、`bounties.json` |
+| `progression` | 成就、挑战、内源之力、午夜电波静态定义 |
+| `worldstate` | PHP 静态解析依赖：玩法、执刑官、阵营、集团、任务、裂缝、升级键等；不包含临时 PHP 响应 |
+| `arbitration` | `schedule.json`：仲裁排期 |
+| `market` | `trade-items.json`：交易平台条目与游戏实体的映射，不等于游戏内商人目录 |
+| `reference` | `language-{en,zh}.json`、`item-localizations.json`、`images.json`、`text-icons.json` |
+| `statistics` | `usage-<年份>.json`：按年保存使用率数据 |
 
-## GitHub Raw 消费
+目录由 `src/publish/product-layout.ts` 集中映射；实体归属由 `src/projections/entity-ownership.ts` 根据官方 `productCategory` 和精确类型继承确定。资源域中的飞船、装饰、珍宝、部件、Captura 场景和歌曲不再混进材料表。`items/misc-items.json` 保留不能明确归入材料/专用集合的杂项，`items/internal-definitions.json` 保留内部基类与引用定义；未命名、未解析记录不丢弃。船体外观按官方 `ShipExteriorSkinItem` 类型归入 `items/skins.json`。
 
-本项目的产物就是仓库文件，没有 `/api/v1`、健康检查或自建下载接口。Raw 地址模板如下，`<owner>` 和 `<ref>` 必须替换为实际仓库所有者与分支（或 tag/commit）：
+当前为 12 个业务目录、71 份成品（另有根目录 manifest）；文件数增加来自实体集合拆分，不是复制旧路径。迁移不改稳定 ID、原字段、原值、中英文、图片和概率。历史 tag 路径不变，新 tag 消费时应使用新路径，不在同一次发布里重复输出旧路径兼容文件。
+
+尽量同时保留 `nameEn`/`name` 和 `nameZh`、描述、稳定 ID 及真实图片。部分底层 `name` 是原始语言键，此时 `nameEn` 是可读英文；显示层优先使用 `nameZh`、`nameEn`。战甲 `media` 保存官网宣传图、展示视频和技能展示图，与游戏图标分开。Mod 套装内嵌成员；内融核心包用数量标签显示；邮件使用标题及正文展示。语言键、内部路径及 `GAMEPLAY_DAMAGE_TO_POWER` 等协议键保持原样。未关联/歧义记录保留原值和状态；缺图不使用无信息占位图。`iconStatus=available` 表示生成了精确资源地址，不代表每次构建都对全部图片逐个联网检查。
+
+概率用 0～1 的 `probability` 表示，例如 `0.25` 是 25%；`dropChancePercent` 保留官网百分数，例如 `25`。来源触发概率、奖励池内概率、抽取次数、物品数量是独立概念。来源 400% 或 Plus `chance: 4` 转为同池抽 4 次，不截断为 100%，也不自动推算“至少获得一次”的概率；未知概率为 `null`，待审核的官方数值保留标记。
+
+同 ID 的互补字段合并，官方 Public Export 本地化值优先。完全相同的重复记录可去重，同 ID 冲突记录会报错。普通掉落名指普通版本；只给奖励类别时用 `identityResolution=category` 保存候选，奖励概率只属于类别，不分配给候选。其他真实歧义显式保留。只有制造行为完全相同的配方才合并，旧身份保存为 `identityAliases`。
+
+## 采集链与数据通道
+
+Plus 与语言表均接入 `Pluto 提取 → GitHub Raw → tmp/cache` 降级链。Pluto 运行需要本机游戏资源、包数据、运行时及脚本依赖；配置缺失、提取失败或校验不通过时自动降级。Raw 只是无本机资源时的兜底，本项目统一生成和发布成品。实际 Pluto 提取需在具备依赖的机器上验证。官网战甲列表和详情页作为额外一手输入冻结采集，通过精确游戏资源路径关联宣传素材。
+
+NnmBot 只在本项目不能提供、且完全由社区人工维护的独立领域保留社区通道，例如仲裁精华、黑化、术语。两通道均保留拉取、差异预览、审核、事务入库和自维护字段保护。NnmBot 后续应消费本项目生成的仲裁排期和 Export 目录；动态 PHP 接口继续由其动态业务处理，静态引用使用本项目代码簿。
+
+## 固定版本消费
+
+同一批 manifest 和成品必须固定到相同 tag/commit，通过 manifest 校验 hash。路径模板：
 
 ```text
 https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/manifest.json
-https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/catalog/equipment/warframes.json
-https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/market/riven-attributes.json
+https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/equipment/warframes.json
+https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/rewards/relics.json
+https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/upgrades/riven-attributes.json
 ```
 
-建议消费者将同一批 manifest 和数据文件固定到**同一个 commit SHA 或日期 tag（`data-YYYYMMDD`）**，按需拉取并校验文件 hash。直接读取移动分支虽然路径固定，但多次请求期间可能跨越提交或缓存版本，不能保证整批一致。Git 保存历史快照，不再为每次采集生成重复的公开 `releases/<id>` 目录和 `current.json` 指针。
+当前 manifest `schemaVersion: 2` 描述发布清单格式，业务路径和嵌套字段仍需由消费端迁移适配。旧 `catalog/**`、`plus/**`、`linked/**`、多个遗物文件、等级表及反向掉落表已被对应业务成品替代。GitHub Actions 每日或手动采集，有变化时提交并打日期 tag；本地执行采集本身不提交、推送或打 tag。
 
-数据有变化时 GitHub Actions 会自动提交并打日期 tag；本地采集完成后，查看 `git status --short`、检查 `data/latest/` 的差异，再自行提交/推送。
+## 发布安全与配置
 
-## 生成安全与配置
+生成器先写临时目录并完整校验，再整树替换 `data/latest/`，失败尝试恢复旧目录。同一输出根目录有写锁。`data/latest/` 是生成目录，自维护内容应放在消费端，避免下次生成被覆盖。清洗 manifest 保留本项目版本、文件 hash、长度与记录数，不传播上游来源元数据。
 
-- 所有下载/清洗成功后才进入文件发布；发布先写临时目录并完整校验，再整树替换 `data/latest/`，不会逐文件覆盖旧快照。替换失败会尝试恢复旧目录，旧文件不会混入新快照。
-- 同一输出根目录有写入锁；并行发布不会互相替换文件。`data/latest/` 是自动生成目录，手工策展数据不得直接放入其中，否则下次完整生成会移除。
-- `DATASOURCE_DATA_DIR` / `DATASOURCE_TMP_DIR` 可分别覆盖清洗/原始数据的输出根目录，默认 `data` / `tmp`；`data/latest/` 可提交，`tmp/`（本地保留最近两份供 plus 降级）与 `.cache/`、`vendor/`、`docs/` 不提交。
-- `DATASOURCE_REQUEST_TIMEOUT_MS`、`DATASOURCE_MAX_RESPONSE_BYTES`、`DATASOURCE_REQUEST_RETRIES` 控制上游请求；`WF_PUBLIC_EXPORT_INDEX_URL`、`WF_PUBLIC_EXPORT_MANIFEST_URL`、`WF_MARKET_RIVEN_ATTRIBUTES_URL`、`WF_MARKET_RIVEN_WEAPONS_URL`、`WF_MARKET_ITEMS_URL`、`WF_WEEKLY_RIVENS_URL`、`WF_PLUS_RAW_BASE_URL`、`WF_LANGUAGES_RAW_BASE_URL`、`WF_ARBITRATION_SCHEDULE_URL`、`WF_GAME_DIR` 与 `WF_MARKET_USER_AGENT` 见 `src/core/config.ts`。TLS 校验保持开启。
-- 若生成进程被强制终止，确认无任务运行后再人工处理残留 `.gen-staging-*` / `.gen-backup-*`。恢复步骤见 [发布协议](docs/发布协议.md)。
+`data/latest/` 与 `tmp/cache/` 可提交；`tmp/inputs-*/`、临时原始工作区、`docs/` 不纳入版本管理。配置集中在 `src/core/config.ts`：
+
+- `DATASOURCE_DATA_DIR`、`DATASOURCE_TMP_DIR`：输出目录。
+- `DATASOURCE_REQUEST_TIMEOUT_MS`、`DATASOURCE_MAX_RESPONSE_BYTES`、`DATASOURCE_REQUEST_RETRIES`：下载控制。
+- `WF_GAME_DIR`、`WF_PACKAGES_BIN_DIR`、`WF_PLUTO_DIR`、`WF_PLUTO_RUNTIME`、`WF_PLUTO_TIMEOUT_MS`：Pluto 提取前提与运行控制。
+- `WF_PUBLIC_EXPORT_INDEX_URL`、`WF_PUBLIC_EXPORT_MANIFEST_URL`、`WF_PLUS_RAW_BASE_URL`、`WF_LANGUAGES_RAW_BASE_URL`、`WF_MARKET_RIVEN_ATTRIBUTES_URL`、`WF_MARKET_RIVEN_WEAPONS_URL`、`WF_MARKET_ITEMS_URL`、`WF_WEEKLY_RIVENS_URL`、`WF_ARBITRATION_SCHEDULE_URL`、`WF_MARKET_USER_AGENT`：上游配置。
+
+TLS 校验保持开启。若进程被强制终止，确认无任务运行后再处理残留 `.gen-staging-*`、`.gen-backup-*` 或写锁。

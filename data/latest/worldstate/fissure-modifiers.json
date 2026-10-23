@@ -2,31 +2,37 @@
   "VoidT1": {
     "name": "Lith",
     "nameZh": "古纪",
-    "tier": 1
+    "tier": 1,
+    "nameEn": "Lith"
   },
   "VoidT2": {
     "name": "Meso",
     "nameZh": "前纪",
-    "tier": 2
+    "tier": 2,
+    "nameEn": "Meso"
   },
   "VoidT3": {
     "name": "Neo",
     "nameZh": "中纪",
-    "tier": 3
+    "tier": 3,
+    "nameEn": "Neo"
   },
   "VoidT4": {
     "name": "Axi",
     "nameZh": "后纪",
-    "tier": 4
+    "tier": 4,
+    "nameEn": "Axi"
   },
   "VoidT5": {
     "name": "Requiem",
     "nameZh": "安魂",
-    "tier": 5
+    "tier": 5,
+    "nameEn": "Requiem"
   },
   "VoidT6": {
     "name": "Omnia",
     "nameZh": "全能",
-    "tier": 6
+    "tier": 6,
+    "nameEn": "Omnia"
   }
 }

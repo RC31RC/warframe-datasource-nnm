@@ -18,6 +18,7 @@ test("parses Relics drops with rarity and chance", () => {
   assert.deepEqual(entries[0], {
     category: "Relics",
     source: "Axi A1 Relic (Intact)",
+    sourceTableIndex: 0,
     groups: [],
     item: "Akstiletto Prime Barrel",
     rarity: "Uncommon",
@@ -78,4 +79,19 @@ test("parses reverse-index drops with column header skipped", () => {
   assert.equal(entries[0]?.item, "Tusk Thumper Bull");
   assert.equal(entries[0]?.rarity, "Uncommon");
   assert.equal(entries[0]?.chance, 12.5);
+  assert.equal(entries[0]?.sourceDropChancePercent, 15);
+  assert.deepEqual(entries[0]?.groups, []);
+});
+
+test("separates source drop chance from conditional reward chance", () => {
+  const html = [
+    "<h3>Mod Drops by Source:</h3><table>",
+    "<tr><th>Vapos Tech Ranger</th><th colspan=\"2\">Mod Drop Chance: 10.00%</th></tr>",
+    "<tr><td></td><td>Melee Prowess</td><td>Uncommon (25.29%)</td></tr>",
+    "</table>",
+  ].join("");
+  const [entry] = parseDropTables(html);
+  assert.equal(entry?.source, "Vapos Tech Ranger");
+  assert.equal(entry?.sourceDropChancePercent, 10);
+  assert.equal(entry?.chance, 25.29);
 });

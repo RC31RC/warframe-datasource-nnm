@@ -3,10 +3,12 @@ import { mkdir, open, readFile, readdir, rename, rm, stat, writeFile } from "nod
 import { gzipSync } from "node:zlib";
 import { dirname, join, resolve } from "node:path";
 import type { DatasetFileEntry, DatasetFileInput, DatasetManifest, DatasetStage } from "../domain/contracts.js";
+import { canonicalProductPath } from "./product-layout.js";
+export { canonicalProductPath } from "./product-layout.js";
 
 export interface PublishResult {
   manifest: DatasetManifest;
-  /** 清洗产物目录：data/<YYYY-MM-DD> */
+  /** 清洗产物目录：data/latest */
   dataDirectory: string;
   /** 采集原始目录：tmp/<YYYY-MM-DDTHH-mm-ss> */
   tmpDirectory: string;
@@ -26,7 +28,7 @@ interface PreparedFile {
 /**
  * 把一次采集流水线的产物按阶段落到两棵目录树：
  * - raw（采集到的原始输入）→ `tmp/<时间戳>/<来源>/`
- * - cleaned（清洗后的发布产物）→ `data/<日期>/<类型>/`
+ * - cleaned（清洗后的发布产物）→ `data/latest/<业务域>/`
  * 两棵树各带一份 manifest，记录文件相对各自根目录的路径。
  */
 export class DatasetPublisher {
@@ -43,7 +45,15 @@ export class DatasetPublisher {
     if (cleanedInputs.length === 0) throw new Error("Refusing to generate a dataset without cleaned files");
 
     const rawPrepared = rawInputs.map((file) => prepare(file, "raw"));
-    const cleanedPrepared = cleanedInputs.map((file) => prepare(file, "cleaned"));
+    const publishedPaths = new Map(cleanedInputs.map((file) => [file.path, canonicalProductPath(file.path)]));
+    const cleanedPrepared = cleanedInputs.map((file) => prepare({
+      ...file,
+      path: publishedPaths.get(file.path) ?? file.path,
+      source: {
+        ...file.source,
+        ...(file.source.derivedFrom ? { derivedFrom: file.source.derivedFrom.map((path) => publishedPaths.get(path) ?? path) } : {}),
+      },
+    }, "cleaned"));
     // 按路径排序，保证相同输入（无论顺序）产生相同 manifest / buildId（幂等可复现）。
     const rawEntries = rawPrepared.map(({ entry }) => entry).sort((a, b) => a.path.localeCompare(b.path));
     const cleanedEntries = cleanedPrepared.map(({ entry }) => entry).sort((a, b) => a.path.localeCompare(b.path));
@@ -54,8 +64,8 @@ export class DatasetPublisher {
     validateEntries(cleanedEntries, allPaths, "cleaned");
 
     const createdAt = now.toISOString();
-    const rawManifest = buildManifest(rawEntries, createdAt);
-    const cleanedManifest = buildManifest(cleanedEntries, createdAt);
+    const rawManifest = buildManifest(rawEntries, createdAt, "raw");
+    const cleanedManifest = buildManifest(cleanedEntries, createdAt, "cleaned");
 
     const rawRoot = resolve(this.tmpDirectory, timestampDirectory(now));
     // 覆盖式发布：cleaned 固定写到 data/latest/，只保留一份成品（历史靠 Git 提交追溯）。
@@ -87,8 +97,8 @@ export class DatasetPublisher {
     }
 
     // 归档本次 raw 的 plus 与 languages 快照到 cache（兜底），并清理本次 raw 工作区。
-    // 完成后 tmp/ 内仅保留 cache/ 目录（上一轮数据），供降级链与上游停更时兜底。
-    await archiveToCache(this.tmpDirectory, rawRoot);
+    // 冻结输入目录由 acquire 管理并保留，供相同输入重复构建；这里只清理发布原始工作区。
+    if (rawPrepared.length > 0) await archiveToCache(this.tmpDirectory, rawRoot);
 
     return { manifest: cleanedManifest, dataDirectory: dataRoot, tmpDirectory: rawRoot };
   }
@@ -163,12 +173,15 @@ async function writeTree(
 async function verifyDirectory(directory: string, stage: DatasetStage): Promise<{ buildId: string; verifiedFiles: number }> {
   const actualPaths = await listFiles(directory);
   const manifest = parseJson(await readFile(join(directory, "manifest.json")), "manifest.json") as DatasetManifest;
-  if (manifest?.schemaVersion !== 1 || manifest.producer !== "warframe-datasource-nnm"
+  if (manifest?.schemaVersion !== 2 || manifest.producer !== "warframe-datasource-nnm"
     || typeof manifest.createdAt !== "string" || !Number.isFinite(Date.parse(manifest.createdAt))
     || !Array.isArray(manifest.files) || manifest.files.length === 0) {
     throw new Error("Invalid dataset manifest");
   }
   validateEntries(manifest.files, null, stage);
+  if (stage === "cleaned" && manifest.files.some((entry) => entry.source !== undefined)) {
+    throw new Error("Cleaned manifests must not expose source metadata");
+  }
   if (manifest.buildId !== buildId(manifest.files, manifest.createdAt)) {
     throw new Error("Dataset manifest identity mismatch");
   }
@@ -188,6 +201,9 @@ async function verifyDirectory(directory: string, stage: DatasetStage): Promise<
 
 function prepare(file: DatasetFileInput, stage: DatasetStage): PreparedFile {
   validateRelativePath(file.path, stage);
+  if (stage === "cleaned" && file.path.split("/").length > 2) {
+    throw new Error(`Cleaned product path exceeds one folder level: ${file.path}`);
+  }
   const bytes = Buffer.from(file.content);
   if (bytes.length === 0) throw new Error(`Refusing to generate empty file: ${file.path}`);
   if (file.path.endsWith(".json")) parseJson(bytes, file.path);
@@ -206,14 +222,16 @@ function validateEntries(entries: DatasetFileEntry[], allPaths: Set<string> | nu
   const paths = new Set<string>();
   for (const entry of entries) {
     validateRelativePath(entry.path, stage);
+    if (stage === "cleaned" && entry.path.split("/").length > 2) throw new Error(`Cleaned product path exceeds one folder level: ${entry.path}`);
     const normalized = entry.path.toLowerCase();
     if (paths.has(normalized)) throw new Error(`Duplicate dataset path: ${entry.path}`);
     paths.add(normalized);
     if (!/^[a-f0-9]{64}$/u.test(entry.sha256) || !Number.isSafeInteger(entry.bytes) || entry.bytes <= 0
       || (entry.mediaType !== "application/json" && entry.mediaType !== "text/plain" && entry.mediaType !== "text/html")
       || (entry.recordCount !== undefined && (!Number.isSafeInteger(entry.recordCount) || entry.recordCount < 0))
-      || !entry.source || typeof entry.source.project !== "string" || typeof entry.source.dataset !== "string"
-      || typeof entry.source.url !== "string" || !Number.isFinite(Date.parse(entry.source.capturedAt))) {
+      || (stage === "raw" && !entry.source)
+      || (entry.source !== undefined && (typeof entry.source.project !== "string" || typeof entry.source.dataset !== "string"
+        || typeof entry.source.url !== "string" || !Number.isFinite(Date.parse(entry.source.capturedAt))))) {
       throw new Error(`Invalid dataset manifest entry: ${entry.path}`);
     }
   }
@@ -224,7 +242,7 @@ function validateEntries(entries: DatasetFileEntry[], allPaths: Set<string> | nu
         throw new Error(`Conflicting dataset paths: ${entry.path}`);
       }
     }
-    for (const input of entry.source.derivedFrom ?? []) {
+    for (const input of entry.source?.derivedFrom ?? []) {
       validateRelativePath(input, "raw");
       if (input.toLowerCase() === entry.path.toLowerCase()) {
         throw new Error(`Self-referencing dataset input: ${input}`);
@@ -244,6 +262,7 @@ function validateRelativePath(path: string, stage: DatasetStage): void {
     throw new Error(`Invalid dataset path: ${path}`);
   }
   if (path.toLowerCase() === "manifest.json") throw new Error(`Reserved dataset path: ${path}`);
+  if (stage === "cleaned" && path.split("/").length > 2) throw new Error(`Published dataset path exceeds one business directory: ${path}`);
 }
 
 function mediaTypeFor(path: string): "application/json" | "text/plain" | "text/html" {
@@ -253,13 +272,16 @@ function mediaTypeFor(path: string): "application/json" | "text/plain" | "text/h
   throw new Error(`Unsupported dataset media type: ${path}`);
 }
 
-function buildManifest(entries: DatasetFileEntry[], createdAt: string): DatasetManifest {
+function buildManifest(entries: DatasetFileEntry[], createdAt: string, stage: DatasetStage): DatasetManifest {
+  const publishedEntries = stage === "raw"
+    ? entries
+    : entries.map(({ source: _source, ...entry }) => entry);
   return {
-    schemaVersion: 1,
-    buildId: buildId(entries, createdAt),
+    schemaVersion: 2,
+    buildId: buildId(publishedEntries, createdAt),
     createdAt,
     producer: "warframe-datasource-nnm",
-    files: entries,
+    files: publishedEntries,
   };
 }
 

@@ -1,7 +1,7 @@
 -- Checkout directories of the dependencies used by index.pluto. Verify these before running it.
 $define PE_BASE = "../warframe-public-export" -- https://github.com/calamity-inc/warframe-public-export
 $define LANGUAGES_BASE = "../warframe-languages-bin-data/" -- https://github.com/calamity-inc/warframe-languages-bin-data
-$define PACKAGES_BIN_BASE = [[F:\warframe-packages-bin-data]] -- https://github.com/calamity-inc/warframe-packages-bin-data
+local PACKAGES_BIN_BASE = os.getenv("WF_PACKAGES_BIN_DIR") or [[F:\warframe-packages-bin-data]] -- https://github.com/calamity-inc/warframe-packages-bin-data
 $define BUILD_EVALUATOR_BASE = "../warframe-build-evaluator/" -- https://github.com/Sainan/warframe-build-evaluator
 $define PLUTO_QUERY_BASE = "../pluto-query/" -- https://github.com/plutoLang/pluto-query
-$define OUTPUT_BASE = "../warframe-public-export-plus/"
+local OUTPUT_BASE = os.getenv("WF_PLUTO_PLUS_OUTPUT_DIR") or "../warframe-public-export-plus/"

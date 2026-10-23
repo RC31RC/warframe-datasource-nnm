@@ -1,9 +1,10 @@
 import { createHash } from "node:crypto";
-import { readFile } from "node:fs/promises";
+import { mkdtemp, readFile, rm, stat } from "node:fs/promises";
 import { gunzipSync } from "node:zlib";
 import { join } from "node:path";
 import { config } from "../core/config.js";
 import { fetchBytes } from "../core/http.js";
+import { runPluto } from "../core/pluto.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
 /**
@@ -11,19 +12,22 @@ import type { DatasetFileInput } from "../domain/contracts.js";
  * 每语言 140,358 条，键形如 /Lotus/Language/Locations/Apollodorus，值是该语言文本。
  * 官方 HTTP 只暴露 MOTD（每日消息），全量语言表只能由 Pluto 从游戏 B.Cache.Windows_<lang>.bin 提取。
  *
- * 语言表产物不写死在 pluto/（那里只有提取脚本），走与 plus 一致的降级链：
- * GitHub Raw 拉取 → tmp/cache 解压兜底。产物同时提升到 data/languages 作翻译兜底。
+ * 语言表产物走 Pluto → GitHub Raw → tmp/cache 降级链，同时提升到 data/languages 作翻译兜底。
  */
 const UPSTREAM_REPOSITORY = "https://github.com/calamity-inc/warframe-languages-bin-data";
 
 /** 代码簿当前只需中英两种语言（官方 Export 已覆盖 en 主名，zh 用于本地化名）。 */
 const LOCALES = ["en", "zh"] as const;
+const MIN_LANGUAGE_RECORDS = 10_000;
 
 export async function collectLanguagesBinData(now = new Date()): Promise<DatasetFileInput[]> {
   const capturedAt = now.toISOString();
   const output: DatasetFileInput[] = [];
+  const files = await acquireLanguagePair();
+  validateLanguagePair(files);
   for (const locale of LOCALES) {
-    const bytes = await acquireLanguages(locale);
+    const bytes = files.get(locale);
+    if (!bytes) throw new Error(`Missing language snapshot: ${locale}.json`);
     const records = parseLanguages(bytes, locale);
     const upstreamRevision = createHash("sha256").update(bytes).digest("hex");
     output.push({
@@ -57,19 +61,58 @@ export async function collectLanguagesBinData(now = new Date()): Promise<Dataset
   return output;
 }
 
-/** 降级获取语言表：GitHub Raw 拉取 → tmp/cache 解压兜底（与 plus 一致）。 */
-async function acquireLanguages(locale: string): Promise<Buffer> {
-  const url = `${config.languagesRawBaseUrl}/${locale}.json`;
+async function acquireLanguagePair(): Promise<Map<(typeof LOCALES)[number], Buffer>> {
+  const pluto = await tryCollectLanguagesWithPluto();
+  if (pluto) return pluto;
+
   try {
-    return await fetchBytes(url, {
-      timeoutMs: config.requestTimeoutMs,
-      maxBytes: config.maxResponseBytes,
-      retries: config.requestRetries,
-    });
-  } catch {
-    // 降级到 tmp/cache
+    const raw = new Map<(typeof LOCALES)[number], Buffer>();
+    for (const locale of LOCALES) {
+      raw.set(locale, await fetchBytes(`${config.languagesRawBaseUrl}/${locale}.json`, {
+        timeoutMs: config.requestTimeoutMs,
+        maxBytes: config.maxResponseBytes,
+        retries: config.requestRetries,
+      }));
+    }
+    validateLanguagePair(raw);
+    return raw;
+  } catch (error) {
+    console.warn(`获取 languages Raw 失败（${error instanceof Error ? error.message : error}），降级为 cache 快照`);
   }
-  return readLanguagesFromCache(locale);
+
+  const cached = new Map<(typeof LOCALES)[number], Buffer>();
+  for (const locale of LOCALES) cached.set(locale, await readLanguagesFromCache(locale));
+  validateLanguagePair(cached);
+  return cached;
+}
+
+async function tryCollectLanguagesWithPluto(): Promise<Map<(typeof LOCALES)[number], Buffer> | undefined> {
+  if (!config.warframeGameDir || !config.packagesBinDir
+    || !await hasWarframeClient(config.warframeGameDir)
+    || !await isDirectory(config.packagesBinDir)) {
+    return undefined;
+  }
+
+  const scriptDirectory = join(config.plutoDirectory, "languages");
+  const script = join(scriptDirectory, "_download_and_extract.pluto");
+  const cacheLibrary = join(config.plutoDirectory, "warframe-cache-tools", "lib", "cachelib.pluto");
+  if (!await exists(script) || !await exists(cacheLibrary)) return undefined;
+  let extractionDirectory: string | undefined;
+  try {
+    extractionDirectory = await mkdtemp(join(scriptDirectory, ".extract-"));
+    await runPluto(config.plutoRuntime ?? "pluto", script, extractionDirectory, config.plutoTimeoutMs, {
+      ...process.env, WF_CACHELIB_PATH: cacheLibrary,
+    });
+    const files = new Map<(typeof LOCALES)[number], Buffer>();
+    for (const locale of LOCALES) files.set(locale, await readFile(join(extractionDirectory, `${locale}.json`)));
+    validateLanguagePair(files);
+    return files;
+  } catch (error) {
+    console.warn(`Pluto 语言提取未通过校验，改用 Raw 降级：${error instanceof Error ? error.message : error}`);
+    return undefined;
+  } finally {
+    if (extractionDirectory) await rm(extractionDirectory, { recursive: true, force: true });
+  }
 }
 
 async function readLanguagesFromCache(locale: string): Promise<Buffer> {
@@ -88,5 +131,50 @@ function parseLanguages(bytes: Buffer, locale: string): Record<string, string> {
   if (typeof value !== "object" || value === null || Array.isArray(value)) {
     throw new Error(`warframe-languages-bin-data ${locale}.json must be an object`);
   }
-  return value as Record<string, string>;
+  const records = value as Record<string, unknown>;
+  if (Object.keys(records).length < MIN_LANGUAGE_RECORDS) {
+    throw new Error(`warframe-languages-bin-data ${locale}.json is incomplete: ${Object.keys(records).length} records`);
+  }
+  for (const [key, record] of Object.entries(records)) {
+    if (key === "__order") continue;
+    if (typeof record !== "string") throw new Error(`warframe-languages-bin-data ${locale}.json has a non-string value: ${key}`);
+  }
+  return records as Record<string, string>;
+}
+
+function validateLanguagePair(files: Map<(typeof LOCALES)[number], Buffer>): void {
+  const parsed = LOCALES.map((locale) => {
+    const bytes = files.get(locale);
+    if (!bytes) throw new Error(`Missing language snapshot: ${locale}.json`);
+    return parseLanguages(bytes, locale);
+  });
+  const englishKeys = new Set(Object.keys(parsed[0] ?? {}).filter((key) => key !== "__order"));
+  const localizedKeys = new Set(Object.keys(parsed[1] ?? {}).filter((key) => key !== "__order"));
+  const common = [...englishKeys].filter((key) => localizedKeys.has(key)).length;
+  const coverage = common / Math.min(englishKeys.size, localizedKeys.size);
+  if (coverage < 0.8) throw new Error(`Language table key overlap is too low: ${(coverage * 100).toFixed(2)}%`);
+}
+
+async function hasWarframeClient(gameDir: string): Promise<boolean> {
+  for (const marker of ["Warframe.x64.exe", "Launcher.exe", "Cache.Windows", "Tools"]) {
+    if (await exists(join(gameDir, marker))) return true;
+  }
+  return false;
+}
+
+async function exists(path: string): Promise<boolean> {
+  try {
+    await stat(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function isDirectory(path: string): Promise<boolean> {
+  try {
+    return (await stat(path)).isDirectory();
+  } catch {
+    return false;
+  }
 }

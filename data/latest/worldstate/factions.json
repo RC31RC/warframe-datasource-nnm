@@ -1,50 +1,85 @@
 {
   "FC_GRINEER": {
+    "index": 0,
     "name": "Grineer",
+    "nameKey": "/Lotus/Language/Game/Faction_GrineerUC",
+    "nameEn": "Grineer",
     "nameZh": "Grineer"
   },
   "FC_CORPUS": {
+    "index": 1,
     "name": "Corpus",
+    "nameKey": "/Lotus/Language/Game/Faction_CorpusUC",
+    "nameEn": "Corpus",
     "nameZh": "Corpus"
   },
   "FC_INFESTATION": {
+    "index": 2,
     "name": "Infestation",
+    "nameKey": "/Lotus/Language/Game/Faction_InfestationUC",
+    "nameEn": "Infestation",
     "nameZh": "Infestation"
   },
   "FC_OROKIN": {
+    "index": 3,
     "name": "Orokin",
+    "nameKey": "/Lotus/Language/Game/Faction_OrokinUC",
+    "nameEn": "Orokin",
     "nameZh": "奥罗金"
   },
   "FC_RED_VEIL": {
+    "index": 4,
     "name": "RED VEIL",
+    "nameKey": "/Lotus/Language/Game/Faction_RedVeilUC",
+    "nameEn": "RED VEIL",
     "nameZh": "血色面纱"
   },
   "FC_SENTIENT": {
+    "index": 5,
     "name": "SENTIENT",
+    "nameKey": "/Lotus/Language/Game/Faction_SentientUC",
+    "nameEn": "SENTIENT",
     "nameZh": "SENTIENT"
   },
   "FC_NARMER": {
+    "index": 6,
     "name": "Narmer",
+    "nameKey": "/Lotus/Language/Game/Faction_NarmerUC",
+    "nameEn": "Narmer",
     "nameZh": "合一众"
   },
   "FC_MITW": {
+    "index": 7,
     "name": "The Murmur",
+    "nameKey": "/Lotus/Language/Game/Faction_MITW",
+    "nameEn": "The Murmur",
     "nameZh": "低语者"
   },
   "FC_SCALDRA": {
+    "index": 8,
     "name": "Scaldra",
+    "nameKey": "/Lotus/Language/1999/Faction_Scaldra",
+    "nameEn": "Scaldra",
     "nameZh": "炽蛇军"
   },
   "FC_TECHROT": {
+    "index": 9,
     "name": "Techrot",
+    "nameKey": "/Lotus/Language/1999/Faction_Techrot",
+    "nameEn": "Techrot",
     "nameZh": "科腐者"
   },
   "FC_DUVIRI": {
+    "index": 10,
     "name": "Duviri",
+    "nameKey": "/Lotus/Language/Duviri/Duviri",
+    "nameEn": "Duviri",
     "nameZh": "双衍王境"
   },
   "FC_TENNO": {
+    "index": 11,
     "name": "",
+    "nameEn": "",
     "nameZh": ""
   }
 }

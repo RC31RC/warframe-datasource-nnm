@@ -1,4 +1,4 @@
-dofile("../warframe-cache-tools/lib/cachelib.pluto")
+dofile(os.getenv("WF_CACHELIB_PATH") or "../warframe-cache-tools/lib/cachelib.pluto")
 
 download_file("/H.Cache.bin", TYPE_MANIFEST)
 

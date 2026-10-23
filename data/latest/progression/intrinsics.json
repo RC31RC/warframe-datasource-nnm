@@ -1,0 +1,467 @@
+{
+  "LPS_TACTICAL": {
+    "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic",
+    "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc",
+    "icon": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsTacticianIcon.png",
+    "ranks": [
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_1",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_1",
+        "nameEn": "Tactical System",
+        "nameZh": "战术系统",
+        "descriptionEn": "Deploy Tactical Mods and access Crew tracking system via Tactical Menu |TACT_MENU|.",
+        "descriptionZh": "部署战术 Mod 并通过 |TACT_MENU| 战术选单访问舰员追踪系统。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_2",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_2",
+        "nameEn": "Ability Kinesis and Overseer",
+        "nameZh": "动态技能与远程监督",
+        "descriptionEn": "Warframe abilities can be deployed as tactical support. Enables crew chase camera.",
+        "descriptionZh": "可将战甲的技能作为战术支援来部署。启用舰员追踪视角。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_3",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_3",
+        "nameEn": "Command Link",
+        "nameZh": "指挥联结",
+        "descriptionEn": "Fast Travel within vessel. Coordinate squad members with command interface.",
+        "descriptionZh": "在舰内快速移动。使用命令界面来统筹小队成员。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_4",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_4",
+        "nameEn": "Recall Warp",
+        "nameZh": "曲速召回",
+        "descriptionEn": "Omni gear can be used to warp aboard the ship from anywhere.",
+        "descriptionZh": "可以在任意地方使用万用工具来曲速传送回星舰。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_5",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_5",
+        "nameEn": "Deploy Necramechs",
+        "nameZh": "部署殁世机甲",
+        "descriptionEn": "Deploy Necramechs in all Railjack missions.",
+        "descriptionZh": "在所有航道星舰任务中部署殁世机甲。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_6",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_6",
+        "nameEn": "Tactical Efficiency",
+        "nameZh": "战术效率",
+        "descriptionEn": "Reduces Energy Consumption for Battle Mods by |VAL1|%.",
+        "descriptionZh": "降低 |VAL1|% 战斗 Mod 消耗的能量。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_7",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_7",
+        "nameEn": "Tactical Response",
+        "nameZh": "战术响应",
+        "descriptionEn": "Reduces Tactical Mod cooldown by |VAL1|%.",
+        "descriptionZh": "减少 |VAL1|% 的战术 Mod 冷却时间。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_8",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_8",
+        "nameEn": "Archwing Tactical Blink and Necramech Cooldown",
+        "nameZh": "曲翼战术闪瞬和殁世机甲冷却时间",
+        "descriptionEn": "Reduces Archwing Blink cooldown by |VAL1|%. Reduces Necramech summon cooldown by |VAL2|%.",
+        "descriptionZh": "减少 |VAL1|% 的 曲翼闪瞬冷却时间。减少 |VAL2|% 的殁世机甲召唤冷却时间。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_9",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_9",
+        "nameEn": "Swift Tactics",
+        "nameZh": "迅捷战术",
+        "descriptionEn": "Further reduces Tactical Mod cooldown by |VAL1|%.",
+        "descriptionZh": "进一步减少 |VAL1|% 的战术 Mod 冷却时间。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicTactic_10",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicTacticDesc_10",
+        "nameEn": "Join Warp",
+        "nameZh": "曲速支援",
+        "descriptionEn": "Warp from ship to crew member.",
+        "descriptionZh": "从星舰曲速传送前往舰员所在处。"
+      }
+    ],
+    "nameEn": "TACTICAL",
+    "nameZh": "战术",
+    "descriptionEn": "Increase your focus on the big picture of battle. Improved Tactical Mods and powerful Tactical deployment abilities.",
+    "descriptionZh": "提高你在战斗的全局上的注意力。改进过的战术 Mod，拥有强大的战术部署能力。",
+    "iconStatus": "internal_asset_only",
+    "iconAsset": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsTacticianIcon.png"
+  },
+  "LPS_PILOTING": {
+    "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot",
+    "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc",
+    "icon": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsPilotingIcon.png",
+    "ranks": [
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_1",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_1",
+        "nameEn": "Boost",
+        "nameZh": "助推",
+        "descriptionEn": "Hold |SPRINT| to boost Engine Speed. Firing pilot guns interrupts boosting.",
+        "descriptionZh": "长按 |SPRINT| 来助推引擎速度。使用舰首炮台开火会中断助推过程。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_2",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_2",
+        "nameEn": "Vector Maneuver",
+        "nameZh": "矢量机动",
+        "descriptionEn": "Tap |ACTION| to burst Directional Thrusters.",
+        "descriptionZh": "轻按 |ACTION| 可使定向推进器助推加速。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_3",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_3",
+        "nameEn": "Vectored Evasion",
+        "nameZh": "向量回避",
+        "descriptionEn": "Near-by enemy projectiles lose lock-on during Vector Maneuver.",
+        "descriptionZh": "在矢量机动过程中，附近敌方投射物失去目标锁定。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_4",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_4",
+        "nameEn": "Drift Maneuver",
+        "nameZh": "漂移机动",
+        "descriptionEn": "During Vector, press & hold |SPRINT| to drift.",
+        "descriptionZh": "在矢量机动期间，按下并按住 |SPRINT| 来漂移。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_5",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_5",
+        "nameEn": "Boosted Scavenger",
+        "nameZh": "强劲搜集",
+        "descriptionEn": "Increase loot pickup radius by 3x while boosting, drifting or dodging. Hidden derelicts are marked.",
+        "descriptionZh": "在助推、漂移，或躲避时，增加 3x 的战利品拾取范围。隐藏的遗迹会被标记。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_6",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_6",
+        "nameEn": "Ram Jammer",
+        "nameZh": "干扰冲撞",
+        "descriptionEn": "A 25% chance of jamming an incoming Ramsled's targeting systems, causing them to overshoot and explode.",
+        "descriptionZh": "有 25% 的几率干扰一艘来袭冲锋艇的瞄准系统，使其越过目标并爆炸。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_7",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_7",
+        "nameEn": "Necramech Haste",
+        "nameZh": "殁世机甲急速",
+        "descriptionEn": "Necramech Movement Speed increased by |VAL1|%.",
+        "descriptionZh": "殁世机甲的移动速度提高 |VAL1|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_8",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_8",
+        "nameEn": "Aeronaut",
+        "nameZh": "战舰驾驶员",
+        "descriptionEn": "Archwing Speed increased by |VAL1|%.",
+        "descriptionZh": "曲翼速度提高 |VAL1|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_9",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_9",
+        "nameEn": "Ramming Speed",
+        "nameZh": "撞击速度",
+        "descriptionEn": "Reduce Incoming Damage by |VAL1|% while Boosting. Ramming into enemies while Boosting will deal |VAL2| <DT_IMPACT>Impact Damage.",
+        "descriptionZh": "助推时受到的来袭伤害降低 |VAL1|%。助推时撞向敌人会造成 |VAL2| <DT_IMPACT>冲击伤害。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilot_10",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicPilotDesc_10",
+        "nameEn": "Railjack Blink",
+        "nameZh": "航道星舰闪瞬",
+        "descriptionEn": "Double-tap <JUMP> to instantly translate the Railjack forward, leaving a trail of turbulence that slows nearby enemies.",
+        "descriptionZh": "双击<JUMP>把航道星舰瞬移至前方，并留下一道湍流航迹来减缓附近敌人的速度。"
+      }
+    ],
+    "nameEn": "PILOTING",
+    "nameZh": "操纵",
+    "descriptionEn": "Forge a bond with the vessel. Unlock advanced speed and agile maneuvering capabilities.",
+    "descriptionZh": "与星舰建立紧密联系。解锁更高级的速度控制以及敏捷机动能力。",
+    "iconStatus": "internal_asset_only",
+    "iconAsset": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsPilotingIcon.png"
+  },
+  "LPS_GUNNERY": {
+    "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner",
+    "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc",
+    "icon": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsGunneryIcon.png",
+    "ranks": [
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_1",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_1",
+        "nameEn": "Energized Barrels",
+        "nameZh": "充能枪管",
+        "descriptionEn": "Dorsal and Ventral turret guns deal +50% damage.",
+        "descriptionZh": "舰顶、舰腹炮台的伤害提高 50%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_2",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_2",
+        "nameEn": "Phantom Eye",
+        "nameZh": "幻影之眼",
+        "descriptionEn": "Augmented reprojection and turret suspensors allows full 360 degree combat engagement.",
+        "descriptionZh": "增强的二次投影和炮台悬架可实现 360 度全方位作战。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_3",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_3",
+        "nameEn": "Archwing Slingshot",
+        "nameZh": "曲翼弹射器",
+        "descriptionEn": "High velocity Archwing deployment into the combat zone. Slingshot Archwing damages fighters and penetrates enemy crewship hulls.",
+        "descriptionZh": "高速部署曲翼到战斗区域。被弹射的曲翼可以对战机造成伤害，并能穿透敌方战舰的舰体。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_4",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_4",
+        "nameEn": "Archwing Fury",
+        "nameZh": "曲翼暴怒",
+        "descriptionEn": "Increase Archwing Attraction Range by |VAL1|m and Melee Range by |VAL2|m and Damage by |VAL3|%.",
+        "descriptionZh": "曲翼吸引范围增加 |VAL1| 米，近战范围增加 |VAL2| 米，伤害增加 |VAL3|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_5",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_5",
+        "nameEn": "Necramech Fury",
+        "nameZh": "殁世机甲暴怒",
+        "descriptionEn": "Increase Necramech Gun Damage by |VAL1|%.",
+        "descriptionZh": "增加 |VAL1|% 殁世机甲的枪械伤害。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_6",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_6",
+        "nameEn": "Cold Trigger",
+        "nameZh": "冰冷触发",
+        "descriptionEn": "Reduce Turret Heat Accretion by |VAL1|%.",
+        "descriptionZh": "炮台热量积聚减少 |VAL1|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_7",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_7",
+        "nameEn": "Advanced Gunnery",
+        "nameZh": "进阶枪炮",
+        "descriptionEn": "Reduce overheat recovery time by |VAL1|%. Extends Slingshot range by |VAL2|%.",
+        "descriptionZh": "过热恢复时间减少 |VAL1|%。弹射器范围扩大 |VAL2|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_8",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_8",
+        "nameEn": "Vengeful Archwing",
+        "nameZh": "复仇曲翼",
+        "descriptionEn": "Increases Archwing power: Damage +|VAL1|%, Ability Strength +|VAL2|%, Ability Range +|VAL3|%, and Ability Efficiency +|VAL4|%.",
+        "descriptionZh": "提升曲翼技能：伤害 +|VAL1|%，技能强度 +|VAL2|%，技能范围 +|VAL3|%，技能效率 +|VAL4|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_9",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_9",
+        "nameEn": "Flush Heat Sinks",
+        "nameZh": "冲刷散热",
+        "descriptionEn": "Reloading when weapons are overheated will cool weapons to 0 in 0.5 secs.",
+        "descriptionZh": "武器过热时重新装填，会在 0.5 秒内将武器热量冷却至 0。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunner_10",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicGunnerDesc_10",
+        "nameEn": "Reflex Aim",
+        "nameZh": "反射瞄准",
+        "descriptionEn": "Turret aim will snap to lead indicator for 3s.",
+        "descriptionZh": "炮台瞄准将吸附到提前量标记上 3 秒。"
+      }
+    ],
+    "nameEn": "GUNNERY",
+    "nameZh": "枪炮",
+    "descriptionEn": "Unlock the deadly power of your arsenal. Improved turrets, advanced targeting modes and devastating artillery.",
+    "descriptionZh": "释放军械的致命力量。改进过的炮台，拥有先进的瞄准模式和毁灭性的光能炮。",
+    "iconStatus": "internal_asset_only",
+    "iconAsset": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsGunneryIcon.png"
+  },
+  "LPS_ENGINEERING": {
+    "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer",
+    "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc",
+    "icon": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsEngineeringIcon.png",
+    "ranks": [
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_1",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_1",
+        "nameEn": "Applied Omni",
+        "nameZh": "应用万用工具",
+        "descriptionEn": "Accelerated hazard suppression and hull repair.",
+        "descriptionZh": "加快事故抢救和舰体维修"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_2",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_2",
+        "nameEn": "Rapid Support",
+        "nameZh": "快速支援",
+        "descriptionEn": "Decrease cooldown for Air Support Charges by |VAL1|%.",
+        "descriptionZh": "降低 |VAL1|% 的空中支援呼叫器冷却时间。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_3",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_3",
+        "nameEn": "Ordnance Forge",
+        "nameZh": "火炮锻造",
+        "descriptionEn": "Replenish combat Ordnance while deployed.",
+        "descriptionZh": "在部署时补充火炮补给。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_4",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_4",
+        "nameEn": "Dome Charge Forge",
+        "nameZh": "穹顶能量弹锻造",
+        "descriptionEn": "Resupply Forward Artillery cannon during combat.",
+        "descriptionZh": "在战斗中补充前装光能炮弹药。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_5",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_5",
+        "nameEn": "Optimized Forge",
+        "nameZh": "优化锻造",
+        "descriptionEn": "Increase Forge yields by |VAL2|%. Craft Hull Restores.",
+        "descriptionZh": "锻造产量提高 |VAL2|%。可制造舰体修复物。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_6",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_6",
+        "nameEn": "Forge Accelerator",
+        "nameZh": "锻造加速",
+        "descriptionEn": "Increase Forge processing speed by |VAL1|%.",
+        "descriptionZh": "锻造处理速度提高 |VAL1|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_7",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_7",
+        "nameEn": "Full Optimization",
+        "nameZh": "全面优化",
+        "descriptionEn": "Further increase Forge yields by |VAL1|%.",
+        "descriptionZh": "锻造产量进一步提高 |VAL1|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_8",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_8",
+        "nameEn": "Vigilant Archwing",
+        "nameZh": "警觉曲翼",
+        "descriptionEn": "Increase Archwing defense. Health +|VAL1|%, Shield +|VAL2|%, and Armor +|VAL3|%.",
+        "descriptionZh": "提升曲翼防御能力。生命值 +|VAL1|%，护盾 +|VAL2|%，护甲 +|VAL3|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_9",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_9",
+        "nameEn": "Vigilant Necramech",
+        "nameZh": "警觉殁世机甲",
+        "descriptionEn": "Increase Necramech defense. Health +|VAL1|%. Shields +|VAL2|%.",
+        "descriptionZh": "提升殁世机甲的防御。生命值 +|VAL1|%。护盾 +|VAL2|%。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineer_10",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicEngineerDesc_10",
+        "nameEn": "Anastasis",
+        "nameZh": "复原如初",
+        "descriptionEn": "Remotely repair onboard hazards.",
+        "descriptionZh": "远程修复舰上所有危险。"
+      }
+    ],
+    "nameEn": "ENGINEERING",
+    "nameZh": "工程",
+    "descriptionEn": "Mend the scars of battle and feed the war machine. Repair ship damage, bolster resource yields, and forge armaments in real-time.",
+    "descriptionZh": "修补战斗在星舰上留下的痕迹，并为这一战争机器提供所需的物品。修复战舰损伤，提高资源产量，并实时锻造军备。",
+    "iconStatus": "internal_asset_only",
+    "iconAsset": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsEngineeringIcon.png"
+  },
+  "LPS_COMMAND": {
+    "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand",
+    "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc",
+    "icon": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsCommandIcon.png",
+    "ranks": [
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_1",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_1",
+        "nameEn": "1st Crew Member",
+        "nameZh": "第一位舰员",
+        "descriptionEn": "Unlocks the first crew member and the ability to hire them from Ticker.",
+        "descriptionZh": "解锁第一位舰员，以及从 Ticker 那里招募他们的能力。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_2",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_2",
+        "nameEn": "Competency Gain",
+        "nameZh": "能力获取",
+        "descriptionEn": "Allows you to give 1 competency point to your crew members.",
+        "descriptionZh": "可以给你的舰员 1 能力点数。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_3",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_3",
+        "nameEn": "2nd Crew Member",
+        "nameZh": "第二位舰员",
+        "descriptionEn": "Unlocks the second crew member.",
+        "descriptionZh": "解锁第二位舰员。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_4",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_4",
+        "nameEn": "Competency Gain",
+        "nameZh": "能力获取",
+        "descriptionEn": "Allows you to give 1 competency point to your crew members.",
+        "descriptionZh": "可以给你的舰员 1 能力点数。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_5",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_5",
+        "nameEn": "3rd Crew Member",
+        "nameZh": "第三位舰员",
+        "descriptionEn": "Unlocks the third crew member.",
+        "descriptionZh": "解锁第三位舰员。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_6",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_6",
+        "nameEn": "Competency Gain",
+        "nameZh": "能力获取",
+        "descriptionEn": "Allows you to give 1 competency point to your crew members.",
+        "descriptionZh": "可以给你的舰员 1 能力点数。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_7",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_7",
+        "nameEn": "Competency Retraining",
+        "nameZh": "能力再训",
+        "descriptionEn": "Allows you to redistribute previously assigned competency points.",
+        "descriptionZh": "让你可以重新分配之前分配过的能力点数。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_8",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_8",
+        "nameEn": "Unusual Crewmates",
+        "nameZh": "罕见舰员",
+        "descriptionEn": "Converted Liches become available as Defender Crew on your Railjack.",
+        "descriptionZh": "可以让被感化的玄骸们在你的航道星舰上成为守护舰员。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_9",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_9",
+        "nameEn": "On Call",
+        "nameZh": "随叫随到",
+        "descriptionEn": "One of your crew members can be designated as being On Call and can be summoned to aid you in non-Railjack missions.",
+        "descriptionZh": "你的一名舰员可以被指定进入待命状态，并可以在非航道星舰任务中被召唤出来协助你。"
+      },
+      {
+        "name": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommand_10",
+        "description": "/Lotus/Language/Intrinsics/RailjackIntrinsicCommandDesc_10",
+        "nameEn": "Elite Crewmates",
+        "nameZh": "精英舰员",
+        "descriptionEn": "Stronger crew members become available for recruitment from Ticker.",
+        "descriptionZh": "现在可从 Ticker 处招募更强大的舰员。"
+      }
+    ],
+    "nameEn": "COMMAND",
+    "nameZh": "命令",
+    "descriptionEn": "Put a crew together to man the Railjack when other Tenno are not around.",
+    "descriptionZh": "命令一位舰员，来在其他 Tenno 不在场时操纵航道星舰。",
+    "iconStatus": "internal_asset_only",
+    "iconAsset": "/Lotus/Interface/Icons/Intrinsics/IntrinsicsCommandIcon.png"
+  }
+}

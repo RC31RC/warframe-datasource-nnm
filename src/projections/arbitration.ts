@@ -3,22 +3,21 @@ import type { DatasetFileInput } from "../domain/contracts.js";
 
 type JsonObject = Record<string, unknown>;
 
-const NODES_PATH = "worldstate/nodes.json";
+const WORLD_MAP_PATH = "catalog/world/map.json";
 
 /**
  * 仲裁小时排期投影：把 arbys.txt（`epochSeconds,nodeReference`）解析为可读排期行。
  *
- * 依赖 worldstate 代码簿（nodes.json）——节点键解析为可读名 + 任务类型 + 阵营 + 星系，
- * 因此本投影必须在 worldstate 代码簿生成之后运行（编排上属于解析层）。
+ * 依赖树状 World Map，并在内存中按原始 node key 构建索引；不再单独发布重复的节点表。
  * 未知节点不导致整批失败，记入 unresolvedNodes 供追溯。
  */
 export function projectArbitrationSchedule(
   rawFile: DatasetFileInput,
   worldstateFiles: DatasetFileInput[],
 ): DatasetFileInput[] {
-  const nodesFile = worldstateFiles.find((f) => f.path === NODES_PATH);
-  if (!nodesFile) throw new Error("Arbitration schedule requires worldstate nodes codebook");
-  const nodes = parseObject(nodesFile) as Record<string, JsonObject>;
+  const worldMapFile = worldstateFiles.find((f) => f.path === WORLD_MAP_PATH);
+  if (!worldMapFile) throw new Error("Arbitration schedule requires the World Map");
+  const nodes = indexWorldMap(parseObject(worldMapFile));
 
   const text = Buffer.isBuffer(rawFile.content)
     ? rawFile.content.toString("utf8")
@@ -56,8 +55,28 @@ export function projectArbitrationSchedule(
       missionTypeZh: textOf(node, "missionTypeNameZh") ?? "",
       faction: textOf(node, "factionName") ?? textOf(node, "faction") ?? "",
       factionZh: textOf(node, "factionNameZh") ?? "",
-      planet: textOf(node, "systemName") ?? "",
-      planetZh: textOf(node, "systemNameZh") ?? "",
+      planet: textOf(node, "planet") ?? textOf(node, "systemName") ?? "",
+      planetZh: textOf(node, "planetZh") ?? textOf(node, "systemNameZh") ?? "",
+      nodeRef: {
+        uniqueName: nodeKey,
+        name: textOf(node, "name") ?? nodeKey,
+        nameZh: textOf(node, "nameZh") ?? "",
+      },
+      missionTypeRef: {
+        key: textOf(node, "missionType") ?? "",
+        name: textOf(node, "missionTypeName") ?? textOf(node, "missionType") ?? "",
+        nameZh: textOf(node, "missionTypeNameZh") ?? "",
+      },
+      factionRef: {
+        key: textOf(node, "faction") ?? "",
+        name: textOf(node, "factionName") ?? textOf(node, "faction") ?? "",
+        nameZh: textOf(node, "factionNameZh") ?? "",
+      },
+      systemRef: {
+        ...(numberOf(node, "systemIndex") === undefined ? {} : { systemIndex: numberOf(node, "systemIndex") }),
+        name: textOf(node, "planet") ?? textOf(node, "systemName") ?? "",
+        nameZh: textOf(node, "planetZh") ?? textOf(node, "systemNameZh") ?? "",
+      },
     });
   }
   if (entries.length === 0) throw new Error("arbys.txt contains no resolvable schedule rows");
@@ -80,7 +99,7 @@ export function projectArbitrationSchedule(
       capturedAt,
       upstreamRevision: createHash("sha256").update(JSON.stringify(value)).digest("hex"),
       transformer: "warframe-datasource-nnm/arbitration-schedule-projection@1",
-      derivedFrom: [rawFile.path, NODES_PATH],
+      derivedFrom: [rawFile.path, WORLD_MAP_PATH],
     },
   }];
 }
@@ -93,7 +112,41 @@ function parseObject(file: DatasetFileInput): JsonObject {
   return value as JsonObject;
 }
 
+function indexWorldMap(worldMap: JsonObject): Record<string, JsonObject> {
+  if (!Array.isArray(worldMap.systems)) throw new Error(`${WORLD_MAP_PATH} must contain systems`);
+  const nodes: Record<string, JsonObject> = {};
+  for (const rawSystem of worldMap.systems) {
+    const system = asObject(rawSystem, `${WORLD_MAP_PATH}/systems[]`);
+    if (!Array.isArray(system.nodes)) throw new Error(`${WORLD_MAP_PATH} system must contain nodes`);
+    for (const rawNode of system.nodes) {
+      const node = asObject(rawNode, `${WORLD_MAP_PATH}/systems[]/nodes[]`);
+      const nodeKey = textOf(node, "nodeKey") ?? textOf(node, "uniqueName");
+      if (!nodeKey) throw new Error(`${WORLD_MAP_PATH} contains a node without a stable key`);
+      if (nodes[nodeKey]) throw new Error(`${WORLD_MAP_PATH} contains duplicate node key ${nodeKey}`);
+      nodes[nodeKey] = {
+        ...node,
+        planet: textOf(system, "name") ?? "",
+        planetZh: textOf(system, "nameZh") ?? "",
+      };
+    }
+  }
+  if (Object.keys(nodes).length === 0) throw new Error(`${WORLD_MAP_PATH} contains no nodes`);
+  return nodes;
+}
+
+function asObject(value: unknown, context: string): JsonObject {
+  if (typeof value !== "object" || value === null || Array.isArray(value)) {
+    throw new Error(`${context} must be an object`);
+  }
+  return value as JsonObject;
+}
+
 function textOf(record: JsonObject, key: string): string | undefined {
   const value = record[key];
   return typeof value === "string" && value !== "" ? value : undefined;
+}
+
+function numberOf(record: JsonObject, key: string): number | undefined {
+  const value = record[key];
+  return typeof value === "number" ? value : undefined;
 }

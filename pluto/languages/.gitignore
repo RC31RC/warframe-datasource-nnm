@@ -4,3 +4,4 @@ Extracted/
 *.pluto
 !_download_and_extract.pluto
 !_update.pluto
+/*.json

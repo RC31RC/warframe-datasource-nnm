@@ -23,7 +23,6 @@ end
 local function validate_path(path)
 	assert(obj_cache[path] or io.exists(PACKAGES_BIN_BASE .. path .. ".json"), path)
 end
-
 local function path_get_parent(path)
 	local parts = path:split("/")
 	assert(#parts ~= 0, "invalid call to path_get_parent")
@@ -381,6 +380,7 @@ local name_to_storeitem_map = {
 	["5,000 Credits Cache":lower()]    = "/Lotus/StoreItems/Types/PickUps/Credits/5000Credits",
 	["7,500 Credits Cache":lower()]    = "/Lotus/StoreItems/Types/PickUps/Credits/7500Credits",
 	["10,000 Credits Cache":lower()]   = "/Lotus/StoreItems/Types/PickUps/Credits/10000Credits",
+	["50,000 Credits Cache":lower()]   = "/Lotus/StoreItems/Types/PickUps/Credits/50000Credits",
 	["15,000 Credits":lower()]         = "/Lotus/StoreItems/Types/StoreItems/CreditBundles/Zariman/TableACreditsCommon",
 	["30,000 Credits":lower()]         = "/Lotus/StoreItems/Types/StoreItems/CreditBundles/Zariman/TableACreditsUncommon",
 	["105,000 Credits Cache":lower()] = "/Lotus/StoreItems/Types/PickUps/Credits/CorpusArenaCreditRewards/CorpusArenaRewardOneHard",
@@ -3553,6 +3553,7 @@ local creditBundles = {
 	["/Lotus/Types/PickUps/Credits/5000Credits"] = 5000,
 	["/Lotus/Types/PickUps/Credits/7500Credits"] = 7500,
 	["/Lotus/Types/PickUps/Credits/10000Credits"] = 10000,
+	["/Lotus/Types/PickUps/Credits/50000Credits"] = true,
 	["/Lotus/Types/PickUps/Credits/5000Hollars"] = 5000,
 	["/Lotus/Types/PickUps/Credits/7500Hollars"] = 7500,
 	["/Lotus/Types/PickUps/Credits/10000Hollars"] = 10000,
@@ -3573,17 +3574,37 @@ local creditBundles = {
 	["/Lotus/Types/StoreItems/CreditBundles/Zariman/TableACreditsCommon"] = 15000,
 	["/Lotus/Types/StoreItems/CreditBundles/Zariman/TableACreditsUncommon"] = 30000,
 }
+-- Discover additional credit definitions from the installed client. Values are
+-- only candidate markers; exported quantities always come from object properties.
+for { "/Lotus/Types/PickUps/Credits", "/Lotus/Types/StoreItems/CreditBundles" } as directory do
+	if io.exists(PACKAGES_BIN_BASE .. directory) then
+		for io.listdir(PACKAGES_BIN_BASE .. directory, true) as file do
+			if file:endswith(".json") then
+				local path = file:sub(#PACKAGES_BIN_BASE + 1, -6):replace("\\", "/")
+				local price = obj_find_property(path, "RegularPrice")
+				if type(price) == "number" and price < 0 then
+					creditBundles[path] = true
+				end
+			end
+		end
+	end
+end
 creditBundles.__order = creditBundles:keys():sort()
 do
-	local ExportCreditBundles = { __order = creditBundles.__order }
+	local ExportCreditBundles = { __order = {} }
 	for creditBundles.__order as path do
 		local obj = obj_from_path(path)
+		if not obj.data then
+			continue
+		end
+		ExportCreditBundles.__order:insert(path)
+		local price = obj_find_property(path, "RegularPrice")
 		ExportCreditBundles[path] = {
 			__order = { "name", "description", "icon", "credits", "platinumCost", "premiumPrice" },
 			name = obj.data.LocalizeTag,
 			description = obj.data.LocalizeDescTag,
 			icon = obj.data.Icon,
-			credits = obj.data.RegularPrice * -1,
+			credits = type(price) == "number" and price < 0 ? price * -1 : nil,
 			platinumCost = obj.data.PremiumPrice,
 		}
 		import_from_languages_bin(obj.data.LocalizeTag)
@@ -5219,6 +5240,55 @@ do
 		}
 	end
 	write_data_file("ExportCodex.json", ExportCodex)
+end
+
+-- Supplemental activity definitions: preserve configuration as well as readable
+-- properties so a reference-only input can become a real published definition.
+print "Creating ExportActivityResources..."
+do
+	local exported = { __order = {} }
+	for {
+		"/Lotus/Upgrades/Calendar",
+		"/Lotus/Types/Scripts/Tau/CoH/Complications",
+		"/Lotus/Types/Game/EnemySpecs/Tau",
+		"/Lotus/Levels/DevilTower",
+		"/Lotus/Types/Gameplay/1999Wf/ProtoframeAllies",
+		"/Lotus/Types/Gameplay/1999Wf/Jobs",
+	} as directory do
+		if not io.exists(PACKAGES_BIN_BASE .. directory) then
+			continue
+		end
+		for io.listdir(PACKAGES_BIN_BASE .. directory, true) as file do
+			if not file:endswith(".json") then
+				continue
+			end
+			local path = file:sub(#PACKAGES_BIN_BASE + 1, -6):replace("\\", "/")
+			local obj = obj_from_path(path)
+			if not obj.data then
+				continue
+			end
+			local name = obj_find_property(path, "LocalizeTag") ?? obj_find_property(path, "LocTag")
+			local description = obj_find_property(path, "LocalizeDescTag") ?? obj_find_property(path, "DescTag")
+			exported.__order:insert(path)
+			exported[path] = {
+				__order = { "uniqueName", "parentName", "name", "description", "icon", "properties" },
+				uniqueName = path,
+				parentName = obj.parent,
+				name = name,
+				description = description,
+				icon = obj_find_property(path, "Icon"),
+				properties = obj.data,
+			}
+			if type(name) == "string" and languages_bin_dicts.en[name] then
+				import_from_languages_bin(name)
+			end
+			if type(description) == "string" and languages_bin_dicts.en[description] then
+				import_from_languages_bin(description)
+			end
+		end
+	end
+	exported.__order:sort()
+	write_data_file("ExportActivityResources.json", exported)
 end
 
 print "Sorting tags alphabetically..."

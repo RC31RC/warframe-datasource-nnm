@@ -31,13 +31,15 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
   const output: DatasetFileInput[] = [];
 
   // 中文记录索引（uniqueName → zh 完整记录）与图标/头像索引，给 catalog 实体对齐内联中文 + 图标（深度）。
-  const zhRecords = readZhRecords(sourceByPath);
+  const enRecords = readLocaleRecords(sourceByPath, "en");
+  const zhRecords = readLocaleRecords(sourceByPath, "zh");
+  const standaloneAbilityTranslations = readAbilityTranslations(sourceByPath, "zh");
   const { iconUrls, avatarUrls } = readIconUrls(sourceByPath);
   const enrich = (records: JsonObject[]) => enrichRecords(records, zhRecords, iconUrls, avatarUrls);
 
   const warframes = requiredArray(exports.warframes, "ExportWarframes");
   const abilities = new Map<string, JsonObject>();
-  const abilitySlots: JsonObject[] = [];
+  const abilityOwners = new Map<string, Set<string>>();
   const frames = warframes.filter((record) => text(record, "productCategory") !== "SpaceSuits");
   const archwings = warframes.filter((record) => text(record, "productCategory") === "SpaceSuits");
   for (const [records, ownerType] of [[frames, "warframe"], [archwings, "archwing"]] as const) {
@@ -50,13 +52,9 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
       slots.forEach((slot, index) => {
         const ability = normalizeAbility(slot, `${ownerKey}: ability ${index}`);
         addUnique(abilities, ability.recordKey as string, ability, "ability");
-        abilitySlots.push({
-          recordKey: `${ownerKey}#ability:${index}`,
-          ownerType,
-          parentBkey: ownerKey,
-          abilityBkey: ability.recordKey,
-          abilityOrder: index,
-        });
+        const owners = abilityOwners.get(ability.recordKey as string) ?? new Set<string>();
+        owners.add(ownerKey);
+        abilityOwners.set(ability.recordKey as string, owners);
       });
     }
   }
@@ -67,10 +65,37 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
     }
   }
 
-  appendArrayProjection(output, sourceByPath, "catalog/equipment/warframes.json", enrich(frames), [INPUTS.warframes]);
-  appendArrayProjection(output, sourceByPath, "catalog/equipment/archwings.json", enrich(archwings), [INPUTS.warframes]);
-  appendArrayProjection(output, sourceByPath, "catalog/equipment/abilities.json", [...abilities.values()], [INPUTS.warframes]);
-  appendArrayProjection(output, sourceByPath, "catalog/equipment/ability-slots.json", abilitySlots, [INPUTS.warframes]);
+  const projectedFrames = enrich(normalizeOwnerAbilities(frames, "warframe"));
+  const projectedArchwings = enrich(normalizeOwnerAbilities(archwings, "archwing"));
+  appendArrayProjection(output, sourceByPath, "catalog/equipment/warframes.json", projectedFrames, [INPUTS.warframes]);
+  appendArrayProjection(output, sourceByPath, "catalog/equipment/archwings.json", projectedArchwings, [INPUTS.warframes]);
+
+  const abilityIndex = new Map<string, JsonObject>();
+  for (const parent of [...projectedFrames, ...projectedArchwings]) {
+    const parentKey = text(parent, "recordKey") ?? "";
+    const slots = Array.isArray(parent.abilities) ? parent.abilities : [];
+    for (const rawAbility of slots) {
+      const ability = object(rawAbility, `${parentKey}: projected ability`);
+      const key = text(ability, "recordKey");
+      if (!key) throw new Error(`${parentKey}: projected ability lacks recordKey`);
+      const value = { ...ability, ownerBkeys: [...(abilityOwners.get(key) ?? [])].sort() };
+      addUnique(abilityIndex, key, value, "projected ability");
+    }
+  }
+  for (const [key, ability] of abilities) {
+    if (abilityIndex.has(key)) continue;
+    const [localized] = enrich([ability]);
+    const abilityZh = standaloneAbilityTranslations.get(key);
+    const abilityIconUrl = iconUrls.get(key);
+    abilityIndex.set(key, {
+      ...localized,
+      ...(abilityZh?.name ? { nameZh: abilityZh.name, abilityNameZh: abilityZh.name } : {}),
+      ...(abilityZh?.description ? { descriptionZh: abilityZh.description } : {}),
+      ...(abilityIconUrl ? { abilityIconUrl, iconUrl: abilityIconUrl } : {}),
+      ownerBkeys: [],
+    });
+  }
+  appendArrayProjection(output, sourceByPath, "catalog/equipment/abilities.json", [...abilityIndex.values()], [INPUTS.warframes]);
 
   const weapons = requiredArray(exports.weapons, "ExportWeapons").map((value) => identified(value, "weapon"));
   appendArrayProjection(output, sourceByPath, "catalog/equipment/weapons.json", enrich(weapons), [INPUTS.weapons]);
@@ -91,10 +116,8 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
       ...identified(value, upgradeSource.key),
       upgradeType: upgradeSource.ownerType,
     }));
-    appendArrayProjection(output, sourceByPath, upgradeSource.path, enrich(parents), [INPUTS.upgrades]);
-    appendArrayProjection(output, sourceByPath,
-      upgradeSource.path.replace(".json", "-rank-stats.json"),
-      rankRecords(parents, upgradeSource.ownerType, false), [INPUTS.upgrades]);
+    appendArrayProjection(output, sourceByPath, upgradeSource.path,
+      enrich(parents).map((record) => normalizeRanks(record, false)), [INPUTS.upgrades]);
   }
 
   if (exports.upgrades.ExportModSet !== undefined) {
@@ -107,30 +130,22 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
         ...(Array.isArray(stats) ? { levelStats: stats } : {}),
       };
     });
-    appendArrayProjection(output, sourceByPath, "catalog/upgrades/mod-sets.json", enrich(modSets), [INPUTS.upgrades]);
-    appendArrayProjection(output, sourceByPath, "catalog/upgrades/mod-set-rank-stats.json",
-      rankRecords(modSets, "mod_set", true), [INPUTS.upgrades]);
+    appendArrayProjection(output, sourceByPath, "catalog/upgrades/mod-sets.json",
+      enrich(modSets).map((record) => normalizeRanks(record, true)), [INPUTS.upgrades]);
   }
 
   const relicArcane = requiredArray(exports.relicArcane, "ExportRelicArcane");
-  const relics = relicArcane.filter((record) => text(record, "uniqueName")?.includes("/Projections/") === true)
-    .map((value) => identified(value, "relic"));
   const arcanes = relicArcane.filter((record) => text(record, "uniqueName")?.startsWith("/Lotus/Upgrades/CosmeticEnhancers/") === true)
     .map((value) => identified(value, "arcane"));
-  if (relics.length + arcanes.length !== relicArcane.length) {
+  const relicCount = relicArcane.filter((record) => text(record, "uniqueName")?.includes("/Projections/") === true).length;
+  if (relicCount + arcanes.length !== relicArcane.length) {
     throw new Error("ExportRelicArcane contains records outside the verified relic/arcane path classes");
   }
-  appendArrayProjection(output, sourceByPath, "catalog/loot/relics.json", enrich(relics), [INPUTS.relicArcane]);
-  appendArrayProjection(output, sourceByPath, "catalog/upgrades/arcanes.json", enrich(arcanes), [INPUTS.relicArcane]);
-  appendArrayProjection(output, sourceByPath, "catalog/upgrades/arcane-rank-stats.json",
-    rankRecords(arcanes, "arcane", false), [INPUTS.relicArcane]);
-
-  const nodes = requiredArray(exports.regions, "ExportRegions").map((value) => identified(value, "node"));
-  appendArrayProjection(output, sourceByPath, "catalog/world/nodes.json", enrich(nodes), [INPUTS.regions]);
+  appendArrayProjection(output, sourceByPath, "catalog/upgrades/arcanes.json",
+    enrich(arcanes).map((record) => normalizeRanks(record, false)), [INPUTS.relicArcane]);
 
   const recipeInput = requiredArray(exports.recipes, "ExportRecipes");
   const recipes: Record<string, JsonValue> = {};
-  const ingredients: JsonObject[] = [];
   for (const value of recipeInput) {
     const recipe = identified(value, "recipe");
     const key = recipe.recordKey as string;
@@ -138,48 +153,45 @@ export function projectPublicExport(rawFiles: DatasetFileInput[]): DatasetFileIn
     recipe.quantityBasis = "per_build";
     validateNonNegativeFields(recipe, ["buildPrice", "buildTime", "skipBuildTimePrice", "num"]);
     if (recipes[key] !== undefined) throw new Error(`Duplicate recipe identity: ${key}`);
-    // resultType 指向产物 uniqueName，追加产物中文名（可读性）。
+    // 成品与材料都按 uniqueName 内嵌双语名称和图标，保留原始引用字段。
     const resultType = recipe.resultType;
     if (typeof resultType === "string") {
+      recipe.resultItem = itemReference(resultType, enRecords, zhRecords, iconUrls);
       const zhProduct = zhRecords.get(resultType);
       if (zhProduct && typeof zhProduct.name === "string") recipe.resultTypeNameZh = zhProduct.name;
     }
-    recipes[key] = toJsonValue(recipe);
-    if (value.ingredients === undefined) continue;
-    if (!Array.isArray(value.ingredients)) throw new Error(`${key}: ingredients must be an array`);
-    value.ingredients.forEach((raw, index) => {
+    const rawIngredients = value.ingredients ?? [];
+    if (!Array.isArray(rawIngredients)) throw new Error(`${key}: ingredients must be an array`);
+    recipe.ingredients = rawIngredients.map((raw, index) => {
       const ingredient = object(raw, `${key}: ingredient ${index}`);
-      if (!text(ingredient, "ItemType")?.startsWith("/")) {
+      const itemType = text(ingredient, "ItemType");
+      if (!itemType?.startsWith("/")) {
         throw new Error(`${key}: ingredient ${index} lacks full item identity`);
       }
       validateNonNegativeFields(ingredient, ["ItemCount"]);
       if (ingredient.ItemCount === undefined || ingredient.ItemCount === null) {
         throw new Error(`${key}: ingredient ${index} lacks ItemCount`);
       }
-      // ItemType 指向材料 uniqueName，追加材料中文名（可读性）。
-      const itemType = ingredient.ItemType;
       const materialNameZh = typeof itemType === "string" ? zhRecords.get(itemType)?.name : undefined;
-      ingredients.push({
+      return {
         ...ingredient,
-        recordKey: `${key}#ingredient:${index}`,
-        parentBkey: key,
-        recipeKind: "ordinary",
-        quantityBasis: "per_build",
         ingredientOrder: index,
+        item: itemReference(itemType, enRecords, zhRecords, iconUrls),
         ...(typeof materialNameZh === "string" ? { itemTypeNameZh: materialNameZh } : {}),
-      });
+      };
     });
+    recipes[key] = toJsonValue(recipe);
   }
   appendProjection(output, sourceByPath, "catalog/craft/recipes.json", recipes, [INPUTS.recipes], recipeInput.length);
-  appendArrayProjection(output, sourceByPath, "catalog/craft/recipe-ingredients.json", ingredients, [INPUTS.recipes]);
 
-  appendTranslations(output, sourceByPath);
+  appendTranslations(output, sourceByPath, iconUrls);
 
   return output;
 }
 
 /** 官方 ExportUpgrades 文件内部嵌套的 3 个可翻译数组。 */
 const UPGRADE_EXPORT_KEYS = ["ExportUpgrades", "ExportFocusUpgrades", "ExportAvionics"] as const;
+const LOCALIZED_EXPORT_NAMES = ["Warframes", "Weapons", "Upgrades", "RelicArcane", "Regions", "Resources", "Recipes"] as const;
 
 /** 读取官方 ExportManifest（shared），构建 uniqueName → 图标 URL 与「战甲名 → 头像 URL」。 */
 function readIconUrls(sourceByPath: Map<string, DatasetFileInput>): { iconUrls: Map<string, string>; avatarUrls: Map<string, string> } {
@@ -209,25 +221,107 @@ function readIconUrls(sourceByPath: Map<string, DatasetFileInput>): { iconUrls: 
 }
 
 /** 读取 zh 版本的官方 Export，构建 uniqueName → zh 完整记录（含 Resources 资源类）。 */
-function readZhRecords(sourceByPath: Map<string, DatasetFileInput>): Map<string, JsonObject> {
+function readLocaleRecords(sourceByPath: Map<string, DatasetFileInput>, locale: string): Map<string, JsonObject> {
   const result = new Map<string, JsonObject>();
-  for (const exportName of ["Warframes", "Weapons", "Upgrades", "RelicArcane", "Regions", "Resources"] as const) {
-    let root: JsonObject;
-    try {
-      root = readExport(sourceByPath, localizedPath("zh", exportName));
-    } catch {
-      continue;
-    }
+  for (const exportName of LOCALIZED_EXPORT_NAMES) {
+    const path = localizedPath(locale, exportName);
+    if (!sourceByPath.has(path)) continue;
+    const root = readExport(sourceByPath, path);
     for (const value of Object.values(root)) {
       if (!Array.isArray(value)) continue;
       for (const record of value) {
         if (typeof record !== "object" || record === null) continue;
         const uniqueName = (record as JsonObject).uniqueName;
-        if (typeof uniqueName === "string") result.set(uniqueName, record as JsonObject);
+        if (typeof uniqueName === "string" && !result.has(uniqueName)) result.set(uniqueName, record as JsonObject);
       }
     }
   }
   return result;
+}
+
+function readAbilityTranslations(
+  sourceByPath: Map<string, DatasetFileInput>,
+  locale: string,
+): Map<string, { name?: string; description?: string }> {
+  const path = localizedPath(locale, "Warframes");
+  const root = readExport(sourceByPath, path);
+  const values = root.ExportAbilities;
+  if (values === undefined) return new Map();
+  if (!Array.isArray(values)) throw new Error(`Expected ExportAbilities array in ${path}`);
+  const translations = new Map<string, { name?: string; description?: string }>();
+  for (const raw of values) {
+    const record = object(raw, `${path}/ExportAbilities`);
+    const uniqueName = text(record, "abilityUniqueName");
+    if (!uniqueName) continue;
+    if (translations.has(uniqueName)) throw new Error(`Duplicate standalone ability translation: ${uniqueName}/${locale}`);
+    const name = text(record, "abilityName");
+    const description = text(record, "description");
+    translations.set(uniqueName, {
+      ...(name ? { name } : {}),
+      ...(description ? { description } : {}),
+    });
+  }
+  return translations;
+}
+
+function normalizeOwnerAbilities(records: JsonObject[], ownerType: string): JsonObject[] {
+  return records.map((record) => {
+    const owner = identified(record, ownerType);
+    if (owner.abilities === undefined) return { ...owner, ownerType };
+    if (!Array.isArray(owner.abilities)) throw new Error(`${owner.recordKey}: abilities must be an array`);
+    return {
+      ...owner,
+      ownerType,
+      abilities: owner.abilities.map((ability, index) => normalizeAbility(ability, `${owner.recordKey}: ability ${index}`)),
+    };
+  });
+}
+
+export function normalizeRanks(record: JsonObject, oneBased: boolean): JsonObject {
+  const ranks = Array.isArray(record.levelStats) ? record.levelStats
+    : Array.isArray(record.stats) ? record.stats : undefined;
+  const ranksZh = Array.isArray(record.levelStatsZh) ? record.levelStatsZh
+    : Array.isArray(record.statsZh) ? record.statsZh : undefined;
+  if (!ranks && !ranksZh) return record;
+
+  const length = Math.max(ranks?.length ?? 0, ranksZh?.length ?? 0);
+  const normalized: JsonObject = { ...record, ranks: [] };
+  const values: JsonObject[] = [];
+  for (let index = 0; index < length; index += 1) {
+    values.push({
+      rank: index + (oneBased ? 1 : 0),
+      ...(ranks?.[index] === undefined ? {} : { stats: ranks[index] }),
+      ...(ranksZh?.[index] === undefined ? {} : { statsZh: ranksZh[index] }),
+    });
+  }
+  normalized.ranks = values;
+  delete normalized.levelStats;
+  delete normalized.levelStatsZh;
+  delete normalized.statsZh;
+  if (Array.isArray(normalized.stats)) delete normalized.stats;
+  return normalized;
+}
+
+function itemReference(
+  uniqueName: string,
+  enRecords: Map<string, JsonObject>,
+  zhRecords: Map<string, JsonObject>,
+  iconUrls: Map<string, string>,
+): JsonObject {
+  const key = canonicalUniqueName(uniqueName);
+  const english = enRecords.get(uniqueName) ?? enRecords.get(key);
+  const chinese = zhRecords.get(uniqueName) ?? zhRecords.get(key);
+  const iconUrl = iconUrls.get(uniqueName) ?? iconUrls.get(key);
+  return {
+    uniqueName,
+    name: text(english ?? {}, "name") ?? "",
+    nameZh: text(chinese ?? {}, "name") ?? "",
+    ...(iconUrl ? { iconUrl } : {}),
+  };
+}
+
+function canonicalUniqueName(uniqueName: string): string {
+  return uniqueName.replace("/Lotus/StoreItems/", "/Lotus/");
 }
 
 /** 给实体记录按 uniqueName 对齐内联中文字段 + 图标/头像（追加 *Zh，不删除原字段）。 */
@@ -284,12 +378,11 @@ function enrichRecords(
 function appendTranslations(
   output: DatasetFileInput[],
   sourceByPath: Map<string, DatasetFileInput>,
+  iconUrls: Map<string, string>,
 ): void {
   const items: Record<string, JsonValue> = {};
-  const nodes: Record<string, JsonValue> = {};
   const recipesByLocale: Record<string, JsonObject[]> = {};
   const inputPaths: string[] = [];
-  const nodeInputPaths: string[] = [];
 
   for (const locale of LOCALES) {
     const localized = readLocalizedExports(sourceByPath, locale);
@@ -331,14 +424,13 @@ function appendTranslations(
         }
       }
     }
-    for (const node of localized.records.nodes ?? []) {
-      const id = text(node, "uniqueName");
-      if (!id) throw new Error("ExportRegions record lacks uniqueName");
-      const lang = localizedObject(nodes, id, locale);
-      mergeField(lang, "name", node.name, `${id}/${locale}`);
-      mergeField(lang, "systemName", node.systemName, `${id}/${locale}`);
-    }
-    nodeInputPaths.push(localizedPath(locale, "Regions"));
+  }
+
+  for (const uniqueName of Object.keys(items)) {
+    const entry = items[uniqueName];
+    if (typeof entry !== "object" || entry === null || Array.isArray(entry)) continue;
+    const iconUrl = iconUrls.get(uniqueName) ?? iconUrls.get(canonicalUniqueName(uniqueName));
+    if (iconUrl) (entry as Record<string, JsonValue>).iconUrl = iconUrl;
   }
 
   // recipe 本身没有 name 字段（官方任何语言都不提供），从 resultType 指向的产物名推导。
@@ -357,7 +449,6 @@ function appendTranslations(
   }
 
   appendProjection(output, sourceByPath, "catalog/i18n/items.json", items, inputPaths, Object.keys(items).length);
-  appendProjection(output, sourceByPath, "catalog/i18n/nodes.json", nodes, nodeInputPaths, Object.keys(nodes).length);
 }
 
 /** 读取某个语言版本的 6 个官方 Export 文件，并按翻译字段归类。 */
@@ -371,6 +462,8 @@ function readLocalizedExports(
   const relicArcaneRoot = readExport(sourceByPath, localizedPath(locale, "RelicArcane"));
   const regionsRoot = readExport(sourceByPath, localizedPath(locale, "Regions"));
   const recipesRoot = readExport(sourceByPath, localizedPath(locale, "Recipes"));
+  const resourcesPath = localizedPath(locale, "Resources");
+  const resourcesRoot = sourceByPath.has(resourcesPath) ? readExport(sourceByPath, resourcesPath) : {};
 
   return {
     paths: [
@@ -380,6 +473,7 @@ function readLocalizedExports(
       localizedPath(locale, "RelicArcane"),
       localizedPath(locale, "Regions"),
       localizedPath(locale, "Recipes"),
+      ...(sourceByPath.has(resourcesPath) ? [resourcesPath] : []),
     ],
     records: {
       warframes: requiredArray(warframesRoot, "ExportWarframes"),
@@ -393,6 +487,7 @@ function readLocalizedExports(
       relicArcane: requiredArray(relicArcaneRoot, "ExportRelicArcane"),
       recipes: requiredArray(recipesRoot, "ExportRecipes"),
       nodes: requiredArray(regionsRoot, "ExportRegions"),
+      resources: resourcesRoot.ExportResources === undefined ? [] : requiredArray(resourcesRoot, "ExportResources"),
     },
   };
 }
@@ -433,26 +528,6 @@ function mergeField(target: Record<string, JsonValue>, field: string, value: unk
     throw new Error(`Conflicting Public Export translation: ${owner}/${field}`);
   }
   target[field] = normalized;
-}
-
-function rankRecords(parents: JsonObject[], ownerType: string, oneBased: boolean): JsonObject[] {
-  const output: JsonObject[] = [];
-  for (const parent of parents) {
-    const key = parent.recordKey;
-    if (typeof key !== "string") throw new Error("Upgrade parent lacks recordKey");
-    const ranks = parent.levelStats;
-    if (ranks === undefined) continue;
-    if (!Array.isArray(ranks)) throw new Error(`${key}: levelStats must be an array`);
-    ranks.forEach((stats, index) => output.push({
-      recordKey: `${key}#rank:${index}`,
-      parentBkey: key,
-      ownerType,
-      rankNumber: oneBased ? index + 1 : index,
-      statOrder: index,
-      stats: toJsonValue(stats),
-    }));
-  }
-  return output;
 }
 
 function appendArrayProjection(

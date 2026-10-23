@@ -41,7 +41,9 @@ test("archives raw plus snapshot to tmp/cache and clears raw workspace", async (
   ], new Date(capturedAt));
 
   assert.equal(result.manifest.producer, "warframe-datasource-nnm");
+  assert.equal(result.manifest.schemaVersion, 2);
   assert.deepEqual(result.manifest.files.map(({ path }) => path), ["catalog/test.json"]);
+  assert.equal(result.manifest.files[0]?.source, undefined);
   assert.equal(result.dataDirectory, join(data, date));
   assert.equal(result.tmpDirectory, join(tmp, timestamp));
 
@@ -151,9 +153,20 @@ test("detects edited manifest metadata", async (context) => {
   context.after(() => rm(base, { recursive: true, force: true }));
   const publisher = new DatasetPublisher(data, tmp);
   const result = await publisher.publish([file()], new Date(capturedAt));
-  result.manifest.files[0]!.source = { ...source, project: "changed" };
+  result.manifest.files[0]!.sha256 = "0".repeat(64);
   await writeFile(join(data, date, "manifest.json"), JSON.stringify(result.manifest));
   await assert.rejects(publisher.verify(), /identity mismatch/u);
+});
+
+test("rejects source metadata in a cleaned manifest", async (context) => {
+  const { base, data, tmp } = await makeRoots();
+  context.after(() => rm(base, { recursive: true, force: true }));
+  const publisher = new DatasetPublisher(data, tmp);
+  const result = await publisher.publish([file()], new Date(capturedAt));
+  const manifest = result.manifest as unknown as { files: Array<Record<string, unknown>> };
+  manifest.files[0]!.source = source;
+  await writeFile(join(data, date, "manifest.json"), JSON.stringify(manifest));
+  await assert.rejects(publisher.verify(), /must not expose source metadata/u);
 });
 
 test("CLI verifies local output and refuses the removed serve command", async (context) => {
@@ -166,4 +179,17 @@ test("CLI verifies local output and refuses the removed serve command", async (c
   assert.match(result.stdout, /Verified 1 files/u);
   await assert.rejects(run(process.execPath, ["--import", "tsx", "src/cli.ts", "serve"], options),
     (error: unknown) => error instanceof Error && error.message.includes("Unknown command: serve"));
+});
+
+test("publisher maps business aliases atomically and rejects colliding public paths", async (context) => {
+  const { base, data, tmp } = await makeRoots();
+  context.after(() => rm(base, { recursive: true, force: true }));
+  const publisher = new DatasetPublisher(data, tmp);
+  const result = await publisher.publish([file("plus/vendors.json", '{"vendor":true}'), file("languages/en.json", '{"key":"English"}')], new Date(capturedAt));
+  assert.deepEqual(result.manifest.files.map(({ path }) => path), ["reference/language-en.json", "world/vendors.json"]);
+  assert.equal((await publisher.verify()).verifiedFiles, 2);
+  await assert.rejects(access(join(data, date, "plus/vendors.json")), { code: "ENOENT" });
+  await assert.rejects(publisher.publish([file("plus/vendors.json"), file("world/vendors.json")]), /Duplicate/u);
+  await assert.rejects(publisher.publish([file("unmapped/deep/file.json")]), /one business directory/u);
+  assert.equal((await publisher.verify()).verifiedFiles, 2);
 });

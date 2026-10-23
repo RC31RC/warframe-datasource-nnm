@@ -1,0 +1,247 @@
+{
+  "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer": {
+    "name": "SENTIENT APPETITE",
+    "description": "",
+    "icon": "/Lotus/Interface/Icons/SentientFactionIcon.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "SENTIENT APPETITE",
+    "nameZh": "SENTIENT 食欲",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "descriptionZh": "",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthBile": {
+    "name": "Bile",
+    "description": "Helminth is able to digest all manner of miscellaneous substances, but generates a large surplus of bile in order to do so. Fortunately, this bile can be repurposed.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Bile",
+    "nameZh": "胆液块",
+    "descriptionEn": "Helminth is able to digest all manner of miscellaneous substances, but generates a large surplus of bile in order to do so. Fortunately, this bile can be repurposed.",
+    "descriptionZh": "Helminth 可以消化各种杂物，但会因此而产生过量的消化液。幸运的是，这些消化液可以再次被利用。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics": {
+    "name": "Biotics",
+    "description": "Plant-based materials of all kinds are processed and liquidized within the Helminth's digestive tract; the surplus is excreted as an inoffensive, inert clump.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Biotics",
+    "nameZh": "微生泥",
+    "descriptionEn": "Plant-based materials of all kinds are processed and liquidized within the Helminth's digestive tract; the surplus is excreted as an inoffensive, inert clump.",
+    "descriptionZh": "各种植物类物质会在 Helminth 的消化道内被处理、液化，剩余的残留物则会被以无害惰性块状物的形式排出体外。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthCalx": {
+    "name": "Calx",
+    "description": "On consuming minerals, Helminth converts those it does not fully absorb into a smooth, rich paste with a faint vanilla odor.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Calx",
+    "nameZh": "金属垩",
+    "descriptionEn": "On consuming minerals, Helminth converts those it does not fully absorb into a smooth, rich paste with a faint vanilla odor.",
+    "descriptionZh": "在享用矿物质时，Helminth 会把那些未被完全吸收的矿物质转化为光滑浓郁、并带有淡淡香草味的糊状物。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthOxides": {
+    "name": "Oxides",
+    "description": "Metallic substances, steadily corroded by the Helminth's digestive juices and exuded as a coarse powder.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Oxides",
+    "nameZh": "氧金属",
+    "descriptionEn": "Metallic substances, steadily corroded by the Helminth's digestive juices and exuded as a coarse powder.",
+    "descriptionZh": "金属物质，被 Helminth 的消化液不断腐蚀，并以大颗粒粉尘的形式分泌了出来。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/MiscItems/ResourceItem",
+        "name": "",
+        "nameZh": "",
+        "domain": "plus",
+        "resolution": "stable_identity_only",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones": {
+    "name": "Pheromones",
+    "description": "When Helminth consumes Infested matter it creates greasy intestine-like casings, bloats them with a dark, musky gas and ejects them. The reason for this is unknown and probably best left that way.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Pheromones",
+    "nameZh": "信息质",
+    "descriptionEn": "When Helminth consumes Infested matter it creates greasy intestine-like casings, bloats them with a dark, musky gas and ejects them. The reason for this is unknown and probably best left that way.",
+    "descriptionZh": "当 Helminth 享用了感染物质后，它会产生油腻的肠道状外壳，并通过黑色的麝香气体使其膨胀，然后将其喷射出来。这种现象的产生原因不明，可能最好不要去管它。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics": {
+    "name": "Synthetics",
+    "description": "Helminth eagerly consumes artificial materials and exudes these rope-like strands of filament as a useful byproduct.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Synthetics",
+    "nameZh": "合成霉",
+    "descriptionEn": "Helminth eagerly consumes artificial materials and exudes these rope-like strands of filament as a useful byproduct.",
+    "descriptionZh": "Helminth 热衷于享用人造材料，并会分泌出这些绳状的细丝，可被作为一种有用的副产品。",
+    "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "recordKey": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+    "iconStatus": "available"
+  },
+  "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem": {
+    "name": "Hunhow's Trinket",
+    "description": "The Blueprint for an unidentified item. Perhaps some ancient piece of Old War decor.",
+    "icon": "/Lotus/Interface/Icons/StoreIcons/Resources/Quests/HunhowTrinket.png",
+    "codexSecret": false,
+    "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+    "productCategory": "SupplyDrop",
+    "excludeFromCodex": true,
+    "excludeFromMarket": true,
+    "nameEn": "Hunhow's Trinket",
+    "nameZh": "Hunhow 的信物",
+    "descriptionEn": "The Blueprint for an unidentified item. Perhaps some ancient piece of Old War decor.",
+    "descriptionZh": "一件身份不明物品的蓝图。或许是远古之战时期的一件装饰品。",
+    "uniqueName": "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem",
+    "recordKey": "/Lotus/Types/JadeShadowsPart2Mission/Gameplay/Resources/HunhowTrinketMiscItem",
+    "itemReferences": [
+      {
+        "field": "parentName",
+        "uniqueName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
+        "name": "",
+        "nameZh": "",
+        "resolution": "identity_only",
+        "referenceKind": "item",
+        "nameEn": "",
+        "iconStatus": "missing"
+      }
+    ],
+    "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Resources/Quests/HunhowTrinket.png!00_QrnKfEbARNB0C-nLsfdceQ",
+    "iconStatus": "available"
+  }
+}

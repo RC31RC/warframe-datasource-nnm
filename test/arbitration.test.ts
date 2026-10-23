@@ -16,24 +16,30 @@ function cleaned(path: string, content: unknown): DatasetFileInput {
   return { stage: "cleaned", path, content: JSON.stringify(content), source: source("warframe-datasource-nnm", path) };
 }
 
-test("resolves arbys.txt rows via worldstate codebook", () => {
+test("resolves arbys.txt rows from the nested World Map", () => {
   const rawFile = raw(
     "arbitration/arbys.txt",
     "# comment\n1727884800,SolNode94\n1727888400,ClanNode10\n1727892000,UnknownNode999\n",
     source("browse.wf", "arbitration-schedule", "https://browse.wf/arbys.txt"),
   );
   const worldstateFiles = [
-    cleaned("worldstate/nodes.json", {
-      SolNode94: {
-        name: "Apollodorus", nameZh: "阿波罗多罗斯", systemName: "Mercury", systemNameZh: "水星",
-        missionType: "MT_SURVIVAL", missionTypeName: "SURVIVAL", missionTypeNameZh: "生存",
-        faction: "FC_INFESTATION", factionName: "Infestation",
-      },
-      ClanNode10: {
-        name: "Clan Hall", nameZh: "氏族大厅", systemName: "Dojo", systemNameZh: "道场",
-        missionType: "MT_PVP", missionTypeName: "CONCLAVE", missionTypeNameZh: "武形秘仪",
-        faction: "FC_TENNO", factionName: "Tenno",
-      },
+    cleaned("catalog/world/map.json", {
+      systems: [
+        {
+          name: "Mercury", nameZh: "水星", nodes: [{
+            nodeKey: "SolNode94", name: "Apollodorus", nameZh: "阿波罗多罗斯",
+            missionType: "MT_SURVIVAL", missionTypeName: "SURVIVAL", missionTypeNameZh: "生存",
+            faction: "FC_INFESTATION", factionName: "Infestation",
+          }],
+        },
+        {
+          name: "Dojo", nameZh: "道场", nodes: [{
+            nodeKey: "ClanNode10", name: "Clan Hall", nameZh: "氏族大厅",
+            missionType: "MT_PVP", missionTypeName: "CONCLAVE", missionTypeNameZh: "武形秘仪",
+            faction: "FC_TENNO", factionName: "Tenno",
+          }],
+        },
+      ],
     }),
   ];
 
@@ -51,6 +57,15 @@ test("resolves arbys.txt rows via worldstate codebook", () => {
   assert.equal(result.entries[0]?.nodeZh, "阿波罗多罗斯");
   assert.equal(result.entries[0]?.planet, "Mercury");
   assert.equal(result.entries[0]?.planetZh, "水星");
+  assert.deepEqual(result.entries[0]?.nodeRef, {
+    uniqueName: "SolNode94", name: "Apollodorus", nameZh: "阿波罗多罗斯",
+  });
+  assert.deepEqual(result.entries[0]?.missionTypeRef, {
+    key: "MT_SURVIVAL", name: "SURVIVAL", nameZh: "生存",
+  });
+  assert.deepEqual(result.entries[0]?.systemRef, {
+    name: "Mercury", nameZh: "水星",
+  });
   assert.equal(result.entries[0]?.missionType, "SURVIVAL");
   assert.equal(result.entries[0]?.faction, "Infestation");
   assert.equal(result.entries[0]?.activation, "2024-10-02T16:00:00.000Z");
@@ -64,10 +79,10 @@ test("resolves arbys.txt rows via worldstate codebook", () => {
   assert.equal(result.stats.unresolved, 1);
 });
 
-test("rejects arbys.txt without nodes codebook", () => {
+test("rejects arbys.txt without the World Map", () => {
   const rawFile = raw("arbitration/arbys.txt", "1727884800,SolNode94\n", source("browse.wf", "arbitration-schedule"));
   assert.throws(
     () => projectArbitrationSchedule(rawFile, []),
-    /requires worldstate nodes codebook/u,
+    /requires the World Map/u,
   );
 });

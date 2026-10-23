@@ -33,12 +33,12 @@ export interface DatasetFileEntry {
   sha256: string;
   bytes: number;
   mediaType: "application/json" | "text/plain" | "text/html";
-  source: SourceMetadata;
+  source?: SourceMetadata;
   recordCount?: number;
 }
 
 export interface DatasetManifest {
-  schemaVersion: 1;
+  schemaVersion: 2;
   buildId: string;
   createdAt: string;
   producer: "warframe-datasource-nnm";
