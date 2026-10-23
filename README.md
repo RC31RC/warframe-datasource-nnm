@@ -22,7 +22,7 @@ npm run typecheck
 npm test
 ```
 
-`replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。相同输入与代码应生成相同的各成品字节；manifest 的构建时间与 `buildId` 时间部分会变化。每次发布产生的临时 raw 工作区在成功后清理，Plus 与语言表归档到 `tmp/cache/`；`WF_KEEP_TMP=1` 可保留该工作区。冻结输入目录独立保留，需按本地磁盘情况清理。
+`replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。相同输入与代码应生成相同的各成品字节；manifest 的构建时间与 `buildId` 时间部分会变化。每次 `collect` 成功发布后，自动生成的 `tmp/inputs-*` 冻结输入目录和临时 raw 工作区都会清理，Plus 与语言表归档到 `tmp/cache/`。需要保留输入目录用于后续 `replay` 时，显式设置 `WF_KEEP_TMP=1` 或 `WF_KEEP_INPUTS=1`；采集失败时输入目录会保留，方便重试。
 
 
 `verify` 离线检查 manifest、文件集合、路径层级、JSON、字节数及 SHA-256。本轮 PHP 解析只是本地验收，动态响应和验收工具不加入生产采集或发布链；NnmBot 后续自行定时拉取 PHP，并使用成品中的静态定义解析。

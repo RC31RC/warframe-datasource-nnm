@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
 import { config } from "./core/config.js";
 import { DatasetPublisher } from "./publish/dataset-publisher.js";
-import { acquire, loadInputs } from "./pipeline/acquire.js";
+import { acquire, cleanupCollectedInputs, loadInputs } from "./pipeline/acquire.js";
 import { projectInputs } from "./pipeline/project.js";
 
 const command = process.argv[2] ?? "help";
@@ -12,6 +12,9 @@ try {
     const inputs = command === "collect" ? await acquire(directory) : await loadInputs(directory);
     const files = projectInputs(inputs);
     const result = await publisher.publish(files);
+    if (command === "collect") {
+      await cleanupCollectedInputs(directory, config.tmpDirectory, process.env.WF_KEEP_TMP === "1" || process.env.WF_KEEP_INPUTS === "1");
+    }
     console.log(`Generated ${result.manifest.buildId} (${result.manifest.files.length} files)`);
     console.log(`Frozen inputs: ${directory}`);
   } else if (command === "verify") {

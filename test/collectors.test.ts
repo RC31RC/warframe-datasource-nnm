@@ -1,6 +1,8 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { join } from "node:path";
 import { test } from "node:test";
+import { cleanupCollectedInputs } from "../src/pipeline/acquire.js";
 import { extractAttributes, projectAttributes, projectItems } from "../src/collectors/market.js";
 import { decompressIndex, parsePublicExportIndex, REQUIRED_EXPORTS } from "../src/collectors/public-export.js";
 import { projectMarketItems } from "../src/projections/linked.js";
@@ -105,6 +107,25 @@ test("projects Market items with stable slugs and gameRef bridge keys", () => {
   assert.equal(records[1]?.gameRef, "");
   assert.throws(() => projectItems({ data: [{ slug: "a" }, { slug: "a" }] }), /Duplicate/u);
   assert.throws(() => projectItems({ data: [] }), /no data records/u);
+});
+
+test("cleans successful auto-collected input workspaces while preserving explicit keep requests", async (context) => {
+  const root = join(process.cwd(), `.test-input-cleanup-${Date.now()}`);
+  const tmp = join(root, "tmp");
+  context.after(() => rm(root, { recursive: true, force: true }));
+  await mkdir(join(tmp, "inputs-success", "raw"), { recursive: true });
+  await writeFile(join(tmp, "inputs-success", "inputs.json"), "[]");
+
+  await cleanupCollectedInputs(join(tmp, "inputs-success"), tmp);
+  await assert.rejects(access(join(tmp, "inputs-success")), { code: "ENOENT" });
+
+  await mkdir(join(tmp, "inputs-kept", "raw"), { recursive: true });
+  await cleanupCollectedInputs(join(tmp, "inputs-kept"), tmp, true);
+  await assert.doesNotReject(access(join(tmp, "inputs-kept")));
+
+  await mkdir(join(root, "explicit-inputs"), { recursive: true });
+  await cleanupCollectedInputs(join(root, "explicit-inputs"), tmp);
+  await assert.doesNotReject(access(join(root, "explicit-inputs")));
 });
 
 test("enriches Market records in place and retains records without catalog identities", () => {

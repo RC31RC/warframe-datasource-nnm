@@ -1,5 +1,5 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { dirname, join } from "node:path";
+import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { basename, dirname, isAbsolute, join, relative, resolve } from "node:path";
 import { createHash } from "node:crypto";
 import { collectOfficialMedia } from "../collectors/official-media.js";
 import { collectPublicExport } from "../collectors/public-export.js";
@@ -54,6 +54,22 @@ export async function acquire(directory: string): Promise<DatasetFileInput[]> {
 export async function loadInputs(directory: string): Promise<DatasetFileInput[]> {
   return loadIndex(directory, join(directory, "inputs.json"));
 }
+
+/**
+ * 成功发布后清理自动生成的冻结输入目录。
+ *
+ * 只处理 tmpDirectory 下的 `inputs-*`，避免误删用户显式指定的外部目录。
+ * 采集失败时 CLI 不会调用此函数，因此失败现场仍可用于 replay/重试。
+ */
+export async function cleanupCollectedInputs(directory: string, tmpDirectory: string, keep = false): Promise<void> {
+  if (keep) return;
+  const inputDirectory = resolve(directory);
+  const temporaryDirectory = resolve(tmpDirectory);
+  const relativePath = relative(temporaryDirectory, inputDirectory);
+  if (relativePath.startsWith("..") || isAbsolute(relativePath) || basename(inputDirectory).startsWith("inputs-") === false) return;
+  await rm(inputDirectory, { recursive: true, force: true });
+}
+
 async function loadIndex(directory: string, path: string): Promise<DatasetFileInput[]> {
   const entries = JSON.parse(await readFile(path, "utf8")) as Entry[];
   return Promise.all(entries.map(async ({ sha256, ...file }) => {
