@@ -39,10 +39,8 @@
     "platinumCost": 5,
     "excludeFromMarket": true,
     "purchaseQuantity": 10,
-    "pickupQuantity": {
-      "minValue": 10,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 10,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Kavat Genetic Code",
     "nameZh": "库娃遗传密码",
     "descriptionEn": "Contains the genetic code sequence of a Kavat. \r\n\r\nLocation: Obtained by using a Codex Scanner on Feral Kavats that roam the Orokin Derelict on Deimos",
@@ -1542,24 +1540,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 800,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 800,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Efervon Sample",
     "nameZh": "艾弗旺样本",
     "descriptionEn": "A sample of the corrosive substance that Scaldra use to purge Techrot. Handle with care.\r\n\r\nLocation: 1999 (Höllvania)",
@@ -1589,24 +1585,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 700,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 700,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Höllvanian Pitchweave Fragment",
     "nameZh": "霍瓦尼亚沥青布碎片",
     "descriptionEn": "An Efervon-resistant material used to craft Scaldra uniforms.\r\n\r\nLocation: 1999 (Höllvania)",
@@ -1667,24 +1661,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 25,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Techrot Motherboard",
     "nameZh": "科腐者主板",
     "descriptionEn": "This motherboard likely served as a nerve center, facilitating the Techrot's communication network.\r\n\r\nLocation: 1999 (Höllvania)",
@@ -1715,24 +1707,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 300,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 300,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Techrot Chitin",
     "nameZh": "科腐者几丁质",
     "descriptionEn": "This twisted husk barely resembles the electronic device it once was, consumed and reshaped by the Techrot’s relentless spread.\r\n\r\nLocation: 1999 (Höllvania)",
@@ -1763,24 +1753,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 65,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 65,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Experimental Arc-Relay",
     "nameZh": "实验性电弧继电器",
     "descriptionEn": "Höllvanian ingenuity knows no bounds, and this unregulated marvel is proof! A cutting-edge device brimming with untamed innovation.\r\n\r\nLocation: 1999 (Höllvania)",
@@ -1873,24 +1861,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 150,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 150,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Lamentus",
     "nameZh": "哀灵精华",
     "descriptionEn": "A whisper of the fallen.\r\n\r\nLocation: Duviri",
@@ -1922,24 +1908,22 @@
     "rarity": "UNCOMMON",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 75,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 75,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Rune Marrow",
     "nameZh": "密印髓质",
     "descriptionEn": "Rune Marrow erupts from Duviri’s core.\r\n\r\nLocation: The Undercroft in Duviri",
@@ -1971,24 +1955,22 @@
     "rarity": "RARE",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 20,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 20,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Kullervo's Bane",
     "nameZh": "Kullervo 的灾刃",
     "descriptionEn": "Kullervo's fury incarnate. Acrithis will trade this prized artifact for certain items from her collection.\r\n\r\nLocation: Earned by confronting Kullervo and defeating the Orowyrm in the same Duviri mission during the Fear, Anger, or Sorrow spiral",
@@ -2020,24 +2002,22 @@
     "rarity": "RARE",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Tasoma Extract",
     "nameZh": "塔苏摩萃取物",
     "descriptionEn": "Duviri citizens plagued by nightmares seek Tasoma, because its stalks can be crushed to create juice that invites pleasant dreams. Unfortunately, it is difficult to forage Tasoma as it only grows in caves.\r\n\r\nLocation: Duviri",
@@ -2099,24 +2079,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 150,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 150,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Kovnik",
     "nameZh": "福烁草",
     "descriptionEn": "Duviri citizens harvest Kovnik leaves to blend invigorating teas.\r\n\r\nLocation: Duviri",
@@ -2147,24 +2125,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Eevani",
     "nameZh": "延凡草",
     "descriptionEn": "Duviri citizens have been known to mash Eevani leaves into a paste that alleviates the discomfort caused by fresh wounds.\r\n\r\nLocation: Duviri",
@@ -2195,24 +2171,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Connla Sprout",
     "nameZh": "慧泉嫩芽",
     "descriptionEn": "The water that courses through Connla Sprouts tastes sweet and refreshing.\r\n\r\nLocation: Duviri",
@@ -2244,24 +2218,22 @@
     "rarity": "UNCOMMON",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Yao Shrub",
     "nameZh": "瑶丛",
     "descriptionEn": "The warm light of the Yao Shrub glows even within cold dark places.\r\n\r\nLocation: Duviri",
@@ -2293,24 +2265,22 @@
     "rarity": "RARE",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Silphsela",
     "nameZh": "日精灵瘦果",
     "descriptionEn": "It is traditionally held that to see Silphsela floating in the air heralds an imminent change in the sky.\r\n\r\nLocation: Duviri",
@@ -2342,24 +2312,22 @@
     "rarity": "UNCOMMON",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 75,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 75,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Dracroot",
     "nameZh": "龙旋根",
     "descriptionEn": "Dracroot is a staple of the Wyrmling’s diet.\r\n\r\nLocation: Duviri",
@@ -2391,24 +2359,22 @@
     "rarity": "UNCOMMON",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ueymag",
     "nameZh": "肉麦",
     "descriptionEn": "Ueymag meat is said to be delicious. Just mind the barbs.\r\n\r\nLocation: Duviri",
@@ -2438,24 +2404,22 @@
     "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 200,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 200,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Saggen Pearl",
     "nameZh": "慧珠",
     "descriptionEn": "Thrax warriors use the heavy liquid drawn from Saggen Wells to polish their weapons.\r\n\r\nLocation: Duviri",
@@ -2485,24 +2449,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 7,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 7,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Enigma Gyrum",
     "nameZh": "奥理刻珠",
     "descriptionEn": "A token celebrating the successful solution of a Duviri Enigma.\r\n\r\nLocation: Earned by completing Enigmas in The Duviri Experience",
@@ -2533,24 +2495,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 350,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 350,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Aggristone",
     "nameZh": "龙涎石",
     "descriptionEn": "It is said that Aggri Formations are hardened saliva from mighty Orowyrms. Duviri citizens believe Aggristones are powerful talismans.\r\n\r\nLocation: Duviri",
@@ -2730,24 +2690,22 @@
     "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 80,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 80,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Nacreous Pebble",
     "nameZh": "珍珠母石",
     "descriptionEn": "Collectors like to marvel at the peculiar origin of Nacreous Pebbles. Their beauty is the result of ordinary pebbles having been ingested and regurgitated by the Golden Maw.\r\n\r\nLocation: Maw Feeding in The Duviri Experience",
@@ -2777,24 +2735,22 @@
     "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 250,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 250,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ariette Scale",
     "nameZh": "律光鳞",
     "descriptionEn": "Each Duviri fish species has distinct features, but they all evolved beautiful chromatic scales.\r\n\r\nLocation: Maw Feeding in The Duviri Experience",
@@ -2824,24 +2780,22 @@
     "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 10,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Maw Fang",
     "nameZh": "喉兽尖牙",
     "descriptionEn": "Looks like someone got carried away during a delicious meal.\r\n\r\nLocation: Maw Feeding in The Duviri Experience",
@@ -2990,24 +2944,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 5,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 5,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Cetus Wisp",
     "nameZh": "希图斯幽魂",
     "descriptionEn": "Most common at night, these stone lifeforms are drawn to shorelines touched by the Eidolon. They linger around lakes on the Plains of Eidolon at all hours. Their origin remains mysterious.\r\n\r\nLocation: Plains of Eidolon on Earth",
@@ -3037,24 +2989,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Maprico",
     "nameZh": "马利可",
     "descriptionEn": "This hardy fruit is thick-skinned to withstand harsh conditions, concealing a mouthful of sweet pulp within.\r\n\r\nLocation: Plains of Eidolon on Earth",
@@ -3113,24 +3063,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 30,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 30,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Grokdrul",
     "nameZh": "葛克度",
     "descriptionEn": "A noxious mix of polysaccharides and long-chain polymers, Grokdrul is a standard chemical used in Grineer manufacturing.\r\n\r\nLocation: Plains of Eidolon on Earth",
@@ -3160,24 +3108,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Iradite",
     "nameZh": "伊莱体",
     "descriptionEn": "A mineral valuable to the Ostrons.\r\n\r\nLocation: Plains of Eidolon on Earth",
@@ -3207,24 +3153,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 25,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Nistlepod",
     "nameZh": "尼蒐荚",
     "descriptionEn": "Used by the Nistlebrush to trap and kill prey.\r\n\r\nLocation: Plains of Eidolon on Earth",
@@ -3370,28 +3314,24 @@
     "parentName": "/Lotus/Types/Gameplay/Duviri/Resource/DuviriBaseResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 9,
-      "maxValue": 16
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 45000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 9,
+    "pickupQuantity__maxValue": 16,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 45000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Entrati Obols",
     "nameZh": "英择谛硬币",
     "descriptionEn": "During the Orokin era, these obols were a commonly recognized mark of the Entrati family. Some Archimedeans even used them as good luck talismans.\r\n\r\nLocation: Albrecht's Laboratories (Deimos)",
@@ -3422,24 +3362,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 800,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 800,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Necracoil",
     "nameZh": "殁世线圈",
     "descriptionEn": "This experimental array transmutes Void energy into high voltages with low currents.\r\n\r\nLocation: Albrecht's Laboratories (Deimos)",
@@ -3470,24 +3408,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 180,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 180,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Stela",
     "nameZh": "虚空石块",
     "descriptionEn": "This Void-touched stone contains an ominous essence.\r\n\r\nLocation: Albrecht's Laboratories (Deimos)",
@@ -3546,24 +3482,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 25,
-      "gain": 0.6,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.6,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Pustulite",
     "nameZh": "脓刃爪疱",
     "descriptionEn": "Half-formed, incomplete spore bearers, little more than twitching flesh with claws to latch on with.\r\n\r\nLocation: Cambion Drift on Deimos",
@@ -3593,28 +3527,24 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 3
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 50,
-      "gain": 0.6,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 3,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.6,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ganglion",
     "nameZh": "神经节囊",
     "descriptionEn": "A fallen clump of entangled nerve fibers, redundant organs, and thin sensory membranes.\r\n\r\nLocation: Cambion Drift on Deimos",
@@ -4346,28 +4276,24 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 3
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 50,
-      "gain": 0.6,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 3,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.6,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Lucent Teroglobe",
     "nameZh": "泰罗光球",
     "descriptionEn": "These orbs have long since fulfilled their original function, but still, thrum with faint power.\r\n\r\nLocation: Cambion Drift on Deimos",
@@ -4667,24 +4593,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Thermal Sludge",
     "nameZh": "热能软泥",
     "descriptionEn": "A by-product from the Weeping Towers terraforming processes.\r\n\r\nLocation: Orb Vallis on Venus",
@@ -4714,24 +4638,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 12,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 12,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Gyromag Systems",
     "nameZh": "陀螺磁抵系统",
     "descriptionEn": "A modular component that regulates latitude and altitude in various Corpus systems. \r\n\r\nLocation: Obtained by completing Heists on the Orb Vallis (Venus)",
@@ -4761,24 +4683,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 6,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 6,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Atmo Systems",
     "nameZh": "大气系统",
     "descriptionEn": "A modular component that compensates for the multitude of atmospheric conditions encountered in the Origin System. \r\n\r\nLocation: Obtained by completing Heists on the Orb Vallis (Venus)",
@@ -4808,24 +4728,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Repeller Systems",
     "nameZh": "斥极系统",
     "descriptionEn": "Anti-gravity system that allows massively heavy objects to be manipulated by a single user. \r\n\r\nLocation: Obtained by completing Heists on the Orb Vallis (Venus)",
@@ -4855,24 +4773,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Mytocardia Spore",
     "nameZh": "心肌菌孢子",
     "descriptionEn": "A fungal body prized for its varied uses.\r\n\r\nLocation: Orb Vallis on Venus",
@@ -4931,24 +4847,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 25,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Gorgaricus Spore",
     "nameZh": "葛嘉里菌孢子",
     "descriptionEn": "The reproductive spore of the giant Vallis fungi is highly coveted for the complex chemical compounds it contains.\r\n\r\nLocation: Orb Vallis on Venus",
@@ -5007,24 +4921,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Tepa Nodule",
     "nameZh": "缇帕瘤",
     "descriptionEn": "The iridescent nodules on these plants glow brightly in cold environments.\r\n\r\nLocation: Orb Vallis on Venus",
@@ -5055,24 +4967,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 20,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 20,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Lua Thrax Plasm",
     "nameZh": "月球凶魂浆质",
     "descriptionEn": "A unique variant of Thrax Plasm harvested during Void Conjunctions on Lua.\r\n\r\nLocation: Yuvarium and Circulus on Lua",
@@ -5104,24 +5014,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Thrax Plasm",
     "nameZh": "凶魂浆质",
     "descriptionEn": "Found in the remnants of Thrax Void manifestations, this plasm has several surprisingly practical applications.\r\n\r\nLocation: Zariman",
@@ -5152,24 +5060,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 10,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Voidgel Orb",
     "nameZh": "虚空胶丸",
     "descriptionEn": "A sample of ambient Void energy distilled into a neutral state.\r\n\r\nLocation: Zariman",
@@ -5201,24 +5107,22 @@
     "longDescription": "The most prized part of an Eidolon. Jewelry created from an Eidolon shard is most prized in Cetus.",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 5,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 5,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Entrati Lanthorn",
     "nameZh": "英择谛灯笼",
     "descriptionEn": "A ceremonial beacon used to map Void locations on to real space.\r\n\r\nLocation: Albrecht's Laboratories (Deimos) and Zariman",
@@ -7838,10 +7742,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Tiametrite",
     "nameZh": "提亚美凝石",
     "descriptionEn": "Infested neurotransmitters condensed under pressure.\r\n\r\nLocation: Cambion Drift (Deimos) from Blue Mining Lesions, Sagiant Entrati Caskets, and Bonus Vaults in Isolation Vault Bounties.",
@@ -7900,10 +7802,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Dagonic",
     "nameZh": "达戈琥珀",
     "descriptionEn": "Rivulets of Exocrine fluid, hardened over passing centuries.\r\n\r\nLocation: Cambion Drift (Deimos) from Blue Mining Lesions, Sagiant Entrati Casket, and Bonus Vaults in Isolation Vault Bounties.",
@@ -7962,10 +7862,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Adramalium",
     "nameZh": "阿德拉玛金属",
     "descriptionEn": "Sinewy and metallic, possessed of great elastic strength.\r\n\r\nLocation: Cambion Drift (Deimos) from Yellow Mining Lesions, Spitia Infested Cysts, and Rolizor Infested Cysts.",
@@ -8024,10 +7922,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Bapholite",
     "nameZh": "巴弗结晶",
     "descriptionEn": "Malleable, owing to ingrown veins of Infestation protein.\r\n\r\nLocation: Cambion Drift (Deimos) from Yellow Mining Lesions, Rolizor Infested Cysts, and Bonus Vaults in Isolation Vault Bounties.",
@@ -8202,10 +8098,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Necrathene",
     "nameZh": "殁世烯",
     "descriptionEn": "Impacted within Infested husks, preserved for millennia.\r\n\r\nLocation: Cambion Drift (Deimos) from Blue Mining Lesions and Requiem Obelisks.",
@@ -8264,10 +8158,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Thaumica",
     "nameZh": "萨莫感染石",
     "descriptionEn": "Can be molded by the Infestation but remains resistant to it.\r\n\r\nLocation: Cambion Drift (Deimos) from Yellow Mining Lesions, Requiem Obelisks, and Spitia Infested Cysts.",
@@ -8326,10 +8218,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 2,
-      "maxValue": 4
-    },
+    "pickupQuantity__minValue": 2,
+    "pickupQuantity__maxValue": 4,
     "nameEn": "Heciphron",
     "nameZh": "聚合荧石",
     "descriptionEn": "Aggregates in the neo-lymph systems of Infested masses.\r\n\r\nLocation: Cambion Drift (Deimos) from Blue Mining Lesions.",
@@ -8388,10 +8278,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 4,
-      "maxValue": 8
-    },
+    "pickupQuantity__minValue": 4,
+    "pickupQuantity__maxValue": 8,
     "nameEn": "Namalon",
     "nameZh": "纳莫原石",
     "descriptionEn": "Infested mineral deposits mimicking the form of living organs.\r\n\r\nLocation: Cambion Drift (Deimos) from Yellow Mining Lesions and Bonus Vaults in Isolation Vault Bounties.",
@@ -9030,10 +8918,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Phasmin",
     "nameZh": "翡斯敏石",
     "descriptionEn": "An eerily green gem found encased in metallic shards.\r\n\r\nLocation: Orb Vallis (Venus) from Blue Mining Veins and Resource Containers",
@@ -9092,10 +8978,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Noctrul",
     "nameZh": "夜石",
     "descriptionEn": "A black gemstone, with iridescent blue impurities.\r\n\r\nLocation: Orb Vallis (Venus) from Blue Mining Veins and Resource Containers",
@@ -9154,10 +9038,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Travoride",
     "nameZh": "铁镍矿",
     "descriptionEn": "A mineral hardened by the crushing pressure of the Venusian atmosphere.\r\n\r\nLocation: Orb Vallis (Venus) from Red Mining Veins and Resource Containers",
@@ -9216,10 +9098,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Axidite",
     "nameZh": "酸化矿物",
     "descriptionEn": "A sediment that formed from sulfuric rain that became trapped under the ice.\r\n\r\nLocation: Orb Vallis (Venus) from Red Mining Veins and Resource Containers",
@@ -9394,10 +9274,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Amarast",
     "nameZh": "紫苋石",
     "descriptionEn": "A violet gem that forms from the crystallization of byproducts expelled from the Weeping Towers.\r\n\r\nLocation: Orb Vallis (Venus) from Blue Mining Veins and Resource Containers",
@@ -9456,10 +9334,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 3,
-      "maxValue": 6
-    },
+    "pickupQuantity__minValue": 3,
+    "pickupQuantity__maxValue": 6,
     "nameEn": "Hesperon",
     "nameZh": "长庚矿石",
     "descriptionEn": "Clay that strengthens into extremely durable stone when brought to temperatures below zero.\r\n\r\nLocation: Orb Vallis (Venus) from Red Mining Veins and Resource Containers",
@@ -9518,10 +9394,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 2,
-      "maxValue": 4
-    },
+    "pickupQuantity__minValue": 2,
+    "pickupQuantity__maxValue": 4,
     "nameEn": "Goblite",
     "nameZh": "填充细石",
     "descriptionEn": "A strange crystal that grows inside the veins of extracted ore.\r\n\r\nLocation: Orb Vallis (Venus) from Blue Mining Veins",
@@ -9580,10 +9454,8 @@
     "parentName": "/Lotus/Types/Items/Gems/GemItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 4,
-      "maxValue": 8
-    },
+    "pickupQuantity__minValue": 4,
+    "pickupQuantity__maxValue": 8,
     "nameEn": "Venerol",
     "nameZh": "启明矿石",
     "descriptionEn": "A precious metal forged from coolant byproducts.\r\n\r\nLocation: Orb Vallis (Venus) from Red Mining Veins and Resource Containers",
@@ -9645,28 +9517,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 1500,
-    "pickupQuantity": {
-      "minValue": 50,
-      "maxValue": 150
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 15000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 50,
+    "pickupQuantity__maxValue": 150,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 15000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Alloy Plate",
     "nameZh": "合金板",
     "descriptionEn": "Carbon steel plates used to reinforce Grineer armor.\r\n\r\nLocation: Venus, Phobos, Ceres, Jupiter, Pluto, and Sedna.",
@@ -9727,10 +9595,8 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
     "nameEn": "Zealot Derelict Code",
     "nameZh": "狂热者遗迹密码",
     "descriptionEn": "Allows access to Infested Derelicts that have been rerouted to populated areas by Zealots.",
@@ -9822,24 +9688,22 @@
     "rarity": "RARE",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Argon Crystal",
     "nameZh": "氩结晶",
     "descriptionEn": "A Void based radioactive resource that decays every day it is out of the Void.\r\n\r\nLocation: Missions in the Void",
@@ -9930,28 +9794,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 1500,
-    "pickupQuantity": {
-      "minValue": 35,
-      "maxValue": 50
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 7000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 35,
+    "pickupQuantity__maxValue": 50,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 7000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Circuits",
     "nameZh": "电路",
     "descriptionEn": "Various electronic components.\r\n\r\nLocation: Venus, Ceres, and the Kuva Fortress",
@@ -9983,28 +9843,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 450,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 300,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 300,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Hexenon",
     "nameZh": "六醇燃剂",
     "descriptionEn": "A reagent commonly used to produce highly combustible fuel.\r\n\r\nLocation: Jupiter",
@@ -10034,28 +9890,24 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "platinumCost": 10,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 3
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 75,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 3,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 75,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Control Module",
     "nameZh": "控制模块",
     "descriptionEn": "Autonomy processor for Robotics. A Corpus design.\r\n\r\nLocation: Europa, Neptune, and the Void",
@@ -10087,24 +9939,22 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 3000,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 3000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 3000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Cryotic",
     "nameZh": "永冻晶矿",
     "descriptionEn": "Usually found in extreme sub-zero environments, Cryotic instantly freezes anything it contacts.\r\n\r\nLocation: Excavation Missions on Venus, Earth, Phobos, Europa, and Neptune",
@@ -10136,28 +9986,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 450,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 40,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 40,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Vainthorn",
     "nameZh": "浮华荆棘",
     "descriptionEn": "The rare thorn of an extinct rose, and a vital component in Orokin Defixios and other technology. Last seen near the Abyssal Zone.\r\n\r\nLocation: Abyssal Zone on Ceres (requires Abyssal Beacons to access)",
@@ -10188,10 +10034,8 @@
     "productCategory": "MiscItems",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Tethra Data Fragments",
     "nameZh": "泰斯拉数据碎片",
     "descriptionEn": "Intercepted encrypted fragment of Grineer communications.",
@@ -10343,28 +10187,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 50,
-      "maxValue": 100
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 20000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 50,
+    "pickupQuantity__maxValue": 100,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 20000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ferrite",
     "nameZh": "铁氧体",
     "descriptionEn": "Alloy pellets used in Grineer manufacturing.\r\n\r\nLocation: Mercury, Earth, Lua, Neptune, and the Void",
@@ -10396,24 +10236,22 @@
     "rarity": "UNCOMMON",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 5,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 5,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Diluted Thermia",
     "nameZh": "稀释的热美亚",
     "descriptionEn": "A magma like liquid that is diluted with coolant during the extraction process. Thermia can be found fracturing the surface of the Orb Vallis during thermal flare-ups. Could this be the key to weakening the Exploiter Orb's defenses?\r\n\r\nLocation: Thermia Fractures event in the Orb Vallis on Venus",
@@ -10443,28 +10281,24 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "platinumCost": 10,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 25,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Gallium",
     "nameZh": "镓",
     "descriptionEn": "Soft metal used in microelectronics and energy weapons.\r\n\r\nLocation: Mars and Uranus",
@@ -10587,10 +10421,8 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 4
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 4,
     "nameEn": "Kuva",
     "nameZh": "赤毒",
     "descriptionEn": "Kuva is an exceedingly rare red fluid coveted by the Grineer Queens. It can be obtained in Kuva Missions, and is used to Cycle Rivens or build rare blueprints.\r\n\r\nLocation: Kuva Siphon Missions and Taveuni (Kuva Fortress)",
@@ -10622,24 +10454,22 @@
     "rarity": "RARE",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 10,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Somatic Fibers",
     "nameZh": "活体纤维",
     "descriptionEn": "Neural fibers sampled from an early Warframe prototype and preserved in a stabilized cerebral fluid.\r\n\r\nLocation: Demolishers on Apollo (Lua), and Conjunction Survival Missions (Lua)",
@@ -10670,24 +10500,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 5,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 5,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Orokin Cipher",
     "nameZh": "奥罗金破解器",
     "descriptionEn": "This device is used to bypass Orokin encryptions.\r\n\r\nLocation: Orokin Derelict Vaults on Deimos once opened with a Dragon Key ",
@@ -10717,24 +10545,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "platinumCost": 10,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 40,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 40,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Morphics",
     "nameZh": "非晶态合金",
     "descriptionEn": "An amorphous solid. Possibly Orokin technology.\r\n\r\nLocation: Mercury, Mars, Phobos, Europa, and Pluto",
@@ -10765,28 +10591,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 150,
-      "maxValue": 200
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 20000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 150,
+    "pickupQuantity__maxValue": 200,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 20000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Nano Spores",
     "nameZh": "纳米孢子",
     "descriptionEn": "Fibrous technocyte tumour. Handle Infested tissue with caution.\r\n\r\nLocation: Saturn, Neptune, Eris, and Deimos",
@@ -10848,24 +10670,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 65,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 65,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Nav Coordinate",
     "nameZh": "导航坐标",
     "descriptionEn": "Coordinate used to locate lost ships.\r\n\r\nLocation: Dropped from Storage Containers",
@@ -10895,28 +10715,24 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "platinumCost": 10,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 25,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 25,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Neural Sensors",
     "nameZh": "神经传感器",
     "descriptionEn": "Implanted neural-link for controlling augmentations. Grineer design.\r\n\r\nLocation: Jupiter",
@@ -10946,24 +10762,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/ResourceItem",
     "productCategory": "MiscItems",
     "platinumCost": 10,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 15,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 15,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Neurodes",
     "nameZh": "神经元",
     "descriptionEn": "Biotech sensor organ harvested from Infested entities.\r\n\r\nLocation: Earth, Lua, Eris, and Deimos",
@@ -10995,24 +10809,22 @@
     "rarity": "RARE",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 30,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 30,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Omega Isotope",
     "nameZh": "奥米伽同位素",
     "descriptionEn": "Produced by a Fomorian's power core, these particles only appear on or around planets where a Fomorian is present.\r\n\r\nLocation: When a Balor Fomorian is threatening a Planet's Relay, enemies on that Planet will drop this resource",
@@ -11043,24 +10855,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "platinumCost": 10,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 15,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 15,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Orokin Cell",
     "nameZh": "奥罗金电池",
     "descriptionEn": "Ancient energy cell from the Orokin era.\r\n\r\nLocation: Ceres, Saturn, and Deimos",
@@ -11092,28 +10902,24 @@
     "rarity": "RARE",
     "platinumCost": 30,
     "purchaseQuantity": 300,
-    "pickupQuantity": {
-      "minValue": 7,
-      "maxValue": 12
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 750,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 7,
+    "pickupQuantity__maxValue": 12,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 750,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Oxium",
     "nameZh": "奥席金属",
     "descriptionEn": "Oxium is a rare lighter than air alloy of Orokin origin, used in certain Corpus Robotics.\r\n\r\nLocation: Venus, Jupiter, Mars, Neptune, Pluto, Eris, Europa, and Lua.",
@@ -11144,28 +10950,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 300,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 4000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 4000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Plastids",
     "nameZh": "生物质",
     "descriptionEn": "A disgusting nanite-infested tissue mass.\r\n\r\nLocation: Phobos, Saturn, Uranus, Pluto, and Eris",
@@ -11196,28 +10998,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 300,
-    "pickupQuantity": {
-      "minValue": 40,
-      "maxValue": 75
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 12500,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 40,
+    "pickupQuantity__maxValue": 75,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 12500,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Polymer Bundle",
     "nameZh": "聚合物束",
     "descriptionEn": "A hard, thermoplastic casing. Manufactured by Corpus.\r\n\r\nLocation: Mercury, Venus, and Uranus",
@@ -11250,10 +11048,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 300,
-    "pickupQuantity": {
-      "minValue": 240,
-      "maxValue": 240
-    },
+    "pickupQuantity__minValue": 240,
+    "pickupQuantity__maxValue": 240,
     "nameEn": "Polymer Bundle",
     "nameZh": "聚合物束",
     "descriptionEn": "A hard, thermoplastic casing. Manufactured by Corpus.\r\n\r\nLocation: Mercury, Venus, and Uranus",
@@ -11286,10 +11082,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 300,
-    "pickupQuantity": {
-      "minValue": 100,
-      "maxValue": 100
-    },
+    "pickupQuantity__minValue": 100,
+    "pickupQuantity__maxValue": 100,
     "nameEn": "Polymer Bundle",
     "nameZh": "聚合物束",
     "descriptionEn": "A hard, thermoplastic casing. Manufactured by Corpus.\r\n\r\nLocation: Mercury, Venus, and Uranus",
@@ -11321,24 +11115,22 @@
     "rarity": "RARE",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 30,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 30,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Cryptographic Alu",
     "nameZh": "暗号算术逻辑单元",
     "descriptionEn": "Excess circuitry disposed of during the Razorback manufacturing process, these components only appear in the vicinity of high level outer-orbit Corpus facilities after a Razorback Armada has been launched.\r\n\r\nLocation: Corpus Archwing units on Jupiter and Neptune when a Razorback Armada is active",
@@ -11424,28 +11216,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 450,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 6000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 6000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Rubedo",
     "nameZh": "红化结晶",
     "descriptionEn": "A jagged crystalline ore. Gives off radiant energy.\r\n\r\nLocation: Earth, Lua, Phobos, Europa, Pluto, Sedna, and the Void",
@@ -11476,28 +11264,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 75,
-      "maxValue": 150
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 20000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 75,
+    "pickupQuantity__maxValue": 150,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 20000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Salvage",
     "nameZh": "回收金属",
     "descriptionEn": "High value metals collected from war salvage.\r\n\r\nLocation: Mars, Jupiter, and Sedna",
@@ -11530,10 +11314,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 1000,
-      "maxValue": 1000
-    },
+    "pickupQuantity__minValue": 1000,
+    "pickupQuantity__maxValue": 1000,
     "nameEn": "Salvage",
     "nameZh": "回收金属",
     "descriptionEn": "High value metals collected from war salvage.\r\n\r\nLocation: Mars, Jupiter, and Sedna",
@@ -11566,10 +11348,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 450,
-      "maxValue": 450
-    },
+    "pickupQuantity__minValue": 450,
+    "pickupQuantity__maxValue": 450,
     "nameEn": "Salvage",
     "nameZh": "回收金属",
     "descriptionEn": "High value metals collected from war salvage.\r\n\r\nLocation: Mars, Jupiter, and Sedna",
@@ -11602,10 +11382,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 500,
-    "pickupQuantity": {
-      "minValue": 500,
-      "maxValue": 500
-    },
+    "pickupQuantity__minValue": 500,
+    "pickupQuantity__maxValue": 500,
     "nameEn": "Salvage",
     "nameZh": "回收金属",
     "descriptionEn": "High value metals collected from war salvage.\r\n\r\nLocation: Mars, Jupiter, and Sedna",
@@ -11638,10 +11416,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 3000,
-    "pickupQuantity": {
-      "minValue": 100,
-      "maxValue": 100
-    },
+    "pickupQuantity__minValue": 100,
+    "pickupQuantity__maxValue": 100,
     "nameEn": "Salvage",
     "nameZh": "回收金属",
     "descriptionEn": "High value metals collected from war salvage.\r\n\r\nLocation: Mars, Jupiter, and Sedna",
@@ -11672,24 +11448,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 2,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 2,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Anomaly Shard",
     "nameZh": "异常碎片",
     "descriptionEn": "A shard ripped from a Sentient Anomaly in the Veil Proxima. Little Duck is known to trade these for other exotic goods somewhere in Fortuna on Venus.\r\n\r\nLocation: Murex ships found in Veil Proxima nodes marked with a special flashing icon (Railjack)",
@@ -11812,10 +11586,8 @@
     "excludeFromCodex": true,
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 20,
-      "maxValue": 20
-    },
+    "pickupQuantity__minValue": 20,
+    "pickupQuantity__maxValue": 20,
     "nameEn": "Steel Essence",
     "nameZh": "钢铁精华",
     "descriptionEn": "Tokens of Teshin's Esteem earned from Incursion Alerts or Acolytes on The Steel Path. Can be exchanged for items that prove your warrior capabilities by visiting Teshin in any Relay.",
@@ -11846,28 +11618,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 15
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 900,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 15,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 900,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Antiserum Injector Fragment",
     "nameZh": "抗血清注射器的碎片",
     "descriptionEn": "A component of the Antiserum Injector.\r\n\r\nLocation: Oestrus on Eris",
@@ -11898,24 +11666,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "platinumCost": 10,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 10,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Tellurium",
     "nameZh": "碲",
     "descriptionEn": "This rare metal is foreign to the Origin System and can only be found in asteroids that have made the long journey from other stars.\r\n\r\nLocation: Archwing Missions on Uranus",
@@ -11976,10 +11742,8 @@
     "productCategory": "MiscItems",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Gamma Beacon",
     "nameZh": "Gamma 信标",
     "descriptionEn": "Locator beacon broadcasting on the gamma frequency",
@@ -12010,10 +11774,8 @@
     "productCategory": "MiscItems",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 3
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 3,
     "nameEn": "Kappa Beacon",
     "nameZh": "Kappa 信标",
     "descriptionEn": "Locator beacon broadcasting on the kappa frequency",
@@ -12044,10 +11806,8 @@
     "productCategory": "MiscItems",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 4
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 4,
     "nameEn": "Omega Beacon",
     "nameZh": "Omega 信标",
     "descriptionEn": "Locator beacon broadcasting on the Omega frequency",
@@ -12079,10 +11839,8 @@
     "rarity": "RARE",
     "platinumCost": 10,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 4
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 4,
     "nameEn": "Void Traces",
     "nameZh": "虚空光体",
     "descriptionEn": "A substance used to increase the power within Relics.\r\n\r\nLocation: Void Fissure Missions",
@@ -12112,24 +11870,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Sunlight Threshcone",
     "nameZh": "日光去壳毬果",
     "descriptionEn": "This common plant can only be found during the day. \r\n\r\nLocation: Obtained by gathering Sunlight Threshcone plants that grow on Earth",
@@ -12160,24 +11916,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Moonlight Threshcone",
     "nameZh": "月光去壳毬果",
     "descriptionEn": "This common plant can only be found at night. \r\n\r\nLocation: Obtained by gathering Moonlight Threshcone plants that grow on Earth",
@@ -12208,24 +11962,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ruk's Claw",
     "nameZh": "Ruk 之爪",
     "descriptionEn": "This plant was introduced to arid regions across the Origin System, for its ability to collect moisture in harsh environments. \r\n\r\nLocation: Obtained by gathering Ruk's Claw plants that grow on Mars",
@@ -12287,24 +12039,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Vestan Moss",
     "nameZh": "灶神藓",
     "descriptionEn": "One of the few known plant species able to thrive on asteroids in deep space. \r\n\r\nLocation: Obtained by gathering Vestan Moss plants that grow on Mercury, Saturn, and Sedna",
@@ -12425,24 +12175,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Sunlight Jadeleaf",
     "nameZh": "日光玉叶",
     "descriptionEn": "This rare plant can only be found during the day. \r\n\r\nLocation: Obtained by gathering Sunlight Jadeleaf plants that grow on Earth",
@@ -12474,24 +12222,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Moonlight Jadeleaf",
     "nameZh": "月光玉叶",
     "descriptionEn": "This rare plant can only be found at night. \r\n\r\nLocation: Obtained by gathering Moonlight Jadeleaf plants that grow on Earth",
@@ -12523,24 +12269,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Sunlight Dragonlily",
     "nameZh": "日光龙百合",
     "descriptionEn": "This uncommon plant can only be found during the day. \r\n\r\nLocation: Obtained by gathering Sunlight Dragonlily plants that grow on Earth",
@@ -12572,24 +12316,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Moonlight Dragonlily",
     "nameZh": "月光龙百合",
     "descriptionEn": "This uncommon plant can only be found at night. \r\n\r\nLocation: Obtained by gathering Moonlight Dragonlily plants that grow on Earth",
@@ -12620,24 +12362,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Frostleaf",
     "nameZh": "霜叶",
     "descriptionEn": "This resilient plant provides a natural food source in frigid areas of the Origin system. \r\n\r\nLocation: Obtained by gathering Frostleaf plants that grow on Venus, Neptune, and Pluto",
@@ -12668,24 +12408,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Dusklight Sarracenia",
     "nameZh": "尘光瓶子草",
     "descriptionEn": "This robust, carnivorous plant has adapted to conditions in polluted waters. \r\n\r\nLocation: Obtained by gathering Dusklight Sarracenia plants growing in Grineer Shipyards found commonly on Ceres",
@@ -12716,24 +12454,22 @@
     "parentName": "/Lotus/Types/Items/Plants/MiscItems/PlantItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-      "count": 8,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
-          "name": "Biotics",
-          "nameZh": "微生泥",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
-          "nameEn": "Biotics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+    "helminthSnack__count": 8,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBiotics",
+        "name": "Biotics",
+        "nameZh": "微生泥",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Biotics.png!00_JQMI0Z78YK8jF9l+HDbYoQ",
+        "nameEn": "Biotics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Lunar Pitcher",
     "nameZh": "月之猪笼草",
     "descriptionEn": "This carnivorous plant can be found growing in the wilderness on Lua. \r\n\r\nLocation: Obtained by gathering Lunar Pitcher plants that grow on Lua",
@@ -12767,28 +12503,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 250,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 30
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 300,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 30,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 300,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Asterite",
     "nameZh": "晶状彗星碎片",
     "descriptionEn": "Formed over billions of years, these crystals are most often found embedded in space rock.\r\n\r\nLocation: Railjack Missions",
@@ -12821,28 +12553,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 10,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Aucrux Capacitors",
     "nameZh": "奥克斯电容器",
     "descriptionEn": "Once installed, these delicate power systems fuse with a Corpus Obelisk's engines. Unused capacitors are therefore, highly prized.\r\n\r\nLocation: Railjack missions in Venus, Neptune, and Pluto Proximas",
@@ -12875,10 +12603,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Bracoid",
     "nameZh": "孢卵菌",
     "descriptionEn": "A rare bacterial entity that increases the spread of Infestation found on Infested Ships.",
@@ -12910,28 +12636,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 1000,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 2500,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 2500,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Carbides",
     "nameZh": "碳化物",
     "descriptionEn": "Resilient components used to reinforce the plated sheets of metal strapped to Grineer Ships.\r\n\r\nLocation: Eximus units in the Grineer Shipyard Tileset, and Railjack missions in Earth, Saturn, and Veil Proximas",
@@ -12963,10 +12685,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 1000,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
     "nameEn": "Copernics",
     "nameZh": "哥白尼能量单元",
     "descriptionEn": "A cell of encapsulated Void energy.\r\n\r\nLocation: Lua",
@@ -12998,28 +12718,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 7000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 7000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Cubic Diodes",
     "nameZh": "立方二极管",
     "descriptionEn": "Vital components used in the creation of Corpus photon-networks.\r\n\r\nLocation: Eximus units in the Corpus Ice Planet Tileset, and Railjack missions in Venus, Neptune, and Pluto Proximas",
@@ -13052,10 +12768,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
     "nameEn": "Fresnels",
     "nameZh": "菲涅耳",
     "descriptionEn": "A rare Orokin material used to create a tear in space and allow safe passage through the Void.",
@@ -13088,28 +12802,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 250,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 175,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 175,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Gallos Rods",
     "nameZh": "反物质燃料棒",
     "descriptionEn": "Antimatter fuel cell that powers the Grineer Ships.\r\n\r\nLocation: Railjack missions in Earth, Saturn, and Veil Proximas",
@@ -13142,28 +12852,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 250,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 200,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 200,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Isos",
     "nameZh": "修复凝液",
     "descriptionEn": "A self-replicating fluid comprised of nanoproxies capable of independently repairing worn and damaged systems.\r\n\r\nLocation: Railjack missions in Venus, Neptune, and Pluto Proximas",
@@ -13196,10 +12902,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 250,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Kesslers",
     "nameZh": "太阳风导航仪",
     "descriptionEn": "Orokin devices used for navigating the solar winds.",
@@ -13232,28 +12936,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 15,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 15,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Komms",
     "nameZh": "科姆斯通讯仪",
     "descriptionEn": "A component used in secure Grineer communication networks.\r\n\r\nLocation: Railjack missions in Earth, Saturn, and Veil Proximas",
@@ -13286,28 +12986,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 50,
-    "pickupQuantity": {
-      "minValue": 1,
-      "maxValue": 2
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 50,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 1,
+    "pickupQuantity__maxValue": 2,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 50,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Nullstones",
     "nameZh": "虚无碎片",
     "descriptionEn": "Nullstones do not conform to several laws of physics, making them highly prized for optimizing sensitive components.\r\n\r\nLocation: Railjack Missions",
@@ -13339,10 +13035,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 1000,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
     "nameEn": "Pustrels",
     "nameZh": "寄生脓疱",
     "descriptionEn": "A parasitic growth that often infects Eximus units operating in Infested environs.\r\n\r\nLocation: Eris",
@@ -13375,28 +13069,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 1000,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 5000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 5000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Ticor Plate",
     "nameZh": "钛核甲片",
     "descriptionEn": "High-density alloy armor plating used in the construction of offensive spacecraft.\r\n\r\nLocation: Railjack Missions",
@@ -13428,28 +13118,24 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 1000,
-    "pickupQuantity": {
-      "minValue": 30,
-      "maxValue": 60
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-      "count": 10000,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
-          "name": "Oxides",
-          "nameZh": "氧金属",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
-          "nameEn": "Oxides",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 30,
+    "pickupQuantity__maxValue": 60,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+    "helminthSnack__count": 10000,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthOxides",
+        "name": "Oxides",
+        "nameZh": "氧金属",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Oxides.png!00_b5BNgsrAgTh3I1OuJBs+Cg",
+        "nameEn": "Oxides",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Titanium",
     "nameZh": "钛",
     "descriptionEn": "This highly malleable metal was exploited in great quantities by the Orokin and can now only be found within space rock.\r\n\r\nLocation: Railjack Missions",
@@ -13482,10 +13168,8 @@
     "platinumCost": 30,
     "excludeFromMarket": true,
     "purchaseQuantity": 250,
-    "pickupQuantity": {
-      "minValue": 5,
-      "maxValue": 10
-    },
+    "pickupQuantity__minValue": 5,
+    "pickupQuantity__maxValue": 10,
     "nameEn": "Trachons",
     "nameZh": "感应喉管",
     "descriptionEn": "An organ found on Infested Ships believed to facilitate communication within the Infested Hivemind.",
@@ -13545,24 +13229,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 15,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 125,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 125,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Mutagen Sample",
     "nameZh": "样本突变原",
     "descriptionEn": "These samples could advance our knowledge of biological research.\r\n\r\nLocation: Eris and Deimos",
@@ -13622,24 +13304,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 15,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 125,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 125,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Detonite Ampule",
     "nameZh": "爆燃安瓿",
     "descriptionEn": "Researching the Detonite traces within could advance our weapon technology.\r\n\r\nLocation: Venus, Earth, Lua, Ceres, Saturn, Sedna, and the Kuva Fortress",
@@ -13699,24 +13379,22 @@
     "productCategory": "MiscItems",
     "platinumCost": 15,
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-      "count": 125,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
-          "name": "Synthetics",
-          "nameZh": "合成霉",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
-          "nameEn": "Synthetics",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+    "helminthSnack__count": 125,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthSynthetics",
+        "name": "Synthetics",
+        "nameZh": "合成霉",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Synthetics.png!00_WDceGhJ2H4k4Byb34mBVnQ",
+        "nameEn": "Synthetics",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Fieldron Sample",
     "nameZh": "电磁力场装置样本",
     "descriptionEn": "This destroyed Fieldron could further research into super-heated containment fields.\r\n\r\nLocation: Venus, Mars, Jupiter, Europa, Neptune, and Pluto",

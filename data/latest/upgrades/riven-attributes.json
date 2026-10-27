@@ -14,14 +14,6 @@
       "shotgun"
     ],
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Punch Through"
-      },
-      "zh": {
-        "name": "穿透"
-      }
-    },
     "ids": 2155758227590875,
     "recordKey": "punch_through",
     "url_name": "punch_through",
@@ -32,7 +24,6 @@
     "units": "",
     "name": "Punch Through",
     "nameEn": "Punch Through",
-    "nameZh": "穿透",
     "effectZh": "穿透",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -187,7 +178,8 @@
       "|val| 穿透"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "穿透"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7c",
@@ -197,14 +189,6 @@
     "prefix": "Sci",
     "suffix": "Sus",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Slash"
-      },
-      "zh": {
-        "name": "切割伤害"
-      }
-    },
     "ids": 2646781117953599,
     "recordKey": "slash_damage",
     "url_name": "slash_damage",
@@ -215,7 +199,6 @@
     "units": "percent",
     "name": "Slash",
     "nameEn": "Slash",
-    "nameZh": "切割伤害",
     "effectZh": "切割伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -431,7 +414,8 @@
       "|val|% <DT_SLASH_COLOR>切割伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "切割伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe74",
@@ -441,14 +425,6 @@
     "prefix": "Magna",
     "suffix": "Ton",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Impact"
-      },
-      "zh": {
-        "name": "冲击伤害"
-      }
-    },
     "ids": 3987068135892672,
     "recordKey": "impact_damage",
     "url_name": "impact_damage",
@@ -459,7 +435,6 @@
     "units": "percent",
     "name": "Impact",
     "nameEn": "Impact",
-    "nameZh": "冲击伤害",
     "effectZh": "冲击伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -675,7 +650,8 @@
       "|val|% <DT_IMPACT_COLOR>冲击伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "冲击伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe77",
@@ -686,14 +662,6 @@
     "suffix": "Tox",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Toxin"
-      },
-      "zh": {
-        "name": "毒素伤害"
-      }
-    },
     "ids": 6715311247196050,
     "recordKey": "toxin_damage",
     "url_name": "toxin_damage",
@@ -704,7 +672,6 @@
     "units": "percent",
     "name": "Toxin",
     "nameEn": "Toxin",
-    "nameZh": "毒素伤害",
     "effectZh": "毒素伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -917,7 +884,8 @@
       "|val|% <DT_POISON_COLOR>毒素伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "毒素伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7e",
@@ -927,14 +895,6 @@
     "prefix": "Deci",
     "suffix": "Des",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Status Duration"
-      },
-      "zh": {
-        "name": "触发时间"
-      }
-    },
     "ids": 2409560871170173,
     "recordKey": "status_duration",
     "url_name": "status_duration",
@@ -945,7 +905,6 @@
     "units": "percent",
     "name": "Status Duration",
     "nameEn": "Status Duration",
-    "nameZh": "触发时间",
     "effectZh": "触发时间",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1158,7 +1117,8 @@
       "|val|% 触发时间"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "触发时间"
   },
   {
     "id": "5c5ca81a96e8d2003834fe63",
@@ -1175,14 +1135,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Ammo Maximum"
-      },
-      "zh": {
-        "name": "弹药最大值"
-      }
-    },
     "ids": 252797774224716,
     "recordKey": "ammo_maximum",
     "url_name": "ammo_maximum",
@@ -1193,7 +1145,6 @@
     "units": "percent",
     "name": "Ammo Maximum",
     "nameEn": "Ammo Maximum",
-    "nameZh": "弹药最大值",
     "effectZh": "弹药最大值",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1348,7 +1299,8 @@
       "|val|% 弹药最大值"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "弹药最大值"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7f",
@@ -1366,14 +1318,6 @@
     ],
     "positiveIsNegative": true,
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Weapon Recoil"
-      },
-      "zh": {
-        "name": "武器后坐力"
-      }
-    },
     "ids": 3801741467070022,
     "recordKey": "recoil",
     "url_name": "recoil",
@@ -1384,7 +1328,6 @@
     "units": "percent",
     "name": "Weapon Recoil",
     "nameEn": "Weapon Recoil",
-    "nameZh": "武器后坐力",
     "effectZh": "武器后坐力",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1539,7 +1482,8 @@
       "|val|% 武器后坐力"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "武器后坐力"
   },
   {
     "id": "5c5ca81a96e8d2003834fe80",
@@ -1556,14 +1500,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Zoom"
-      },
-      "zh": {
-        "name": "变焦"
-      }
-    },
     "ids": 5673427094098468,
     "recordKey": "zoom",
     "url_name": "zoom",
@@ -1574,7 +1510,6 @@
     "units": "percent",
     "name": "Zoom",
     "nameEn": "Zoom",
-    "nameZh": "变焦",
     "effectZh": "变焦",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1729,7 +1664,8 @@
       "|val|% 变焦"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "变焦"
   },
   {
     "id": "5c5ca81a96e8d2003834fe68",
@@ -1743,14 +1679,6 @@
       "zaw"
     ],
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Initial Combo"
-      },
-      "zh": {
-        "name": "初始连击"
-      }
-    },
     "ids": 6406597529983541,
     "recordKey": "channeling_damage",
     "url_name": "channeling_damage",
@@ -1761,7 +1689,6 @@
     "units": "",
     "name": "Initial Combo",
     "nameEn": "Initial Combo",
-    "nameZh": "初始连击",
     "effectZh": "初始连击",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1829,7 +1756,8 @@
       "|val| 初始连击"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "初始连击"
   },
   {
     "id": "5c5ca81a96e8d2003834fe69",
@@ -1843,14 +1771,6 @@
       "zaw"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Heavy Attack Efficiency"
-      },
-      "zh": {
-        "name": "重击效率"
-      }
-    },
     "ids": 1192082225907805,
     "recordKey": "channeling_efficiency",
     "url_name": "channeling_efficiency",
@@ -1861,7 +1781,6 @@
     "units": "percent",
     "name": "Heavy Attack Efficiency",
     "nameEn": "Heavy Attack Efficiency",
-    "nameZh": "重击效率",
     "effectZh": "重击效率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -1929,7 +1848,8 @@
       "|val|% 重击效率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "重击效率"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6b",
@@ -1939,14 +1859,6 @@
     "prefix": "Crita",
     "suffix": "Cron",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Critical Chance"
-      },
-      "zh": {
-        "name": "+暴击几率"
-      }
-    },
     "ids": 6741943342137835,
     "recordKey": "critical_chance",
     "url_name": "critical_chance",
@@ -1957,7 +1869,6 @@
     "units": "percent",
     "name": "Critical Chance",
     "nameEn": "Critical Chance",
-    "nameZh": "+暴击几率",
     "effectZh": "+暴击几率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -2177,7 +2088,8 @@
       "|val|% 暴击几率（重击时 x2）"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "+暴击几率"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6d",
@@ -2187,14 +2099,6 @@
     "prefix": "Acri",
     "suffix": "Tis",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Critical Damage"
-      },
-      "zh": {
-        "name": "暴击伤害"
-      }
-    },
     "ids": 6645926090495323,
     "recordKey": "critical_damage",
     "url_name": "critical_damage",
@@ -2205,7 +2109,6 @@
     "units": "percent",
     "name": "Critical Damage",
     "nameEn": "Critical Damage",
-    "nameZh": "暴击伤害",
     "effectZh": "暴击伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -2418,7 +2321,8 @@
       "|val|% 暴击伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "暴击伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6e",
@@ -2428,14 +2332,6 @@
     "prefix": "Visi",
     "suffix": "Ata",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Damage"
-      },
-      "zh": {
-        "name": "伤害"
-      }
-    },
     "ids": 3015561662462092,
     "recordKey": "base_damage_/_melee_damage",
     "url_name": "base_damage_/_melee_damage",
@@ -2446,7 +2342,6 @@
     "units": "percent",
     "name": "Damage",
     "nameEn": "Damage",
-    "nameZh": "伤害",
     "effectZh": "伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -2601,7 +2496,8 @@
       "|val|% 伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe70",
@@ -2612,14 +2508,6 @@
     "suffix": "Pha",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Heat"
-      },
-      "zh": {
-        "name": "火焰伤害"
-      }
-    },
     "ids": 1123720658982513,
     "recordKey": "heat_damage",
     "url_name": "heat_damage",
@@ -2630,7 +2518,6 @@
     "units": "percent",
     "name": "Heat",
     "nameEn": "Heat",
-    "nameZh": "火焰伤害",
     "effectZh": "火焰伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -2843,7 +2730,8 @@
       "|val|% <DT_FIRE_COLOR>火焰伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "火焰伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe76",
@@ -2860,14 +2748,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Multishot"
-      },
-      "zh": {
-        "name": "多重射击"
-      }
-    },
     "ids": 2366643712007890,
     "recordKey": "multishot",
     "url_name": "multishot",
@@ -2878,7 +2758,6 @@
     "units": "percent",
     "name": "Multishot",
     "nameEn": "Multishot",
-    "nameZh": "多重射击",
     "effectZh": "多重射击",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3033,7 +2912,8 @@
       "|val|% 多重射击"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "多重射击"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7a",
@@ -3050,14 +2930,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Reload Speed"
-      },
-      "zh": {
-        "name": "装填速度"
-      }
-    },
     "ids": 489756622755287,
     "recordKey": "reload_speed",
     "url_name": "reload_speed",
@@ -3068,7 +2940,6 @@
     "units": "percent",
     "name": "Reload Speed",
     "nameEn": "Reload Speed",
-    "nameZh": "装填速度",
     "effectZh": "装填速度",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3223,7 +3094,8 @@
       "|val|% 装填速度"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "装填速度"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7b",
@@ -3236,14 +3108,6 @@
       "melee",
       "zaw"
     ],
-    "i18n": {
-      "en": {
-        "name": "Range"
-      },
-      "zh": {
-        "name": "攻击范围"
-      }
-    },
     "ids": 17283277136976,
     "recordKey": "range",
     "url_name": "range",
@@ -3254,7 +3118,6 @@
     "units": "",
     "name": "Range",
     "nameEn": "Range",
-    "nameZh": "攻击范围",
     "effectZh": "攻击范围",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3322,7 +3185,8 @@
       "|val| 攻击范围"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "攻击范围"
   },
   {
     "id": "5c5ca81a96e8d2003834fe64",
@@ -3332,14 +3196,6 @@
     "prefix": "Manti",
     "suffix": "Tron",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Corpus"
-      },
-      "zh": {
-        "name": "对 Corpus 的伤害"
-      }
-    },
     "ids": 8419167575938989,
     "recordKey": "damage_vs_corpus",
     "url_name": "damage_vs_corpus",
@@ -3350,7 +3206,6 @@
     "units": "multiply",
     "name": "Damage to Corpus",
     "nameEn": "Damage to Corpus",
-    "nameZh": "对 Corpus 的伤害",
     "effectZh": "对 Corpus 的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3505,7 +3360,8 @@
       "|val| 对 Corpus 的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对 Corpus 的伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe65",
@@ -3515,14 +3371,6 @@
     "prefix": "Argi",
     "suffix": "Con",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Grineer"
-      },
-      "zh": {
-        "name": "对 Grineer 的伤害"
-      }
-    },
     "ids": 3311099478438728,
     "recordKey": "damage_vs_grineer",
     "url_name": "damage_vs_grineer",
@@ -3533,7 +3381,6 @@
     "units": "multiply",
     "name": "Damage to Grineer",
     "nameEn": "Damage to Grineer",
-    "nameZh": "对 Grineer 的伤害",
     "effectZh": "对 Grineer 的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3688,7 +3535,8 @@
       "|val| 对 Grineer 的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对 Grineer 的伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe79",
@@ -3698,14 +3546,6 @@
     "prefix": "Insi",
     "suffix": "Cak",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Puncture"
-      },
-      "zh": {
-        "name": "穿刺伤害"
-      }
-    },
     "ids": 3686737504301150,
     "recordKey": "puncture_damage",
     "url_name": "puncture_damage",
@@ -3716,7 +3556,6 @@
     "units": "percent",
     "name": "Puncture",
     "nameEn": "Puncture",
-    "nameZh": "穿刺伤害",
     "effectZh": "穿刺伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -3932,7 +3771,8 @@
       "|val|% <DT_PUNCTURE_COLOR>穿刺伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "穿刺伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe66",
@@ -3942,14 +3782,6 @@
     "prefix": "Pura",
     "suffix": "Ada",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Infested"
-      },
-      "zh": {
-        "name": "对 Infested 的伤害"
-      }
-    },
     "ids": 213266072431943,
     "recordKey": "damage_vs_infested",
     "url_name": "damage_vs_infested",
@@ -3960,7 +3792,6 @@
     "units": "multiply",
     "name": "Damage to Infested",
     "nameEn": "Damage to Infested",
-    "nameZh": "对 Infested 的伤害",
     "effectZh": "对 Infested 的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -4115,7 +3946,8 @@
       "|val| 对 Infested 的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对 Infested 的伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6f",
@@ -4126,14 +3958,6 @@
     "suffix": "Tio",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Electricity"
-      },
-      "zh": {
-        "name": "电击伤害"
-      }
-    },
     "ids": 3465857758192593,
     "recordKey": "electric_damage",
     "url_name": "electric_damage",
@@ -4144,7 +3968,6 @@
     "units": "percent",
     "name": "Electricity",
     "nameEn": "Electricity",
-    "nameZh": "电击伤害",
     "effectZh": "电击伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -4357,7 +4180,8 @@
       "|val|% <DT_ELECTRICITY_COLOR>电击伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "电击伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe71",
@@ -4371,14 +4195,6 @@
       "zaw"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Finisher Damage"
-      },
-      "zh": {
-        "name": "处决伤害"
-      }
-    },
     "ids": 1944240937690948,
     "recordKey": "finisher_damage",
     "url_name": "finisher_damage",
@@ -4389,7 +4205,6 @@
     "units": "percent",
     "name": "Finisher Damage",
     "nameEn": "Finisher Damage",
-    "nameZh": "处决伤害",
     "effectZh": "处决伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -4457,7 +4272,8 @@
       "|val|% 处决伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "处决伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe72",
@@ -4467,14 +4283,6 @@
     "prefix": "Croni",
     "suffix": "Dra",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Fire Rate / Attack Speed"
-      },
-      "zh": {
-        "name": "射速（弓类武器效果加倍）"
-      }
-    },
     "ids": 4213969424473668,
     "recordKey": "fire_rate_/_attack_speed",
     "url_name": "fire_rate_/_attack_speed",
@@ -4485,7 +4293,6 @@
     "units": "percent",
     "name": "Fire Rate / Attack Speed",
     "nameEn": "Fire Rate / Attack Speed",
-    "nameZh": "射速（弓类武器效果加倍）",
     "effectZh": "射速（弓类武器效果加倍）",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -4706,7 +4513,8 @@
       "|val|% 射速"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "射速（弓类武器效果加倍）"
   },
   {
     "id": "5c5ca81a96e8d2003834fe73",
@@ -4722,14 +4530,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Projectile Speed"
-      },
-      "zh": {
-        "name": "投射物速度"
-      }
-    },
     "ids": 2126980135083369,
     "recordKey": "projectile_speed",
     "url_name": "projectile_speed",
@@ -4740,7 +4540,6 @@
     "units": "percent",
     "name": "Projectile Speed",
     "nameEn": "Projectile Speed",
-    "nameZh": "投射物速度",
     "effectZh": "投射物速度",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -4866,7 +4665,8 @@
       "|val|% 投射物速度"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "投射物速度"
   },
   {
     "id": "5c5ca81a96e8d2003834fe75",
@@ -4883,14 +4683,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Magazine Capacity"
-      },
-      "zh": {
-        "name": "弹匣容量"
-      }
-    },
     "ids": 5889163769996094,
     "recordKey": "magazine_capacity",
     "url_name": "magazine_capacity",
@@ -4901,7 +4693,6 @@
     "units": "percent",
     "name": "Magazine Capacity",
     "nameEn": "Magazine Capacity",
-    "nameZh": "弹匣容量",
     "effectZh": "弹匣容量",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5056,7 +4847,8 @@
       "|val|% 弹匣容量"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "弹匣容量"
   },
   {
     "id": "5c5ca81a96e8d2003834fe7d",
@@ -5066,14 +4858,6 @@
     "prefix": "Hexa",
     "suffix": "Dex",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Status Chance"
-      },
-      "zh": {
-        "name": "触发几率"
-      }
-    },
     "ids": 5392190601182471,
     "recordKey": "status_chance",
     "url_name": "status_chance",
@@ -5084,7 +4868,6 @@
     "units": "percent",
     "name": "Status Chance",
     "nameEn": "Status Chance",
-    "nameZh": "触发几率",
     "effectZh": "触发几率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5297,7 +5080,8 @@
       "|val|% 触发几率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "触发几率"
   },
   {
     "id": "5c5ca81a96e8d2003834fe67",
@@ -5308,14 +5092,6 @@
     "suffix": "Do",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Cold"
-      },
-      "zh": {
-        "name": "冰冻伤害"
-      }
-    },
     "ids": 8673844838767188,
     "recordKey": "cold_damage",
     "url_name": "cold_damage",
@@ -5326,7 +5102,6 @@
     "units": "percent",
     "name": "Cold",
     "nameEn": "Cold",
-    "nameZh": "冰冻伤害",
     "effectZh": "冰冻伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5539,7 +5314,8 @@
       "|val|% <DT_FREEZE_COLOR>冰冻伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "冰冻伤害"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6a",
@@ -5553,14 +5329,6 @@
       "zaw"
     ],
     "unit": "seconds",
-    "i18n": {
-      "en": {
-        "name": "Combo Duration"
-      },
-      "zh": {
-        "name": "增加连击持续时间 秒"
-      }
-    },
     "ids": 1156659240560210,
     "recordKey": "combo_duration",
     "url_name": "combo_duration",
@@ -5571,7 +5339,6 @@
     "units": "seconds",
     "name": "Combo Duration",
     "nameEn": "Combo Duration",
-    "nameZh": "增加连击持续时间 秒",
     "effectZh": "增加连击持续时间 秒",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5639,7 +5406,8 @@
       "增加连击持续时间 |val| 秒"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "增加连击持续时间 秒"
   },
   {
     "id": "5c5ca81a96e8d2003834fe6c",
@@ -5653,14 +5421,6 @@
       "zaw"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Critical Chance for Slide Attack"
-      },
-      "zh": {
-        "name": "|STAT1|% 滑行攻击暴击几率"
-      }
-    },
     "ids": 36229905716948,
     "recordKey": "critical_chance_on_slide_attack",
     "url_name": "critical_chance_on_slide_attack",
@@ -5671,7 +5431,6 @@
     "units": "percent",
     "name": "Critical Chance for Slide Attack",
     "nameEn": "Critical Chance for Slide Attack",
-    "nameZh": "|STAT1|% 滑行攻击暴击几率",
     "effectZh": "|STAT1|% 滑行攻击暴击几率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5745,7 +5504,8 @@
       "|STAT1|% 滑行攻击暴击几率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "|STAT1|% 滑行攻击暴击几率"
   },
   {
     "id": "5dd001d3ff08fd0214d29be2",
@@ -5760,14 +5520,6 @@
     ],
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Additional Combo Count Chance"
-      },
-      "zh": {
-        "name": "额外连击数几率"
-      }
-    },
     "ids": 4623411442610623,
     "recordKey": "chance_to_gain_extra_combo_count",
     "url_name": "chance_to_gain_extra_combo_count",
@@ -5778,7 +5530,6 @@
     "units": "percent",
     "name": "Additional Combo Count Chance",
     "nameEn": "Additional Combo Count Chance",
-    "nameZh": "额外连击数几率",
     "effectZh": "额外连击数几率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5846,7 +5597,8 @@
       "|val|% 额外连击数几率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "额外连击数几率"
   },
   {
     "id": "602569349be2f26959a53d66",
@@ -5861,14 +5613,6 @@
     ],
     "unit": "percent",
     "negativeOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Chance to Gain Combo Count"
-      },
-      "zh": {
-        "name": "的几率来获得连击数"
-      }
-    },
     "ids": 1979209952335882,
     "recordKey": "chance_to_gain_combo_count",
     "url_name": "chance_to_gain_combo_count",
@@ -5879,7 +5623,6 @@
     "units": "percent",
     "name": "Chance to Gain Combo Count",
     "nameEn": "Chance to Gain Combo Count",
-    "nameZh": "的几率来获得连击数",
     "effectZh": "的几率来获得连击数",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -5949,7 +5692,8 @@
       "|val|% 的几率来获得连击数"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "的几率来获得连击数"
   },
   {
     "id": "6ac6dec324fe2680bad773a7",
@@ -5966,14 +5710,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Ammo Efficiency"
-      },
-      "zh": {
-        "name": "弹药效率"
-      }
-    },
     "ids": 2491496999665491,
     "recordKey": "ammo_efficiency",
     "url_name": "ammo_efficiency",
@@ -5984,7 +5720,6 @@
     "units": "percent",
     "name": "Ammo Efficiency",
     "nameEn": "Ammo Efficiency",
-    "nameZh": "弹药效率",
     "effectZh": "弹药效率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -6139,7 +5874,8 @@
       "|val|% 弹药效率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "弹药效率"
   },
   {
     "id": "6ac6dec324fe2680bad773a8",
@@ -6150,14 +5886,6 @@
     "suffix": "Tus",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Blast"
-      },
-      "zh": {
-        "name": "爆炸伤害"
-      }
-    },
     "ids": 7941428904732115,
     "recordKey": "blast",
     "url_name": "blast",
@@ -6168,7 +5896,6 @@
     "units": "percent",
     "name": "Blast",
     "nameEn": "Blast",
-    "nameZh": "爆炸伤害",
     "effectZh": "爆炸伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -6381,7 +6108,8 @@
       "|val|% <DT_EXPLOSION_COLOR>爆炸伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "爆炸伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773a9",
@@ -6392,14 +6120,6 @@
     "suffix": "Or",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Corrosive"
-      },
-      "zh": {
-        "name": "腐蚀伤害"
-      }
-    },
     "ids": 2837819158545823,
     "recordKey": "corrosive",
     "url_name": "corrosive",
@@ -6410,7 +6130,6 @@
     "units": "percent",
     "name": "Corrosive",
     "nameEn": "Corrosive",
-    "nameZh": "腐蚀伤害",
     "effectZh": "腐蚀伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -6623,7 +6342,8 @@
       "|val|% <DT_CORROSIVE_COLOR>腐蚀伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "腐蚀伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773aa",
@@ -6633,14 +6353,6 @@
     "prefix": "Effi",
     "suffix": "Tas",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Orokin"
-      },
-      "zh": {
-        "name": "对奥罗金的伤害"
-      }
-    },
     "ids": 6952337137608490,
     "recordKey": "damage_to_orokin",
     "url_name": "damage_to_orokin",
@@ -6651,7 +6363,6 @@
     "units": "multiply",
     "name": "Damage to Orokin",
     "nameEn": "Damage to Orokin",
-    "nameZh": "对奥罗金的伤害",
     "effectZh": "对奥罗金的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -6864,7 +6575,8 @@
       "|val| 对奥罗金的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对奥罗金的伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773ab",
@@ -6874,14 +6586,6 @@
     "prefix": "Exsi",
     "suffix": "Llo",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Scaldra"
-      },
-      "zh": {
-        "name": "对炽蛇军的伤害"
-      }
-    },
     "ids": 7397593868013041,
     "recordKey": "damage_to_scaldra",
     "url_name": "damage_to_scaldra",
@@ -6892,7 +6596,6 @@
     "units": "multiply",
     "name": "Damage to Scaldra",
     "nameEn": "Damage to Scaldra",
-    "nameZh": "对炽蛇军的伤害",
     "effectZh": "对炽蛇军的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -7105,7 +6808,8 @@
       "|val| 对炽蛇军的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对炽蛇军的伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773ac",
@@ -7115,14 +6819,6 @@
     "prefix": "Muti",
     "suffix": "Gia",
     "unit": "multiply",
-    "i18n": {
-      "en": {
-        "name": "Damage to Techrot"
-      },
-      "zh": {
-        "name": "对科腐者的伤害"
-      }
-    },
     "ids": 3026513876148112,
     "recordKey": "damage_to_techrot",
     "url_name": "damage_to_techrot",
@@ -7133,7 +6829,6 @@
     "units": "multiply",
     "name": "Damage to Techrot",
     "nameEn": "Damage to Techrot",
-    "nameZh": "对科腐者的伤害",
     "effectZh": "对科腐者的伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -7346,7 +7041,8 @@
       "|val| 对科腐者的伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "对科腐者的伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773ad",
@@ -7357,14 +7053,6 @@
     "suffix": "Fel",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Gas"
-      },
-      "zh": {
-        "name": "毒气伤害"
-      }
-    },
     "ids": 2551420106657893,
     "recordKey": "gas",
     "url_name": "gas",
@@ -7375,7 +7063,6 @@
     "units": "percent",
     "name": "Gas",
     "nameEn": "Gas",
-    "nameZh": "毒气伤害",
     "effectZh": "毒气伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -7588,7 +7275,8 @@
       "|val|% <DT_GAS_COLOR>毒气伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "毒气伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773ae",
@@ -7603,14 +7291,6 @@
     ],
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Heavy Attack Wind Up Speed"
-      },
-      "zh": {
-        "name": "重击准备速度"
-      }
-    },
     "ids": 5729941863869539,
     "recordKey": "heavy_attack_wind_up_speed",
     "url_name": "heavy_attack_wind_up_speed",
@@ -7621,7 +7301,6 @@
     "units": "percent",
     "name": "Heavy Attack Wind Up Speed",
     "nameEn": "Heavy Attack Wind Up Speed",
-    "nameZh": "重击准备速度",
     "effectZh": "重击准备速度",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -7689,7 +7368,8 @@
       "|val|% 重击准备速度"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "重击准备速度"
   },
   {
     "id": "6ac6dec324fe2680bad773af",
@@ -7705,14 +7385,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Magazine Reloaded/s when Holstered"
-      },
-      "zh": {
-        "name": "收起武器时弹匣每秒自动装填"
-      }
-    },
     "ids": 8809713975443132,
     "recordKey": "magazine_reloaded_s_when_holstered",
     "url_name": "magazine_reloaded_s_when_holstered",
@@ -7723,7 +7395,6 @@
     "units": "percent",
     "name": "Magazine Reloaded/s when Holstered",
     "nameEn": "Magazine Reloaded/s when Holstered",
-    "nameZh": "收起武器时弹匣每秒自动装填",
     "effectZh": "收起武器时弹匣每秒自动装填",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -7849,7 +7520,8 @@
       "收起武器时弹匣每秒自动装填 |val| %"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "收起武器时弹匣每秒自动装填"
   },
   {
     "id": "6ac6dec324fe2680bad773b0",
@@ -7860,14 +7532,6 @@
     "suffix": "Bra",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Magnetic"
-      },
-      "zh": {
-        "name": "磁力伤害"
-      }
-    },
     "ids": 3807044155397627,
     "recordKey": "magnetic",
     "url_name": "magnetic",
@@ -7878,7 +7542,6 @@
     "units": "percent",
     "name": "Magnetic",
     "nameEn": "Magnetic",
-    "nameZh": "磁力伤害",
     "effectZh": "磁力伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8091,7 +7754,8 @@
       "|val|% <DT_MAGNETIC_COLOR>磁力伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "磁力伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b1",
@@ -8106,14 +7770,6 @@
     ],
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Melee Damage on Heavy Attack"
-      },
-      "zh": {
-        "name": "在重击时的近战伤害"
-      }
-    },
     "ids": 7575408105838348,
     "recordKey": "melee_damage_on_heavy_attack",
     "url_name": "melee_damage_on_heavy_attack",
@@ -8124,7 +7780,6 @@
     "units": "percent",
     "name": "Melee Damage on Heavy Attack",
     "nameEn": "Melee Damage on Heavy Attack",
-    "nameZh": "在重击时的近战伤害",
     "effectZh": "在重击时的近战伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8192,7 +7847,8 @@
       "|val|% 在重击时的近战伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "在重击时的近战伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b2",
@@ -8206,14 +7862,6 @@
       "zaw"
     ],
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Parry Angle"
-      },
-      "zh": {
-        "name": "招架角度"
-      }
-    },
     "ids": 8223121869868270,
     "recordKey": "parry_angle",
     "url_name": "parry_angle",
@@ -8224,7 +7872,6 @@
     "units": "",
     "name": "Parry Angle",
     "nameEn": "Parry Angle",
-    "nameZh": "招架角度",
     "effectZh": "招架角度",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8292,7 +7939,8 @@
       "|val| 招架角度"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "招架角度"
   },
   {
     "id": "6ac6dec324fe2680bad773b3",
@@ -8303,14 +7951,6 @@
     "suffix": "Lo",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Radiation"
-      },
-      "zh": {
-        "name": "辐射伤害"
-      }
-    },
     "ids": 5131101307397632,
     "recordKey": "radiation",
     "url_name": "radiation",
@@ -8321,7 +7961,6 @@
     "units": "percent",
     "name": "Radiation",
     "nameEn": "Radiation",
-    "nameZh": "辐射伤害",
     "effectZh": "辐射伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8534,7 +8173,8 @@
       "|val|% <DT_RADIATION_COLOR>辐射伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "辐射伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b4",
@@ -8549,14 +8189,6 @@
     ],
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Slam Attack Damage"
-      },
-      "zh": {
-        "name": "震地攻击伤害"
-      }
-    },
     "ids": 7699811627017031,
     "recordKey": "slam_attack_damage",
     "url_name": "slam_attack_damage",
@@ -8567,7 +8199,6 @@
     "units": "percent",
     "name": "Slam Attack Damage",
     "nameEn": "Slam Attack Damage",
-    "nameZh": "震地攻击伤害",
     "effectZh": "震地攻击伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8635,7 +8266,8 @@
       "|val|% 震地攻击伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "震地攻击伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b5",
@@ -8645,14 +8277,6 @@
     "prefix": "Plaga",
     "suffix": "Mna",
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Status Damage"
-      },
-      "zh": {
-        "name": "异常状态伤害"
-      }
-    },
     "ids": 393305609140899,
     "recordKey": "status_damage",
     "url_name": "status_damage",
@@ -8663,7 +8287,6 @@
     "units": "percent",
     "name": "Status Damage",
     "nameEn": "Status Damage",
-    "nameZh": "异常状态伤害",
     "effectZh": "异常状态伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -8876,7 +8499,8 @@
       "|val|% 异常状态伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "异常状态伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b6",
@@ -8887,14 +8511,6 @@
     "suffix": "Sco",
     "unit": "percent",
     "positiveOnly": true,
-    "i18n": {
-      "en": {
-        "name": "Viral"
-      },
-      "zh": {
-        "name": "病毒伤害"
-      }
-    },
     "ids": 7092507863525285,
     "recordKey": "viral",
     "url_name": "viral",
@@ -8905,7 +8521,6 @@
     "units": "percent",
     "name": "Viral",
     "nameEn": "Viral",
-    "nameZh": "病毒伤害",
     "effectZh": "病毒伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -9118,7 +8733,8 @@
       "|val|% <DT_VIRAL_COLOR>病毒伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "病毒伤害"
   },
   {
     "id": "6ac6dec324fe2680bad773b7",
@@ -9135,14 +8751,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Weak Point Critical Chance"
-      },
-      "zh": {
-        "name": "弱点暴击几率"
-      }
-    },
     "ids": 6409677765527084,
     "recordKey": "weak_point_critical_chance",
     "url_name": "weak_point_critical_chance",
@@ -9153,7 +8761,6 @@
     "units": "percent",
     "name": "Weak Point Critical Chance",
     "nameEn": "Weak Point Critical Chance",
-    "nameZh": "弱点暴击几率",
     "effectZh": "弱点暴击几率",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -9308,7 +8915,8 @@
       "|val|% 弱点暴击几率"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "弱点暴击几率"
   },
   {
     "id": "6ac6dec324fe2680bad773b8",
@@ -9325,14 +8933,6 @@
       "shotgun"
     ],
     "unit": "percent",
-    "i18n": {
-      "en": {
-        "name": "Weak Point Damage"
-      },
-      "zh": {
-        "name": "弱点伤害"
-      }
-    },
     "ids": 6846112501694517,
     "recordKey": "weak_point_damage",
     "url_name": "weak_point_damage",
@@ -9343,7 +8943,6 @@
     "units": "percent",
     "name": "Weak Point Damage",
     "nameEn": "Weak Point Damage",
-    "nameZh": "弱点伤害",
     "effectZh": "弱点伤害",
     "iconStatus": "missing",
     "iconReason": "no_attribute_specific_image",
@@ -9498,6 +9097,7 @@
       "|val|% 弱点伤害"
     ],
     "definitionResolution": "exact_game_tag",
-    "valueSemantics": "upgrade_parameter_not_probability"
+    "valueSemantics": "upgrade_parameter_not_probability",
+    "zhName": "弱点伤害"
   }
 ]

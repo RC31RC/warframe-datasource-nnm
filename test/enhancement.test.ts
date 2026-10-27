@@ -186,3 +186,16 @@ test("special-action Blueprint identities still get product-based bilingual name
   assert.equal(recipe.recipeKind, "special_action");
   assert.equal(recipe.actionKey, "SIA_SPECTRE_LOADOUT_COPY");
 });
+
+test("internal NPC textures are not public URLs and cannot borrow a tag or plush mapping", () => {
+  const asset = "/Lotus/Interface/Icons/Npcs/Neutral/CondrocCommon.png";
+  const [out] = finishProducts([file("plus/animals.json", [
+    { uniqueName: "/Lotus/Animal", name: "Condroc", icon: asset },
+    { uniqueName: "/Lotus/Legacy", iconUrl: asset },
+  ]), file("plus/images.json", { "/Lotus/Interface/Icons/Store/Plushies/Theme/PlushyCondrocCommon.png": { contentHash: "plush-hash" } })], []);
+  for (const animal of read(out!)) {
+    assert.equal(animal.iconStatus, "internal_asset_only");
+    assert.equal(animal.iconAsset, asset);
+    assert.equal(animal.iconUrl, undefined);
+  }
+});

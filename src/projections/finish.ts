@@ -42,7 +42,7 @@ export function finishProducts(files: DatasetFileInput[], publicExport: DatasetF
         url = `https://content.warframe.com/PublicExport/${assetPath}!${image.contentHash}`;
       }
       if (url) { next.iconUrl = url; next.iconStatus = "available"; }
-      else { next.iconStatus = "internal_asset_only"; next.iconAsset = rawIcon; }
+      else { delete next.iconUrl; next.iconStatus = "internal_asset_only"; next.iconAsset = rawIcon; }
     } else if (record.iconStatus === "missing" || id || record.abilityName) {
       delete next.iconUrl;
       next.iconStatus = "missing";

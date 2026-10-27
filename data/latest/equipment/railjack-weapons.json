@@ -49,16 +49,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 10,
-          "delay": 0.08
-        },
-        "impact": {
-          "DT_IMPACT": 3.33333,
-          "DT_PUNCTURE": 3.33333,
-          "DT_SLASH": 3.33334,
-          "procChance": 0.1
-        },
+        "burst__count": 10,
+        "burst__delay": 0.08,
+        "impact__DT_IMPACT": 3.33333,
+        "impact__DT_PUNCTURE": 3.33333,
+        "impact__DT_SLASH": 3.33334,
+        "impact__procChance": 0.1,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -134,12 +130,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_IMPACT": 3.33333,
-          "DT_PUNCTURE": 3.33333,
-          "DT_SLASH": 3.33334,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 3.33333,
+        "impact__DT_PUNCTURE": 3.33333,
+        "impact__DT_SLASH": 3.33334,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -219,16 +213,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 450,
-            "procChance": 0.12
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 450,
+        "projectile__attack__procChance": 0.12,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -309,16 +297,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 765,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 765,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -400,16 +382,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1224,
-            "procChance": 0.17
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1224,
+        "projectile__attack__procChance": 0.17,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -491,16 +467,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 482,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 482,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -582,16 +552,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 819,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 819,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -692,16 +656,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1310,
-            "procChance": 0.28
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1310,
+        "projectile__attack__procChance": 0.28,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -802,16 +760,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1965,
-            "procChance": 0.32
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1965,
+        "projectile__attack__procChance": 0.32,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -912,16 +864,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 450,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 450,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1003,16 +949,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 765,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 765,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1113,16 +1053,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1224,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1224,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1223,16 +1157,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1836,
-            "procChance": 0.22
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1836,
+        "projectile__attack__procChance": 0.22,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1333,16 +1261,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 585,
-            "procChance": 0.05
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 585,
+        "projectile__attack__procChance": 0.05,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1424,16 +1346,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 995,
-            "procChance": 0.07
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 995,
+        "projectile__attack__procChance": 0.07,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1534,16 +1450,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 1592,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 1592,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1644,16 +1554,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_ELECTRICITY": 2388,
-            "procChance": 0.13
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_ELECTRICITY": 2388,
+        "projectile__attack__procChance": 0.13,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1754,17 +1658,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 210,
-            "DT_PUNCTURE": 210,
-            "DT_FREEZE": 354
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 210,
+        "projectile__attack__DT_PUNCTURE": 210,
+        "projectile__attack__DT_FREEZE": 354,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1845,18 +1743,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 308,
-            "DT_PUNCTURE": 308,
-            "DT_FREEZE": 700,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 308,
+        "projectile__attack__DT_PUNCTURE": 308,
+        "projectile__attack__DT_FREEZE": 700,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -1938,18 +1830,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 503,
-            "DT_PUNCTURE": 503,
-            "DT_FREEZE": 1100,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 503,
+        "projectile__attack__DT_PUNCTURE": 503,
+        "projectile__attack__DT_FREEZE": 1100,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2031,18 +1917,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 240,
-            "DT_PUNCTURE": 240,
-            "DT_FREEZE": 372,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 240,
+        "projectile__attack__DT_PUNCTURE": 240,
+        "projectile__attack__DT_FREEZE": 372,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2124,18 +2004,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 350,
-            "DT_PUNCTURE": 350,
-            "DT_FREEZE": 748,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 350,
+        "projectile__attack__DT_PUNCTURE": 350,
+        "projectile__attack__DT_FREEZE": 748,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2236,18 +2110,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 540,
-            "DT_PUNCTURE": 540,
-            "DT_FREEZE": 1237,
-            "procChance": 0.28
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 540,
+        "projectile__attack__DT_PUNCTURE": 540,
+        "projectile__attack__DT_FREEZE": 1237,
+        "projectile__attack__procChance": 0.28,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2348,18 +2216,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 810,
-            "DT_PUNCTURE": 810,
-            "DT_FREEZE": 1856,
-            "procChance": 0.32
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 810,
+        "projectile__attack__DT_PUNCTURE": 810,
+        "projectile__attack__DT_FREEZE": 1856,
+        "projectile__attack__procChance": 0.32,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2460,17 +2322,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 210,
-            "DT_PUNCTURE": 210,
-            "DT_FREEZE": 354
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 210,
+        "projectile__attack__DT_PUNCTURE": 210,
+        "projectile__attack__DT_FREEZE": 354,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2552,18 +2408,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 308,
-            "DT_PUNCTURE": 308,
-            "DT_FREEZE": 700,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 308,
+        "projectile__attack__DT_PUNCTURE": 308,
+        "projectile__attack__DT_FREEZE": 700,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2664,18 +2514,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 503,
-            "DT_PUNCTURE": 503,
-            "DT_FREEZE": 1100,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 503,
+        "projectile__attack__DT_PUNCTURE": 503,
+        "projectile__attack__DT_FREEZE": 1100,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2776,18 +2620,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 810,
-            "DT_PUNCTURE": 810,
-            "DT_FREEZE": 1856,
-            "procChance": 0.22
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 810,
+        "projectile__attack__DT_PUNCTURE": 810,
+        "projectile__attack__DT_FREEZE": 1856,
+        "projectile__attack__procChance": 0.22,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2888,17 +2726,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 200,
-            "DT_PUNCTURE": 200,
-            "DT_FREEZE": 607
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 200,
+        "projectile__attack__DT_PUNCTURE": 200,
+        "projectile__attack__DT_FREEZE": 607,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -2980,18 +2812,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 400,
-            "DT_PUNCTURE": 400,
-            "DT_FREEZE": 911,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 400,
+        "projectile__attack__DT_PUNCTURE": 400,
+        "projectile__attack__DT_FREEZE": 911,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -3092,18 +2918,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 600,
-            "DT_PUNCTURE": 600,
-            "DT_FREEZE": 1538,
-            "procChance": 0.2
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 600,
+        "projectile__attack__DT_PUNCTURE": 600,
+        "projectile__attack__DT_FREEZE": 1538,
+        "projectile__attack__procChance": 0.2,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -3204,18 +3024,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 810,
-            "DT_PUNCTURE": 810,
-            "DT_FREEZE": 1856,
-            "procChance": 0.23
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_IMPACT": 810,
+        "projectile__attack__DT_PUNCTURE": 810,
+        "projectile__attack__DT_FREEZE": 1856,
+        "projectile__attack__procChance": 0.23,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -3315,11 +3129,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 21,
-          "DT_FIRE": 32,
-          "procChance": 0.1
-        },
+        "impact__DT_PUNCTURE": 21,
+        "impact__DT_FIRE": 32,
+        "impact__procChance": 0.1,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3400,11 +3212,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 27,
-          "DT_FIRE": 63,
-          "procChance": 0.13
-        },
+        "impact__DT_PUNCTURE": 27,
+        "impact__DT_FIRE": 63,
+        "impact__procChance": 0.13,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3504,11 +3314,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 35,
-          "DT_FIRE": 110,
-          "procChance": 0.17
-        },
+        "impact__DT_PUNCTURE": 35,
+        "impact__DT_FIRE": 110,
+        "impact__procChance": 0.17,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3608,11 +3416,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 53,
-          "DT_FIRE": 165,
-          "procChance": 0.21
-        },
+        "impact__DT_PUNCTURE": 53,
+        "impact__DT_FIRE": 165,
+        "impact__procChance": 0.21,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3712,11 +3518,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 8,
-          "DT_FIRE": 19,
-          "procChance": 0.07
-        },
+        "impact__DT_PUNCTURE": 8,
+        "impact__DT_FIRE": 19,
+        "impact__procChance": 0.07,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3796,11 +3600,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 15,
-          "DT_FIRE": 34,
-          "procChance": 0.07
-        },
+        "impact__DT_PUNCTURE": 15,
+        "impact__DT_FIRE": 34,
+        "impact__procChance": 0.07,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3881,11 +3683,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 21,
-          "DT_FIRE": 63,
-          "procChance": 0.09
-        },
+        "impact__DT_PUNCTURE": 21,
+        "impact__DT_FIRE": 63,
+        "impact__procChance": 0.09,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -3966,11 +3766,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 28,
-          "DT_FIRE": 107,
-          "procChance": 0.12
-        },
+        "impact__DT_PUNCTURE": 28,
+        "impact__DT_FIRE": 107,
+        "impact__procChance": 0.12,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4051,11 +3849,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 15,
-          "DT_FIRE": 34,
-          "procChance": 0.07
-        },
+        "impact__DT_PUNCTURE": 15,
+        "impact__DT_FIRE": 34,
+        "impact__procChance": 0.07,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4136,11 +3932,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 21,
-          "DT_FIRE": 63,
-          "procChance": 0.09
-        },
+        "impact__DT_PUNCTURE": 21,
+        "impact__DT_FIRE": 63,
+        "impact__procChance": 0.09,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4240,11 +4034,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 28,
-          "DT_FIRE": 107,
-          "procChance": 0.12
-        },
+        "impact__DT_PUNCTURE": 28,
+        "impact__DT_FIRE": 107,
+        "impact__procChance": 0.12,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4344,11 +4136,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 42,
-          "DT_FIRE": 161,
-          "procChance": 0.14
-        },
+        "impact__DT_PUNCTURE": 42,
+        "impact__DT_FIRE": 161,
+        "impact__procChance": 0.14,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4448,11 +4238,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 19,
-          "DT_FIRE": 40,
-          "procChance": 0.11
-        },
+        "impact__DT_PUNCTURE": 19,
+        "impact__DT_FIRE": 40,
+        "impact__procChance": 0.11,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4533,11 +4321,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 21,
-          "DT_FIRE": 80,
-          "procChance": 0.14
-        },
+        "impact__DT_PUNCTURE": 21,
+        "impact__DT_FIRE": 80,
+        "impact__procChance": 0.14,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4637,11 +4423,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 52,
-          "DT_FIRE": 110,
-          "procChance": 0.18
-        },
+        "impact__DT_PUNCTURE": 52,
+        "impact__DT_FIRE": 110,
+        "impact__procChance": 0.18,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4741,11 +4525,9 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerContinous",
         "fireIterations": 2,
-        "impact": {
-          "DT_PUNCTURE": 78,
-          "DT_FIRE": 165,
-          "procChance": 0.21
-        },
+        "impact__DT_PUNCTURE": 78,
+        "impact__DT_FIRE": 165,
+        "impact__procChance": 0.21,
         "stateNameEn": "HELD",
         "stateNameZh": "连射"
       }
@@ -4846,19 +4628,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 35,
-            "DT_POISON": 45,
-            "procChance": 0.12
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 35,
+        "projectile__attack__DT_POISON": 45,
+        "projectile__attack__procChance": 0.12,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -4939,18 +4715,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 972,
-            "procChance": 0.15
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 972,
+        "projectile__attack__procChance": 0.15,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5031,18 +4801,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 1750,
-            "procChance": 0.15
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 1750,
+        "projectile__attack__procChance": 0.15,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5124,18 +4888,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 2975,
-            "procChance": 0.21
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 2975,
+        "projectile__attack__procChance": 0.21,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5217,18 +4975,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 4760,
-            "procChance": 0.3
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 4760,
+        "projectile__attack__procChance": 0.3,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5310,19 +5062,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 57,
-            "DT_POISON": 87,
-            "procChance": 0.12
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 57,
+        "projectile__attack__DT_POISON": 87,
+        "projectile__attack__procChance": 0.12,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5404,19 +5150,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 102,
-            "DT_POISON": 143,
-            "procChance": 0.17
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 102,
+        "projectile__attack__DT_POISON": 143,
+        "projectile__attack__procChance": 0.17,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5498,19 +5238,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 130,
-            "DT_POISON": 262,
-            "procChance": 0.24
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 130,
+        "projectile__attack__DT_POISON": 262,
+        "projectile__attack__procChance": 0.24,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5592,18 +5326,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 1873,
-            "procChance": 0.21
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 1873,
+        "projectile__attack__procChance": 0.21,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5685,18 +5413,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 3184,
-            "procChance": 0.3
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 3184,
+        "projectile__attack__procChance": 0.3,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5797,18 +5519,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 5094,
-            "procChance": 0.42
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 5094,
+        "projectile__attack__procChance": 0.42,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -5909,18 +5625,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 7640,
-            "procChance": 0.45
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 7640,
+        "projectile__attack__procChance": 0.45,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6021,19 +5731,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 57,
-            "DT_POISON": 98,
-            "procChance": 0.17
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 57,
+        "projectile__attack__DT_POISON": 98,
+        "projectile__attack__procChance": 0.17,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6115,19 +5819,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 94,
-            "DT_POISON": 169,
-            "procChance": 0.24
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 94,
+        "projectile__attack__DT_POISON": 169,
+        "projectile__attack__procChance": 0.24,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6228,19 +5926,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 163,
-            "DT_POISON": 257,
-            "procChance": 0.34
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 163,
+        "projectile__attack__DT_POISON": 257,
+        "projectile__attack__procChance": 0.34,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6341,19 +6033,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 244,
-            "DT_POISON": 386,
-            "procChance": 0.38
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 244,
+        "projectile__attack__DT_POISON": 386,
+        "projectile__attack__procChance": 0.38,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6454,18 +6140,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 1750,
-            "procChance": 0.15
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 1750,
+        "projectile__attack__procChance": 0.15,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6547,18 +6227,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 2975,
-            "procChance": 0.21
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 2975,
+        "projectile__attack__procChance": 0.21,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6659,18 +6333,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 4760,
-            "procChance": 0.3
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 4760,
+        "projectile__attack__procChance": 0.3,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6771,18 +6439,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 7140,
-            "procChance": 0.32
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 7140,
+        "projectile__attack__procChance": 0.32,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6883,19 +6545,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 57,
-            "DT_POISON": 87,
-            "procChance": 0.12
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 57,
+        "projectile__attack__DT_POISON": 87,
+        "projectile__attack__procChance": 0.12,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -6977,19 +6633,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 102,
-            "DT_POISON": 143,
-            "procChance": 0.17
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 102,
+        "projectile__attack__DT_POISON": 143,
+        "projectile__attack__procChance": 0.17,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7090,19 +6740,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 130,
-            "DT_POISON": 262,
-            "procChance": 0.24
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 130,
+        "projectile__attack__DT_POISON": 262,
+        "projectile__attack__procChance": 0.24,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7203,19 +6847,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 195,
-            "DT_POISON": 393,
-            "procChance": 0.26
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 195,
+        "projectile__attack__DT_POISON": 393,
+        "projectile__attack__procChance": 0.26,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7316,18 +6954,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 2275,
-            "procChance": 0.23
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 2275,
+        "projectile__attack__procChance": 0.23,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7409,18 +7041,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 3868,
-            "procChance": 0.32
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 3868,
+        "projectile__attack__procChance": 0.32,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7521,18 +7147,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 6188,
-            "procChance": 0.45
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 6188,
+        "projectile__attack__procChance": 0.45,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7633,18 +7253,12 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_FREEZE": 9282,
-            "procChance": 0.48
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_FREEZE": 9282,
+        "projectile__attack__procChance": 0.48,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7745,19 +7359,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 80,
-            "DT_POISON": 107,
-            "procChance": 0.18
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 80,
+        "projectile__attack__DT_POISON": 107,
+        "projectile__attack__procChance": 0.18,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7839,19 +7447,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 110,
-            "DT_POISON": 209,
-            "procChance": 0.26
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 110,
+        "projectile__attack__DT_POISON": 209,
+        "projectile__attack__procChance": 0.26,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -7952,19 +7554,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 217,
-            "DT_POISON": 293,
-            "procChance": 0.36
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 217,
+        "projectile__attack__DT_POISON": 293,
+        "projectile__attack__procChance": 0.36,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8065,19 +7661,13 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 325,
-            "DT_POISON": 439,
-            "procChance": 0.39
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_PUNCTURE": 325,
+        "projectile__attack__DT_POISON": 439,
+        "projectile__attack__procChance": 0.39,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8178,10 +7768,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 108,
-          "procChance": 0.1
-        },
+        "impact__DT_FIRE": 108,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8262,10 +7850,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 184,
-          "procChance": 0.14
-        },
+        "impact__DT_FIRE": 184,
+        "impact__procChance": 0.14,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8347,10 +7933,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 295,
-          "procChance": 0.2
-        },
+        "impact__DT_FIRE": 295,
+        "impact__procChance": 0.2,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8432,10 +8016,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 116,
-          "procChance": 0.14
-        },
+        "impact__DT_FIRE": 116,
+        "impact__procChance": 0.14,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8516,10 +8098,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 197,
-          "procChance": 0.2
-        },
+        "impact__DT_FIRE": 197,
+        "impact__procChance": 0.2,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8620,10 +8200,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 316,
-          "procChance": 0.28
-        },
+        "impact__DT_FIRE": 316,
+        "impact__procChance": 0.28,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8724,10 +8302,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 474,
-          "procChance": 0.32
-        },
+        "impact__DT_FIRE": 474,
+        "impact__procChance": 0.32,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8828,10 +8404,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 108,
-          "procChance": 0.1
-        },
+        "impact__DT_FIRE": 108,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -8912,10 +8486,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 184,
-          "procChance": 0.14
-        },
+        "impact__DT_FIRE": 184,
+        "impact__procChance": 0.14,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9016,10 +8588,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 295,
-          "procChance": 0.2
-        },
+        "impact__DT_FIRE": 295,
+        "impact__procChance": 0.2,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9120,10 +8690,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 442,
-          "procChance": 0.22
-        },
+        "impact__DT_FIRE": 442,
+        "impact__procChance": 0.22,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9224,10 +8792,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 140,
-          "procChance": 0.15
-        },
+        "impact__DT_FIRE": 140,
+        "impact__procChance": 0.15,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9308,10 +8874,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 239,
-          "procChance": 0.21
-        },
+        "impact__DT_FIRE": 239,
+        "impact__procChance": 0.21,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9412,10 +8976,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 384,
-          "procChance": 0.3
-        },
+        "impact__DT_FIRE": 384,
+        "impact__procChance": 0.3,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9516,10 +9078,8 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 576,
-          "procChance": 0.33
-        },
+        "impact__DT_FIRE": 576,
+        "impact__procChance": 0.33,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -9620,15 +9180,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 86,
-          "DT_ELECTRICITY": 146,
-          "procChance": 0.13
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 86,
+        "impact__DT_ELECTRICITY": 146,
+        "impact__procChance": 0.13,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -9710,15 +9266,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 166,
-          "DT_ELECTRICITY": 228,
-          "procChance": 0.19
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 166,
+        "impact__DT_ELECTRICITY": 228,
+        "impact__procChance": 0.19,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -9819,15 +9371,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 288,
-          "DT_ELECTRICITY": 343,
-          "procChance": 0.27
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 288,
+        "impact__DT_ELECTRICITY": 343,
+        "impact__procChance": 0.27,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -9928,15 +9476,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 432,
-          "DT_ELECTRICITY": 514,
-          "procChance": 0.31
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 432,
+        "impact__DT_ELECTRICITY": 514,
+        "impact__procChance": 0.31,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10037,15 +9581,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 50,
-          "DT_ELECTRICITY": 70,
-          "procChance": 0.09
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 50,
+        "impact__DT_ELECTRICITY": 70,
+        "impact__procChance": 0.09,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10126,15 +9666,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 84,
-          "DT_ELECTRICITY": 132,
-          "procChance": 0.09
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 84,
+        "impact__DT_ELECTRICITY": 132,
+        "impact__procChance": 0.09,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10216,15 +9752,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 162,
-          "DT_ELECTRICITY": 206,
-          "procChance": 0.13
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 162,
+        "impact__DT_ELECTRICITY": 206,
+        "impact__procChance": 0.13,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10306,15 +9838,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 267,
-          "DT_ELECTRICITY": 322,
-          "procChance": 0.19
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 267,
+        "impact__DT_ELECTRICITY": 322,
+        "impact__procChance": 0.19,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10396,15 +9924,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 84,
-          "DT_ELECTRICITY": 132,
-          "procChance": 0.09
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 84,
+        "impact__DT_ELECTRICITY": 132,
+        "impact__procChance": 0.09,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10486,15 +10010,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 162,
-          "DT_ELECTRICITY": 206,
-          "procChance": 0.13
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 162,
+        "impact__DT_ELECTRICITY": 206,
+        "impact__procChance": 0.13,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10595,15 +10115,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 267,
-          "DT_ELECTRICITY": 322,
-          "procChance": 0.19
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 267,
+        "impact__DT_ELECTRICITY": 322,
+        "impact__procChance": 0.19,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10704,15 +10220,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 400,
-          "DT_ELECTRICITY": 483,
-          "procChance": 0.21
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 400,
+        "impact__DT_ELECTRICITY": 483,
+        "impact__procChance": 0.21,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10813,15 +10325,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 120,
-          "DT_ELECTRICITY": 161,
-          "procChance": 0.14
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 120,
+        "impact__DT_ELECTRICITY": 161,
+        "impact__procChance": 0.14,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -10903,15 +10411,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 199,
-          "DT_ELECTRICITY": 279,
-          "procChance": 0.2
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 199,
+        "impact__DT_ELECTRICITY": 279,
+        "impact__procChance": 0.2,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -11012,15 +10516,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 323,
-          "DT_ELECTRICITY": 443,
-          "procChance": 0.29
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 323,
+        "impact__DT_ELECTRICITY": 443,
+        "impact__procChance": 0.29,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -11121,15 +10621,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerBurst",
         "fireIterations": 1,
-        "burst": {
-          "count": 4,
-          "delay": 0.06
-        },
-        "impact": {
-          "DT_PUNCTURE": 484,
-          "DT_ELECTRICITY": 665,
-          "procChance": 0.32
-        },
+        "burst__count": 4,
+        "burst__delay": 0.06,
+        "impact__DT_PUNCTURE": 484,
+        "impact__DT_ELECTRICITY": 665,
+        "impact__procChance": 0.32,
         "stateNameEn": "BURST",
         "stateNameZh": "多发点射"
       }
@@ -11230,17 +10726,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 88.199999,
-            "DT_SLASH": 37.800001,
-            "procChance": 0.05
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 88.199999,
+        "projectile__attack__DT_SLASH": 37.800001,
+        "projectile__attack__procChance": 0.05,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11321,17 +10811,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 158.899998,
-            "DT_SLASH": 68.100002,
-            "procChance": 0.05
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 158.899998,
+        "projectile__attack__DT_SLASH": 68.100002,
+        "projectile__attack__procChance": 0.05,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11413,17 +10897,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 270.199996,
-            "DT_SLASH": 115.800004,
-            "procChance": 0.07
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 270.199996,
+        "projectile__attack__DT_SLASH": 115.800004,
+        "projectile__attack__procChance": 0.07,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11505,17 +10983,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 432.599994,
-            "DT_SLASH": 185.400006,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 432.599994,
+        "projectile__attack__DT_SLASH": 185.400006,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11597,17 +11069,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 170.099998,
-            "DT_SLASH": 72.900002,
-            "procChance": 0.07
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 170.099998,
+        "projectile__attack__DT_SLASH": 72.900002,
+        "projectile__attack__procChance": 0.07,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11689,17 +11155,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 289.799996,
-            "DT_SLASH": 124.200004,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 289.799996,
+        "projectile__attack__DT_SLASH": 124.200004,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11800,17 +11260,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 463.399993,
-            "DT_SLASH": 198.600007,
-            "procChance": 0.14
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 463.399993,
+        "projectile__attack__DT_SLASH": 198.600007,
+        "projectile__attack__procChance": 0.14,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -11911,17 +11365,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 695.09999,
-            "DT_SLASH": 297.90001,
-            "procChance": 0.18
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 695.09999,
+        "projectile__attack__DT_SLASH": 297.90001,
+        "projectile__attack__procChance": 0.18,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12022,17 +11470,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 158.899998,
-            "DT_SLASH": 68.100002,
-            "procChance": 0.05
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 158.899998,
+        "projectile__attack__DT_SLASH": 68.100002,
+        "projectile__attack__procChance": 0.05,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12114,17 +11556,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 270.199996,
-            "DT_SLASH": 115.800004,
-            "procChance": 0.07
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 270.199996,
+        "projectile__attack__DT_SLASH": 115.800004,
+        "projectile__attack__procChance": 0.07,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12225,17 +11661,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 432.599994,
-            "DT_SLASH": 185.400006,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 432.599994,
+        "projectile__attack__DT_SLASH": 185.400006,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12336,17 +11766,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 648.899991,
-            "DT_SLASH": 278.100009,
-            "procChance": 0.12
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 648.899991,
+        "projectile__attack__DT_SLASH": 278.100009,
+        "projectile__attack__procChance": 0.12,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12447,17 +11871,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 192.499997,
-            "DT_SLASH": 82.500003,
-            "procChance": 0.05
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 192.499997,
+        "projectile__attack__DT_SLASH": 82.500003,
+        "projectile__attack__procChance": 0.05,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12539,17 +11957,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 327.599995,
-            "DT_SLASH": 140.400005,
-            "procChance": 0.07
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 327.599995,
+        "projectile__attack__DT_SLASH": 140.400005,
+        "projectile__attack__procChance": 0.07,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12650,17 +12062,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 523.599993,
-            "DT_SLASH": 224.400007,
-            "procChance": 0.1
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 523.599993,
+        "projectile__attack__DT_SLASH": 224.400007,
+        "projectile__attack__procChance": 0.1,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12761,17 +12167,11 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 1,
-        "projectile": {
-          "attack": {
-            "DT_PUNCTURE": 785.399989,
-            "DT_SLASH": 336.600011,
-            "procChance": 0.13
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 300,
-          "procChance": 0
-        },
+        "projectile__attack__DT_PUNCTURE": 785.399989,
+        "projectile__attack__DT_SLASH": 336.600011,
+        "projectile__attack__procChance": 0.13,
+        "impact__DT_IMPACT": 300,
+        "impact__procChance": 0,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12872,20 +12272,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 28.6,
-            "DT_PUNCTURE": 57.200001,
-            "DT_SLASH": 57.199997,
-            "procChance": 0.51
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 28.6,
+        "projectile__attack__DT_PUNCTURE": 57.200001,
+        "projectile__attack__DT_SLASH": 57.199997,
+        "projectile__attack__procChance": 0.51,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -12967,20 +12361,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 48.8,
-            "DT_PUNCTURE": 97.600002,
-            "DT_SLASH": 97.599995,
-            "procChance": 0.72
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 48.8,
+        "projectile__attack__DT_PUNCTURE": 97.600002,
+        "projectile__attack__DT_SLASH": 97.599995,
+        "projectile__attack__procChance": 0.72,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13081,20 +12469,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 78,
-            "DT_PUNCTURE": 156.000004,
-            "DT_SLASH": 155.999992,
-            "procChance": 1.01
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 78,
+        "projectile__attack__DT_PUNCTURE": 156.000004,
+        "projectile__attack__DT_SLASH": 155.999992,
+        "projectile__attack__procChance": 1.01,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13195,20 +12577,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 104.6,
-            "DT_PUNCTURE": 209.200005,
-            "DT_SLASH": 209.19999,
-            "procChance": 1.35
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 104.6,
+        "projectile__attack__DT_PUNCTURE": 209.200005,
+        "projectile__attack__DT_SLASH": 209.19999,
+        "projectile__attack__procChance": 1.35,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13309,20 +12685,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 14.4,
-            "DT_PUNCTURE": 28.800001,
-            "DT_SLASH": 28.799999,
-            "procChance": 0.36
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 14.4,
+        "projectile__attack__DT_PUNCTURE": 28.800001,
+        "projectile__attack__DT_SLASH": 28.799999,
+        "projectile__attack__procChance": 0.36,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13403,20 +12773,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 26,
-            "DT_PUNCTURE": 52.000001,
-            "DT_SLASH": 51.999997,
-            "procChance": 0.36
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 26,
+        "projectile__attack__DT_PUNCTURE": 52.000001,
+        "projectile__attack__DT_SLASH": 51.999997,
+        "projectile__attack__procChance": 0.36,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13498,20 +12862,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 44.2,
-            "DT_PUNCTURE": 88.400002,
-            "DT_SLASH": 88.399996,
-            "procChance": 0.51
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 44.2,
+        "projectile__attack__DT_PUNCTURE": 88.400002,
+        "projectile__attack__DT_SLASH": 88.399996,
+        "projectile__attack__procChance": 0.51,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13593,20 +12951,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 70.8,
-            "DT_PUNCTURE": 141.600004,
-            "DT_SLASH": 141.599993,
-            "procChance": 0.72
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 70.8,
+        "projectile__attack__DT_PUNCTURE": 141.600004,
+        "projectile__attack__DT_SLASH": 141.599993,
+        "projectile__attack__procChance": 0.72,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13688,20 +13040,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 26,
-            "DT_PUNCTURE": 52.000001,
-            "DT_SLASH": 51.999997,
-            "procChance": 0.36
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 26,
+        "projectile__attack__DT_PUNCTURE": 52.000001,
+        "projectile__attack__DT_SLASH": 51.999997,
+        "projectile__attack__procChance": 0.36,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13783,20 +13129,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 44.2,
-            "DT_PUNCTURE": 88.400002,
-            "DT_SLASH": 88.399996,
-            "procChance": 0.51
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 44.2,
+        "projectile__attack__DT_PUNCTURE": 88.400002,
+        "projectile__attack__DT_SLASH": 88.399996,
+        "projectile__attack__procChance": 0.51,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -13897,20 +13237,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 70.8,
-            "DT_PUNCTURE": 141.600004,
-            "DT_SLASH": 141.599993,
-            "procChance": 0.72
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 70.8,
+        "projectile__attack__DT_PUNCTURE": 141.600004,
+        "projectile__attack__DT_SLASH": 141.599993,
+        "projectile__attack__procChance": 0.72,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14011,20 +13345,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 96.6,
-            "DT_PUNCTURE": 193.200005,
-            "DT_SLASH": 193.19999,
-            "procChance": 0.83
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 96.6,
+        "projectile__attack__DT_PUNCTURE": 193.200005,
+        "projectile__attack__DT_SLASH": 193.19999,
+        "projectile__attack__procChance": 0.83,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14125,20 +13453,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 33.8,
-            "DT_PUNCTURE": 67.600002,
-            "DT_SLASH": 67.599997,
-            "procChance": 0.54
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 33.8,
+        "projectile__attack__DT_PUNCTURE": 67.600002,
+        "projectile__attack__DT_SLASH": 67.599997,
+        "projectile__attack__procChance": 0.54,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14220,20 +13542,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 57.4,
-            "DT_PUNCTURE": 114.800003,
-            "DT_SLASH": 114.799994,
-            "procChance": 0.77
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 57.4,
+        "projectile__attack__DT_PUNCTURE": 114.800003,
+        "projectile__attack__DT_SLASH": 114.799994,
+        "projectile__attack__procChance": 0.77,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14334,20 +13650,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 92,
-            "DT_PUNCTURE": 184.000005,
-            "DT_SLASH": 183.999991,
-            "procChance": 1.08
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 92,
+        "projectile__attack__DT_PUNCTURE": 184.000005,
+        "projectile__attack__DT_SLASH": 183.999991,
+        "projectile__attack__procChance": 1.08,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14448,20 +13758,14 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerAuto",
         "fireIterations": 8,
-        "projectile": {
-          "attack": {
-            "DT_IMPACT": 132,
-            "DT_PUNCTURE": 264.000007,
-            "DT_SLASH": 263.999987,
-            "procChance": 1.51
-          }
-        },
-        "impact": {
-          "DT_IMPACT": 133.333196,
-          "DT_PUNCTURE": 133.333196,
-          "DT_SLASH": 133.333612,
-          "procChance": 0.1
-        },
+        "projectile__attack__DT_IMPACT": 132,
+        "projectile__attack__DT_PUNCTURE": 264.000007,
+        "projectile__attack__DT_SLASH": 263.999987,
+        "projectile__attack__procChance": 1.51,
+        "impact__DT_IMPACT": 133.333196,
+        "impact__DT_PUNCTURE": 133.333196,
+        "impact__DT_SLASH": 133.333612,
+        "impact__procChance": 0.1,
         "stateNameEn": "AUTO",
         "stateNameZh": "全自动"
       }
@@ -14522,10 +13826,8 @@
     "behaviours": [
       {
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 375,
-          "procChance": 0.1
-        }
+        "impact__DT_FIRE": 375,
+        "impact__procChance": 0.1
       }
     ],
     "nameEn": "Galvarc",
@@ -14564,10 +13866,8 @@
     "behaviours": [
       {
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 675,
-          "procChance": 0.2
-        }
+        "impact__DT_FIRE": 675,
+        "impact__procChance": 0.2
       }
     ],
     "nameEn": "Galvarc MK I",
@@ -14606,10 +13906,8 @@
     "behaviours": [
       {
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 1188,
-          "procChance": 0.26
-        }
+        "impact__DT_FIRE": 1188,
+        "impact__procChance": 0.26
       }
     ],
     "nameEn": "Galvarc MK II",
@@ -14648,10 +13946,8 @@
     "behaviours": [
       {
         "fireIterations": 1,
-        "impact": {
-          "DT_FIRE": 1901,
-          "procChance": 0.3
-        }
+        "impact__DT_FIRE": 1901,
+        "impact__procChance": 0.3
       }
     ],
     "nameEn": "Galvarc MK III",
@@ -14691,12 +13987,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14738,12 +14032,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14785,12 +14077,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14832,12 +14122,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 1,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14879,12 +14167,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 12,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14926,12 +14212,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 12,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -14973,12 +14257,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 12,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }
@@ -15020,12 +14302,10 @@
       {
         "stateName": "/Lotus/Language/Menu/Loadout_TriggerSemiAuto",
         "fireIterations": 12,
-        "impact": {
-          "DT_IMPACT": 0.999999,
-          "DT_PUNCTURE": 0.999999,
-          "DT_SLASH": 1.000002,
-          "procChance": 0.1
-        },
+        "impact__DT_IMPACT": 0.999999,
+        "impact__DT_PUNCTURE": 0.999999,
+        "impact__DT_SLASH": 1.000002,
+        "impact__procChance": 0.1,
         "stateNameEn": "SEMI",
         "stateNameZh": "半自动"
       }

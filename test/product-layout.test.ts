@@ -8,8 +8,8 @@ const file = (path: string, value: unknown): DatasetFileInput => ({ stage: "clea
   source: { project: "test", dataset: path, url: "https://example.invalid", capturedAt: "2026-10-23T00:00:00Z" } });
 const objects = (files: DatasetFileInput[]) => Object.fromEntries(files.map((file) => [file.path, JSON.parse(String(file.content)) as Record<string, unknown>]));
 
-test("all product aliases are single-level, in the twelve business domains, and idempotent", () => {
-  assert.equal(PRODUCT_DIRECTORIES.length, 12);
+test("all product aliases are single-level, in the eleven business domains, and idempotent", () => {
+  assert.equal(PRODUCT_DIRECTORIES.length, 11);
   for (const [old, target] of Object.entries(PRODUCT_PATH_ALIASES)) {
     assert.equal(canonicalProductPath(old), target);
     assert.equal(canonicalProductPath(target), target);

@@ -4,12 +4,10 @@ import { createHash } from "node:crypto";
 import { collectOfficialMedia } from "../collectors/official-media.js";
 import { collectPublicExport } from "../collectors/public-export.js";
 import { collectMarketItems, collectRivenAttributes, collectRivenWeapons } from "../collectors/market.js";
-import { collectWeeklyRivens } from "../collectors/riven.js";
 import { collectPlusExports } from "../collectors/plus.js";
 import { collectDropTables } from "../collectors/droptables.js";
 import { collectUsageData } from "../collectors/usage.js";
 import { collectLanguagesBinData } from "../collectors/languages.js";
-import { collectArbitrationSchedule } from "../collectors/arbitration.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
 type Entry = Omit<DatasetFileInput, "content"> & { sha256: string };
@@ -21,9 +19,9 @@ export async function acquire(directory: string): Promise<DatasetFileInput[]> {
   const jobs = [
     ["public-export", () => collectPublicExport()], ["market-items", () => collectMarketItems()],
     ["riven-attributes", () => collectRivenAttributes()], ["riven-weapons", () => collectRivenWeapons()],
-    ["weekly", () => collectWeeklyRivens()], ["plus", () => collectPlusExports()],
+    ["plus", () => collectPlusExports()],
     ["official-media", () => collectOfficialMedia()], ["drops", () => collectDropTables()], ["usage", () => collectUsageData()],
-    ["languages", () => collectLanguagesBinData()], ["arbitration", async () => [await collectArbitrationSchedule()]],
+    ["languages", () => collectLanguagesBinData()],
   ] as const;
   const results = await Promise.allSettled(jobs.map(async ([name, collect]) => {
     const jobIndex = join(directory, `${name}.index.json`);

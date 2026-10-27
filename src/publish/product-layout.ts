@@ -1,7 +1,7 @@
-/** 正式成品的十二个业务目录；内部投影路径与发布路径在此统一对齐。 */
+/** 正式成品的十一个业务目录；内部投影路径与发布路径在此统一对齐。 */
 export const PRODUCT_DIRECTORIES = [
   "equipment", "upgrades", "items", "crafting", "world", "rewards",
-  "progression", "worldstate", "arbitration", "market", "reference", "statistics",
+  "progression", "worldstate", "market", "reference", "statistics",
 ] as const;
 
 /** 历史成品路径到当前发布路径的映射；不复制旧路径作为兼容成品。 */

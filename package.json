@@ -12,10 +12,14 @@
     "replay": "tsx src/cli.ts replay",
     "verify": "tsx src/cli.ts verify",
     "test": "node --import tsx --test test/*.test.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "analyze:structure": "tsx src/scripts/analyze-structure.ts",
+    "compare:downstream": "tsx src/scripts/compare-downstream-schema.ts",
+    "audit:images": "tsx src/scripts/audit-image-assets.ts",
+    "normalize:products": "tsx src/scripts/normalize-products.ts",
+    "audit:shapes": "tsx src/scripts/audit-product-shapes.ts"
   },
   "dependencies": {
-    "json5": "^2.2.3",
     "lzma-native": "^8.0.6"
   },
   "devDependencies": {

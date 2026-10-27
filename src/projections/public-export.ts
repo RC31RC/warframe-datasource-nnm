@@ -3,10 +3,7 @@ import type { JsonValue, DatasetFileInput } from "../domain/contracts.js";
 
 type JsonObject = Record<string, unknown>;
 
-/** DE 官方 Public Export 的 15 种语言（与 collectors/public-export.ts 的 LOCALES 一致）。 */
-const LOCALES = [
-  "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh",
-] as const;
+import { LOCALES } from "../collectors/public-export.js";
 
 // 主投影（数值结构/英文名）只用 en 版本；多语言翻译由 appendTranslations 循环 LOCALES 读取。
 const INPUTS = {
@@ -433,8 +430,7 @@ function appendTranslations(
     if (iconUrl) (entry as Record<string, JsonValue>).iconUrl = iconUrl;
   }
 
-  // recipe 本身没有 name 字段（官方任何语言都不提供），从 resultType 指向的产物名推导。
-  // 各语言的"蓝图"后缀不同，这里仅对 en/zh 推导；其余语言 recipe 名留待后续补齐。
+  // recipe 本身没有 name 字段；从 resultType 指向的产物名推导 en/zh 蓝图名。
   for (const locale of ["en", "zh"] as const) {
     const suffix = locale === "en" ? " Blueprint" : "蓝图";
     for (const recipe of recipesByLocale[locale] ?? []) {

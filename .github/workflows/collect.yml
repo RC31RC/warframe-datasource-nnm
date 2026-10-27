@@ -2,18 +2,38 @@ name: Collect & Publish
 
 on:
   schedule:
-    # 每天 03:17 UTC（覆盖 arbys.txt 每小时追加、market 每日变化；其余数据幂等）
+    # 静态数据每天 03:17 UTC 更新；小时仲裁/紫卡周价格由下游维护。
     - cron: "17 3 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/collect.yml"
+      - "src/**"
+      - "test/**"
+      - "package.json"
+      - "package-lock.json"
+      - "tsconfig.json"
+      - "pluto/**"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
+# 同一默认分支串行发布，避免两次采集互相覆盖或抢占日期 tag。
+concurrency:
+  group: collect-publish-${{ github.repository }}
+  cancel-in-progress: false
+
 jobs:
   collect:
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 日期 tag 的冲突检查需要完整 tag；默认浅克隆看不到已发布日期 tag。
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -23,23 +43,54 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # pluto/ 与 tmp/cache/ 已随仓库提交（checkout 即得兜底）：
-      # - languages 走「pluto/languages → GitHub Raw」降级
-      # - plus 走「raw → tmp/cache 解压」降级
-      # - 其余（官方 Export/掉落表/market/usage/arbys）直接访问上游 URL
+      - name: Validate generator
+        run: |
+          npm run typecheck
+          npm test
+
+      # 无本地游戏资源时，Plus/语言表使用 Raw -> tmp/cache 降级；不采集动态排期/周价格。
       - name: Collect
-        run: npm run collect
+        shell: bash
+        run: |
+          set -o pipefail
+          npm run collect 2>&1 | tee "$RUNNER_TEMP/warframe-collect.log"
 
       - name: Verify
         run: npm run verify
 
-      # data/latest 覆盖式发布；tmp/cache 每次 collect 后更新为上一轮快照。
-      # 数据有变化时打日期 tag（data-YYYYMMDD）作为稳定快照锚点。
+      - name: Preserve failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collect-failure-${{ github.run_id }}
+          path: ${{ runner.temp }}/warframe-collect.log
+          if-no-files-found: ignore
+          retention-days: 14
+
+      - name: Summarize collection failure
+        if: failure()
+        shell: bash
+        run: |
+          {
+            echo '### Collection/publishing failed'
+            echo 'A scheduled trigger is not evidence of a successful publish. Inspect the failed step and collection log artifact.'
+            echo '```text'
+            if [ -f "$RUNNER_TEMP/warframe-collect.log" ]; then
+              tail -n 100 "$RUNNER_TEMP/warframe-collect.log"
+            else
+              echo 'Failure happened before collection; inspect the dependency/validation steps.'
+            fi
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # 仅发布静态成品和既有 cache；不会提交 tmp 下的消费者示范/动态响应。
       - name: Commit and tag regenerated data
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data tmp pluto
+          git add -- data/latest tmp/cache
           if git diff --cached --quiet; then
             echo "No changes, skip commit and tag"
           else
@@ -49,5 +100,5 @@ jobs:
               TAG="$TAG-$(date -u +%H%M%S)"
             fi
             git tag "$TAG"
-            git push origin main "$TAG"
+            git push --atomic origin "HEAD:$TARGET_BRANCH" "refs/tags/$TAG"
           fi

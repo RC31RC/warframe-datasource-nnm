@@ -14,13 +14,8 @@ export const REQUIRED_EXPORTS = [
 ] as const;
 export const REQUIRED_SHARED_EXPORTS = ["ExportManifest"] as const;
 
-/**
- * DE 官方 Public Export 支持的 15 种语言（en 主语言 + 14 种本地化）。
- * 与 warframe-items 的 config/locales.json 一致（en 单独作主语言处理）。
- */
-export const LOCALES = [
-  "en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh",
-] as const;
+/** Only English and Simplified Chinese are acquired and published. */
+export const LOCALES = ["en", "zh"] as const;
 interface IndexEntry {
   fileName: string;
   upstreamRevision: string;

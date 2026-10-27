@@ -125,10 +125,8 @@
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
     "purchaseQuantity": 6,
-    "pickupQuantity": {
-      "minValue": 6,
-      "maxValue": 12
-    },
+    "pickupQuantity__minValue": 6,
+    "pickupQuantity__maxValue": 12,
     "nameEn": "DNA Stabilizers",
     "nameZh": "DNA 稳定剂组",
     "descriptionEn": "Contains 6 DNA Stabilizers to maintain the health of a Kubrow or Kavat.",
@@ -1788,24 +1786,22 @@
     "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 75,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 75,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Intact Sentient Core",
     "nameZh": "完整的 Sentient 核心",
     "descriptionEn": "An integral component of Sentient anatomy.  Rarely found undamaged, the specimen may prove useful.\r\n\r\nLocation: Drops from Vomvalysts on the Plains of Eidolon (Earth) at night, and from Sentients found on Lua and the Veil Proxima",
@@ -1836,24 +1832,22 @@
     "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 5,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 5,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Flawless Sentient Core",
     "nameZh": "无瑕的 Sentient 核心",
     "descriptionEn": "A Sentient Core of this quality and condition has rarely been found. Truly a special specimen.\r\n\r\nLocation: Earned by capturing Eidolons found roaming the Plains of Eidolon on Earth at night",
@@ -1884,24 +1878,22 @@
     "parentName": "/Lotus/Types/Items/SyndicateDogTags/DogTag",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 10,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Exceptional Sentient Core",
     "nameZh": "卓越的 Sentient 核心",
     "descriptionEn": "A coveted sample of Sentient internal anatomy. Specimens of this age and quality are both rare and valuable. \r\n\r\nLocation: Eidolons found roaming the Plains of Eidolon on Earth at night",
@@ -1962,24 +1954,22 @@
     "parentName": "/Lotus/Types/Gameplay/Eidolon/Resources/SentientShards/SentientShardBaseItem",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 35,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 35,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Hemocyte Cystolith",
     "nameZh": "免疫血胞体结石",
     "descriptionEn": "Torn from the bile duct of a fallen Hemocyte.\r\n\r\nLocation: Hemocytes found in Plague Star event Bounties in the Plains of Eidolon on Earth",
@@ -2071,24 +2061,22 @@
     "productCategory": "MiscItems",
     "longDescription": "The most prized part of an Eidolon. Jewelry created from an Eidolon shard is most prized in Cetus.",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-      "count": 10,
-      "gain": 0.5,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
-          "name": "SENTIENT APPETITE",
-          "nameZh": "SENTIENT 食欲",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "nameEn": "SENTIENT APPETITE",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+    "helminthSnack__count": 10,
+    "helminthSnack__gain": 0.5,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthAppetiteCooldownReducer",
+        "name": "SENTIENT APPETITE",
+        "nameZh": "SENTIENT 食欲",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/SentientFactionIcon.png!00_tZ2I0XDNB73b5-tqyBa6Dw",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "nameEn": "SENTIENT APPETITE",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Eidolon Shard",
     "nameZh": "夜灵碎片",
     "descriptionEn": "Shard gained from the Sentients roaming the Plains of Eidolon on Earth at night.",
@@ -2329,24 +2317,22 @@
     "parentName": "/Lotus/Types/Items/MiscItems/MiscItemBase",
     "productCategory": "MiscItems",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 55,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 55,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Vessel Capillaries",
     "nameZh": "承载体毛细血管",
     "descriptionEn": "A crucial sub-component in the construction of Albrecht Entrati's vessels.\r\n\r\nObtained from Disruption missions on Armatus, Deimos.",
@@ -14784,24 +14770,22 @@
     "productCategory": "MiscItems",
     "rarity": "RARE",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-      "count": 7,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
-          "name": "Bile",
-          "nameZh": "胆液块",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
-          "nameEn": "Bile",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+    "helminthSnack__count": 7,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthBile",
+        "name": "Bile",
+        "nameZh": "胆液块",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Bile.png!00_YRAnNvqkb-S9XTWzt5tMGQ",
+        "nameEn": "Bile",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Javlok Capacitor",
     "nameZh": "燃焰标枪电容器",
     "descriptionEn": "Used in the construction of Javloks",
@@ -16288,24 +16272,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Pulsating Tubercles",
     "nameZh": "脉动节瘤",
     "descriptionEn": "A grizzly trophy extracted from the corpse of a Juggernaut.\r\n\r\nLocation: Drops from Juggernauts (non-endless Infested Missions) and Deimos Juggernauts (Cambion Drift on Deimos)",
@@ -16336,24 +16318,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Infected Palpators",
     "nameZh": "感染触肢",
     "descriptionEn": "A grizzly trophy extracted from the corpse of a Juggernaut.\r\n\r\nLocation: Drops from Juggernauts (non-endless Infested Missions) and Deimos Juggernauts (Cambion Drift on Deimos)",
@@ -16384,24 +16364,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Chitinous Husk",
     "nameZh": "几丁质外壳",
     "descriptionEn": "A grizzly trophy extracted from the corpse of a Juggernaut.\r\n\r\nLocation: Drops from Juggernauts (non-endless Infested Missions) and Deimos Juggernauts (Cambion Drift on Deimos)",
@@ -16432,24 +16410,22 @@
     "productCategory": "MiscItems",
     "rarity": "UNCOMMON",
     "excludeFromMarket": true,
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-      "count": 3,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
-          "name": "Pheromones",
-          "nameZh": "信息质",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
-          "nameEn": "Pheromones",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+    "helminthSnack__count": 3,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthPheromones",
+        "name": "Pheromones",
+        "nameZh": "信息质",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Pheromones.png!00_naXohoCrpYTEYYslXL6hZw",
+        "nameEn": "Pheromones",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Severed Bile Sac",
     "nameZh": "胆囊块",
     "descriptionEn": "A grizzly trophy extracted from the corpse of a Juggernaut.\r\n\r\nLocation: Drops from Juggernauts (non-endless Infested Missions) and Deimos Juggernauts (Cambion Drift on Deimos)",
@@ -16510,28 +16486,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 250,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 250,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Belric Crystal Fragment",
     "nameZh": "贝里克水晶碎片",
     "descriptionEn": "A small fragment of Belric's Crystal from Tyana Pass on Mars.",
@@ -16562,28 +16534,24 @@
     "productCategory": "MiscItems",
     "platinumCost": 30,
     "excludeFromMarket": true,
-    "pickupQuantity": {
-      "minValue": 15,
-      "maxValue": 25
-    },
-    "helminthSnack": {
-      "type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-      "count": 250,
-      "gain": 0.3,
-      "itemReferences": [
-        {
-          "field": "type",
-          "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
-          "name": "Calx",
-          "nameZh": "金属垩",
-          "domain": "catalog",
-          "resolution": "localized_identity",
-          "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
-          "nameEn": "Calx",
-          "iconStatus": "available"
-        }
-      ]
-    },
+    "pickupQuantity__minValue": 15,
+    "pickupQuantity__maxValue": 25,
+    "helminthSnack__type": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+    "helminthSnack__count": 250,
+    "helminthSnack__gain": 0.3,
+    "helminthSnack__itemReferences": [
+      {
+        "field": "type",
+        "uniqueName": "/Lotus/Types/Items/InfestedFoundry/HelminthCalx",
+        "name": "Calx",
+        "nameZh": "金属垩",
+        "domain": "catalog",
+        "resolution": "localized_identity",
+        "iconUrl": "https://content.warframe.com/PublicExport/Lotus/Interface/Icons/StoreIcons/Helminth/Clax.png!00_UtlFAP03I4mrqWWh5aC0BQ",
+        "nameEn": "Calx",
+        "iconStatus": "available"
+      }
+    ],
     "nameEn": "Rania Crystal Fragment",
     "nameZh": "拉尼娅水晶碎片",
     "descriptionEn": "A small fragment of Rania's Crystal from Tyana Pass on Mars.",

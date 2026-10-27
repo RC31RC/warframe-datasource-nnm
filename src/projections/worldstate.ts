@@ -14,7 +14,7 @@ const LANG_EN = "languages/en.json";
 const LANG_ZH = "languages/zh.json";
 const RELIC_EN = "public-export/en/ExportRelicArcane_en.json";
 const RELIC_ZH = "public-export/zh/ExportRelicArcane_zh.json";
-const LOCALES = ["en", "de", "es", "fr", "it", "ja", "ko", "pl", "pt", "ru", "tc", "th", "tr", "uk", "zh"] as const;
+import { LOCALES } from "../collectors/public-export.js";
 
 /**
  * WorldState 代码簿投影：产出解析 worldState.php 动态快照所需的静态映射。

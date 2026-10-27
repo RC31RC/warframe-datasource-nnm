@@ -59,17 +59,7 @@ export const config = {
     "https://api.warframe.market/v2/items",
     "WF_MARKET_ITEMS_URL",
   ),
-  weeklyRivensUrl: absoluteHttpsUrl(
-    process.env.WF_WEEKLY_RIVENS_URL,
-    "https://www-static.warframe.com/repos/weeklyRivens{platform}.json",
-    "WF_WEEKLY_RIVENS_URL",
-  ),
   marketUserAgent: process.env.WF_MARKET_USER_AGENT ?? "warframe-datasource-nnm/0.1.0 contact=local-operator",
-  arbitrationScheduleUrl: absoluteHttpsUrl(
-    process.env.WF_ARBITRATION_SCHEDULE_URL,
-    "https://browse.wf/arbys.txt",
-    "WF_ARBITRATION_SCHEDULE_URL",
-  ),
   languagesRawBaseUrl: absoluteHttpsUrl(
     process.env.WF_LANGUAGES_RAW_BASE_URL,
     "https://raw.githubusercontent.com/calamity-inc/warframe-languages-bin-data/master",

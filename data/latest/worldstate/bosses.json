@@ -4,68 +4,62 @@
     "name": "Archon Amar",
     "nameEn": "Archon Amar",
     "nameZh": "执刑官欺谋狼主",
-    "shardCategory": {
-      "variants": [
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalAmarNameNoIcon",
-          "nameEn": "Crimson Archon Shard",
-          "nameZh": "深红执刑官源力石",
-          "tauforged": false
-        },
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalAmarMythicNameNoIcon",
-          "nameEn": "Tauforged Crimson Archon Shard",
-          "nameZh": "深红执刑官 Tau 融造源力石",
-          "tauforged": true
-        }
-      ],
-      "selection": "account_and_reward_rules_required"
-    }
+    "shardCategory__variants": [
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalAmarNameNoIcon",
+        "nameEn": "Crimson Archon Shard",
+        "nameZh": "深红执刑官源力石",
+        "tauforged": false
+      },
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalAmarMythicNameNoIcon",
+        "nameEn": "Tauforged Crimson Archon Shard",
+        "nameZh": "深红执刑官 Tau 融造源力石",
+        "tauforged": true
+      }
+    ],
+    "shardCategory__selection": "account_and_reward_rules_required"
   },
   "SORTIE_BOSS_BOREAL": {
     "nameKey": "/Lotus/Language/Narmer/ArchonBoreal",
     "name": "Archon Boreal",
     "nameEn": "Archon Boreal",
     "nameZh": "执刑官诡文枭主",
-    "shardCategory": {
-      "variants": [
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalBorealNameNoIcon",
-          "nameEn": "Azure Archon Shard",
-          "nameZh": "蔚蓝执刑官源力石",
-          "tauforged": false
-        },
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalBorealMythicNameNoIcon",
-          "nameEn": "Tauforged Azure Archon Shard",
-          "nameZh": "蔚蓝执刑官 Tau 融造源力石",
-          "tauforged": true
-        }
-      ],
-      "selection": "account_and_reward_rules_required"
-    }
+    "shardCategory__variants": [
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalBorealNameNoIcon",
+        "nameEn": "Azure Archon Shard",
+        "nameZh": "蔚蓝执刑官源力石",
+        "tauforged": false
+      },
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalBorealMythicNameNoIcon",
+        "nameEn": "Tauforged Azure Archon Shard",
+        "nameZh": "蔚蓝执刑官 Tau 融造源力石",
+        "tauforged": true
+      }
+    ],
+    "shardCategory__selection": "account_and_reward_rules_required"
   },
   "SORTIE_BOSS_NIRA": {
     "nameKey": "/Lotus/Language/Narmer/ArchonNira",
     "name": "Archon Nira",
     "nameEn": "Archon Nira",
     "nameZh": "执刑官混沌蛇主",
-    "shardCategory": {
-      "variants": [
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalNiraNameNoIcon",
-          "nameEn": "Amber Archon Shard",
-          "nameZh": "琥珀执刑官源力石",
-          "tauforged": false
-        },
-        {
-          "nameKey": "/Lotus/Language/Narmer/ArchonCrystalNiraMythicNameNoIcon",
-          "nameEn": "Tauforged Amber Archon Shard",
-          "nameZh": "琥珀执刑官 Tau 融造源力石",
-          "tauforged": true
-        }
-      ],
-      "selection": "account_and_reward_rules_required"
-    }
+    "shardCategory__variants": [
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalNiraNameNoIcon",
+        "nameEn": "Amber Archon Shard",
+        "nameZh": "琥珀执刑官源力石",
+        "tauforged": false
+      },
+      {
+        "nameKey": "/Lotus/Language/Narmer/ArchonCrystalNiraMythicNameNoIcon",
+        "nameEn": "Tauforged Amber Archon Shard",
+        "nameZh": "琥珀执刑官 Tau 融造源力石",
+        "tauforged": true
+      }
+    ],
+    "shardCategory__selection": "account_and_reward_rules_required"
   }
 }

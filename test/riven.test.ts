@@ -1,41 +1,8 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { parseWeeklyRivens } from "../src/collectors/riven.js";
 import { projectWeapons } from "../src/collectors/market.js";
 import { projectRiven } from "../src/projections/riven.js";
 import type { DatasetFileInput } from "../src/domain/contracts.js";
-
-test("parses JS-literal weekly riven payloads into strict JSON records", () => {
-  const records = parseWeeklyRivens([
-    "[",
-    "  { itemType: 'Rifle Riven Mod', compatibility: 'Latron', rerolled: false, avg: 100, stddev: 5, min: 90, max: 110, pop: 3, median: 100 },",
-    "  { itemType: 'Melee Riven Mod', compatibility: null, rerolled: true, avg: 40.5, stddev: null, min: 20, max: 60, pop: 1, median: null }",
-    "]",
-  ].join("\n"), "PC");
-  assert.equal(records.length, 2);
-  assert.equal(records[0]?.itemType, "Rifle Riven Mod");
-  assert.equal(records[0]?.compatibility, "Latron");
-  assert.equal(records[0]?.rerolled, false);
-  assert.equal(records[1]?.compatibility, null);
-  assert.equal(records[1]?.stddev, null);
-});
-
-test("rejects malformed, duplicate, and non-numeric weekly riven payloads", () => {
-  assert.throws(() => parseWeeklyRivens("not json", "PC"), /Invalid weekly riven payload/u);
-  assert.throws(() => parseWeeklyRivens("[]", "PC"), /nonempty array/u);
-  assert.throws(() => parseWeeklyRivens("[{ itemType: 'A', rerolled: false, avg: 'x', stddev: 0, min: 0, max: 0, pop: 0, median: 0 }]", "PC"), /avg/u);
-  assert.throws(() => parseWeeklyRivens(
-    "[{ itemType: 'A', rerolled: false, avg: -1, stddev: 0, min: 0, max: 0, pop: 0, median: 0 }]",
-    "PC",
-  ), /avg/u);
-  assert.throws(() => parseWeeklyRivens("[{ itemType: 'A' }]", "PC"), /rerolled/u);
-  assert.throws(() => parseWeeklyRivens([
-    "[",
-    "{ itemType: 'A', rerolled: false, avg: 1, stddev: 0, min: 0, max: 1, pop: 1, median: 0 },",
-    "{ itemType: 'A', rerolled: false, avg: 2, stddev: 0, min: 0, max: 2, pop: 1, median: 0 }",
-    "]",
-  ].join(" "), "PC"), /Duplicate/u);
-});
 
 test("projects Market riven weapons with stable keys and required fields", () => {
   const records = projectWeapons({ data: [
