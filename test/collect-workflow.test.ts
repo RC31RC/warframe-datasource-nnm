@@ -15,4 +15,6 @@ test("publishing keeps diagnostics, stages only products/cache and handles exist
   assert.match(workflow, /uses: actions\/upload-artifact@v4/u); assert.match(workflow, /GITHUB_STEP_SUMMARY/u);
   assert.match(workflow, /git add -- data\/latest tmp\/cache/u); assert.doesNotMatch(workflow, /git add data tmp pluto/u);
   assert.match(workflow, /git push --atomic origin "HEAD:\$TARGET_BRANCH"/u);
+  assert.match(workflow, /TAG="\$\(date -u \+%Y%m%d%H%M%S\)"/u);
+  assert.doesNotMatch(workflow, /TAG="data-/u);
 });

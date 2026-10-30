@@ -1,6 +1,6 @@
 import { createHash, randomUUID } from "node:crypto";
 import { mkdir, open, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises";
-import { gzipSync } from "node:zlib";
+import { gunzipSync, gzipSync } from "node:zlib";
 import { dirname, join, resolve } from "node:path";
 import type { DatasetFileEntry, DatasetFileInput, DatasetManifest, DatasetStage } from "../domain/contracts.js";
 import { canonicalProductPath } from "./product-layout.js";
@@ -45,10 +45,10 @@ export class DatasetPublisher {
     if (cleanedInputs.length === 0) throw new Error("Refusing to generate a dataset without cleaned files");
 
     const rawPrepared = rawInputs.map((file) => prepare(file, "raw"));
-    const publishedPaths = new Map(cleanedInputs.map((file) => [file.path, canonicalProductPath(file.path)]));
+    const publishedPaths = new Map(cleanedInputs.map((file) => [file.path, compressedProductPath(file.path)]));
     const cleanedPrepared = cleanedInputs.map((file) => prepare({
       ...file,
-      path: publishedPaths.get(file.path) ?? file.path,
+      path: publishedPaths.get(file.path) ?? compressedProductPath(file.path),
       source: {
         ...file.source,
         ...(file.source.derivedFrom ? { derivedFrom: file.source.derivedFrom.map((path) => publishedPaths.get(path) ?? path) } : {}),
@@ -127,7 +127,9 @@ async function writeTree(
       await mkdir(dirname(target), { recursive: true });
       await writeSynced(target, bytes);
     }
-    await writeSynced(join(staging, "manifest.json"), Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`));
+    const manifestPath = manifestPathFor(stage);
+    const manifestBytes = Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`);
+    await writeSynced(join(staging, manifestPath), stage === "cleaned" ? gzipSync(manifestBytes) : manifestBytes);
     await verifyDirectory(staging, stage);
     await syncTree(staging);
 
@@ -172,8 +174,10 @@ async function writeTree(
 
 async function verifyDirectory(directory: string, stage: DatasetStage): Promise<{ buildId: string; verifiedFiles: number }> {
   const actualPaths = await listFiles(directory);
-  const manifest = parseJson(await readFile(join(directory, "manifest.json")), "manifest.json") as DatasetManifest;
-  if (manifest?.schemaVersion !== 2 || manifest.producer !== "warframe-datasource-nnm"
+  const manifestPath = manifestPathFor(stage);
+  const manifestBytes = await readFile(join(directory, manifestPath));
+  const manifest = parseJson(stage === "cleaned" ? gunzipSync(manifestBytes) : manifestBytes, manifestPath) as DatasetManifest;
+  if (manifest?.schemaVersion !== 3 || manifest.producer !== "warframe-datasource-nnm"
     || typeof manifest.createdAt !== "string" || !Number.isFinite(Date.parse(manifest.createdAt))
     || !Array.isArray(manifest.files) || manifest.files.length === 0) {
     throw new Error("Invalid dataset manifest");
@@ -185,7 +189,7 @@ async function verifyDirectory(directory: string, stage: DatasetStage): Promise<
   if (manifest.buildId !== buildId(manifest.files, manifest.createdAt)) {
     throw new Error("Dataset manifest identity mismatch");
   }
-  const expectedPaths = ["manifest.json", ...manifest.files.map((entry) => entry.path)].sort();
+  const expectedPaths = [manifestPath, ...manifest.files.map((entry) => entry.path)].sort();
   if (JSON.stringify(actualPaths.sort()) !== JSON.stringify(expectedPaths)) {
     throw new Error("Dataset files do not match manifest (missing or unexpected files)");
   }
@@ -194,7 +198,8 @@ async function verifyDirectory(directory: string, stage: DatasetStage): Promise<
     if (bytes.length !== entry.bytes || sha256(bytes) !== entry.sha256) {
       throw new Error(`Checksum mismatch: ${entry.path}`);
     }
-    if (entry.path.endsWith(".json")) parseJson(bytes, entry.path);
+    if (stage === "cleaned") parseJson(gunzipSync(bytes), entry.path);
+    else if (entry.path.endsWith(".json")) parseJson(bytes, entry.path);
   }
   return { buildId: manifest.buildId, verifiedFiles: manifest.files.length };
 }
@@ -204,14 +209,16 @@ function prepare(file: DatasetFileInput, stage: DatasetStage): PreparedFile {
   if (stage === "cleaned" && file.path.split("/").length > 2) {
     throw new Error(`Cleaned product path exceeds one folder level: ${file.path}`);
   }
-  const bytes = Buffer.from(file.content);
-  if (bytes.length === 0) throw new Error(`Refusing to generate empty file: ${file.path}`);
-  if (file.path.endsWith(".json")) parseJson(bytes, file.path);
+  const contentBytes = Buffer.from(file.content);
+  if (contentBytes.length === 0) throw new Error(`Refusing to generate empty file: ${file.path}`);
+  if (stage === "cleaned") parseJson(contentBytes, file.path);
+  else if (file.path.endsWith(".json")) parseJson(contentBytes, file.path);
+  const bytes = stage === "cleaned" ? gzipSync(contentBytes) : contentBytes;
   const entry: DatasetFileEntry = {
     path: file.path,
     sha256: sha256(bytes),
     bytes: bytes.length,
-    mediaType: mediaTypeFor(file.path),
+    mediaType: mediaTypeFor(file.path, stage),
     source: file.source,
     ...(file.recordCount === undefined ? {} : { recordCount: file.recordCount }),
   };
@@ -227,7 +234,9 @@ function validateEntries(entries: DatasetFileEntry[], allPaths: Set<string> | nu
     if (paths.has(normalized)) throw new Error(`Duplicate dataset path: ${entry.path}`);
     paths.add(normalized);
     if (!/^[a-f0-9]{64}$/u.test(entry.sha256) || !Number.isSafeInteger(entry.bytes) || entry.bytes <= 0
-      || (entry.mediaType !== "application/json" && entry.mediaType !== "text/plain" && entry.mediaType !== "text/html")
+      || (stage === "cleaned" && entry.mediaType !== "application/gzip")
+      || (stage === "raw" && entry.mediaType === "application/gzip")
+      || (entry.mediaType !== "application/gzip" && entry.mediaType !== "application/json" && entry.mediaType !== "text/plain" && entry.mediaType !== "text/html")
       || (entry.recordCount !== undefined && (!Number.isSafeInteger(entry.recordCount) || entry.recordCount < 0))
       || (stage === "raw" && !entry.source)
       || (entry.source !== undefined && (typeof entry.source.project !== "string" || typeof entry.source.dataset !== "string"
@@ -243,7 +252,7 @@ function validateEntries(entries: DatasetFileEntry[], allPaths: Set<string> | nu
       }
     }
     for (const input of entry.source?.derivedFrom ?? []) {
-      validateRelativePath(input, "raw");
+      validateRelativePath(input, input.endsWith(".json.gz") ? "cleaned" : "raw");
       if (input.toLowerCase() === entry.path.toLowerCase()) {
         throw new Error(`Self-referencing dataset input: ${input}`);
       }
@@ -257,19 +266,30 @@ function validateEntries(entries: DatasetFileEntry[], allPaths: Set<string> | nu
 
 function validateRelativePath(path: string, stage: DatasetStage): void {
   if (typeof path !== "string"
-    || !(path.endsWith(".json") || (stage === "raw" && (path.endsWith(".txt") || path.endsWith(".html"))))
+    || !(stage === "cleaned" ? path.endsWith(".json.gz")
+      : path.endsWith(".json") || path.endsWith(".txt") || path.endsWith(".html"))
     || path.split("/").some((part) => !/^[a-z0-9][a-z0-9._-]*$/iu.test(part) || part === "." || part === "..")) {
     throw new Error(`Invalid dataset path: ${path}`);
   }
-  if (path.toLowerCase() === "manifest.json") throw new Error(`Reserved dataset path: ${path}`);
+  if (path.toLowerCase() === "manifest.json" || path.toLowerCase() === "manifest.json.gz") throw new Error(`Reserved dataset path: ${path}`);
   if (stage === "cleaned" && path.split("/").length > 2) throw new Error(`Published dataset path exceeds one business directory: ${path}`);
 }
 
-function mediaTypeFor(path: string): "application/json" | "text/plain" | "text/html" {
+function mediaTypeFor(path: string, stage: DatasetStage): "application/gzip" | "application/json" | "text/plain" | "text/html" {
+  if (stage === "cleaned" && path.endsWith(".json.gz")) return "application/gzip";
   if (path.endsWith(".json")) return "application/json";
   if (path.endsWith(".txt")) return "text/plain";
   if (path.endsWith(".html")) return "text/html";
   throw new Error(`Unsupported dataset media type: ${path}`);
+}
+
+function compressedProductPath(path: string): string {
+  if (!path.endsWith(".json")) throw new Error(`Invalid dataset path: ${path}`);
+  return `${canonicalProductPath(path)}.gz`;
+}
+
+function manifestPathFor(stage: DatasetStage): string {
+  return stage === "cleaned" ? "manifest.json.gz" : "manifest.json";
 }
 
 function buildManifest(entries: DatasetFileEntry[], createdAt: string, stage: DatasetStage): DatasetManifest {
@@ -277,7 +297,7 @@ function buildManifest(entries: DatasetFileEntry[], createdAt: string, stage: Da
     ? entries
     : entries.map(({ source: _source, ...entry }) => entry);
   return {
-    schemaVersion: 2,
+    schemaVersion: 3,
     buildId: buildId(publishedEntries, createdAt),
     createdAt,
     producer: "warframe-datasource-nnm",

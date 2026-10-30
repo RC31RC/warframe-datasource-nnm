@@ -1,21 +1,23 @@
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
 import { analyzeProductStructure, type ProductStructure } from "../analysis/product-structure.js";
+import { logicalProductPath, parseGzipJson } from "../publish/dataset-reader.js";
 
 const directory = resolve(process.argv[2] ?? "data/latest");
 const beforeDirectory = process.argv[3] ? resolve(process.argv[3]) : undefined;
 const output = resolve(process.argv[4] ?? "docs/json-structure-report");
-const manifest = JSON.parse(await readFile(join(directory, "manifest.json"), "utf8")) as { buildId: string; files: { path: string }[] };
-const beforeManifest = beforeDirectory ? JSON.parse(await readFile(join(beforeDirectory, "manifest.json"), "utf8")) as typeof manifest : manifest;
+const manifest = parseGzipJson<{ buildId: string; files: { path: string }[] }>(await readFile(join(directory, "manifest.json.gz")));
+const beforeManifest = beforeDirectory
+  ? parseGzipJson<typeof manifest>(await readFile(join(beforeDirectory, "manifest.json.gz"))) : manifest;
 const afterPaths = new Set(manifest.files.map((entry) => entry.path));
 const beforePaths = new Set(beforeManifest.files.map((entry) => entry.path));
 const paths = [...new Set([...afterPaths, ...beforePaths])].sort();
 const empty = (): ProductStructure => ({ recordDepth: 0, tables: 0, tablePaths: [], scalarLeaves: 0, arrays: 0 });
 const rows: { file: string; before: ProductStructure; after: ProductStructure }[] = [];
 for (const path of paths) {
-  const after = afterPaths.has(path) ? analyzeProductStructure(JSON.parse(await readFile(join(directory, path), "utf8")), path) : empty();
+  const after = afterPaths.has(path) ? analyzeProductStructure(parseGzipJson(await readFile(join(directory, path))), logicalProductPath(path)) : empty();
   const before = beforePaths.has(path) ? (beforeDirectory
-    ? analyzeProductStructure(JSON.parse(await readFile(join(beforeDirectory, path), "utf8")), path) : after) : empty();
+    ? analyzeProductStructure(parseGzipJson(await readFile(join(beforeDirectory, path))), logicalProductPath(path)) : after) : empty();
   rows.push({ file: path, before, after });
 }
 const total = (side: "before" | "after") => rows.reduce((n, row) => n + row[side].tables, 0);

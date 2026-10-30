@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { access, mkdir, mkdtemp, readFile, rm, symlink, writeFile } from "node:fs/promises";
-import { gunzipSync } from "node:zlib";
+import { gunzipSync, gzipSync } from "node:zlib";
 import { join, resolve } from "node:path";
 import { test } from "node:test";
 import { promisify } from "node:util";
@@ -41,15 +41,17 @@ test("archives raw plus snapshot to tmp/cache and clears raw workspace", async (
   ], new Date(capturedAt));
 
   assert.equal(result.manifest.producer, "warframe-datasource-nnm");
-  assert.equal(result.manifest.schemaVersion, 2);
-  assert.deepEqual(result.manifest.files.map(({ path }) => path), ["catalog/test.json"]);
+  assert.equal(result.manifest.schemaVersion, 3);
+  assert.deepEqual(result.manifest.files.map(({ path }) => path), ["catalog/test.json.gz"]);
   assert.equal(result.manifest.files[0]?.source, undefined);
+  assert.equal(result.manifest.files[0]?.mediaType, "application/gzip");
   assert.equal(result.dataDirectory, join(data, date));
   assert.equal(result.tmpDirectory, join(tmp, timestamp));
 
   // cleaned 树在 data/latest/，带 manifest
-  assert.deepEqual(JSON.parse(await readFile(join(data, date, "catalog/test.json"), "utf8")), { cleaned: true });
-  assert.ok(await readFile(join(data, date, "manifest.json")));
+  assert.deepEqual(JSON.parse(gunzipSync(await readFile(join(data, date, "catalog/test.json.gz"))).toString("utf8")), { cleaned: true });
+  assert.deepEqual(JSON.parse(gunzipSync(await readFile(join(data, date, "manifest.json.gz"))).toString("utf8")), result.manifest);
+  await assert.rejects(access(join(data, date, "catalog/test.json")), { code: "ENOENT" });
   // raw 工作区被清理，仅剩 tmp/cache
   await assert.rejects(access(join(tmp, timestamp)), { code: "ENOENT" });
   const cacheBytes = await readFile(join(tmp, "cache", "plus", "ExportEnemies.json.gz"));
@@ -69,8 +71,8 @@ test("replaces the same-date cleaned tree and removes stale datasets", async (co
   await publisher.publish([file("old.json"), file("catalog/test.json", '["before"]')], new Date(capturedAt));
   await publisher.publish([file("catalog/test.json", '["after"]')], new Date(capturedAt));
   assert.equal((await publisher.verify()).verifiedFiles, 1);
-  assert.deepEqual(JSON.parse(await readFile(join(data, date, "catalog/test.json"), "utf8")), ["after"]);
-  await assert.rejects(access(join(data, date, "old.json")), { code: "ENOENT" });
+  assert.deepEqual(JSON.parse(gunzipSync(await readFile(join(data, date, "catalog/test.json.gz"))).toString("utf8")), ["after"]);
+  await assert.rejects(access(join(data, date, "old.json.gz")), { code: "ENOENT" });
 });
 
 test("keeps previous output intact when inputs fail validation", async (context) => {
@@ -78,7 +80,7 @@ test("keeps previous output intact when inputs fail validation", async (context)
   context.after(() => rm(base, { recursive: true, force: true }));
   const publisher = new DatasetPublisher(data, tmp);
   const result = await publisher.publish([file()], new Date(capturedAt));
-  const before = await readFile(join(data, date, "manifest.json"), "utf8");
+  const before = await readFile(join(data, date, "manifest.json.gz"));
   await assert.rejects(publisher.publish([]), /empty dataset/u);
   await assert.rejects(publisher.publish([file("x.json", "{}", "raw")]), /without cleaned files/u);
   for (const path of ["../escape.json", "/absolute.json", "a/../b.json", "a\\b.json", "a//b.json", "a.js"]) {
@@ -89,9 +91,9 @@ test("keeps previous output intact when inputs fail validation", async (context)
   await assert.rejects(publisher.publish([file("test.json", "")]), /empty file/u);
   await assert.rejects(publisher.publish([file(), file()]), /Duplicate/u);
   await assert.rejects(publisher.publish([file("TEST.json"), file("test.json")]), /Duplicate/u);
-  await assert.rejects(publisher.publish([file("file.json"), file("file.json/child.json")]), /Conflicting/u);
+  await assert.rejects(publisher.publish([file("file.json"), file("file.json.gz/child.json")]), /Conflicting/u);
   await assert.rejects(publisher.publish([{ ...file(), recordCount: -1 }]), /Invalid dataset manifest entry/u);
-  assert.equal(await readFile(join(data, date, "manifest.json"), "utf8"), before);
+  assert.deepEqual(await readFile(join(data, date, "manifest.json.gz")), before);
   assert.equal((await publisher.verify()).buildId, result.manifest.buildId);
 });
 
@@ -124,8 +126,10 @@ test("reproduces identical output for the same timestamp and inputs", async (con
   context.after(() => rm(base, { recursive: true, force: true }));
   const publisher = new DatasetPublisher(data, tmp);
   const first = await publisher.publish([file("b.json"), file("a.json")], new Date(capturedAt));
+  const firstBytes = await readFile(join(data, date, "a.json.gz"));
   const second = await publisher.publish([file("a.json"), file("b.json")], new Date(capturedAt));
   assert.deepEqual(second.manifest, first.manifest);
+  assert.deepEqual(await readFile(join(data, date, "a.json.gz")), firstBytes);
 });
 
 test("detects corrupted, missing, unlisted, and symlinked files", async (context) => {
@@ -133,18 +137,18 @@ test("detects corrupted, missing, unlisted, and symlinked files", async (context
   context.after(() => rm(base, { recursive: true, force: true }));
   const publisher = new DatasetPublisher(data, tmp);
   await publisher.publish([file()], new Date(capturedAt));
-  await writeFile(join(data, date, "catalog/test.json"), '{"tampered":true}');
+  await writeFile(join(data, date, "catalog/test.json.gz"), '{"tampered":true}');
   await assert.rejects(publisher.verify(), /Checksum mismatch/u);
   await publisher.publish([file()], new Date(capturedAt));
-  await rm(join(data, date, "catalog/test.json"));
+  await rm(join(data, date, "catalog/test.json.gz"));
   await assert.rejects(publisher.verify(), /missing or unexpected/u);
   await publisher.publish([file()], new Date(capturedAt));
   await writeFile(join(data, date, "extra.json"), "{}");
   await assert.rejects(publisher.verify(), /missing or unexpected/u);
   await publisher.publish([file()], new Date(capturedAt));
-  await rm(join(data, date, "catalog/test.json"));
+  await rm(join(data, date, "catalog/test.json.gz"));
   await writeFile(join(data, "external.json"), "{}");
-  await symlink(join(data, "external.json"), join(data, date, "catalog/test.json"));
+  await symlink(join(data, "external.json"), join(data, date, "catalog/test.json.gz"));
   await assert.rejects(publisher.verify(), /links are not allowed/u);
 });
 
@@ -154,7 +158,7 @@ test("detects edited manifest metadata", async (context) => {
   const publisher = new DatasetPublisher(data, tmp);
   const result = await publisher.publish([file()], new Date(capturedAt));
   result.manifest.files[0]!.sha256 = "0".repeat(64);
-  await writeFile(join(data, date, "manifest.json"), JSON.stringify(result.manifest));
+  await writeFile(join(data, date, "manifest.json.gz"), gzipSync(Buffer.from(JSON.stringify(result.manifest))));
   await assert.rejects(publisher.verify(), /identity mismatch/u);
 });
 
@@ -165,7 +169,7 @@ test("rejects source metadata in a cleaned manifest", async (context) => {
   const result = await publisher.publish([file()], new Date(capturedAt));
   const manifest = result.manifest as unknown as { files: Array<Record<string, unknown>> };
   manifest.files[0]!.source = source;
-  await writeFile(join(data, date, "manifest.json"), JSON.stringify(manifest));
+  await writeFile(join(data, date, "manifest.json.gz"), gzipSync(Buffer.from(JSON.stringify(manifest))));
   await assert.rejects(publisher.verify(), /must not expose source metadata/u);
 });
 
@@ -186,7 +190,7 @@ test("publisher maps business aliases atomically and rejects colliding public pa
   context.after(() => rm(base, { recursive: true, force: true }));
   const publisher = new DatasetPublisher(data, tmp);
   const result = await publisher.publish([file("plus/vendors.json", '{"vendor":true}'), file("languages/en.json", '{"key":"English"}')], new Date(capturedAt));
-  assert.deepEqual(result.manifest.files.map(({ path }) => path), ["reference/language-en.json", "world/vendors.json"]);
+  assert.deepEqual(result.manifest.files.map(({ path }) => path), ["reference/language-en.json.gz", "world/vendors.json.gz"]);
   assert.equal((await publisher.verify()).verifiedFiles, 2);
   await assert.rejects(access(join(data, date, "plus/vendors.json")), { code: "ENOENT" });
   await assert.rejects(publisher.publish([file("plus/vendors.json"), file("world/vendors.json")]), /Duplicate/u);

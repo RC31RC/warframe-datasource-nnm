@@ -1,9 +1,11 @@
-import { readFileSync, writeFileSync, readdirSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { createRequire } from "node:module";
+import { gunzipSync } from "node:zlib";
 import { runInNewContext } from "node:vm";
 import { previewRedundantMissions } from "../analysis/redundant-missions.js";
 import { analyzeProductStructure } from "../analysis/product-structure.js";
+import { parseGzipJson } from "../publish/dataset-reader.js";
 
 /** Execute the consumer's real planner, intercepting every write and supplying read adapters in memory. */
 const botRoot = resolve(process.argv[2] ?? "../NnmBot");
@@ -24,7 +26,17 @@ const domainSource = readFileSync(domainFile, "utf8") + extraDomains;
 const readonlyFs = {
   readFileSync(path: string, encoding: string) {
     if (resolve(String(path)) === domainFile) return domainSource;
-    const content = readFileSync(path, encoding as "utf8");
+    const requestedPath = resolve(String(path));
+    const isProductPath = requestedPath.startsWith(`${activeDirectory}/`) && requestedPath.endsWith(".json");
+    const content = isProductPath && existsSync(`${requestedPath}.gz`)
+      ? gunzipSync(readFileSync(`${requestedPath}.gz`)).toString("utf8")
+      : readFileSync(path, encoding as "utf8");
+    if (requestedPath === join(activeDirectory, "manifest.json") && existsSync(`${requestedPath}.gz`)) {
+      const manifest = JSON.parse(content) as { files: Array<{ path: string }> };
+      return JSON.stringify({ ...manifest, files: manifest.files.map((entry) => ({
+        ...entry, path: entry.path.endsWith(".json.gz") ? entry.path.slice(0, -3) : entry.path,
+      })) });
+    }
     if (previewMissions && resolve(String(path)) === join(activeDirectory, "world/tilesets.json")) {
       const preview = previewRedundantMissions(JSON.parse(String(content)));
       if (preview.checked !== preview.removable) throw new Error("Incomplete mission coverage");
@@ -70,14 +82,15 @@ previewMissions = true;
 const withoutMissions = before ? runPlanner(adaptedSource, before) : undefined;
 previewMissions = false;
 const existing = JSON.parse(readFileSync(join(botRoot, "nnm-warframe/src/main/resources/warframe/official-product-models.json"), "utf8")) as Contract;
-const manifest = JSON.parse(readFileSync(join(directory, "manifest.json"), "utf8")) as { buildId: string; files: { path: string }[] };
+const manifest = parseGzipJson<{ buildId: string; files: { path: string }[] }>(readFileSync(join(directory, "manifest.json.gz")));
 const domains = new Map([...domainSource.matchAll(/^    ([A-Z_0-9]+)\("([^"]+\.json)"/gm)].map((match) => [match[2]!, match[1]!]));
 const count = (models: Contract["models"], domain: string) => models.filter((model) => model.domain === domain).length;
-const published = new Set(manifest.files.map(({ path }) => path));
+const published = new Set(manifest.files.map(({ path }) => path.endsWith(".json.gz") ? path.slice(0, -3) : path));
 const paths = [...new Set([...published, ...domains.keys()])].sort();
 const rows = paths.map((path) => {
   const domain = domains.get(path); if (!domain) throw new Error(`Unknown consumer domain: ${path}`);
-  const structuralRelationPaths = published.has(path) ? analyzeProductStructure(JSON.parse(readFileSync(join(directory, path), "utf8")), path).tables : 0;
+  const structuralRelationPaths = published.has(path)
+    ? analyzeProductStructure(parseGzipJson(readFileSync(join(directory, `${path}.gz`))), path).tables : 0;
   return { file: path, domain, published: published.has(path), structuralRelationPaths,
     existingConsumerTables: count(existing.models, domain), baselinePlannerTables: baseline ? count(baseline.models, domain) : null,
     baselineWithoutMissions: withoutMissions ? count(withoutMissions.models, domain) : null,

@@ -36,8 +36,13 @@ export const config = {
   requestRetries: positiveInteger(process.env.DATASOURCE_REQUEST_RETRIES, 5, "DATASOURCE_REQUEST_RETRIES"),
   publicExportIndexUrl: absoluteHttpsUrl(
     process.env.WF_PUBLIC_EXPORT_INDEX_URL,
-    "https://origin.warframe.com/PublicExport/index_{language}.txt.lzma",
+    "https://content.warframe.com/PublicExport/index_{language}.txt.lzma",
     "WF_PUBLIC_EXPORT_INDEX_URL",
+  ),
+  publicExportIndexFallbackUrl: absoluteHttpsUrl(
+    process.env.WF_PUBLIC_EXPORT_INDEX_FALLBACK_URL,
+    "https://origin.warframe.com/PublicExport/index_{language}.txt.lzma",
+    "WF_PUBLIC_EXPORT_INDEX_FALLBACK_URL",
   ),
   publicExportManifestUrl: absoluteHttpsUrl(
     process.env.WF_PUBLIC_EXPORT_MANIFEST_URL,

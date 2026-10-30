@@ -2,13 +2,14 @@ import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { resolve, join, dirname } from "node:path";
 import { analyzeProductShapes } from "../analysis/product-shapes.js";
 import type { DatasetManifest } from "../domain/contracts.js";
+import { logicalProductPath, parseGzipJson } from "../publish/dataset-reader.js";
 const directory = resolve(process.argv[2] ?? "data/latest");
 const before = process.argv[3] ? resolve(process.argv[3]) : undefined;
 const output = resolve(process.argv[4] ?? "docs/product-record-shapes");
 function audit(root: string) {
-  const manifest = JSON.parse(readFileSync(join(root, "manifest.json"), "utf8")) as DatasetManifest;
+  const manifest = parseGzipJson<DatasetManifest>(readFileSync(join(root, "manifest.json.gz")));
   const rows = manifest.files.map(({ path }) => ({ file: path,
-    ...analyzeProductShapes(JSON.parse(readFileSync(join(root, path), "utf8")), path) }));
+    ...analyzeProductShapes(parseGzipJson(readFileSync(join(root, path))), logicalProductPath(path)) }));
   return { buildId: manifest.buildId, totals: { files: rows.length,
     filesWithMixedTypes: rows.filter((row) => row.mixedTypes.length).length,
     mixedTypePaths: rows.reduce((sum, row) => sum + row.mixedTypes.length, 0),

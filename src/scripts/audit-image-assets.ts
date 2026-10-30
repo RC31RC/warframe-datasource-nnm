@@ -1,11 +1,12 @@
 import { readFile, mkdir, writeFile } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
+import { parseGzipJson } from "../publish/dataset-reader.js";
 
 const directory = resolve(process.argv[2] ?? "data/latest");
 const target = process.argv[3] ?? "/Lotus/Interface/Icons/Npcs/Neutral/CondrocCommon.png";
 const output = resolve(process.argv[4] ?? "docs/image-asset-diagnostic.json");
-const manifest = JSON.parse(await readFile(join(directory, "manifest.json"), "utf8")) as { buildId: string; files: { path: string }[] };
-const images = JSON.parse(await readFile(join(directory, "reference/images.json"), "utf8")) as Record<string, unknown>;
+const manifest = parseGzipJson<{ buildId: string; files: { path: string }[] }>(await readFile(join(directory, "manifest.json.gz")));
+const images = parseGzipJson<Record<string, unknown>>(await readFile(join(directory, "reference/images.json.gz")));
 const matches: Record<string, unknown>[] = [];
 const statuses = new Map<string, number>();
 const visit = (value: unknown, file: string, path: string[]) => {
@@ -23,7 +24,7 @@ const visit = (value: unknown, file: string, path: string[]) => {
 };
 for (const file of manifest.files) {
   if (file.path.startsWith("reference/language-")) continue;
-  visit(JSON.parse(await readFile(join(directory, file.path), "utf8")), file.path, []);
+  visit(parseGzipJson(await readFile(join(directory, file.path))), file.path, []);
 }
 const entry = images[target] ?? images[target.replace(/^\//u, "")] ?? null;
 const report = { buildId: manifest.buildId, target, publicImageEntry: entry, hasPublicMapping: entry !== null,

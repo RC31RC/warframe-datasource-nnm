@@ -19,7 +19,7 @@ on:
 permissions:
   contents: write
 
-# 同一默认分支串行发布，避免两次采集互相覆盖或抢占日期 tag。
+# 同一默认分支串行发布，避免两次采集互相覆盖或抢占秒级 tag。
 concurrency:
   group: collect-publish-${{ github.repository }}
   cancel-in-progress: false
@@ -32,7 +32,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # 日期 tag 的冲突检查需要完整 tag；默认浅克隆看不到已发布日期 tag。
+          # 秒级 tag 的冲突检查需要完整 tag；默认浅克隆看不到已发布 tag。
           fetch-depth: 0
 
       - uses: actions/setup-node@v4
@@ -95,10 +95,11 @@ jobs:
             echo "No changes, skip commit and tag"
           else
             git commit -m "data: regenerate $(date -u +%F)"
-            TAG="data-$(date -u +%Y%m%d)"
-            if git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; then
-              TAG="$TAG-$(date -u +%H%M%S)"
-            fi
+            TAG="$(date -u +%Y%m%d%H%M%S)"
+            while git rev-parse -q --verify "refs/tags/$TAG" >/dev/null; do
+              sleep 1
+              TAG="$(date -u +%Y%m%d%H%M%S)"
+            done
             git tag "$TAG"
             git push --atomic origin "HEAD:$TARGET_BRANCH" "refs/tags/$TAG"
           fi

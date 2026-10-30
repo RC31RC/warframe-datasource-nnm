@@ -90,8 +90,8 @@ test("the final split keeps publisher provenance references resolvable through e
     market.source.derivedFrom = [localized.path];
     const publisher = new DatasetPublisher(join(temporary, "data"), join(temporary, "tmp"));
     const result = await publisher.publish(finalizeBilingualProducts([localized, market]));
-    assert.ok(result.manifest.files.some((row) => row.path === "reference/item-localizations.json"));
-    assert.ok(result.manifest.files.some((row) => row.path === "market/trade-items.json"));
+    assert.ok(result.manifest.files.some((row) => row.path === "reference/item-localizations.json.gz"));
+    assert.ok(result.manifest.files.some((row) => row.path === "market/trade-items.json.gz"));
     assert.equal((await publisher.verify()).verifiedFiles, 4);
   } finally {
     await rm(temporary, { recursive: true, force: true });

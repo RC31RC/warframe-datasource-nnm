@@ -5,7 +5,7 @@ export interface HttpOptions {
   headers?: Record<string, string>;
 }
 
-class HttpStatusError extends Error {
+export class HttpStatusError extends Error {
   constructor(readonly status: number, url: string) {
     super(`HTTP ${status} for ${url}`);
   }

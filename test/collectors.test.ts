@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { test } from "node:test";
 import { cleanupCollectedInputs } from "../src/pipeline/acquire.js";
 import { extractAttributes, projectAttributes, projectItems } from "../src/collectors/market.js";
-import { decompressIndex, parsePublicExportIndex, REQUIRED_EXPORTS } from "../src/collectors/public-export.js";
+import { decompressIndex, fetchPublicExportIndex, parsePublicExportIndex, REQUIRED_EXPORTS } from "../src/collectors/public-export.js";
 import { projectMarketItems } from "../src/projections/linked.js";
 
 test("parses localized Public Export index references without losing hashes", () => {
@@ -34,6 +34,24 @@ test("rejects malformed and duplicate Public Export index entries", () => {
     "ExportWarframes_en.json!one",
     "ExportWarframes_en.json!two",
   ].join("\n")), /Duplicate/u);
+});
+
+test("retries an official index on the alternate host after HTTP 403", async (context) => {
+  const urls: string[] = [];
+  context.mock.method(globalThis, "fetch", async (input: string | URL | Request) => {
+    const url = String(input);
+    urls.push(url);
+    return url.includes("content.warframe.com")
+      ? new Response("blocked", { status: 403 })
+      : new Response(Buffer.from("index bytes"), { status: 200 });
+  });
+  const { compressed, indexUrl } = await fetchPublicExportIndex("en");
+  assert.equal(compressed.toString(), "index bytes");
+  assert.equal(indexUrl, "https://origin.warframe.com/PublicExport/index_en.txt.lzma");
+  assert.deepEqual(urls, [
+    "https://content.warframe.com/PublicExport/index_en.txt.lzma",
+    "https://origin.warframe.com/PublicExport/index_en.txt.lzma",
+  ]);
 });
 
 test("decompresses XZ and legacy LZMA-alone containers", async () => {

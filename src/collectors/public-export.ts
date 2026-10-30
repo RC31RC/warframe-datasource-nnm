@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { Readable } from "node:stream";
 import { config } from "../core/config.js";
-import { fetchBytes, fetchJson } from "../core/http.js";
+import { fetchBytes, fetchJson, HttpStatusError } from "../core/http.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
 export const REQUIRED_EXPORTS = [
@@ -31,13 +31,7 @@ export async function collectPublicExport(now = new Date()): Promise<DatasetFile
   }> = [];
 
   for (const locale of LOCALES) {
-    const indexUrl = config.publicExportIndexUrl.replace("{language}", locale);
-    const compressed = await fetchBytes(indexUrl, {
-      timeoutMs: config.requestTimeoutMs,
-      maxBytes: 16 * 1024 * 1024,
-      retries: config.requestRetries,
-      headers: { accept: "application/x-lzma", "accept-encoding": "identity" },
-    });
+    const { compressed, indexUrl } = await fetchPublicExportIndex(locale);
     const indexText = await decompressIndex(compressed);
     const entries = parsePublicExportIndex(indexText);
     for (const exportName of REQUIRED_EXPORTS) {
@@ -119,6 +113,25 @@ export async function collectPublicExport(now = new Date()): Promise<DatasetFile
   });
   files.push(...downloaded);
   return files;
+}
+
+/** Alternate official host only when the primary rejects this runner with HTTP 403. */
+export async function fetchPublicExportIndex(locale: (typeof LOCALES)[number]): Promise<{ compressed: Buffer; indexUrl: string }> {
+  const primary = config.publicExportIndexUrl.replace("{language}", locale);
+  const fallback = config.publicExportIndexFallbackUrl.replace("{language}", locale);
+  const options = {
+    timeoutMs: config.requestTimeoutMs,
+    maxBytes: 16 * 1024 * 1024,
+    retries: config.requestRetries,
+    headers: { accept: "application/x-lzma", "accept-encoding": "identity" },
+  };
+  try {
+    return { compressed: await fetchBytes(primary, options), indexUrl: primary };
+  } catch (error) {
+    if (!(error instanceof HttpStatusError) || error.status !== 403 || primary === fallback) throw error;
+    console.warn(`Public Export index ${locale} returned HTTP 403 from ${primary}; trying ${fallback}`);
+    return { compressed: await fetchBytes(fallback, options), indexUrl: fallback };
+  }
 }
 
 export function parsePublicExportIndex(text: string): Map<string, IndexEntry> {
