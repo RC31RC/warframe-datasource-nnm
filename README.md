@@ -130,7 +130,7 @@ npm run audit:shapes        # 区分字段缺失与同字段类型混用
 
 ## 采集链与数据通道
 
-Plus 与语言表均接入 `Pluto 提取 → GitHub Raw → tmp/cache` 降级链。Pluto 运行需要本机游戏资源、包数据、运行时及脚本依赖；配置缺失、提取失败或校验不通过时自动降级。Raw 只是无本机资源时的兜底，本项目统一生成和发布成品。实际 Pluto 提取需在具备依赖的机器上验证。官网战甲列表和详情页作为额外一手输入冻结采集，通过精确游戏资源路径关联宣传素材。
+Plus 与语言表均接入 `Pluto 提取 → GitHub 数据源 → CDN 镜像 → tmp/cache` 降级链：Plus 优先 GitHub Raw（根目录及兼容 `data/`），随后 GitHub Git API blob，再试 jsDelivr；语言表优先整对 Raw，失败时整对从 CDN 下载，均失败才使用经过校验的 cache。语言仓库的默认分支为 `senpai`，不要改回不存在的 `master`。Pluto 运行需要本机游戏资源、包数据、运行时及脚本依赖；配置缺失、提取失败或校验不通过时自动降级。CDN 优先从 GitHub API 获取 commit SHA 并固定版本；若 API 不可用才尝试分支地址，并在日志中标明新鲜度未经确认。`testingcf.jsdelivr.net` 是备用镜像，网络超时或过期缓存不能保证取得最新数据；Plus 按文件降级，语言表按中英一对降级。采集日志的 `[plus] sources`、`[languages] sources` 显示本次各通道来源。实际 Pluto 提取需在具备依赖的机器上验证。官网战甲列表和详情页作为额外一手输入冻结采集，通过精确游戏资源路径关联宣传素材。
 
 NnmBot 只在本项目不能提供、且完全由社区人工维护的独立领域保留社区通道，例如仲裁精华、黑化、术语。两通道均保留拉取、差异预览、审核、事务入库和自维护字段保护。NnmBot 消费本项目生成的静态 Export 目录；仲裁排期、裂罅周统计及动态 PHP 响应由下游运行时数据通道处理，静态引用使用本项目代码簿。
 
@@ -145,7 +145,7 @@ https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/lat
 https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/latest/upgrades/riven-attributes.json.gz
 ```
 
-当前 manifest `schemaVersion: 3` 描述发布清单格式，业务路径和嵌套字段仍需由消费端迁移适配。旧 `catalog/**`、`plus/**`、`linked/**`、多个遗物文件、等级表及反向掉落表已被对应业务成品替代。GitHub Actions 每日、手动或 main 分支源码/配置推送时采集；仅修改 data/cache 不触发新一轮采集。有变化时提交并打 UTC 秒级 tag；本地执行采集本身不提交、推送或打 tag。2026-10-30 的 Actions 日志显示 Collect 阶段对 `origin.warframe.com/PublicExport/index_en.txt.lzma` 返回 HTTP 403，导致 Public Export 未采集完成，发布因而中止；本地同日请求官方 `content.warframe.com` 和 `origin.warframe.com` 均返回 200。这表明该失败可能与 runner 的网络出口/上游拦截有关，不能由本地 200 保证 CI 已恢复。采集器现优先请求官方 content 域名，遇 403 再尝试 origin 域名；若两个地址均失败，仍保留可重试输入并使任务失败。工作流保留日志 artifact 与运行摘要。
+当前 manifest `schemaVersion: 3` 描述发布清单格式，业务路径和嵌套字段仍需由消费端迁移适配。旧 `catalog/**`、`plus/**`、`linked/**`、多个遗物文件、等级表及反向掉落表已被对应业务成品替代。GitHub Actions 每天 22:17 UTC（北京时间次日 06:17）、手动或 main 分支源码/配置推送时采集；仅修改 data/cache 不触发新一轮采集。有变化时提交并打 UTC 秒级 tag；本地执行采集本身不提交、推送或打 tag。2026-10-30 的 Actions `collect` 错误为 Public Export 索引的 `LZMA_DATA_ERROR`，不是 Plus/语言表失败的证据。官方 `content.warframe.com` 和 `origin.warframe.com` 都可提供 Public Export 索引；访问结果会随请求方式及边缘节点变化，单次 HTTP 403 不能用来断定域名永久不可用。某些 LZMA 解码器不接受这份带有已知长度和结束标记的官方索引；采集器在原始字节不变的前提下兼容解码、校验原声明长度及所需索引项，只在完整通过后接受相应官方地址。两个地址都失败时保留可重试输入并使任务失败。工作流保留日志 artifact 与运行摘要。
 
 ## 发布安全与配置
 
@@ -157,5 +157,6 @@ https://raw.githubusercontent.com/<owner>/warframe-datasource-nnm/<ref>/data/lat
 - `DATASOURCE_REQUEST_TIMEOUT_MS`、`DATASOURCE_MAX_RESPONSE_BYTES`、`DATASOURCE_REQUEST_RETRIES`：下载控制。
 - `WF_GAME_DIR`、`WF_PACKAGES_BIN_DIR`、`WF_PLUTO_DIR`、`WF_PLUTO_RUNTIME`、`WF_PLUTO_TIMEOUT_MS`：Pluto 提取前提与运行控制。
 - `WF_PUBLIC_EXPORT_INDEX_URL`、`WF_PUBLIC_EXPORT_INDEX_FALLBACK_URL`、`WF_PUBLIC_EXPORT_MANIFEST_URL`、`WF_PLUS_RAW_BASE_URL`、`WF_LANGUAGES_RAW_BASE_URL`、`WF_MARKET_RIVEN_ATTRIBUTES_URL`、`WF_MARKET_RIVEN_WEAPONS_URL`、`WF_MARKET_ITEMS_URL`、`WF_MARKET_USER_AGENT`：上游配置。
+- `WF_GITHUB_CDN_BASE_URLS`：逗号分隔的镜像地址，默认先试 `cdn.jsdelivr.net/gh`，再试 `testingcf.jsdelivr.net/gh`；设为空字符串可禁用 CDN。Actions 的 Collect 步骤将自带 `GH_TOKEN` 仅用于 GitHub API 请求，不传给 CDN。
 
 TLS 校验保持开启。若进程被强制终止，确认无任务运行后再处理残留 `.gen-staging-*`、`.gen-backup-*` 或写锁。

@@ -3,7 +3,8 @@ import { mkdtemp, readFile, readdir, rm, stat } from "node:fs/promises";
 import { gunzipSync } from "node:zlib";
 import { join, sep } from "node:path";
 import { config } from "../core/config.js";
-import { fetchBytes } from "../core/http.js";
+import { describeError, fetchBytes } from "../core/http.js";
+import { createGitHubCdnFallback, githubApiHeaders } from "../core/github-cdn.js";
 import { runPluto } from "../core/pluto.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
@@ -16,8 +17,8 @@ import type { DatasetFileInput } from "../domain/contracts.js";
  *
  * 数据获取采用降级链（生产路径，见 acquirePlusFiles）：
  *   1. 有 Warframe 游戏与包数据 → Pluto 从本地游戏包提取
- *   2. 无游戏 → 从成品仓库 GitHub Raw 拉取
- *   3. Raw 失败 → 从 tmp 最近一次含 plus 的快照拷贝（上一次采集的数据）
+ *   2. 无游戏 → GitHub Raw / Git API → commit 固定的 CDN 镜像
+ *   3. 均失败 → 从 tmp/cache 读取最近一次经过校验的快照
  */
 
 /** 官方 Export 没有的独有域，直接透传发布。 */
@@ -182,6 +183,7 @@ interface PlusRawFetchOptions {
   cacheDirectory?: string;
   fetcher?: typeof fetchBytes;
   requiredNames?: readonly string[];
+  cdnBaseUrls?: readonly string[];
 }
 
 /**
@@ -196,9 +198,11 @@ export async function fetchPlusFromRawWithOptions(options: PlusRawFetchOptions =
   const cacheDirectory = options.cacheDirectory ?? join(config.tmpDirectory, "cache", "plus");
   const fetcher = options.fetcher ?? fetchBytes;
   const githubRepository = parseGitHubRepository(baseUrls);
+  const cdn = createGitHubCdnFallback(options.baseUrls?.[0] ?? config.plusRawBaseUrl, fetcher, options.cdnBaseUrls);
   let githubTreePromise: Promise<Map<string, string>> | undefined;
   const files = new Map<string, Buffer>();
   const missing: string[] = [];
+  const channels = { raw: 0, githubApi: 0, cdn: 0, cache: 0 };
 
   await mapLimit(requiredNames, 4, async (name) => {
     const fileName = `Export${name}.json`;
@@ -214,36 +218,51 @@ export async function fetchPlusFromRawWithOptions(options: PlusRawFetchOptions =
         });
         countRecords(parsePlusJson(bytes, name), name);
         files.set(fileName, bytes);
+        channels.raw += 1;
         return;
       } catch (error) {
         lastError = error;
-        failures.push(`${url}: ${error instanceof Error ? error.message : String(error)}`);
+        failures.push(`${url}: ${describeError(error)}`);
       }
     }
 
-    // Raw/CDN 失败时使用 GitHub Git API。该接口通过 blob SHA 读取，兼容超过
+    // Raw 失败时先使用 GitHub Git API。该接口通过 blob SHA 读取，兼容超过
     // Contents API 1 MB 限制的 ExportRewards 等大文件。
     if (githubRepository) {
       try {
         githubTreePromise ??= fetchGitHubTree(githubRepository, fetcher);
         const tree = await githubTreePromise;
-        const sha = tree.get(fileName);
+        const path = tree.has(fileName) ? fileName : `data/${fileName}`;
+        const sha = tree.get(path);
         if (!sha) throw new Error(`file is not present in branch tree: ${fileName}`);
         const blobUrl = `https://api.github.com/repos/${githubRepository.owner}/${githubRepository.repository}/git/blobs/${sha}`;
         const blobResponse = await fetcher(blobUrl, githubApiOptions());
         const bytes = decodeGitHubBlob(blobResponse, fileName);
         countRecords(parsePlusJson(bytes, name), name);
         files.set(fileName, bytes);
+        channels.githubApi += 1;
         return;
       } catch (error) {
-        failures.push(`GitHub Git API: ${error instanceof Error ? error.message : String(error)}`);
+        failures.push(`GitHub Git API: ${describeError(error)}`);
+      }
+    }
+
+    for (const cdnPath of [fileName, `data/${fileName}`]) {
+      try {
+        const bytes = await cdn(cdnPath, (value) => { countRecords(parsePlusJson(value, name), name); });
+        files.set(fileName, bytes);
+        channels.cdn += 1;
+        return;
+      } catch (error) {
+        failures.push(`CDN ${cdnPath}: ${describeError(error)}`);
       }
     }
 
     const cached = await readCachedPlusFile(cacheDirectory, fileName, name);
     if (cached) {
       files.set(fileName, cached);
-      console.warn(`[plus] ${fileName} 的 Raw 拉取失败，使用该文件的 cache 快照；尝试记录：${failures.join(" | ")}`);
+      channels.cache += 1;
+      console.warn(`[plus] ${fileName} 的 GitHub/CDN 拉取失败，使用该文件的 cache 快照；尝试记录：${failures.join(" | ")}`);
       return;
     }
 
@@ -255,6 +274,7 @@ export async function fetchPlusFromRawWithOptions(options: PlusRawFetchOptions =
     throw new Error(`Plus Raw and cache are unavailable for ${missing.join("; ")}`);
   }
   validatePlusFiles(files, requiredNames);
+  console.log(`[plus] sources: ${JSON.stringify(channels)}`);
   return files;
 }
 
@@ -319,10 +339,7 @@ function githubApiOptions() {
     timeoutMs: config.requestTimeoutMs,
     maxBytes: config.maxResponseBytes,
     retries: config.requestRetries,
-    headers: {
-      accept: "application/vnd.github+json",
-      "user-agent": "warframe-datasource-nnm",
-    },
+    headers: githubApiHeaders(),
   };
 }
 

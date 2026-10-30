@@ -38,20 +38,57 @@ test("rejects malformed and duplicate Public Export index entries", () => {
 
 test("retries an official index on the alternate host after HTTP 403", async (context) => {
   const urls: string[] = [];
+  const fixture = await readFile(new URL("./fixtures/public-export-index-en.lzma", import.meta.url));
   context.mock.method(globalThis, "fetch", async (input: string | URL | Request) => {
     const url = String(input);
     urls.push(url);
     return url.includes("content.warframe.com")
       ? new Response("blocked", { status: 403 })
-      : new Response(Buffer.from("index bytes"), { status: 200 });
+      : new Response(fixture, { status: 200 });
   });
   const { compressed, indexUrl } = await fetchPublicExportIndex("en");
-  assert.equal(compressed.toString(), "index bytes");
+  assert.deepEqual(compressed, fixture);
   assert.equal(indexUrl, "https://origin.warframe.com/PublicExport/index_en.txt.lzma");
   assert.deepEqual(urls, [
     "https://content.warframe.com/PublicExport/index_en.txt.lzma",
     "https://origin.warframe.com/PublicExport/index_en.txt.lzma",
   ]);
+});
+
+test("a corrupt HTTP 200 index falls back only to a fully validated official response", async (context) => {
+  const fixture = await readFile(new URL("./fixtures/public-export-index-en.lzma", import.meta.url));
+  context.mock.method(globalThis, "fetch", async (input: string | URL | Request) => new Response(
+    String(input).includes("content.warframe.com") ? "invalid compressed response" : fixture,
+  ));
+  const result = await fetchPublicExportIndex("en");
+  assert.equal(result.indexUrl, "https://origin.warframe.com/PublicExport/index_en.txt.lzma");
+  assert.ok(result.entries.has("ExportWeapons_en.json"));
+});
+
+test("index errors identify the locale, URLs and received header when both hosts fail", async (context) => {
+  context.mock.method(globalThis, "fetch", async () => new Response("invalid compressed response"));
+  await assert.rejects(fetchPublicExportIndex("zh"), (error: unknown) => {
+    assert.ok(error instanceof AggregateError);
+    assert.match(error.message, /index zh/u);
+    assert.equal(error.errors.length, 2);
+    assert.match(error.errors[0].message, /content\.warframe\.com.*bytes=27; header=/u);
+    assert.match(error.errors[1].message, /origin\.warframe\.com/u);
+    return true;
+  });
+});
+
+test("decodes the real known-size DE index with an end marker without mutating its bytes", async () => {
+  const fixture = await readFile(new URL("./fixtures/public-export-index-en.lzma", import.meta.url));
+  const original = Buffer.from(fixture);
+  const text = await decompressIndex(fixture);
+  assert.equal(Buffer.byteLength(text), Number(fixture.readBigUInt64LE(5)));
+  assert.equal(parsePublicExportIndex(text).size, 16);
+  assert.deepEqual(fixture, original);
+  const wrongSize = Buffer.from(fixture);
+  wrongSize.writeBigUInt64LE(797n, 5);
+  await assert.rejects(decompressIndex(wrongSize), /size mismatch/u);
+  const truncated = fixture.subarray(0, Math.floor(fixture.length / 2));
+  await assert.rejects(decompressIndex(truncated));
 });
 
 test("decompresses XZ and legacy LZMA-alone containers", async () => {

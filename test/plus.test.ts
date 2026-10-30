@@ -82,7 +82,7 @@ test("tries the compatible data path when the repository root path fails", async
   assert.deepEqual(JSON.parse(String(files.get("ExportBounties.json"))), { fromData: true });
 });
 
-test("uses the GitHub Git API blob fallback for Raw/CDN failures", async () => {
+test("uses the GitHub Git API blob fallback after Raw failures", async () => {
   const requests: string[] = [];
   const blob = Buffer.from('{"fromGitApi":true}');
   const files = await fetchPlusFromRawWithOptions({
@@ -125,4 +125,54 @@ test("falls back per file so successful Raw files are kept and failed files use 
   assert.deepEqual(JSON.parse(String(files.get("ExportBounties.json"))), { fresh: true });
   assert.deepEqual(JSON.parse(String(files.get("ExportRewards.json"))), { cached: true });
   assert.equal((await readFile(join(cacheDirectory, "ExportRewards.json.gz"))).length > 0, true);
+});
+
+test("Plus uses a commit-pinned CDN response after GitHub failures before falling back to cache", async () => {
+  const sha = "b".repeat(40);
+  const files = await fetchPlusFromRawWithOptions({
+    baseUrls: ["https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai"],
+    requiredNames: ["Bounties"],
+    cdnBaseUrls: ["https://testingcf.jsdelivr.net/gh"],
+    fetcher: async (url) => {
+      if (url.includes("/commits/senpai")) return Buffer.from(JSON.stringify({ sha }));
+      if (url.includes(`@${sha}/ExportBounties.json`)) return Buffer.from('{"fromCdn":true}');
+      throw new Error("Raw and Git API are unavailable");
+    },
+  });
+  assert.deepEqual(JSON.parse(String(files.get("ExportBounties.json"))), { fromCdn: true });
+});
+
+test("uses GitHub Git API data/ tree entry when upstream files move", async () => {
+  const files = await fetchPlusFromRawWithOptions({
+    baseUrls: ["https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai"],
+    requiredNames: ["Rewards"],
+    fetcher: async (url) => {
+      if (url.includes("/git/trees/")) return Buffer.from(JSON.stringify({
+        tree: [{ path: "data/ExportRewards.json", type: "blob", sha: "data-sha" }],
+      }));
+      if (url.endsWith("/git/blobs/data-sha")) return Buffer.from(JSON.stringify({
+        encoding: "base64", content: Buffer.from('{"via":"data tree"}').toString("base64"),
+      }));
+      throw new Error("Raw unavailable");
+    },
+  });
+  assert.deepEqual(JSON.parse(String(files.get("ExportRewards.json"))), { via: "data tree" });
+});
+
+test("tries the upstream data/ directory on a commit-pinned CDN before cache", async () => {
+  const sha = "e".repeat(40);
+  const urls: string[] = [];
+  const files = await fetchPlusFromRawWithOptions({
+    baseUrls: ["https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai"],
+    cdnBaseUrls: ["https://testingcf.jsdelivr.net/gh"],
+    requiredNames: ["Bounties"],
+    fetcher: async (url) => {
+      urls.push(url);
+      if (url.includes("/commits/senpai")) return Buffer.from(JSON.stringify({ sha }));
+      if (url.includes(`@${sha}/data/ExportBounties.json`)) return Buffer.from('{"via":"cdn data"}');
+      throw new Error("Raw, API and root CDN unavailable");
+    },
+  });
+  assert.deepEqual(JSON.parse(String(files.get("ExportBounties.json"))), { via: "cdn data" });
+  assert.ok(urls.some((url) => url.includes(`@${sha}/ExportBounties.json`)));
 });

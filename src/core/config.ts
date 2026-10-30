@@ -18,9 +18,16 @@ function absoluteHttpsUrl(value: string | undefined, fallback: string, name: str
   return raw;
 }
 
+function httpsUrlList(value: string | undefined): string[] {
+  return (value ?? "https://cdn.jsdelivr.net/gh,https://testingcf.jsdelivr.net/gh").split(",")
+    .map((url) => url.trim()).filter(Boolean)
+    .map((url) => absoluteHttpsUrl(url, url, "WF_GITHUB_CDN_BASE_URLS").replace(/\/+$/u, ""));
+}
+
 export const config = {
   dataDirectory: resolve(process.env.DATASOURCE_DATA_DIR ?? "data"),
   tmpDirectory: resolve(process.env.DATASOURCE_TMP_DIR ?? "tmp"),
+  githubCdnBaseUrls: httpsUrlList(process.env.WF_GITHUB_CDN_BASE_URLS),
   plusRawBaseUrl: absoluteHttpsUrl(
     process.env.WF_PLUS_RAW_BASE_URL,
     "https://raw.githubusercontent.com/calamity-inc/warframe-public-export-plus/senpai",
@@ -67,7 +74,7 @@ export const config = {
   marketUserAgent: process.env.WF_MARKET_USER_AGENT ?? "warframe-datasource-nnm/0.1.0 contact=local-operator",
   languagesRawBaseUrl: absoluteHttpsUrl(
     process.env.WF_LANGUAGES_RAW_BASE_URL,
-    "https://raw.githubusercontent.com/calamity-inc/warframe-languages-bin-data/master",
+    "https://raw.githubusercontent.com/calamity-inc/warframe-languages-bin-data/senpai",
     "WF_LANGUAGES_RAW_BASE_URL",
   ),
 };

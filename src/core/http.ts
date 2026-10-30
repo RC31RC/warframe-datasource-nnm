@@ -6,8 +6,8 @@ export interface HttpOptions {
 }
 
 export class HttpStatusError extends Error {
-  constructor(readonly status: number, url: string) {
-    super(`HTTP ${status} for ${url}`);
+  constructor(readonly status: number, url: string, detail = "") {
+    super(`HTTP ${status} for ${url}${detail ? ` (${detail})` : ""}`);
   }
 }
 
@@ -24,7 +24,10 @@ export async function fetchBytes(url: string, options: HttpOptions): Promise<Buf
       if (!response.ok) {
         const retryable = response.status === 408 || response.status === 429 || response.status >= 500;
         if (!retryable || attempt === options.retries) {
-          throw new HttpStatusError(response.status, url);
+          const rateLimited = new URL(url).hostname === "api.github.com"
+            && response.headers.get("x-ratelimit-remaining") === "0";
+          throw new HttpStatusError(response.status, url,
+            rateLimited ? `GitHub API rate limit exhausted; reset=${response.headers.get("x-ratelimit-reset")}` : "");
         }
         const retryAfter = Number(response.headers.get("retry-after"));
         await delay(Number.isFinite(retryAfter) && retryAfter > 0
@@ -63,7 +66,23 @@ export async function fetchBytes(url: string, options: HttpOptions): Promise<Buf
     }
   }
 
-  throw lastError instanceof Error ? lastError : new Error(`Request failed: ${url}`);
+  if (lastError instanceof HttpStatusError) throw lastError;
+  throw new Error(`Request failed for ${url}: ${describeError(lastError)}`, { cause: lastError });
+}
+
+/** Keep DNS/socket/TLS causes visible instead of reporting only "fetch failed". */
+export function describeError(error: unknown): string {
+  const parts: string[] = [];
+  const visited = new Set<unknown>();
+  let current = error;
+  while (current instanceof Error && !visited.has(current) && visited.size < 5) {
+    visited.add(current);
+    const code = "code" in current ? ` [${String(current.code)}]` : "";
+    parts.push(`${current.message}${code}`);
+    if (current instanceof AggregateError) parts.push(current.errors.map((item) => describeError(item)).join("; "));
+    current = current.cause;
+  }
+  return parts.length ? parts.join(" <- ") : String(error);
 }
 
 export async function fetchJson(url: string, options: HttpOptions): Promise<{ bytes: Buffer; value: unknown }> {

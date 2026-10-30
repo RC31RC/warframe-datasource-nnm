@@ -2,8 +2,8 @@ name: Collect & Publish
 
 on:
   schedule:
-    # 静态数据每天 03:17 UTC 更新；小时仲裁/紫卡周价格由下游维护。
-    - cron: "17 3 * * *"
+    # 静态数据每天 22:17 UTC（北京时间次日 06:17）更新；小时仲裁/紫卡周价格由下游维护。
+    - cron: "17 22 * * *"
   push:
     branches: [main]
     paths:
@@ -48,9 +48,11 @@ jobs:
           npm run typecheck
           npm test
 
-      # 无本地游戏资源时，Plus/语言表使用 Raw -> tmp/cache 降级；不采集动态排期/周价格。
+      # 无本地游戏资源时，Plus/语言表使用 GitHub/CDN -> tmp/cache 降级。
       - name: Collect
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -o pipefail
           npm run collect 2>&1 | tee "$RUNNER_TEMP/warframe-collect.log"

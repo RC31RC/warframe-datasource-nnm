@@ -3,7 +3,8 @@ import { mkdtemp, readFile, rm, stat } from "node:fs/promises";
 import { gunzipSync } from "node:zlib";
 import { join } from "node:path";
 import { config } from "../core/config.js";
-import { fetchBytes } from "../core/http.js";
+import { describeError, fetchBytes } from "../core/http.js";
+import { createGitHubCdnFallback } from "../core/github-cdn.js";
 import { runPluto } from "../core/pluto.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
@@ -12,7 +13,7 @@ import type { DatasetFileInput } from "../domain/contracts.js";
  * 每语言 140,358 条，键形如 /Lotus/Language/Locations/Apollodorus，值是该语言文本。
  * 官方 HTTP 只暴露 MOTD（每日消息），全量语言表只能由 Pluto 从游戏 B.Cache.Windows_<lang>.bin 提取。
  *
- * 语言表产物走 Pluto → GitHub Raw → tmp/cache 降级链，同时提升到 data/languages 作翻译兜底。
+ * 语言表产物走 Pluto → GitHub Raw → CDN → tmp/cache 降级链。
  */
 const UPSTREAM_REPOSITORY = "https://github.com/calamity-inc/warframe-languages-bin-data";
 
@@ -37,7 +38,7 @@ export async function collectLanguagesBinData(now = new Date()): Promise<Dataset
       source: {
         project: "warframe-languages-bin-data",
         dataset: `languages/${locale}`,
-        url: `${UPSTREAM_REPOSITORY}/blob/master/${locale}.json`,
+        url: `${UPSTREAM_REPOSITORY}/blob/senpai/${locale}.json`,
         capturedAt,
         upstreamRevision,
       },
@@ -51,7 +52,7 @@ export async function collectLanguagesBinData(now = new Date()): Promise<Dataset
       source: {
         project: "warframe-languages-bin-data",
         dataset: `languages/${locale}`,
-        url: `${UPSTREAM_REPOSITORY}/blob/master/${locale}.json`,
+        url: `${UPSTREAM_REPOSITORY}/blob/senpai/${locale}.json`,
         capturedAt,
         upstreamRevision,
         transformer: "warframe-datasource-nnm/languages-pass-through@1",
@@ -63,26 +64,60 @@ export async function collectLanguagesBinData(now = new Date()): Promise<Dataset
 
 async function acquireLanguagePair(): Promise<Map<(typeof LOCALES)[number], Buffer>> {
   const pluto = await tryCollectLanguagesWithPluto();
-  if (pluto) return pluto;
+  if (pluto) {
+    console.log("[languages] sources: pluto=2");
+    return pluto;
+  }
+  return fetchLanguagePairWithOptions();
+}
 
+interface LanguageFetchOptions {
+  baseUrl?: string;
+  cacheDirectory?: string;
+  fetcher?: typeof fetchBytes;
+  cdnBaseUrls?: readonly string[];
+}
+
+export async function fetchLanguagePairWithOptions(options: LanguageFetchOptions = {}): Promise<Map<(typeof LOCALES)[number], Buffer>> {
+  const baseUrl = (options.baseUrl ?? config.languagesRawBaseUrl).replace(/\/+$/u, "");
+  const fetcher = options.fetcher ?? fetchBytes;
+  const cdn = createGitHubCdnFallback(baseUrl, fetcher, options.cdnBaseUrls);
+  // Treat the two locales as a single snapshot. Mixing one Raw version with
+  // another commit's CDN file can silently create a mismatched translation pair.
   try {
     const raw = new Map<(typeof LOCALES)[number], Buffer>();
     for (const locale of LOCALES) {
-      raw.set(locale, await fetchBytes(`${config.languagesRawBaseUrl}/${locale}.json`, {
+      const bytes = await fetcher(`${baseUrl}/${locale}.json`, {
         timeoutMs: config.requestTimeoutMs,
         maxBytes: config.maxResponseBytes,
         retries: config.requestRetries,
-      }));
+      });
+      parseLanguages(bytes, locale);
+      raw.set(locale, bytes);
     }
     validateLanguagePair(raw);
+    console.log('[languages] sources: {"raw":2,"cdn":0,"cache":0}');
     return raw;
   } catch (error) {
-    console.warn(`获取 languages Raw 失败（${error instanceof Error ? error.message : error}），降级为 cache 快照`);
+    console.warn(`[languages] Raw pair failed: ${describeError(error)}; trying commit-pinned CDN pair`);
+  }
+
+  try {
+    const fromCdn = new Map<(typeof LOCALES)[number], Buffer>();
+    for (const locale of LOCALES) {
+      fromCdn.set(locale, await cdn(`${locale}.json`, (bytes) => { parseLanguages(bytes, locale); }));
+    }
+    validateLanguagePair(fromCdn);
+    console.log('[languages] sources: {"raw":0,"cdn":2,"cache":0}');
+    return fromCdn;
+  } catch (error) {
+    console.warn(`获取 languages Raw/CDN 失败（${describeError(error)}），整对语言表降级为 cache 快照`);
   }
 
   const cached = new Map<(typeof LOCALES)[number], Buffer>();
-  for (const locale of LOCALES) cached.set(locale, await readLanguagesFromCache(locale));
+  for (const locale of LOCALES) cached.set(locale, await readLanguagesFromCache(locale, options.cacheDirectory));
   validateLanguagePair(cached);
+  console.log('[languages] sources: {"raw":0,"cdn":0,"cache":2}');
   return cached;
 }
 
@@ -115,8 +150,8 @@ async function tryCollectLanguagesWithPluto(): Promise<Map<(typeof LOCALES)[numb
   }
 }
 
-async function readLanguagesFromCache(locale: string): Promise<Buffer> {
-  const cachePath = join(config.tmpDirectory, "cache", "languages", `${locale}.json.gz`);
+async function readLanguagesFromCache(locale: string, cacheDirectory = join(config.tmpDirectory, "cache", "languages")): Promise<Buffer> {
+  const cachePath = join(cacheDirectory, `${locale}.json.gz`);
   const bytes = await readFile(cachePath);
   return gunzipSync(bytes);
 }

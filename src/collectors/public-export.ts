@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { Readable } from "node:stream";
 import { config } from "../core/config.js";
-import { fetchBytes, fetchJson, HttpStatusError } from "../core/http.js";
+import { describeError, fetchBytes, fetchJson } from "../core/http.js";
 import type { DatasetFileInput } from "../domain/contracts.js";
 
 export const REQUIRED_EXPORTS = [
@@ -31,14 +31,7 @@ export async function collectPublicExport(now = new Date()): Promise<DatasetFile
   }> = [];
 
   for (const locale of LOCALES) {
-    const { compressed, indexUrl } = await fetchPublicExportIndex(locale);
-    const indexText = await decompressIndex(compressed);
-    const entries = parsePublicExportIndex(indexText);
-    for (const exportName of REQUIRED_EXPORTS) {
-      if (!entries.has(`${exportName}_${locale}.json`)) {
-        throw new Error(`Public Export index ${locale} is missing ${exportName}_${locale}.json`);
-      }
-    }
+    const { compressed, indexUrl, entries } = await fetchPublicExportIndex(locale);
     const localizedEntries = [...entries.values()].filter((entry) =>
       entry.fileName.endsWith(`_${locale}.json`) && !entry.fileName.startsWith("ExportManifest_"),
     );
@@ -115,8 +108,10 @@ export async function collectPublicExport(now = new Date()): Promise<DatasetFile
   return files;
 }
 
-/** Alternate official host only when the primary rejects this runner with HTTP 403. */
-export async function fetchPublicExportIndex(locale: (typeof LOCALES)[number]): Promise<{ compressed: Buffer; indexUrl: string }> {
+/** Accept an official host only after its response has decompressed and passed index validation. */
+export async function fetchPublicExportIndex(locale: (typeof LOCALES)[number]): Promise<{
+  compressed: Buffer; indexUrl: string; entries: Map<string, IndexEntry>;
+}> {
   const primary = config.publicExportIndexUrl.replace("{language}", locale);
   const fallback = config.publicExportIndexFallbackUrl.replace("{language}", locale);
   const options = {
@@ -125,13 +120,26 @@ export async function fetchPublicExportIndex(locale: (typeof LOCALES)[number]): 
     retries: config.requestRetries,
     headers: { accept: "application/x-lzma", "accept-encoding": "identity" },
   };
-  try {
-    return { compressed: await fetchBytes(primary, options), indexUrl: primary };
-  } catch (error) {
-    if (!(error instanceof HttpStatusError) || error.status !== 403 || primary === fallback) throw error;
-    console.warn(`Public Export index ${locale} returned HTTP 403 from ${primary}; trying ${fallback}`);
-    return { compressed: await fetchBytes(fallback, options), indexUrl: fallback };
+  const errors: Error[] = [];
+  for (const indexUrl of new Set([primary, fallback])) {
+    let compressed: Buffer | undefined;
+    try {
+      compressed = await fetchBytes(indexUrl, options);
+      const entries = parsePublicExportIndex(await decompressIndex(compressed));
+      for (const name of REQUIRED_EXPORTS) {
+        if (!entries.has(`${name}_${locale}.json`)) throw new Error(`Missing ${name}_${locale}.json`);
+      }
+      if (locale === "en" && !entries.has("ExportManifest.json")) throw new Error("Missing ExportManifest.json");
+      console.log(`[public-export] ${locale}: ${indexUrl} (${compressed.length} bytes, ${entries.size} entries)`);
+      return { compressed, indexUrl, entries };
+    } catch (error) {
+      const details = compressed ? `; bytes=${compressed.length}; header=${compressed.subarray(0, 13).toString("hex")}` : "";
+      const failure = new Error(`Public Export index ${locale}: ${indexUrl}: ${describeError(error)}${details}`, { cause: error });
+      errors.push(failure);
+      console.warn(failure.message);
+    }
   }
+  throw new AggregateError(errors, `Public Export index ${locale} failed on all official hosts`);
 }
 
 export function parsePublicExportIndex(text: string): Map<string, IndexEntry> {
@@ -159,7 +167,32 @@ export async function decompressIndex(compressed: Buffer): Promise<string> {
   const dictionarySize = compressed.readUInt32LE(1);
   const legacyLzma = properties <= 224 && dictionarySize >= 4096 && dictionarySize <= 128 * 1024 * 1024;
   if (!xz && !legacyLzma) throw new Error("Public Export index has an unsupported compression header");
-  // liblzma handles both XZ and legacy LZMA-alone containers returned by the endpoint.
+  const limit = 16 * 1024 * 1024;
+  const declaredSize = legacyLzma && !xz ? compressed.readBigUInt64LE(5) : 0xffffffffffffffffn;
+  const knownSize = declaredSize !== 0xffffffffffffffffn;
+  if (knownSize && declaredSize > BigInt(limit)) throw new Error("Public Export index exceeds decompressed size limit");
+  let bytes: Buffer;
+  if (knownSize) {
+    // DE's LZMA-alone indices have both a known size and an end marker. Some
+    // liblzma versions reject that combination. Decode using the end marker,
+    // then independently check the original size. Never mutate frozen bytes.
+    const normalized = Buffer.from(compressed);
+    normalized.fill(0xff, 5, 13);
+    try {
+      bytes = await decodeIndexBytes(normalized, limit);
+    } catch {
+      // Valid known-size streams can omit the end marker; retain that format.
+      bytes = await decodeIndexBytes(compressed, limit);
+    }
+    if (BigInt(bytes.length) !== declaredSize) throw new Error(`Public Export index size mismatch: expected ${declaredSize}, got ${bytes.length}`);
+  } else bytes = await decodeIndexBytes(compressed, limit);
+  if (bytes.length === 0) throw new Error("Public Export index decompressed to empty content");
+  const text = new TextDecoder("utf-8", { fatal: true }).decode(bytes);
+  if (text.includes("\u0000")) throw new Error("Public Export index did not decode as UTF-8 text");
+  return text;
+}
+
+async function decodeIndexBytes(compressed: Buffer, limit: number): Promise<Buffer> {
   const { default: native } = await import("lzma-native");
   const decoder = native.createDecompressor({ memlimit: 128 * 1024 * 1024 });
   const chunks: Buffer[] = [];
@@ -167,16 +200,13 @@ export async function decompressIndex(compressed: Buffer): Promise<string> {
   for await (const chunk of Readable.from([compressed]).pipe(decoder)) {
     const bytes = Buffer.from(chunk);
     total += bytes.length;
-    if (total > 16 * 1024 * 1024) {
+    if (total > limit) {
       decoder.destroy(new Error("Public Export index exceeds decompressed size limit"));
       throw new Error("Public Export index exceeds decompressed size limit");
     }
     chunks.push(bytes);
   }
-  if (total === 0) throw new Error("Public Export index decompressed to empty content");
-  const text = Buffer.concat(chunks, total).toString("utf8");
-  if (text.includes("\u0000")) throw new Error("Public Export index did not decode as UTF-8 text");
-  return text;
+  return Buffer.concat(chunks, total);
 }
 
 function assertRequiredExportPayload(value: unknown, exportName: string, url: string): void {
