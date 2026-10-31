@@ -1,8 +1,9 @@
 import { createHash, randomUUID } from "node:crypto";
-import { mkdir, open, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises";
-import { gunzipSync, gzipSync } from "node:zlib";
+import { lstat, mkdir, open, readFile, readdir, rename, rm, stat, writeFile } from "node:fs/promises";
+import { gunzipSync } from "node:zlib";
 import { dirname, join, resolve } from "node:path";
 import type { DatasetFileEntry, DatasetFileInput, DatasetManifest, DatasetStage } from "../domain/contracts.js";
+import { stableGzip } from "../core/gzip.js";
 import { canonicalProductPath } from "./product-layout.js";
 export { canonicalProductPath } from "./product-layout.js";
 
@@ -44,16 +45,17 @@ export class DatasetPublisher {
     const cleanedInputs = files.filter((file) => file.stage === "cleaned");
     if (cleanedInputs.length === 0) throw new Error("Refusing to generate a dataset without cleaned files");
 
-    const rawPrepared = rawInputs.map((file) => prepare(file, "raw"));
+    const dataRoot = resolve(this.dataDirectory, "latest");
+    const rawPrepared = await Promise.all(rawInputs.map((file) => prepare(file, "raw")));
     const publishedPaths = new Map(cleanedInputs.map((file) => [file.path, compressedProductPath(file.path)]));
-    const cleanedPrepared = cleanedInputs.map((file) => prepare({
+    const cleanedPrepared = await Promise.all(cleanedInputs.map((file) => prepare({
       ...file,
       path: publishedPaths.get(file.path) ?? compressedProductPath(file.path),
       source: {
         ...file.source,
         ...(file.source.derivedFrom ? { derivedFrom: file.source.derivedFrom.map((path) => publishedPaths.get(path) ?? path) } : {}),
       },
-    }, "cleaned"));
+    }, "cleaned", dataRoot)));
     // 按路径排序，保证相同输入（无论顺序）产生相同 manifest / buildId（幂等可复现）。
     const rawEntries = rawPrepared.map(({ entry }) => entry).sort((a, b) => a.path.localeCompare(b.path));
     const cleanedEntries = cleanedPrepared.map(({ entry }) => entry).sort((a, b) => a.path.localeCompare(b.path));
@@ -65,11 +67,14 @@ export class DatasetPublisher {
 
     const createdAt = now.toISOString();
     const rawManifest = buildManifest(rawEntries, createdAt, "raw");
-    const cleanedManifest = buildManifest(cleanedEntries, createdAt, "cleaned");
+    let cleanedManifest = buildManifest(cleanedEntries, createdAt, "cleaned");
+    const previousManifest = await readPreviousManifest(dataRoot);
+    if (previousManifest && JSON.stringify(previousManifest.files) === JSON.stringify(cleanedManifest.files)) {
+      cleanedManifest = previousManifest;
+    }
 
     const rawRoot = resolve(this.tmpDirectory, timestampDirectory(now));
     // 覆盖式发布：cleaned 固定写到 data/latest/，只保留一份成品（历史靠 Git 提交追溯）。
-    const dataRoot = resolve(this.dataDirectory, "latest");
     await mkdir(this.dataDirectory, { recursive: true });
     await mkdir(this.tmpDirectory, { recursive: true });
 
@@ -92,13 +97,13 @@ export class DatasetPublisher {
       }
       // cleaned 树：同一天重跑需整树替换（先备份旧日期目录）。
       await writeTree(this.dataDirectory, dataRoot, cleanedPrepared, cleanedManifest, true, "cleaned");
+
+      // 归档本次成功发布的 raw Plus/语言快照；整个 cache 替换也受发布锁保护。
+      // 冻结输入由 acquire 管理；这里只清理发布原始工作区。
+      if (rawPrepared.length > 0) await archiveToCache(this.tmpDirectory, rawRoot);
     } finally {
       await rm(lock, { recursive: true, force: true });
     }
-
-    // 归档本次 raw 的 plus 与 languages 快照到 cache（兜底），并清理本次 raw 工作区。
-    // 冻结输入目录由 acquire 管理并保留，供相同输入重复构建；这里只清理发布原始工作区。
-    if (rawPrepared.length > 0) await archiveToCache(this.tmpDirectory, rawRoot);
 
     return { manifest: cleanedManifest, dataDirectory: dataRoot, tmpDirectory: rawRoot };
   }
@@ -129,7 +134,12 @@ async function writeTree(
     }
     const manifestPath = manifestPathFor(stage);
     const manifestBytes = Buffer.from(`${JSON.stringify(manifest, null, 2)}\n`);
-    await writeSynced(join(staging, manifestPath), stage === "cleaned" ? gzipSync(manifestBytes) : manifestBytes);
+    let archivedManifest: Buffer = manifestBytes;
+    if (stage === "cleaned") {
+      archivedManifest = await reusePreviousGzip(join(destination, manifestPath), manifestBytes)
+        ?? stableGzip(manifestBytes);
+    }
+    await writeSynced(join(staging, manifestPath), archivedManifest);
     await verifyDirectory(staging, stage);
     await syncTree(staging);
 
@@ -204,7 +214,7 @@ async function verifyDirectory(directory: string, stage: DatasetStage): Promise<
   return { buildId: manifest.buildId, verifiedFiles: manifest.files.length };
 }
 
-function prepare(file: DatasetFileInput, stage: DatasetStage): PreparedFile {
+async function prepare(file: DatasetFileInput, stage: DatasetStage, previousRoot?: string): Promise<PreparedFile> {
   validateRelativePath(file.path, stage);
   if (stage === "cleaned" && file.path.split("/").length > 2) {
     throw new Error(`Cleaned product path exceeds one folder level: ${file.path}`);
@@ -213,7 +223,13 @@ function prepare(file: DatasetFileInput, stage: DatasetStage): PreparedFile {
   if (contentBytes.length === 0) throw new Error(`Refusing to generate empty file: ${file.path}`);
   if (stage === "cleaned") parseJson(contentBytes, file.path);
   else if (file.path.endsWith(".json")) parseJson(contentBytes, file.path);
-  const bytes = stage === "cleaned" ? gzipSync(contentBytes) : contentBytes;
+  let bytes: Buffer = contentBytes;
+  if (stage === "cleaned") {
+    const previous = previousRoot
+      ? await reusePreviousGzip(join(previousRoot, ...file.path.split("/")), contentBytes)
+      : undefined;
+    bytes = previous ?? stableGzip(contentBytes);
+  }
   const entry: DatasetFileEntry = {
     path: file.path,
     sha256: sha256(bytes),
@@ -335,20 +351,52 @@ async function cleanupLeftovers(dataDirectory: string): Promise<void> {
 /** 把本次 raw 快照的 plus/ 与 languages/ 目录 gzip 压缩到 tmp/cache/，然后清理时间戳工作区（WF_KEEP_TMP=1 时保留）。 */
 async function archiveToCache(tmpDirectory: string, rawRoot: string): Promise<void> {
   const cacheDir = join(tmpDirectory, "cache");
-  await rm(cacheDir, { recursive: true, force: true });
-  await mkdir(cacheDir, { recursive: true });
-  await archiveDirectory(join(rawRoot, "plus"), join(cacheDir, "plus"));
-  await archiveDirectory(join(rawRoot, "languages"), join(cacheDir, "languages"));
+  const staging = join(tmpDirectory, `.cache-staging-${randomUUID()}`);
+  const backup = join(tmpDirectory, `.cache-backup-${randomUUID()}`);
+  await mkdir(staging);
+  try {
+    await archiveDirectory(join(rawRoot, "plus"), join(staging, "plus"), join(cacheDir, "plus"));
+    await archiveDirectory(join(rawRoot, "languages"), join(staging, "languages"), join(cacheDir, "languages"));
+    await syncTree(staging);
+
+    let backedUp = false;
+    if (await exists(cacheDir)) {
+      await rename(cacheDir, backup);
+      backedUp = true;
+    }
+    try {
+      await rename(staging, cacheDir);
+    } catch (error) {
+      if (backedUp) {
+        try {
+          await rename(backup, cacheDir);
+        } catch (restoreError) {
+          throw new AggregateError([error, restoreError], `Restore the previous cache from ${backup}`);
+        }
+      }
+      throw error;
+    }
+    await syncDirectory(tmpDirectory);
+    if (backedUp) {
+      try {
+        await rm(backup, { recursive: true, force: true });
+      } catch (error) {
+        console.warn(`Failed to remove cache backup ${backup}: ${error instanceof Error ? error.message : error}`);
+      }
+    }
+  } finally {
+    await rm(staging, { recursive: true, force: true });
+  }
   if (process.env.WF_KEEP_TMP !== "1") {
     await pruneTmpWorkspaces(tmpDirectory);
   }
 }
 
 /** 把某个来源目录下的 .json 文件 gzip 到目标目录；来源不存在则跳过。 */
-async function archiveDirectory(sourceDir: string, destDir: string): Promise<void> {
+async function archiveDirectory(sourceDir: string, destDir: string, previousDir: string): Promise<void> {
   let names: string[];
   try {
-    names = (await readdir(sourceDir)).filter((name) => name.endsWith(".json"));
+    names = (await readdir(sourceDir)).filter((name) => name.endsWith(".json")).sort();
   } catch (error) {
     if (hasCode(error, "ENOENT")) return;
     throw error;
@@ -356,7 +404,48 @@ async function archiveDirectory(sourceDir: string, destDir: string): Promise<voi
   await mkdir(destDir, { recursive: true });
   for (const name of names) {
     const bytes = await readFile(join(sourceDir, name));
-    await writeFile(join(destDir, `${name}.gz`), gzipSync(bytes));
+    const output = await reusePreviousGzip(join(previousDir, `${name}.gz`), bytes) ?? stableGzip(bytes);
+    await writeFile(join(destDir, `${name}.gz`), output);
+  }
+}
+
+async function reusePreviousGzip(path: string, content: Buffer): Promise<Buffer | undefined> {
+  let info;
+  try {
+    info = await lstat(path);
+  } catch (error) {
+    if (hasCode(error, "ENOENT")) return undefined;
+    throw error;
+  }
+  if (!info.isFile()) return undefined;
+  const bytes = await readFile(path);
+  try {
+    return gunzipSync(bytes).equals(content) ? bytes : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+async function readPreviousManifest(directory: string): Promise<DatasetManifest | undefined> {
+  let bytes: Buffer;
+  try {
+    bytes = await readFile(join(directory, "manifest.json.gz"));
+  } catch (error) {
+    if (hasCode(error, "ENOENT")) return undefined;
+    throw error;
+  }
+
+  try {
+    const manifest = parseJson(gunzipSync(bytes), "manifest.json.gz") as DatasetManifest;
+    if (manifest?.schemaVersion !== 3 || manifest.producer !== "warframe-datasource-nnm"
+      || typeof manifest.createdAt !== "string" || !Number.isFinite(Date.parse(manifest.createdAt))
+      || !Array.isArray(manifest.files) || manifest.files.length === 0
+      || manifest.files.some((entry) => entry.source !== undefined)) return undefined;
+    validateEntries(manifest.files, null, "cleaned");
+    if (manifest.buildId !== buildId(manifest.files, manifest.createdAt)) return undefined;
+    return manifest;
+  } catch {
+    return undefined;
   }
 }
 

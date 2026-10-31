@@ -22,7 +22,7 @@ npm run typecheck
 npm test
 ```
 
-`replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。相同输入与代码应生成相同的各成品字节；manifest 的构建时间与 `buildId` 时间部分会变化。每次 `collect` 成功发布后，自动生成的 `tmp/inputs-*` 冻结输入目录和临时 raw 工作区都会清理，Plus 与语言表归档到 `tmp/cache/`。需要保留输入目录用于后续 `replay` 时，显式设置 `WF_KEEP_TMP=1` 或 `WF_KEEP_INPUTS=1`；采集失败时输入目录会保留，方便重试。
+`replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。所有新生成的 gzip 固定压缩等级、零时间戳和 OS=255；若解压后的内容相同则复用已有 gzip 字节，避免平台或压缩器差异产生虚假更新。cleaned 文件清单与校验信息不变时保留旧 manifest（包括 `createdAt`、`buildId` 和压缩字节）；实际内容或清单变化才生成新 manifest。每次 `collect` 成功发布后，自动生成的 `tmp/inputs-*` 冻结输入目录和临时 raw 工作区都会清理，Plus 与语言表从本次成功发布的 raw 工作区归档到 `tmp/cache/`：先完整生成 staging cache，再替换旧 cache；同内容复用旧 gzip，变更内容使用统一 gzip，移除本轮已不存在的文件。需要保留输入目录用于后续 `replay` 时，显式设置 `WF_KEEP_TMP=1` 或 `WF_KEEP_INPUTS=1`；采集失败时输入目录会保留，方便重试。
 
 
 `verify` 离线检查 gzip manifest、文件集合、路径层级、解压后的 JSON、压缩文件字节数及 SHA-256。本轮 PHP 解析只是本地验收，动态响应和验收工具不加入生产采集或发布链；NnmBot 后续自行定时拉取 PHP，并使用成品中的静态定义解析。
@@ -130,7 +130,7 @@ npm run audit:shapes        # 区分字段缺失与同字段类型混用
 
 ## 采集链与数据通道
 
-Plus 与语言表均接入 `Pluto 提取 → GitHub 数据源 → CDN 镜像 → tmp/cache` 降级链：Plus 优先 GitHub Raw（根目录及兼容 `data/`），随后 GitHub Git API blob，再试 jsDelivr；语言表优先整对 Raw，失败时整对从 CDN 下载，均失败才使用经过校验的 cache。语言仓库的默认分支为 `senpai`，不要改回不存在的 `master`。Pluto 运行需要本机游戏资源、包数据、运行时及脚本依赖；配置缺失、提取失败或校验不通过时自动降级。CDN 优先从 GitHub API 获取 commit SHA 并固定版本；若 API 不可用才尝试分支地址，并在日志中标明新鲜度未经确认。`testingcf.jsdelivr.net` 是备用镜像，网络超时或过期缓存不能保证取得最新数据；Plus 按文件降级，语言表按中英一对降级。采集日志的 `[plus] sources`、`[languages] sources` 显示本次各通道来源。实际 Pluto 提取需在具备依赖的机器上验证。官网战甲列表和详情页作为额外一手输入冻结采集，通过精确游戏资源路径关联宣传素材。
+Plus 与语言表均接入 `Pluto 提取 → GitHub 数据源 → CDN 镜像 → tmp/cache` 降级链：Plus 优先 GitHub Raw（根目录及兼容 `data/`），随后 GitHub Git API blob，再试 jsDelivr；语言表优先整对 Raw，失败时整对从 CDN 下载，均失败才使用经过校验的 cache。语言仓库的默认分支为 `senpai`，不要改回不存在的 `master`。Pluto 运行需要本机游戏资源、包数据、运行时及脚本依赖；配置缺失、提取失败或校验不通过时自动降级。CDN 每轮从 GitHub API 解析上游目标分支当时最新的 commit SHA，并在该轮固定版本（语言表中英共享同一 SHA）；不会永久固定到旧提交或使用新鲜度未知的分支 CDN 缓存。若无法确认最新 SHA，则 CDN 通道失败，并按既有规则明确回退 cache。`testingcf.jsdelivr.net` 是备用镜像，网络超时或过期缓存不能保证取得最新数据；Plus 按文件降级，语言表按中英一对降级。采集日志的 `[plus] sources`、`[languages] sources` 显示本次各通道来源。实际 Pluto 提取需在具备依赖的机器上验证。官网战甲列表和详情页作为额外一手输入冻结采集，通过精确游戏资源路径关联宣传素材。
 
 NnmBot 只在本项目不能提供、且完全由社区人工维护的独立领域保留社区通道，例如仲裁精华、黑化、术语。两通道均保留拉取、差异预览、审核、事务入库和自维护字段保护。NnmBot 消费本项目生成的静态 Export 目录；仲裁排期、裂罅周统计及动态 PHP 响应由下游运行时数据通道处理，静态引用使用本项目代码簿。
 

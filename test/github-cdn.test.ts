@@ -30,16 +30,33 @@ test("CDN rejects invalid JSON and tries the alternate CDN before using cache", 
   assert.deepEqual(JSON.parse(result.toString()), { good: true });
 });
 
-test("an unresolved branch is explicitly reported as having unverified freshness", async (context) => {
-  const warnings: string[] = [];
-  context.mock.method(console, "warn", (message: string) => { warnings.push(message); });
+test("an unresolved branch never downloads potentially stale branch CDN data", async () => {
+  const urls: string[] = [];
   const cdn = createGitHubCdnFallback(base, async (url) => {
+    urls.push(url);
     if (url.includes("api.github.com")) throw new Error("HTTP 403: API rate limit exceeded");
-    assert.ok(url.includes("@senpai/"));
-    return Buffer.from("{}");
+    throw new Error("Unexpected CDN request");
   }, ["https://testingcf.jsdelivr.net/gh"]);
-  await cdn("ExportBounties.json", () => {});
-  assert.ok(warnings.some((warning) => warning.includes("freshness is unverified")));
+  await assert.rejects(cdn("ExportBounties.json", () => {}), /Cannot confirm latest commit.*refusing unverified branch CDN data/u);
+  assert.equal(urls.length, 1);
+  assert.ok(urls[0]?.includes("api.github.com"));
+});
+
+test("each new acquisition resolves the latest branch head again", async () => {
+  let apiRequests = 0;
+  const revisions = ["a".repeat(40), "b".repeat(40)];
+  const fetcher: typeof fetchBytes = async (url, options) => {
+    if (url.includes("api.github.com")) {
+      assert.equal(options.headers?.["cache-control"], "no-cache");
+      return Buffer.from(JSON.stringify({ sha: revisions[apiRequests++] }));
+    }
+    assert.ok(url.includes(`@${revisions[apiRequests - 1]}/`));
+    return Buffer.from("{}");
+  };
+  for (let run = 0; run < 2; run += 1) {
+    await createGitHubCdnFallback(base, fetcher, ["https://testingcf.jsdelivr.net/gh"])("ExportBounties.json", () => {});
+  }
+  assert.equal(apiRequests, 2);
 });
 
 test("HTTP failures retain their URL and low-level socket/DNS cause", async (context) => {
