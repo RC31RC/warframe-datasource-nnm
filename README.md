@@ -25,6 +25,8 @@ npm test
 `replay` 从冻结输入重新执行清洗，校验输入哈希，不请求上游。所有新生成的 gzip 固定压缩等级、零时间戳和 OS=255；若解压后的内容相同则复用已有 gzip 字节，避免平台或压缩器差异产生虚假更新。cleaned 文件清单与校验信息不变时保留旧 manifest（包括 `createdAt`、`buildId` 和压缩字节）；实际内容或清单变化才生成新 manifest。每次 `collect` 成功发布后，自动生成的 `tmp/inputs-*` 冻结输入目录和临时 raw 工作区都会清理，Plus 与语言表从本次成功发布的 raw 工作区归档到 `tmp/cache/`：先完整生成 staging cache，再替换旧 cache；同内容复用旧 gzip，变更内容使用统一 gzip，移除本轮已不存在的文件。需要保留输入目录用于后续 `replay` 时，显式设置 `WF_KEEP_TMP=1` 或 `WF_KEEP_INPUTS=1`；采集失败时输入目录会保留，方便重试。
 
 
+2026-10-31 已将 `data/latest/` 与 `tmp/cache/` 的存量 gzip OS 字段统一为 255（unknown）。此次迁移保留业务文件与 cache 的压缩正文和解压内容，仅修改 OS 头字节，并同步更新 manifest 的压缩文件哈希与构建标识；后续仍按内容相同即复用的规则发布。
+
 `verify` 离线检查 gzip manifest、文件集合、路径层级、解压后的 JSON、压缩文件字节数及 SHA-256。本轮 PHP 解析只是本地验收，动态响应和验收工具不加入生产采集或发布链；NnmBot 后续自行定时拉取 PHP，并使用成品中的静态定义解析。
 
 ## 成品目录与字段
